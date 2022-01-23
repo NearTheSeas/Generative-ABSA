@@ -1,14 +1,14 @@
 #!/usr/bin/env bash
 
-python main.py --task uabsa \
+python main.py --task aste \
             --dataset laptop14 \
-            --model_name_or_path ./pretrained-models/t5-base \
+            --model_name_or_path t5-base \
             --paradigm annotation \
             --n_gpu 0 \
             --do_train \
             --do_direct_eval \
-            --train_batch_size 16 \
+            --train_batch_size 8 \
             --gradient_accumulation_steps 2 \
-            --eval_batch_size 16 \
+            --eval_batch_size 8 \
             --learning_rate 3e-4 \
             --num_train_epochs 20 

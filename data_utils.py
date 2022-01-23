@@ -34,10 +34,12 @@ def get_annotated_uabsa_targets(sents, labels):
             for tup in tuples:
                 ap, sent = tup[0], tup[1]
                 if len(ap) == 1:
-                    sents[i][ap[0]] = f"[{sents[i][ap[0]]}|{senttag2word[sent]}]"
+                    sents[i][ap[0]
+                             ] = f"[{sents[i][ap[0]]}|{senttag2word[sent]}]"
                 else:
                     sents[i][ap[0]] = f"[{sents[i][ap[0]]}"
-                    sents[i][ap[-1]] = f"{sents[i][ap[-1]]}|{senttag2word[sent]}]" 
+                    sents[i][ap[-1]
+                             ] = f"{sents[i][ap[-1]]}|{senttag2word[sent]}]"
         annotated_targets.append(sents[i])
 
     return annotated_targets
@@ -55,16 +57,18 @@ def get_annotated_aope_targets(sents, labels):
             # multiple OT for one AP
             if '[' in sents[i][ap[0]]:
                 if len(ap) == 1:
-                    sents[i][ap[0]] = f"{sents[i][ap[0]][:-1]}, {' '.join(opt)}]"
+                    sents[i][ap[0]
+                             ] = f"{sents[i][ap[0]][:-1]}, {' '.join(opt)}]"
                 else:
-                    sents[i][ap[-1]] = f"{sents[i][ap[-1]][:-1]}, {' '.join(opt)}]"
+                    sents[i][ap[-1]
+                             ] = f"{sents[i][ap[-1]][:-1]}, {' '.join(opt)}]"
             else:
                 annotation = f"{' '.join(opt)}"
                 if len(ap) == 1:
                     sents[i][ap[0]] = f"[{sents[i][ap[0]]}|{annotation}]"
                 else:
                     sents[i][ap[0]] = f"[{sents[i][ap[0]]}"
-                    sents[i][ap[-1]] = f"{sents[i][ap[-1]]}|{annotation}]" 
+                    sents[i][ap[-1]] = f"{sents[i][ap[-1]]}|{annotation}]"
         annotated_targets.append(sents[i])
 
     return annotated_targets
@@ -84,9 +88,11 @@ def get_annotated_aste_targets(sents, labels):
             if '[' in sents[i][ap[0]]:
                 # print(i)
                 if len(ap) == 1:
-                    sents[i][ap[0]] = f"{sents[i][ap[0]][:-1]}, {' '.join(op)}]"
+                    sents[i][ap[0]
+                             ] = f"{sents[i][ap[0]][:-1]}, {' '.join(op)}]"
                 else:
-                    sents[i][ap[-1]] = f"{sents[i][ap[-1]][:-1]}, {' '.join(op)}]"
+                    sents[i][ap[-1]
+                             ] = f"{sents[i][ap[-1]][:-1]}, {' '.join(op)}]"
             else:
                 annotation = f"{senttag2word[sent]}|{' '.join(op)}"
                 if len(ap) == 1:
@@ -140,7 +146,7 @@ def get_extraction_uabsa_targets(sents, labels):
                     a = ' '.join(sents[i][start_idx:end_idx+1])
                 c = senttag2word[tri[1]]
                 all_tri.append((a, c))
-            label_strs = ['('+', '.join(l)+')' for l in all_tri]
+            label_strs = ['('+', '.join(label)+')' for label in all_tri]
             targets.append('; '.join(label_strs))
     return targets
 
@@ -161,7 +167,7 @@ def get_extraction_aope_targets(sents, labels):
                 start_idx, end_idx = tri[1][0], tri[1][-1]
                 b = ' '.join(sents[i][start_idx:end_idx+1])
             all_tri.append((a, b))
-        label_strs = ['('+', '.join(l)+')' for l in all_tri]
+        label_strs = ['('+', '.join(label)+')' for label in all_tri]
         targets.append('; '.join(label_strs))
     return targets
 
@@ -169,7 +175,7 @@ def get_extraction_aope_targets(sents, labels):
 def get_extraction_tasd_targets(sents, labels):
     targets = []
     for label in labels:
-        label_strs = ['('+', '.join(l)+')' for l in label]
+        label_strs = ['('+', '.join(li)+')' for li in label]
         target = '; '.join(label_strs)
         targets.append(target)
     return targets
@@ -192,14 +198,14 @@ def get_extraction_aste_targets(sents, labels):
                 b = ' '.join(sents[i][start_idx:end_idx+1])
             c = senttag2word[tri[2]]
             all_tri.append((a, b, c))
-        label_strs = ['('+', '.join(l)+')' for l in all_tri]
+        label_strs = ['('+', '.join(lable)+')' for lable in all_tri]
         targets.append('; '.join(label_strs))
     return targets
 
 
 def get_transformed_io(data_path, paradigm, task):
     """
-    The main function to transform the Input & Output according to 
+    The main function to transform the Input & Output according to
     the specified paradigm and task
     """
     sents, labels = read_line_examples_from_file(data_path)
@@ -234,7 +240,7 @@ def get_transformed_io(data_path, paradigm, task):
             raise NotImplementedError
     else:
         print('Unsupported paradigm!')
-        raise NotImplementedError 
+        raise NotImplementedError
 
     return inputs, targets
 
@@ -260,34 +266,37 @@ class ABSADataset(Dataset):
         source_ids = self.inputs[index]["input_ids"].squeeze()
         target_ids = self.targets[index]["input_ids"].squeeze()
 
-        src_mask = self.inputs[index]["attention_mask"].squeeze()      # might need to squeeze
-        target_mask = self.targets[index]["attention_mask"].squeeze()  # might need to squeeze
+        # might need to squeeze
+        src_mask = self.inputs[index]["attention_mask"].squeeze()
+        # might need to squeeze
+        target_mask = self.targets[index]["attention_mask"].squeeze()
 
-        return {"source_ids": source_ids, "source_mask": src_mask, 
+        return {"source_ids": source_ids, "source_mask": src_mask,
                 "target_ids": target_ids, "target_mask": target_mask}
 
     def _build_examples(self):
 
-        inputs, targets = get_transformed_io(self.data_path, self.paradigm, self.task)
+        inputs, targets = get_transformed_io(
+            self.data_path, self.paradigm, self.task)
 
         for i in range(len(inputs)):
 
-            input = ' '.join(inputs[i]) 
+            input = ' '.join(inputs[i])
             if self.paradigm == 'annotation':
                 if self.task != 'tasd':
-                    target = ' '.join(targets[i]) 
+                    target = ' '.join(targets[i])
                 else:
                     target = targets[i]
             else:
                 target = targets[i]
 
             tokenized_input = self.tokenizer.batch_encode_plus(
-              [input], max_length=self.max_len, pad_to_max_length=True, truncation=True,
-              return_tensors="pt",
+                [input], max_length=self.max_len, padding='max_length', truncation=True,
+                return_tensors="pt",
             )
             tokenized_target = self.tokenizer.batch_encode_plus(
-              [target], max_length=self.max_len, pad_to_max_length=True, truncation=True,
-              return_tensors="pt"
+                [target], max_length=self.max_len, padding='max_length', truncation=True,
+                return_tensors="pt"
             )
 
             self.inputs.append(tokenized_input)
