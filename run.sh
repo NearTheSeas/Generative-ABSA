@@ -4,11 +4,11 @@ python main.py --task aste \
             --dataset laptop14 \
             --model_name_or_path t5-base \
             --paradigm annotation \
-            --n_gpu 0 \
+            --n_gpu 1 \
             --do_train \
             --do_direct_eval \
-            --train_batch_size 8 \
-            --gradient_accumulation_steps 2 \
-            --eval_batch_size 8 \
+            --train_batch_size 4 \
+            --gradient_accumulation_steps 1 \
+            --eval_batch_size 4 \
             --learning_rate 3e-4 \
-            --num_train_epochs 20 
+            --num_train_epochs 5

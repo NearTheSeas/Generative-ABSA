@@ -290,6 +290,7 @@ class ABSADataset(Dataset):
             else:
                 target = targets[i]
 
+            # padding='max_length' do_not_pad padding=True  pad_to_max_length=True
             tokenized_input = self.tokenizer.batch_encode_plus(
                 [input], max_length=self.max_len, padding='max_length', truncation=True,
                 return_tensors="pt",
