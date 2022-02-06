@@ -8,6 +8,10 @@ conda install pytorch-lightning -c conda-forge
 pip install sentencepiece
 
 
+
+nltk
+spacy
+
 -------------------------ABSA pytorch
 
 numpy>=1.13.3

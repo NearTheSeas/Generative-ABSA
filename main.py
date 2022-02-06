@@ -10,14 +10,14 @@ from torch.utils.data import DataLoader
 import pytorch_lightning as pl
 from pytorch_lightning import seed_everything
 
-from transformers import  T5Tokenizer
-
-from data_utils import ABSADataset
+from data_utils import ABSADataset, data_samples
 from data_utils import write_results_to_log, read_line_examples_from_file
 from eval_utils import compute_scores
-from models.t5FineTuner import T5FineTuner
+from models.t5FineTuner import T5FineTuner, Tokenizer
+from common_config import model_config
 
 logger = logging.getLogger(__name__)
+
 
 def init_args():
     parser = argparse.ArgumentParser()
@@ -110,150 +110,6 @@ def init_args():
     return args
 
 
-# class T5FineTuner(pl.LightningModule):
-#     def __init__(self, args):
-#         super().__init__()
-#         self.args = args
-#         self.model = T5ForConditionalGeneration.from_pretrained(
-#             args.model_name_or_path)
-#         self.tokenizer = T5Tokenizer.from_pretrained(args.model_name_or_path)
-
-#     def is_logger(self):
-#         return True
-
-#     def forward(self,
-#                 input_ids,
-#                 attention_mask=None,
-#                 decoder_input_ids=None,
-#                 decoder_attention_mask=None,
-#                 labels=None):
-#         return self.model(
-#             input_ids,
-#             attention_mask=attention_mask,
-#             decoder_input_ids=decoder_input_ids,
-#             decoder_attention_mask=decoder_attention_mask,
-#             labels=labels,
-#         )
-
-#     def _step(self, batch):
-#         lm_labels = batch["target_ids"]
-#         lm_labels[lm_labels[:, :] == self.tokenizer.pad_token_id] = -100
-
-#         outputs = self(input_ids=batch["source_ids"],
-#                        attention_mask=batch["source_mask"],
-#                        labels=lm_labels,
-#                        decoder_attention_mask=batch['target_mask'])
-
-#         loss = outputs[0]
-#         return loss
-
-#     def training_step(self, batch, batch_idx):
-#         loss = self._step(batch)
-
-#         # tensorboard_logs = {"train_loss": loss.detach()}
-#         tensorboard_logs = {"train_loss": loss.detach()}
-#         return {"loss": loss, "log": tensorboard_logs}
-
-#     def training_epoch_end(self, outputs):
-#         avg_train_loss = torch.stack([x["loss"] for x in outputs]).mean()
-#         tensorboard_logs = {"avg_train_loss": avg_train_loss}
-#         # return {
-#         #     "avg_train_loss": avg_train_loss,
-#         #     "log": tensorboard_logs,
-#         #     'progress_bar': tensorboard_logs
-#         # }
-
-#     def validation_step(self, batch, batch_idx):
-#         loss = self._step(batch)
-#         return {"val_loss": loss}
-
-#     def validation_epoch_end(self, outputs):
-#         avg_loss = torch.stack([x["val_loss"] for x in outputs]).mean()
-#         tensorboard_logs = {"val_loss": avg_loss}
-#         # return {
-#         #     "avg_val_loss": avg_loss,
-#         #     "log": tensorboard_logs,
-#         #     'progress_bar': tensorboard_logs
-#         # }
-
-#     def configure_optimizers(self):
-#         '''Prepare optimizer and schedule (linear warmup and decay)'''
-#         model = self.model
-#         no_decay = ["bias", "LayerNorm.weight"]
-#         optimizer_grouped_parameters = [
-#             {
-#                 "params": [
-#                     p for n, p in model.named_parameters()
-#                     if not any(nd in n for nd in no_decay)
-#                 ],
-#                 "weight_decay":
-#                 self.args.weight_decay,
-#             },
-#             {
-#                 "params": [
-#                     p for n, p in model.named_parameters()
-#                     if any(nd in n for nd in no_decay)
-#                 ],
-#                 "weight_decay":
-#                 0.0,
-#             },
-#         ]
-#         optimizer = AdamW(optimizer_grouped_parameters,
-#                           lr=self.args.learning_rate,
-#                           eps=self.args.adam_epsilon)
-#         self.opt = optimizer
-#         return [optimizer]
-
-#     def optimizer_step(self,
-#                        epoch=None,
-#                        batch_idx=None,
-#                        optimizer=None,
-#                        optimizer_idx=None,
-#                        optimizer_closure=None,
-#                        on_tpu=None,
-#                        using_native_amp=None,
-#                        using_lbfgs=None):
-#         optimizer.step(closure=optimizer_closure)
-#         optimizer.zero_grad()
-#         self.lr_scheduler.step()
-
-#     def get_tqdm_dict(self):
-#         tqdm_dict = {
-#             "loss": "{:.4f}".format(self.trainer.avg_loss),
-#             "lr": self.lr_scheduler.get_last_lr()[-1]
-#         }
-#         return tqdm_dict
-
-#     def train_dataloader(self):
-#         train_dataset = get_dataset(tokenizer=self.tokenizer,
-#                                     type_path="train",
-#                                     args=self.args)
-#         dataloader = DataLoader(train_dataset,
-#                                 batch_size=self.args.train_batch_size,
-#                                 drop_last=True,
-#                                 shuffle=True,
-#                                 num_workers=3)
-#         t_total = (
-#             (len(dataloader.dataset) //
-#              (self.args.train_batch_size * max(1, len(self.args.n_gpu)))) //
-#             self.args.gradient_accumulation_steps *
-#             float(self.args.num_train_epochs))
-#         scheduler = get_linear_schedule_with_warmup(
-#             self.opt,
-#             num_warmup_steps=self.args.warmup_steps,
-#             num_training_steps=t_total)
-#         self.lr_scheduler = scheduler
-#         return dataloader
-
-#     def val_dataloader(self):
-#         val_dataset = get_dataset(tokenizer=self.tokenizer,
-#                                   type_path="dev",
-#                                   args=self.args)
-#         return DataLoader(val_dataset,
-#                           batch_size=self.args.eval_batch_size,
-#                           num_workers=3)
-
-
 class LoggingCallback(pl.Callback):
     def on_validation_end(self, trainer, pl_module):
         logger.info("***** Validation results *****")
@@ -284,7 +140,8 @@ def evaluate(data_loader, model, paradigm, task, sents):
     """
     Compute scores given the predictions and gold labels
     """
-    device =  torch.device(f'cuda:0') if torch.cuda.is_available() else torch.device('cpu')
+    device = torch.device(
+        f'cuda:0') if torch.cuda.is_available() else torch.device('cpu')
     model.model.to(device)
 
     model.model.eval()
@@ -329,40 +186,29 @@ if __name__ == '__main__':
     print("\n", "=" * 30, f"NEW EXP: {args.task.upper()} on {args.dataset}",
           "=" * 30, "\n")
 
+    # Instead of `torch.manual_seed(...) 设置随机数种子，方便下次复现实验结果，每次执行文件，获得的随机数是相同的
     seed_everything(args.seed)
 
-    tokenizer = T5Tokenizer.from_pretrained(args.model_name_or_path)
+    tokenizer = Tokenizer()
 
-    # show one sample to check the sanity of the code and the expected output
-    print(
-        f"Here is an example (from dev set) under `{args.paradigm}` paradigm:")
-    dataset = ABSADataset(tokenizer=tokenizer,
-                          data_dir=args.dataset,
-                          data_type='dev',
-                          paradigm=args.paradigm,
-                          task=args.task,
-                          max_len=args.max_seq_length)
-    data_sample = dataset[2]  # a random data sample
-    print('Input :',
-          tokenizer.decode(data_sample['source_ids'], skip_special_tokens=True))
-    print('Output:',
-          tokenizer.decode(data_sample['target_ids'], skip_special_tokens=True))
+    data_samples(args, tokenizer, 'dev')
 
     # training process
     if args.do_train:
         print("\n****** Conduct Training ******")
         model = T5FineTuner(args)
 
+        # filepath  prefix="ckt",
         enable_checkpointing = pl.callbacks.ModelCheckpoint(
             dirpath=args.output_dir, monitor='val_loss', mode='min', save_top_k=3)
-        # filepath  prefix="ckt",
 
         # prepare for trainer
         train_params = dict(
             default_root_dir=args.output_dir,
             accumulate_grad_batches=args.gradient_accumulation_steps,
             # gpus=1,
-            devices=1, accelerator="gpu",
+            devices=1,
+            accelerator="gpu",
             # auto_select_gpus=True,
             gradient_clip_val=1.0,
             max_epochs=args.num_train_epochs,
@@ -406,7 +252,8 @@ if __name__ == '__main__':
                                   paradigm=args.paradigm,
                                   task=args.task,
                                   max_len=args.max_seq_length)
-        dev_loader = DataLoader(dev_dataset, batch_size=32, num_workers=3)
+        dev_loader = DataLoader(
+            dev_dataset, batch_size=32, num_workers=model_config.num_workers)
 
         test_dataset = ABSADataset(tokenizer,
                                    data_dir=args.dataset,
@@ -414,7 +261,8 @@ if __name__ == '__main__':
                                    paradigm=args.paradigm,
                                    task=args.task,
                                    max_len=args.max_seq_length)
-        test_loader = DataLoader(test_dataset, batch_size=32, num_workers=3)
+        test_loader = DataLoader(
+            test_dataset, batch_size=32, num_workers=model_config.num_workers)
 
         for checkpoint in all_checkpoints:
             epoch = checkpoint.split(
@@ -491,7 +339,8 @@ if __name__ == '__main__':
                                    paradigm=args.paradigm,
                                    task=args.task,
                                    max_len=args.max_seq_length)
-        test_loader = DataLoader(test_dataset, batch_size=32, num_workers=3)
+        test_loader = DataLoader(
+            test_dataset, batch_size=32, num_workers=model_config.num_workers)
         # print(test_loader.device)
         raw_scores, fixed_scores = evaluate(test_loader, model, args.paradigm,
                                             args.task, sents)

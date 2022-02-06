@@ -7,6 +7,8 @@ from transformers import AdamW, T5ForConditionalGeneration, T5Tokenizer
 from transformers import get_linear_schedule_with_warmup
 from data_utils import ABSADataset
 
+model_name = 't5-base'
+
 def get_dataset(tokenizer, type_path, args):
     return ABSADataset(tokenizer=tokenizer,
                        data_dir=args.dataset,
@@ -15,13 +17,17 @@ def get_dataset(tokenizer, type_path, args):
                        task=args.task,
                        max_len=args.max_seq_length)
     
+def Tokenizer():
+    return T5Tokenizer.from_pretrained(model_name)
+    
+    
 class T5FineTuner(pl.LightningModule):
     def __init__(self, args):
         super().__init__()
         self.args = args
         self.model = T5ForConditionalGeneration.from_pretrained(
-            args.model_name_or_path)
-        self.tokenizer = T5Tokenizer.from_pretrained(args.model_name_or_path)
+            model_name)
+        self.tokenizer = Tokenizer()
 
     def is_logger(self):
         return True
@@ -157,3 +163,5 @@ class T5FineTuner(pl.LightningModule):
         return DataLoader(val_dataset,
                           batch_size=self.args.eval_batch_size,
                           num_workers=3)
+
+

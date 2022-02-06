@@ -3,3 +3,8 @@ Wed Jan 26 00:15:39 2022
 aste on laptop14 under annotation; Train bs=4, num_epochs = 5
 Raw F1 = 0.5619, Fixed F1 = 0.5815
 
+============================================================
+Sun Feb  6 17:44:37 2022
+aste on laptop14 under annotation; Train bs=4, num_epochs = 5
+Raw F1 = 0.0000, Fixed F1 = 0.0000
+
