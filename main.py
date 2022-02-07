@@ -18,7 +18,6 @@ from common_config import model_config
 
 logger = logging.getLogger(__name__)
 
-
 def init_args():
     parser = argparse.ArgumentParser()
     # basic settings
