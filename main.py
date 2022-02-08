@@ -14,6 +14,7 @@ from data_utils import ABSADataset, data_samples
 from data_utils import write_results_to_log, read_line_examples_from_file
 from eval_utils import compute_scores
 from models.t5FineTuner import T5FineTuner, Tokenizer
+# from models.DeBERTa_Generator import DeBERTaGenerator, Tokenizer
 from common_config import model_config
 
 logger = logging.getLogger(__name__)
@@ -198,8 +199,8 @@ if __name__ == '__main__':
         model = T5FineTuner(args)
 
         # filepath  prefix="ckt",
-        enable_checkpointing = pl.callbacks.ModelCheckpoint(
-            dirpath=args.output_dir, monitor='val_loss', mode='min', save_top_k=3)
+        # enable_checkpointing = pl.callbacks.ModelCheckpoint(
+        #     dirpath=args.output_dir, monitor='val_loss', mode='min', save_top_k=3)
 
         # prepare for trainer
         train_params = dict(
@@ -211,8 +212,8 @@ if __name__ == '__main__':
             # auto_select_gpus=True,
             gradient_clip_val=1.0,
             max_epochs=args.num_train_epochs,
-            enable_checkpointing=enable_checkpointing,
-            callbacks=[LoggingCallback()],
+            # enable_checkpointing=enable_checkpointing,
+            # callbacks=[LoggingCallback()],
         )
 
         trainer = pl.Trainer(**train_params)
