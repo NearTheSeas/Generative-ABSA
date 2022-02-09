@@ -3,6 +3,7 @@ import pytorch_lightning as pl
 import torch
 import torch.nn.functional as F
 from torch import nn
+from torch.autograd import Variable
 from torch.utils.data import DataLoader
 
 from transformers import AdamW, DebertaTokenizer, DebertaModel
@@ -35,22 +36,37 @@ class DeBERTaGenerator(pl.LightningDataModule):
         super().__init__(val_transforms, test_transforms, dims)
         self.tokenizer = Tokenizer()
         self.encoder = DebertaModel.from_pretrained(model_name)
-        self.decoder = None
-        self.l1 = nn.Linear( 768* 512, 1)
         # decoder
-        self.hidden_size = hidden_size
-        self.embedding_size = embedding_size
-        self.lang = lang
-        self.max_length = max_length
-        self.embedding = nn.Embedding(len(self.lang.tok_to_idx), self.embedding_size, padding_idx=0)
-        self.embedding.weight.data.normal_(0, 1 / self.embedding_size**0.5)
-        self.embedding.weight.data[0, :] = 0.0
-
-        self.attn_W = nn.Linear(self.hidden_size, self.hidden_size)
-        self.copy_W = nn.Linear(self.hidden_size, self.hidden_size)
-
-        self.gru = nn.GRU(2 * self.hidden_size + self.embedding.embedding_dim, self.hidden_size, batch_first=True)  # input = (context + selective read size + embedding)
-        self.out = nn.Linear(self.hidden_size, len(self.lang.tok_to_idx))
+        # num_layers=rnn_layers, bidirectional=True,
+        
+        self.rnn_layers = 1
+        self.hidden_size = 768
+        self.embedding_size = 512
+        '''
+        LSTM
+        input_size：x的特征维度
+        hidden_size：隐藏层的特征维度
+        num_layers：lstm隐层的层数，默认为1
+        bias：False则bih=0和bhh=0. 默认为True
+        batch_first：True则输入输出的数据格式为 (batch, seq, feature)
+        dropout：除最后一层，每一层的输出都进行dropout，默认为: 0
+        bidirectional：True则为双向lstm默认为False
+        输入：input, (h0, c0)
+        输出：output, (hn,cn)
+        ''' 
+        self.lstm = nn.LSTM(self.embedding_size, 
+                            self.hidden_size, 
+                            # num_layers=self.rnn_layers, 
+                            bidirectional=True, 
+                            # dropout=dropout_ratio, 
+                            batch_first=True)
+    
+    def rand_init_hidden(self, batch_size):
+        """
+        random initialize hidden variable
+        """
+        return Variable(torch.randn(2 * self.rnn_layers, batch_size, self.hidden_size)), \
+            Variable(torch.randn(2 * self.rnn_layers, batch_size, self.hidden_size))
 
     # def prepare_data(self):
     #     pass
@@ -58,11 +74,30 @@ class DeBERTaGenerator(pl.LightningDataModule):
     # def setup(self, ):
     #     pass
 
-    def forward(self, x):
-        print(x)
-        outputs = self.encoder(x)
-        return torch.relu(self.l1(outputs))
-        # return self.model(input_ids,)
+    def forward(self, sentences):
+        batch_size = sentences.size(0)
+        seq_length = sentences.size(1)
+        embeds= self.encoder(sentences)
+        print(embeds)
+        '''
+        lstm
+        输入数据格式：
+        input( batch, seq_len,input_size)
+        h0(num_layers * num_directions, batch, hidden_size)
+        c0(num_layers * num_directions, batch, hidden_size)
+        
+        输出数据格式：
+        output(seq_len, batch, hidden_size * num_directions)
+        hn(num_layers * num_directions, batch, hidden_size)
+        cn(num_layers * num_directions, batch, hidden_size)
+        '''
+        hidden = self.rand_init_hidden(batch_size)
+        lstm_out, hidden, _ = self.lstm(embeds, hidden)
+        lstm_out = lstm_out.contiguous().view(-1, self.hidden_dim*2)
+        d_lstm_out = self.dropout1(lstm_out)
+        l_out = self.liner(d_lstm_out)
+        lstm_feats = l_out.contiguous().view(batch_size, seq_length, -1)
+        return lstm_feats
 
     def training_step(self, batch, batch_idx):
         lm_labels = batch["target_ids"]
