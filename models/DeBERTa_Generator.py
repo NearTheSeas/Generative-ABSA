@@ -9,7 +9,7 @@ from torch.utils.data import DataLoader
 from transformers import AdamW, DebertaTokenizer, DebertaModel
 from transformers import get_linear_schedule_with_warmup
 
-# from ..data_utils import ABSADataset
+from data_utils import ABSADataset
 # from common_config import model_config
 
 
@@ -27,9 +27,10 @@ def get_dataset(tokenizer, type_path, args):
                        paradigm=args.paradigm,
                        task=args.task,
                        max_len=args.max_seq_length)
-    
+
 # BERT LSTM
 # https://blog.csdn.net/zhangtingduo/article/details/108474401
+
 
 class DeBERTaGenerator(pl.LightningDataModule):
     def __init__(self, val_transforms=None, test_transforms=None, dims=None):
@@ -38,10 +39,10 @@ class DeBERTaGenerator(pl.LightningDataModule):
         self.encoder = DebertaModel.from_pretrained(model_name)
         # decoder
         # num_layers=rnn_layers, bidirectional=True,
-        
+
         self.rnn_layers = 1
-        self.hidden_size = 768
         self.embedding_size = 512
+        self.hidden_size = 768
         '''
         LSTM
         input_size：x的特征维度
@@ -53,20 +54,22 @@ class DeBERTaGenerator(pl.LightningDataModule):
         bidirectional：True则为双向lstm默认为False
         输入：input, (h0, c0)
         输出：output, (hn,cn)
-        ''' 
-        self.lstm = nn.LSTM(self.embedding_size, 
-                            self.hidden_size, 
-                            # num_layers=self.rnn_layers, 
-                            bidirectional=True, 
-                            # dropout=dropout_ratio, 
+        '''
+        self.lstm = nn.LSTM(self.embedding_size,
+                            self.hidden_size,
+                            # num_layers=self.rnn_layers,
+                            bidirectional=True,
+                            # dropout=dropout_ratio,
                             batch_first=True)
-    
+        self.dropout = nn.Dropout(p=0.5)
+
     def rand_init_hidden(self, batch_size):
         """
         random initialize hidden variable
         """
         return Variable(torch.randn(2 * self.rnn_layers, batch_size, self.hidden_size)), \
-            Variable(torch.randn(2 * self.rnn_layers, batch_size, self.hidden_size))
+            Variable(torch.randn(2 * self.rnn_layers,
+                     batch_size, self.hidden_size))
 
     # def prepare_data(self):
     #     pass
@@ -77,7 +80,7 @@ class DeBERTaGenerator(pl.LightningDataModule):
     def forward(self, sentences):
         batch_size = sentences.size(0)
         seq_length = sentences.size(1)
-        embeds= self.encoder(sentences)
+        embeds = self.encoder(sentences)
         print(embeds)
         '''
         lstm
@@ -119,7 +122,7 @@ class DeBERTaGenerator(pl.LightningDataModule):
 
     def configure_optimizers(self):
         '''Prepare optimizer and schedule (linear warmup and decay)'''
-        optimizer = torch.optim.Adam(self.parameters(), 
+        optimizer = torch.optim.Adam(self.parameters(),
                                      lr=self.args.learning_rate,
                                      eps=self.args.adam_epsilon)
         return optimizer
@@ -145,13 +148,10 @@ class DeBERTaGenerator(pl.LightningDataModule):
         val_dataset = get_dataset(tokenizer=self.tokenizer,
                                   type_path="dev",
                                   args=self.args)
-        dataloader =  DataLoader(val_dataset,
-                          batch_size=self.args.eval_batch_size,
-                          num_workers=3)
+        dataloader = DataLoader(val_dataset,
+                                batch_size=self.args.eval_batch_size,
+                                num_workers=3)
         return dataloader
-        
 
     def is_logger(self):
         return True
-
-

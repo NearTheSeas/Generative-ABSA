@@ -15,7 +15,6 @@ from data_utils import write_results_to_log, read_line_examples_from_file
 from eval_utils import compute_scores
 from models.t5FineTuner import T5FineTuner, Tokenizer
 # from models.DeBERTa_Generator import DeBERTaGenerator, Tokenizer
-from common_config import model_config
 
 logger = logging.getLogger(__name__)
 
@@ -24,13 +23,13 @@ def init_args():
     # basic settings
     parser.add_argument(
         "--task",
-        default='uabsa',
+        default='aste',
         type=str,
         required=True,
         help="The name of the task, selected from: [uabsa, aste, tasd, aope]")
     parser.add_argument(
         "--dataset",
-        default='rest14',
+        default='rest16',
         type=str,
         required=True,
         help="The name of the dataset, selected from: [laptop14, rest14, rest15, rest16]"
@@ -41,10 +40,10 @@ def init_args():
                         help="Path to pre-trained model or shortcut name")
     parser.add_argument(
         "--paradigm",
-        default='annotation',
+        default='semantic',
         type=str,
         required=True,
-        help="The way to construct target sentence, selected from: [annotation, extraction]"
+        help="The way to construct target sentence, selected from: [annotation, extraction, semantic]"
     )
     parser.add_argument("--do_train",
                         action='store_true',
@@ -253,7 +252,7 @@ if __name__ == '__main__':
                                   task=args.task,
                                   max_len=args.max_seq_length)
         dev_loader = DataLoader(
-            dev_dataset, batch_size=32, num_workers=model_config.num_workers)
+            dev_dataset, batch_size=32, num_workers=3)
 
         test_dataset = ABSADataset(tokenizer,
                                    data_dir=args.dataset,
@@ -262,7 +261,7 @@ if __name__ == '__main__':
                                    task=args.task,
                                    max_len=args.max_seq_length)
         test_loader = DataLoader(
-            test_dataset, batch_size=32, num_workers=model_config.num_workers)
+            test_dataset, batch_size=32, num_workers=3)
 
         for checkpoint in all_checkpoints:
             epoch = checkpoint.split(
@@ -340,7 +339,7 @@ if __name__ == '__main__':
                                    task=args.task,
                                    max_len=args.max_seq_length)
         test_loader = DataLoader(
-            test_dataset, batch_size=32, num_workers=model_config.num_workers)
+            test_dataset, batch_size=32, num_workers=3)
         # print(test_loader.device)
         raw_scores, fixed_scores = evaluate(test_loader, model, args.paradigm,
                                             args.task, sents)

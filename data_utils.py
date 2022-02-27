@@ -9,7 +9,7 @@ from torch.utils.data import Dataset
 senttag2word = {'POS': 'positive', 'NEG': 'negative', 'NEU': 'neutral'}
 
 
-def data_samples(args, tokenizer,data_type):
+def data_samples(args, tokenizer, data_type):
     # show one sample to check the sanity of the code and the expected output
     print(
         f"Here is an example (from dev set) under `{args.paradigm}` paradigm:")
@@ -19,7 +19,7 @@ def data_samples(args, tokenizer,data_type):
                           paradigm=args.paradigm,
                           task=args.task,
                           max_len=args.max_seq_length)
-    data_sample = dataset[2]  # a random data sample
+    data_sample = dataset[random.randint(1, 100)]  # a random data sample
     print('Input :',
           tokenizer.decode(data_sample['source_ids'], skip_special_tokens=True))
     print('Output:',
@@ -223,6 +223,32 @@ def get_extraction_aste_targets(sents, labels):
     return targets
 
 
+def get_semantic_aste_targets(sents, labels):
+    targets = []
+    for i, label in enumerate(labels):
+        all_tri = []
+        for tri in label:
+            if len(tri[0]) == 1:
+                a = sents[i][tri[0][0]]
+            else:
+                start_idx, end_idx = tri[0][0], tri[0][-1]
+                a = ' '.join(sents[i][start_idx:end_idx+1])
+            if len(tri[1]) == 1:
+                b = sents[i][tri[1][0]]
+            else:
+                start_idx, end_idx = tri[1][0], tri[1][-1]
+                b = ' '.join(sents[i][start_idx:end_idx+1])
+            c = senttag2word[tri[2]]
+            # 'Target': a, 'Opinion': b, 'Sentiment': c
+            all_tri.append(("Target:" + a, 'Opinion:' + b,  'Emotion:' + c))
+            # all_tri.append({'Target': a, 'Opinion': b, 'Sentiment': c})
+        # label_strs = ['('+', '.join(lable)+')' for lable in all_tri]
+        label_strs = [', '.join(lable) for lable in all_tri]
+        # ['Target:Lamb special, Opinion:perfect, Sentiment:positive']
+        targets.append('; '.join(label_strs))
+    return targets
+
+
 def get_transformed_io(data_path, paradigm, task):
     """
     The main function to transform the Input & Output according to
@@ -256,6 +282,20 @@ def get_transformed_io(data_path, paradigm, task):
             targets = get_extraction_tasd_targets(sents, labels)
         elif task == 'aope':
             targets = get_extraction_aope_targets(sents, labels)
+        else:
+            raise NotImplementedError
+    elif paradigm == 'semantic':
+        if task == 'uabsa':
+            # targets = get_extraction_uabsa_targets(sents, labels)
+            pass
+        elif task == 'aste':
+            targets = get_semantic_aste_targets(sents, labels)
+        elif task == 'tasd':
+            # targets = get_extraction_tasd_targets(sents, labels)
+            pass
+        elif task == 'aope':
+            # targets = get_extraction_aope_targets(sents, labels)
+            pass
         else:
             raise NotImplementedError
     else:
@@ -298,9 +338,9 @@ class ABSADataset(Dataset):
 
         inputs, targets = get_transformed_io(
             self.data_path, self.paradigm, self.task)
-
         for i in range(len(inputs)):
 
+            # 为了获得 标注结果对应的文本，所以提前对句子进行了分词 这里就需要拼接回原句
             input = ' '.join(inputs[i])
             if self.paradigm == 'annotation':
                 if self.task != 'tasd':
@@ -309,16 +349,21 @@ class ABSADataset(Dataset):
                     target = targets[i]
             else:
                 target = targets[i]
-
+            # print(input)
+            # print(target)
             # padding='max_length' do_not_pad padding=True  pad_to_max_length=True
-            tokenized_input = self.tokenizer.batch_encode_plus(
-                [input], max_length=self.max_len, padding='max_length', truncation=True,
-                return_tensors="pt",
-            )
-            tokenized_target = self.tokenizer.batch_encode_plus(
-                [target], max_length=self.max_len, padding='max_length', truncation=True,
-                return_tensors="pt"
-            )
+            # tokenized_input = self.tokenizer.batch_encode_plus(
+            #     [input], max_length=self.max_len, padding='max_length', truncation=True,
+            #     return_tensors="pt",
+            # )
+            # tokenized_target = self.tokenizer.batch_encode_plus(
+            #     [target], max_length=self.max_len, padding='max_length', truncation=True,
+            #     return_tensors="pt"
+            # )
+            tokenized_input = self.tokenizer(
+                input,   padding='max_length', max_length=128, truncation=True, return_tensors="pt")
+            tokenized_target = self.tokenizer(
+                target,  padding='max_length', max_length=128, truncation=True, return_tensors="pt")
 
             self.inputs.append(tokenized_input)
             self.targets.append(tokenized_target)
@@ -350,128 +395,3 @@ def write_results_to_log(log_file_path, best_test_result, args, dev_results, tes
 
     with open(log_file_path, "a+") as f:
         f.write(log_str)
-
-
-class Language(object):
-    def __init__(self, vocab_limit, data_path, parser, files=None):
-        self.data_path = data_path
-        self.parser = parser
-
-        if files:
-            self.files = files
-        else:
-            self.files = os.listdir(self.data_path)
-
-        self.vocab = self.create_vocab()
-
-        truncated_vocab = sorted(self.vocab.items(), key=itemgetter(1), reverse=True)[
-            :vocab_limit]
-
-        self.tok_to_idx = dict()
-        self.tok_to_idx['<MSK>'] = 0
-        self.tok_to_idx['<SOS>'] = 1
-        self.tok_to_idx['<EOS>'] = 2
-        self.tok_to_idx['<UNK>'] = 3
-        for idx, (tok, _) in enumerate(truncated_vocab):
-            self.tok_to_idx[tok] = idx + 4
-        self.idx_to_tok = {idx: tok for tok, idx in self.tok_to_idx.items()}
-
-    def create_vocab(self):
-        if self.parser is None:
-            from spacy.lang.en import English
-            self.parser = English()
-
-        vocab = dict()
-
-        for file_idx, file in enumerate(self.files):
-            if file_idx % 1000 == 0:
-                print("reading file %i/%i" %
-                      (file_idx, len(self.files)), flush=True)
-
-            with open(self.data_path + file, "r") as f:
-                lines = f.readlines()
-                assert len(lines) == 2
-                tokens = list(lines)[0].split() + list(lines)[1].split()
-                for token in tokens:
-                    # do not add name tokens to vocab
-                    if not contains_digit(token) and '@' not in token and 'http' not in token and 'www' not in token:
-                        vocab[token] = vocab.get(token, 0) + 1
-        return vocab
-
-
-class SequencePairDataset(Dataset):
-    def __init__(self,
-                 data_path='./data/',
-                 maxlen=200,
-                 lang=None,
-                 vocab_limit=None,
-                 val_size=0.1,
-                 seed=42,
-                 is_val=False,
-                 use_cuda=False,
-                 use_extended_vocab=True):
-
-        self.data_path = data_path
-        self.maxlen = maxlen
-        self.use_cuda = use_cuda
-        self.parser = None
-        self.val_size = val_size
-        self.seed = seed
-        self.is_val = is_val
-        self.use_extended_vocab = use_extended_vocab
-
-        if os.path.isdir(self.data_path):
-            self.files = [f for f in os.listdir(
-                self.data_path) if not f.startswith('.')]
-            idxs = list(range(len(self.files)))
-            random.seed(self.seed)
-            random.shuffle(idxs)
-            num_val = int(len(idxs) * self.val_size)
-
-            if self.is_val:
-                idxs = idxs[:num_val]
-            else:
-                idxs = idxs[num_val:]
-
-            self.files = [self.files[idx] for idx in idxs]
-        else:
-            self.files = []
-
-        if lang is None:
-            lang = Language(vocab_limit, self.data_path,
-                            files=self.files, parser=self.parser)
-
-        self.lang = lang
-
-    def __len__(self):
-        return len(self.files)
-
-    def __getitem__(self, idx):
-        """
-        :arg
-        idx: int
-
-        :returns
-        input_token_list: list[int]
-        output_token_list: list[int]
-        token_mapping: binary array"""
-
-        with open(self.data_path + self.files[idx], "r", encoding='utf-8') as pair_file:
-            input_token_list = pair_file.readline().split()
-            output_token_list = pair_file.readline().split()
-
-        input_token_list = (['<SOS>'] + input_token_list +
-                            ['<EOS>'])[:self.maxlen]
-        output_token_list = (
-            ['<SOS>'] + output_token_list + ['<EOS>'])[:self.maxlen]
-
-        input_seq = tokens_to_seq(
-            input_token_list, self.lang.tok_to_idx, self.maxlen, self.use_extended_vocab)
-        output_seq = tokens_to_seq(output_token_list, self.lang.tok_to_idx,
-                                   self.maxlen, self.use_extended_vocab, input_tokens=input_token_list)
-
-        if self.use_cuda:
-            input_seq = input_seq.cuda()
-            output_seq = output_seq.cuda()
-
-        return input_seq, output_seq, ' '.join(input_token_list), ' '.join(output_token_list)

@@ -4,10 +4,12 @@ import torch
 from torch.utils.data import DataLoader
 
 from transformers import AdamW, T5ForConditionalGeneration, T5Tokenizer
+from transformers import AdamW, BartForConditionalGeneration, BartTokenizer
 from transformers import get_linear_schedule_with_warmup
 from data_utils import ABSADataset
 
 model_name = 't5-base'
+# model_name = 'facebook/bart-base'
 
 def get_dataset(tokenizer, type_path, args):
     return ABSADataset(tokenizer=tokenizer,
@@ -46,14 +48,43 @@ class T5FineTuner(pl.LightningModule):
             labels=labels,
         )
 
+    '''
+    For masked language modeling (e.g., BertForMaskedLM), 
+    the model expects a tensor of dimension (batch_size, seq_length)
+    with each value corresponding to the expected label of each individual token: 
+    the labels being the token ID for the masked token, 
+    and values to be ignored for the rest (usually -100).
+    '''
     def _step(self, batch):
         lm_labels = batch["target_ids"]
-        lm_labels[lm_labels[:, :] == self.tokenizer.pad_token_id] = -100
+        # lm_labels[lm_labels[:, :] == self.tokenizer.pad_token_id] = -100
 
-        outputs = self(input_ids=batch["source_ids"],
+
+        '''
+        经过 tokenizer encode 输出编码后的结果，如果句子长度不一致 会padding
+
+        input_ids       输入文本的编码 
+        [101, 1188, 1110, 170, 1603, 4954, 119, 102, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        
+        attention_mask  输出哪些位置是有文本的，哪些位置是补的 padding 
+        [1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        
+        输入句子对时
+        The first sequence, the “context” used for the question, 
+        has all its tokens represented by a 0, 
+        whereas the second sequence, corresponding to the “question”, 
+        has all its tokens represented by a 1.
+        [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+        
+        During training, both BART and T5 will make the appropriate decoder_input_ids and decoder attention masks internally. 
+
+        Most encoder-decoder models (BART, T5) create their decoder_input_ids on their own from the labels
+        '''
+        outputs = self(input_ids=batch["source_ids"], 
                        attention_mask=batch["source_mask"],
                        labels=lm_labels,
-                       decoder_attention_mask=batch['target_mask'])
+                       decoder_attention_mask=batch['target_mask']
+                       )
 
         loss = outputs[0]
         return loss

@@ -1,0 +1,35 @@
+============================================================
+Fri Feb 18 00:00:57 2022
+aste on rest16 under extraction; Train bs=4, num_epochs = 5
+Raw F1 = 0.6805, Fixed F1 = 0.6955
+
+============================================================
+Fri Feb 18 21:10:39 2022
+aste on rest16 under extraction; Train bs=4, num_epochs = 30
+Raw F1 = 0.6817, Fixed F1 = 0.6986
+
+============================================================
+Sun Feb 27 12:02:21 2022
+aste on rest16 under semantic; Train bs=4, num_epochs = 5
+Raw F1 = 0.6553, Fixed F1 = 0.6818
+
+============================================================
+Sun Feb 27 14:08:14 2022
+aste on rest16 under semantic; Train bs=4, num_epochs = 1
+Raw F1 = 0.5446, Fixed F1 = 0.6041
+
+============================================================
+Sun Feb 27 15:00:22 2022
+aste on rest16 under semantic; Train bs=4, num_epochs = 30
+Raw F1 = 0.6496, Fixed F1 = 0.6762
+
+============================================================
+Sun Feb 27 15:40:38 2022
+aste on rest16 under extraction; Train bs=4, num_epochs = 5
+Raw F1 = 0.6591, Fixed F1 = 0.6724
+
+============================================================
+Sun Feb 27 16:54:43 2022
+aste on rest16 under annotation; Train bs=4, num_epochs = 5
+Raw F1 = 0.6839, Fixed F1 = 0.7126
+
