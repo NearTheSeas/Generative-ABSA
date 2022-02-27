@@ -33,3 +33,13 @@ Sun Feb 27 16:54:43 2022
 aste on rest16 under annotation; Train bs=4, num_epochs = 5
 Raw F1 = 0.6839, Fixed F1 = 0.7126
 
+============================================================
+Sun Feb 27 18:07:11 2022
+aste on rest16 under annotation; Train bs=4, num_epochs = 30
+Raw F1 = 0.6826, Fixed F1 = 0.7017
+
+============================================================
+Sun Feb 27 18:24:39 2022
+aste on rest16 under annotation; Train bs=4, num_epochs = 5
+Raw F1 = 0.6839, Fixed F1 = 0.7126
+

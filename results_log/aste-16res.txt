@@ -1,0 +1,20 @@
+============================================================
+Sun Feb 27 19:31:57 2022
+aste on 16res under annotation; Train bs=4, num_epochs = 5
+Raw F1 = 0.6839, Fixed F1 = 0.7126
+
+============================================================
+Sun Feb 27 19:42:13 2022
+aste on 16res under extraction; Train bs=4, num_epochs = 5
+Raw F1 = 0.6591, Fixed F1 = 0.6724
+
+============================================================
+Sun Feb 27 20:05:38 2022
+aste on 16res under semantic; Train bs=4, num_epochs = 5
+Raw F1 = 0.6317, Fixed F1 = 0.6550
+
+============================================================
+Sun Feb 27 20:24:02 2022
+aste on 16res under annotation; Train bs=4, num_epochs = 5
+Raw F1 = 0.6839, Fixed F1 = 0.7126
+

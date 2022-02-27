@@ -406,7 +406,7 @@ def log_error(content,io_format, task):
     # local_time = time.asctime(time.localtime(time.time()))
     local_time = time.time()
     log_file_path = f"results_log/{task}-{io_format}-error-list-{local_time}.txt"
-    with open(log_file_path, "a+") as f:
+    with open(log_file_path, "a+", encoding='utf-8') as f:
         for item in content:
             a, b = item.split(err_split)
             f.write(a + '\n')
