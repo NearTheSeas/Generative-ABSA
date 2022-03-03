@@ -4,6 +4,7 @@ import random
 from utils import tokens_to_seq, contains_digit
 from operator import itemgetter
 import time
+import copy
 from torch.utils.data import Dataset
 
 senttag2word = {'POS': 'positive', 'NEG': 'negative', 'NEU': 'neutral'}
@@ -94,8 +95,9 @@ def get_annotated_aope_targets(sents, labels):
     return annotated_targets
 
 
-def get_annotated_aste_targets(sents, labels):
+# Prefer to order it and pick it up though because I do n't like the servers , one young woman in particular .####[([15], [11, 12, 13], 'NEG'), ([18, 19], [11, 12, 13], 'NEG')]
 
+def get_annotated_aste_targets(sents, labels):
     annotated_targets = []
     num_sents = len(sents)
     for i in range(num_sents):
@@ -239,14 +241,46 @@ def get_semantic_aste_targets(sents, labels):
                 start_idx, end_idx = tri[1][0], tri[1][-1]
                 b = ' '.join(sents[i][start_idx:end_idx+1])
             c = senttag2word[tri[2]]
-            # 'Target': a, 'Opinion': b, 'Sentiment': c
             all_tri.append(("Target:" + a, 'Opinion:' + b,  'Emotion:' + c))
-            # all_tri.append({'Target': a, 'Opinion': b, 'Sentiment': c})
-        # label_strs = ['('+', '.join(lable)+')' for lable in all_tri]
         label_strs = [', '.join(lable) for lable in all_tri]
-        # ['Target:Lamb special, Opinion:perfect, Sentiment:positive']
         targets.append('; '.join(label_strs))
     return targets
+
+
+def get_prompt_aste_targets(sents, labels):
+    # 需要处理一个 opinion 描述 多个 aspect 的情况
+    # 需要标注aspect
+    annotated_targets = []
+    num_sents = len(sents)
+    source_sents = copy.deepcopy(sents)
+    for i in range(num_sents):
+        tuples = labels[i]
+        # tup: ([2], [5], 'NEG')
+        for tup in tuples:
+            ap, op, sent = tup[0], tup[1], tup[2]
+            apStr = [source_sents[i][j] for j in ap]
+            annotation = f"{senttag2word[sent]}|Aspect={' '.join(apStr)}"
+            # if '<Aspect>' in sents[i][ap[0]]:
+            #     pass
+            # else:
+            #     if len(ap) == 1:
+            #         sents[i][ap[0]] = f"<Aspect>{sents[i][ap[0]][:-1]}</Aspect>"
+            #     else:
+            #         sents[i][ap[0]] = f"<Aspect>{sents[i][ap[0]][:-1]}"
+            #         sents[i][ap[-1]] = f"{sents[i][ap[-1]][:-1]}</Aspect>"
+            if '[' in sents[i][op[0]]:
+                if len(op) == 1:
+                    sents[i][op[0]] = f"[{sents[i][op[0]][:-1]}, {' '.join(apStr)}]"
+                else:
+                    sents[i][op[-1]] = f"{sents[i][op[-1]][:-1]}, {' '.join(apStr)}]"
+            else:
+                if len(op) == 1:
+                    sents[i][op[0]] = f"[{sents[i][op[0]]}|{annotation}]"
+                else:
+                    sents[i][op[0]] = f"[{sents[i][op[0]]}"
+                    sents[i][op[-1]] = f"{sents[i][op[-1]]}|{annotation}]"
+        annotated_targets.append(sents[i])
+    return annotated_targets
 
 
 def get_transformed_io(data_path, paradigm, task):
@@ -290,6 +324,20 @@ def get_transformed_io(data_path, paradigm, task):
             pass
         elif task == 'aste':
             targets = get_semantic_aste_targets(sents, labels)
+        elif task == 'tasd':
+            # targets = get_extraction_tasd_targets(sents, labels)
+            pass
+        elif task == 'aope':
+            # targets = get_extraction_aope_targets(sents, labels)
+            pass
+        else:
+            raise NotImplementedError
+    elif paradigm == 'prompt':
+        if task == 'uabsa':
+            # targets = get_extraction_uabsa_targets(sents, labels)
+            pass
+        elif task == 'aste':
+            targets = get_prompt_aste_targets(sents, labels)
         elif task == 'tasd':
             # targets = get_extraction_tasd_targets(sents, labels)
             pass
@@ -347,6 +395,9 @@ class ABSADataset(Dataset):
                     target = ' '.join(targets[i])
                 else:
                     target = targets[i]
+            if self.paradigm == 'prompt':
+                if self.task != 'tasd':
+                    target = ' '.join(targets[i])
             else:
                 target = targets[i]
             # print(input)

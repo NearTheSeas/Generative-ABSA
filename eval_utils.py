@@ -48,6 +48,23 @@ def extract_spans_semantic(task, seq):
                 extractions.append((a, b, c))
         return extractions
 
+def extract_spans_prompt(task, seq):
+    extractions = []
+    if task == 'uabsa' and seq.lower() == 'none':
+        return []
+    else:
+        if task in ['uabsa', 'aope']:
+            all_pt = seq.split('; ')
+            for pt in all_pt:
+                pt = pt[1:-1]
+                try:
+                    a, b = pt.split(', ')
+                except ValueError:
+                    a, b = '', ''
+                extractions.append((a, b))
+        elif task in ['tasd', 'aste']:
+            extractions = extract_triplets_prompt(seq)
+        return extractions
 
 def extract_spans_extraction(task, seq):
     extractions = []
@@ -130,6 +147,33 @@ def extract_triplets(seq):
 
     return triplets
 
+def extract_triplets_prompt(seq):
+    ops = re.findall('\[.*?\]', seq)
+    ops = [ap[1:-1] for ap in ops]
+    triplets = []
+    for op in ops:
+        try:
+            a, b, c = op.split('|')
+        except ValueError:
+            a, b, c = '', '', ''
+        # for ASTE
+        if b in sentiment_word_list:
+            if '=' in c:
+                aspects = c.split('=')[1]
+                aspects = aspects.split(', ')
+                for item in aspects:
+                    triplets.append((a, b, item))
+            else:
+                triplets.append((a, b, c))
+        # for TASD
+        else:
+            if ',' in b:
+                for ac in b.split(', '):
+                    triplets.append((a, ac, c))
+            else:
+                triplets.append((a, b, c))
+    return triplets
+ 
 
 def recover_terms_with_editdistance(original_term, sent):
     words = original_term.split(' ')
@@ -385,6 +429,9 @@ def compute_scores(pred_seqs, gold_seqs, sents, io_format, task):
         elif io_format == 'semantic':
             gold_list = extract_spans_semantic(task, gold_seqs[i])
             pred_list = extract_spans_semantic(task, pred_seqs[i])
+        elif io_format == 'prompt':
+            gold_list = extract_spans_prompt(task, gold_seqs[i])
+            pred_list = extract_spans_prompt(task, pred_seqs[i])
         all_labels.append(gold_list)
         all_predictions.append(pred_list)
 
@@ -404,8 +451,9 @@ def compute_scores(pred_seqs, gold_seqs, sents, io_format, task):
 
 def log_error(content,io_format, task):
     # local_time = time.asctime(time.localtime(time.time()))
-    local_time = time.time()
-    log_file_path = f"results_log/{task}-{io_format}-error-list-{local_time}.txt"
+    local_time = time.gmtime()
+    local_time = time.strftime("%Y%m%d_%H_%M",local_time)
+    log_file_path = f"results_log/{task}-{io_format}-errors-{local_time}.txt"
     with open(log_file_path, "a+", encoding='utf-8') as f:
         for item in content:
             a, b = item.split(err_split)
