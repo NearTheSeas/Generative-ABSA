@@ -3,12 +3,13 @@ import torch
 
 from torch.utils.data import DataLoader
 
-from transformers import AdamW, T5ForConditionalGeneration, T5Tokenizer
+from transformers import AdamW, BartForConditionalGeneration, BartTokenizer
 from transformers import get_linear_schedule_with_warmup
 from data_utils import ABSADataset
 
-model_name = 't5-base'
-# model_name = 'facebook/bart-base'
+model_name = 'facebook/bart-base'
+# model_name = 'facebook/bart-large-cnn'
+
 
 def get_dataset(tokenizer, type_path, args):
     return ABSADataset(tokenizer=tokenizer,
@@ -17,20 +18,19 @@ def get_dataset(tokenizer, type_path, args):
                        paradigm=args.paradigm,
                        task=args.task,
                        max_len=args.max_seq_length)
-    
+
+
 def Tokenizer():
-    return T5Tokenizer.from_pretrained(model_name)
-    
-    
-class T5FineTuner(pl.LightningModule):
+    return BartTokenizer.from_pretrained(model_name)
+
+
+class BARTFineTuner(pl.LightningModule):
     def __init__(self, args):
         super().__init__()
         self.args = args
-        self.model = T5ForConditionalGeneration.from_pretrained(
+        self.model = BartForConditionalGeneration.from_pretrained(
             model_name)
         self.tokenizer = Tokenizer()
-        # self.tokenizer.add_tokens([' <arg>',' <tgr>'])
-
 
     def is_logger(self):
         return True
@@ -56,10 +56,10 @@ class T5FineTuner(pl.LightningModule):
     the labels being the token ID for the masked token, 
     and values to be ignored for the rest (usually -100).
     '''
+
     def _step(self, batch):
         lm_labels = batch["target_ids"]
         # lm_labels[lm_labels[:, :] == self.tokenizer.pad_token_id] = -100
-
 
         '''
         经过 tokenizer encode 输出编码后的结果，如果句子长度不一致 会padding
@@ -81,7 +81,7 @@ class T5FineTuner(pl.LightningModule):
 
         Most encoder-decoder models (BART, T5) create their decoder_input_ids on their own from the labels
         '''
-        outputs = self(input_ids=batch["source_ids"], 
+        outputs = self(input_ids=batch["source_ids"],
                        attention_mask=batch["source_mask"],
                        labels=lm_labels,
                        decoder_attention_mask=batch['target_mask']
@@ -195,5 +195,3 @@ class T5FineTuner(pl.LightningModule):
         return DataLoader(val_dataset,
                           batch_size=self.args.eval_batch_size,
                           num_workers=3)
-
-

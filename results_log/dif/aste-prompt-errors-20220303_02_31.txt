@@ -1,0 +1,1017 @@
+biggest,negative,portions;biggest,negative,Aspect=portions;impeccable,positive,portion;impeccable,positive, Aspect=portion
+Not the biggest,neutral,portions;Not the biggest,neutral,Aspect=portions;adequate,neutral,portions;adequate,neutral,Aspect=portions
+
+must,positive,Green Tea creme blee;must,positive,Aspect=Green Tea creme blee
+must,positive,Green Tea creme brulee;must,positive,Aspect=Green Tea creme brulee
+
+ belligerent,negative,owner; belligerent,negative,Aspect=owner
+belligerent,negative,owner;belligerent,negative,Aspect=owner
+
+great,positive,atmosphere rings;great,positive,Aspect=atmosphere rings
+great,positive,onion rings;great,positive,Aspect=onion rings
+
+stale sweet,negative,lemon chicken;stale sweet,negative,Aspect=lemon chicken
+sticky sweet,negative,lemon chicken;sticky sweet,negative,Aspect=lemon chicken;not good,negative,honey walnut prawns;not good,negative,Aspect=honey walnut prawns
+
+Nice,positive,ambience;Nice,positive,Aspect=ambience;overrated,negative,place;overrated,negative,Aspects=place
+Nice,positive,ambience;Nice,positive,Aspect=ambience;overrated,negative,place;overrated,negative,Aspect=place
+
+Worst,negative,Service;Worst,negative,Aspect=Service
+Worst,positive,Service;Worst,positive,Aspect=Service
+
+amazing,positive,meal;amazing,positive,ambiance;amazing,positive,Aspect=meal, ambiance
+[[amazing,positive,meal;[[amazing,positive,service;[[amazing,positive,ambiance;[[amazing,positive,Aspect=meal, service, ambiance
+
+best,positive,food;best,positive,Aspect=food
+relax,positive,place;relax,positive,Aspect=place;finest quality,positive,food;finest quality,positive,Aspect=food
+
+love,positive,food;love,positive,Aspect=food
+real,positive,food;real,positive,Aspect=food;best,positive,food;best,positive,Aspect=food
+
+liked,positive,atmosphere;liked,positive,Aspect=atmosphere;not worth the price,negative,food;not worth the price,negative,Aspects=food
+liked,positive,atmosphere;liked,positive,Aspect=atmosphere;not worth the price,negative,food;not worth the price,negative,Aspect=food
+
+ok,neutral,food;ok,neutral,Aspect=food
+okay,negative,food;okay,negative,Aspect=food
+
+fresh,positive,fish;fresh,positive,Aspect=fish;bland,negative,rolls;bland,negative, Aspect=rolls
+fresh,positive,fish;fresh,positive,Aspect=fish;bland,negative,rolls;bland,negative,Aspect=rolls
+
+unattentive,negative,waiter;unattentive,negative,Aspect=waiter
+dismissive,negative,waiter;dismissive,negative,Aspect=waiter
+
+delicious,positive,appetizers;delicious,positive,Aspect=appetizers
+delicious,positive,apps;delicious,positive,Aspect=apps
+
+small,positive,space;small,positive,Aspect=space;,,
+small,positive,space;small,positive,Aspect=space;lovely,positive,space;lovely,positive,Aspect=space;helpful,positive,service;helpful,positive,Aspect=service
+
+not great,negative,food;not great,negative,Aspect=food;,,
+not great,negative,food;not great,negative,Aspect=food;rude,negative,waiters;rude,negative,Aspect=waiters
+
+spectacular,positive,service;spectacular,positive,Aspect=service
+stellar,positive,service;stellar,positive,Aspect=service
+
+great,positive,food;great,positive,Aspect=food
+[great,positive,food;[great,positive,margaritas;[great,positive,Aspect=food, margaritas;too busy,negative,waitress;too busy,negative,Aspect=waitress
+
+best,positive,détime deck experience;best,positive,Aspect=détime deck experience
+best,positive,deck;best,positive,Aspect=deck
+
+Great,positive,draft;Great,positive,bottle selection;Great,positive,Aspect=draft, bottle selection
+Great,positive,draft and bottle selection;Great,positive,Aspect=draft and bottle selection
+
+great fun,positive,owners;great fun,positive,Aspect=owners;,,
+great,positive,owners;great,positive,Aspect=owners;worth staying for,positive,beer selection;worth staying for,positive,Aspect=beer selection
+
+great,positive,atmosphere;great,positive,Aspect=atmosphere
+great,positive,upstairs;great,positive,Aspect=upstairs
+
+favorite,positive,smoking balconey;favorite,positive,Aspect=smoking balconey
+favorite,positive,balconey;favorite,positive,Aspect=balconey
+
+flavorful variety,positive,fish;flavorful variety,positive,Aspect=fish
+wide variety,positive,fish;wide variety,positive,Aspect=fish
+
+trendic,positive,decor;trendic,positive,Aspect=decor;Traditional Japanese,negative,Traditional Japanese;Traditional Japanese,negative, Aspect=Traditional Japanese
+rustic,neutral,decor;rustic,neutral,Aspect=decor;traditional Japanese,neutral,decor;traditional Japanese,neutral,Aspect=decor
+
+Mediocre,negative,food;Mediocre,negative,Aspect=food
+Mediocre,neutral,food;Mediocre,neutral,Aspect=food
+
+appetated,negative,menu;appetated,negative,Aspect=menu
+abbreviated,neutral,menu;abbreviated,neutral,Aspect=menu
+
+decent,positive,Service;decent,positive,Aspect=Service
+decent,neutral,Service;decent,neutral,Aspect=Service
+
+Excellent,positive,food;Excellent,positive,ambience;Excellent,positive,Aspect=food, ambience;,,
+Excellent,positive,food;Excellent,positive,Aspect=food;nice,positive,ambience;nice,positive,Aspect=ambience
+
+[loved,positive,p pumpkin ravioli;[loved,positive,goat cheese gnocchi;[loved,positive,Aspect=p pumpkin ravioli, goat cheese gnocchi;,,
+[loved,positive,pumpkin ravioli;[loved,positive,goat cheese gnocchi;[loved,positive,Aspect=pumpkin ravioli, goat cheese gnocchi;loved,positive,filet mignon on top of spinach and mashed potatoes;loved,positive,Aspect=filet mignon on top of spinach and mashed potatoes
+
+favorite,positive,chicken curry andchicken tikki masala;favorite,positive,Aspect=chicken curry andchicken tikki masala
+[favorite,positive,chicken curry;[favorite,positive,chicken tikka masala;[favorite,positive,Aspect=chicken curry, chicken tikka masala
+
+excellent,positive,chanamasala ( [ garbanzos beans;excellent,positive,Aspect =chanamasala ( [ garbanzos beans
+excellent,positive,chana masala ( garbanzo beans );excellent,positive,Aspect=chana masala ( garbanzo beans )
+
+not the greatest,negative,location;not the greatest,negative,Aspect=location
+not the greatest,neutral,location;not the greatest,neutral,Aspect=location
+
+recommend,positive,sangag;recommend,positive,paneer;recommend,positive,korma;recommend,positive,Aspect=sangag, paneer, korma
+[[recommend,positive,saag;[[recommend,positive,paneer;[[recommend,positive,korma;[[recommend,positive,Aspect=saag, paneer, korma
+
+enjoy,positive,delivery;enjoy,positive,Aspect=delivery
+appreciate,positive,delivery;appreciate,positive,Aspect=delivery
+
+Nice,positive,food;Nice,positive,Aspect=food
+Nice,negative,food;Nice,negative,Aspect=food
+
+yummy,positive,lamb korma;yummy,positive,Aspect=lamb korma
+[[[yummy,positive,lamb korma;[[[yummy,positive,saag paneer;[[[yummy,positive,samosas;[[[yummy,positive,naan;[[[yummy,positive,Aspect=lamb korma, saag paneer, samosas, naan
+
+best,positive,vean;best,positive,Aspect=vean;,,
+best,positive,naan;best,positive,Aspect=naan;enjoyed,positive,bhartha;enjoyed,positive,Aspect=bhartha
+
+good,negative,chickenpeas;good,negative,Aspect=chickenpeas
+good,positive,chickpeas;good,positive,Aspect=chickpeas
+
+delicious,positive,fjajitas;delicious,positive,Aspect=fjajitas
+[[delicious,positive,fajita salad;[[delicious,positive,colorado;[[delicious,positive,fajitas;[[delicious,positive,Aspect=fajita salad, colorado, fajitas
+
+love,positive,environment;love,positive,Aspect=environment
+warm,positive,environment;warm,positive,Aspect=environment;cosy,positive,environment;cosy,positive,Aspect=environment
+
+best,positive,restaurant;best,positive,Aspect=restaurant;,,
+best,positive,restaurant;best,positive,Aspect=restaurant;great,positive,decor;great,positive,Aspect=decor;great,positive,customer service;great,positive,Aspect=customer service;friendly,positive,manager;friendly,positive,Aspect=manager
+
+Great,positive,financial district mexican spot;Great,positive,Aspect=financial district mexican spot
+Great,positive,mexican spot;Great,positive,Aspect=mexican spot
+
+good,positive,t taco salads;good,positive,burritos;good,positive,Aspect=t taco salads, burritos
+[[good,positive,taco salads;[[good,positive,burritos;[[good,positive,enchiladas;[[good,positive,Aspect=taco salads, burritos, enchiladas;love,positive,place;love,positive,Aspect=place
+
+unbelievable,negative,food;unbelievable,negative,Aspect=food
+unforgettable,positive,food;unforgettable,positive,Aspect=food
+
+best,positive,hmus;best,positive,Aspect=hmus
+best,positive,hummus;best,positive,Aspect=hummus
+
+crowded,negative,seats;crowded,negative,Aspect=seats
+crowded,negative,seating;crowded,negative,Aspect=seating;slow,negative,service;slow,negative,Aspect=service
+
+warm,negative,beer;warm,negative,Aspect=beer;,,
+warm,negative,beer;warm,negative,Aspect=beer;mediocre,negative,meal;mediocre,negative,Aspect=meal
+
+good,positive,breads;good,positive,Aspect=breads
+good,positive,band;good,positive,Aspect=band;attentive,positive,service;attentive,positive,Aspect=service
+
+small,positive,dishes;small,positive,Aspect=dishes;,,
+[[[good,positive,shoe string onions;[[[good,positive,goat cheese pizza;[[[good,positive,grilled asparagus;[[[good,positive,fried brie with fruit;[[[good,positive,Aspect=shoe string onions, goat cheese pizza, grilled asparagus, fried brie with fruit
+
+S BEST,positive,Winelist;S BEST,positive,Aspect=Winelist
+BEST,positive,Winelist;BEST,positive,Aspect=Winelist
+
+Open,positive,Pizza;Open,positive,Coffee;Open,positive,Aspect=Pizza, Coffee
+Cool,positive,Place;Cool,positive,Aspect=Place;[Best,positive,Pizza;[Best,positive,Coffee;[Best,positive,Aspect=Pizza, Coffee
+
+ creative,positive,Mioposto; creative,positive,Aspect=Mioposto;,,
+creative,positive,pizza menu;creative,positive,Aspect=pizza menu;delicious,positive,pizza menu;delicious,positive,Aspect=pizza menu
+
+Great,positive,open;Great,positive,friendly ambience;Great,positive,Aspect=open, friendly ambience
+Great open,positive,ambience;Great open,positive,Aspect=ambience;friendly,positive,ambience;friendly,positive,Aspect=ambience
+
+charming,positive,place;charming,positive,Aspect=place;,,
+charming,positive,place;charming,positive,Aspect=place;relaxing,positive,place;relaxing,positive,Aspect=place
+
+friendly,positive,servers;friendly,positive,Aspect=servers
+friendly,positive,servers behind the counter;friendly,positive,Aspect=servers behind the counter;helpful,positive,servers behind the counter;helpful,positive,Aspect=servers behind the counter
+
+Great,positive,food;Great,positive,Aspect=food;spectacular,negative,location;spectacular,negative,Aspects=location
+Great,positive,food;Great,positive,Aspect=food;spectacular,positive,location;spectacular,positive,Aspect=location;friendly,positive,service;friendly,positive,Aspect=service
+
+enjoyed,positive,kaftas plate;enjoyed,positive,Aspect=kaftas plate
+enjoyed,positive,kafta plate;enjoyed,positive,Aspect=kafta plate
+
+AMAZING,positive,Foo WOW;AMAZING,positive,Aspect=Foo WOW
+NICE,positive,PEOPLE;NICE,positive,Aspect=PEOPLE;AMAZING,positive,FOOD;AMAZING,positive,Aspect=FOOD
+
+Great,positive,food;Great,positive,atmosphere;Great,positive,Aspect=food, atmosphere;,,
+Great,positive,food;Great,positive,Aspect=food;awesome,positive,atmosphere;awesome,positive,Aspect=atmosphere
+
+delicious,positive,eggs;delicious,positive,pancakes;delicious,positive,Aspect=eggs, pancakes
+[[[[delicious,positive,Eggs;[[[[delicious,positive,pancakes;[[[[delicious,positive,potatoes;[[[[delicious,positive,fresh fruit;[[[[delicious,positive,yogurt;[[[[delicious,positive,Aspect=Eggs, pancakes, potatoes, fresh fruit, yogurt
+
+great,positive,meals;great,positive,Aspect=meals;dissent,negative,omikas platter;dissent,negative,Aspects=omikas platter
+great,positive,meal;great,positive,Aspect=meal;decadent,positive,fish on the omikase platter;decadent,positive,Aspect=fish on the omikase platter;perfect,positive,fish on the omikase platter;perfect,positive,Aspect=fish on the omikase platter
+
+abused,negative,rice;abused,negative,Aspect=rice;,,
+accomodating,positive,waitstaff;accomodating,positive,Aspect=waitstaff
+
+Unbeatable,negative,sushi;Unbeatable,negative,Aspect=sushi
+Unbeatable,positive,sushi;Unbeatable,positive,Aspect=sushi
+
+best,positive,sushi;best,positive,Aspect=sushi;fantastic,negative,sauces;fantastic,negative,Aspects=sauces
+best,positive,sushi;best,positive,Aspect=sushi
+
+best,positive,Chickenwam Mushi;best,positive,Aspect=Chickenwam Mushi
+best,positive,Chuwam Mushi;best,positive,Aspect=Chuwam Mushi
+
+Good,positive,Sushi;Good,positive,High Price;Good,positive,Aspect=Sushi, High Price
+Good,negative,Sushi;Good,negative,Aspect=Sushi
+
+amazing,positive,Murkey's;amazing,positive,Aspect=Murkey's
+amazing,positive,Murphy's;amazing,positive,Aspect=Murphy's
+
+die for,positive,Brunch;die for,positive,egg white omelet;die for,positive,Aspect=Brunch, egg white omelet;,,
+freshly prepared,positive,food;freshly prepared,positive,Aspect=food
+
+Save room,positive,desserts;Save room,positive,Aspect=desserts;,,
+scrumptious,positive,desserts;scrumptious,positive,Aspect=desserts
+
+extensive,positive,wine list;extensive,positive,ambiance;extensive,positive,Aspect=wine list, ambiance;,,
+extensive,positive,wine list;extensive,positive,Aspect=wine list;won't forget,positive,ambiance;won't forget,positive,Aspect=ambiance
+
+Love,positive,enchiladas;Love,positive,chicken soup;Love,positive,Aspect=enchiladas, chicken soup;chicken soup,negative,chicken sou;chicken soup,negative,Aspects=chicken sou
+[Love,positive,enchiladas;[Love,positive,chicken soup;[Love,positive,Aspect=enchiladas, chicken soup
+
+busy,positive,service;busy,positive,Aspect=service;impeccable,negative,Service;impeccable,negative, Aspect=Service
+efficient,positive,service;efficient,positive,Aspect=service
+
+excellent,positive,sushi;excellent,positive,wait staff;excellent,positive,Aspect=sushi, wait staff;quick,negative,waitstaff;quick,negative,Aspects=waitstaff
+excellent,positive,sushi;excellent,positive,Aspect=sushi;quick,positive,wait staff;quick,positive,Aspect=wait staff
+
+limited,negative,Sspace;limited,negative,Aspect=Sspace
+limited,negative,Space;limited,negative,Aspect=Space
+
+Great,positive,food;Great,positive,Margaritas;Great,positive,Aspect=food, Margaritas
+Great,positive,food;Great,positive,Aspect=food;better,positive,Margaritas;better,positive,Aspect=Margaritas
+
+huge,positive,portions;huge,positive,Aspect=portions;,,
+huge,positive,portions;huge,positive,Aspect=portions;fast,positive,service;fast,positive,Aspect=service;amazing,positive,margaritas;amazing,positive,Aspect=margaritas
+
+busy,negative,service;busy,negative,Aspect=service
+quick,positive,service;quick,positive,Aspect=service
+
+flavorful,positive,art;flavorful,positive,Aspect=art
+colorful,positive,art on the walls;colorful,positive,Aspect=art on the walls
+
+awesome deal,positive,lunch menu;awesome deal,positive,Aspect=lunch menu
+awesome,positive,lunch menu;awesome,positive,Aspect=lunch menu
+
+Fresh,positive,ingredients;Fresh,positive,Aspect=ingredients;tasty,negative,indredients;tasty,negative,super tasty;tasty,negative,Aspects=indredients, super tasty
+Fresh,positive,ingrediants;Fresh,positive,Aspect=ingrediants;tasty,positive,ingrediants;tasty,positive,Aspect=ingrediants
+
+Best,positive,food;Best,positive,phenominal service;Best,positive,Aspect=food, phenominal service
+Best,positive,food;Best,positive,Aspect=food;phenominal,positive,service;phenominal,positive,Aspect=service
+
+fanticky,positive,sushi eater;fanticky,positive,Aspect=sushi eater
+freshest,positive,fish;freshest,positive,Aspect=fish;superb,positive,service;superb,positive,Aspect=service
+
+innovative,negative,selection;innovative,negative,Aspect=selection
+innovative,positive,selection;innovative,positive,Aspect=selection;nice,positive,sushi;nice,positive,Aspect=sushi;traditional,positive,sushi;traditional,positive,Aspect=sushi
+
+not worth,negative,regual menu;not worth,negative,Aspect=regual menu
+above average,neutral,regular menu;above average,neutral,Aspect=regular menu;not worth the snotty attitude,neutral,regular menu;not worth the snotty attitude,neutral,Aspect=regular menu
+
+impeccable,positive,fish;impeccable,positive,Aspect=fish;great,negative,sushi fan;great,negative,Aspects=sushi fan
+love expertly cut,positive,fish;love expertly cut,positive,Aspect=fish;great,positive,sake;great,positive,Aspect=sake;killer,positive,SOHO location;killer,positive,Aspect=SOHO location
+
+best,positive,sushi;best,positive,Aspect=sushi
+best,positive,BLUE RIBBON SUSHI;best,positive,Aspect=BLUE RIBBON SUSHI
+
+fantastic reputation,positive,Blue Ribbon;fantastic reputation,positive,Aspect=Blue Ribbon
+fantastic,positive,Blue Ribbon;fantastic,positive,Aspect=Blue Ribbon
+
+Great value,positive,sushi;Great value,positive,Aspect=sushi;,,;nice,negative,setting;nice,negative,setting;nice,negative,Aspects=setting, setting
+Great value,positive,sushi;Great value,positive,Aspect=sushi;high quality,positive,sushi;high quality,positive,Aspect=sushi;,,
+
+Try,positive, Chef's Choice for sushi;Try,positive,Aspect= Chef's Choice for sushi;incredible,negative,smoked yellowtail;incredible,negative,Aspects=smoked yellowtail;,,
+incredible,positive,smoked yellowtail;incredible,positive,Aspect=smoked yellowtail;tasty,positive,rolls;tasty,positive,Aspect=rolls
+
+[Poor,negative,customer service;[Poor,negative,poor pizza;[Poor,negative,Aspect=customer service, poor pizza
+[Poor,negative,customer service;[Poor,negative,pizza;[Poor,negative,Aspect=customer service, pizza
+
+favorite,positive,pizza;favorite,positive,pizza places;favorite,positive,Aspect=pizza, pizza places
+lacks quality and good taste,negative,pizza;lacks quality and good taste,negative,Aspect=pizza
+
+better,positive,frozen pizza;better,positive,Aspect=frozen pizza
+better,negative,pizza;better,negative,Aspect=pizza
+
+,,
+nice,positive,location;nice,positive,Aspect=location
+
+disgusted,negative,place;disgusted,negative,Aspect=place
+fantastic,positive,place;fantastic,positive,Aspect=place
+
+best,positive,Seabass on Lobster risotto;best,positive,Aspect=Seabass on Lobster risotto
+best,positive,Seabass on lobster risotto;best,positive,Aspect=Seabass on lobster risotto
+
+Great,positive,bottles of wine;Great,positive,Aspect=bottles of wine
+Great,positive,bottle of wine;Great,positive,Aspect=bottle of wine
+
+ok,negative,food;ok,negative,Aspect=food;,,
+ok,neutral,food;ok,neutral,Aspect=food;poor,negative,service;poor,negative,Aspect=service
+
+AVOID,positive,PLACE;AVOID,positive,Aspect=PLACE
+AVOID,negative,PLACE;AVOID,negative,Aspect=PLACE
+
+cozy,positive,atmosphere;cozy,positive,Aspect=atmosphere;horrible,negative,service;horrible,negative, Aspect=service
+cozy,positive,atmosphere;cozy,positive,Aspect=atmosphere;horrible,negative,service;horrible,negative,Aspect=service
+
+Best,positive,Cake in Town;Best,positive,Aspect=Cake in Town
+Best,positive,Crab Cakes;Best,positive,Aspect=Crab Cakes
+
+Great,positive, seasonal fish;Great,positive,seafood;Great,positive,Aspect= seasonal fish, seafood
+[Great,positive,seasonal fish;[Great,positive,seafood;[Great,positive,Aspect=seasonal fish, seafood;classy,positive,waterfront setting;classy,positive,Aspect=waterfront setting
+
+Great,positive,Pizza;Great,positive,Poor Service;Great,positive,Aspect=Pizza, Poor Service
+Great,positive,Pizza;Great,positive,Aspect=Pizza;Poor,negative,Service;Poor,negative,Aspect=Service
+
+Love,positive,pizza;Love,positive,Aspect=pizza
+[Love,positive,pizza;[Love,positive,mushroom pizza;[Love,positive,Aspect=pizza, mushroom pizza
+
+love,positive,casaer salad;love,positive,Aspect=casaer salad
+love,positive,caeser salad;love,positive,Aspect=caeser salad
+
+great,positive,pizza;great,positive,poor service;great,positive,Aspect=pizza, poor service
+great,positive,pizza;great,positive,Aspect=pizza;poor,negative,service;poor,negative,Aspect=service
+
+great,positive,food;great,positive,Aspect=food;fri bloody,negative,maary;fri bloody,negative, Aspect=maary
+great,positive,food;great,positive,Aspect=food;mean,positive,bloody mary;mean,positive,Aspect=bloody mary
+
+love,positive,dinner;love,positive,Aspect=dinner
+love,positive,breakfast;love,positive,Aspect=breakfast
+
+appetizing,negative,crab egg benedict;appetizing,negative,Aspect=crab egg benedict
+addicting,positive,crab eggs benedict;addicting,positive,Aspect=crab eggs benedict
+
+crisiness,positive,prawns;crisiness,positive,Aspect=prawns
+fresh,positive,prawns;fresh,positive,Aspect=prawns;crispiness,positive,batter;crispiness,positive,Aspect=batter;crunchy,positive,walnuts;crunchy,positive,Aspect=walnuts;tasty,positive,walnuts;tasty,positive,Aspect=walnuts
+
+fresh,positive,bricollis;fresh,positive,Aspect=bricollis
+fresh,positive,brocollis;fresh,positive,Aspect=brocollis;tasty,positive,brocollis;tasty,positive,Aspect=brocollis
+
+appetizing,negative,scallops;appetizing,negative,prawns;appetizing,negative,Aspect=scallops, prawns
+[fresh,positive,scallops;[fresh,positive,prawns;[fresh,positive,Aspect=scallops, prawns;nicely cooked,positive,scallops;nicely cooked,positive,prawns;nicely cooked,positive,Aspect=scallops, prawns
+
+Chintzy,positive,portions;Chintzy,positive,Aspect=portions
+Chintzy,negative,portions;Chintzy,negative,Aspect=portions
+
+perfectly good,positive,sushi;perfectly good,positive,Aspect=sushi
+good,negative,sushi;good,negative,Aspect=sushi;moderately priced,negative,restaurant;moderately priced,negative,Aspect=restaurant
+
+[Terrible,negative,service;[Terrible,negative,food;[Terrible,negative,Aspect=service, food;,,;pricey,positive,Service;pricey,positive, Aspect=Service
+Terrible,negative,service;Terrible,negative,Aspect=service;ok,neutral,food;ok,neutral,Aspect=food
+
+ok,negative,food;ok,negative,Aspect=food;,,
+ok,neutral,Food;ok,neutral,Aspect=Food;pricey,neutral,Food;pricey,neutral,Aspect=Food;isn't a fancy,neutral,restaurant;isn't a fancy,neutral,Aspect=restaurant
+
+open feel,positive,restaurant;open feel,positive,Aspect=restaurant
+plus,positive,feel;plus,positive,Aspect=feel;open,positive,feel;open,positive,Aspect=feel
+
+cheap,negative,sushi;cheap,negative,Aspect=sushi;worth,positive,sauces;worth,positive,Aspects=sauces
+isn't the cheapest,positive,sushi;isn't the cheapest,positive,Aspect=sushi;worth,positive,sushi;worth,positive,Aspect=sushi
+
+charming,positive,location;charming,positive,Aspect=location
+poor,negative,customer service;poor,negative,Aspect=customer service
+
+good,positive,food;good,positive,Aspect=food;unattentive,negative,restaurant;unattentive,negative, Aspect=restaurant
+good,positive,food;good,positive,Aspect=food;indifferent,negative,restaurant staff;indifferent,negative,Aspect=restaurant staff
+
+fresh,positive,fish;fresh,positive,Aspect=fish
+fresh,negative,fish;fresh,negative,Aspect=fish;thin,negative,fish;thin,negative,Aspect=fish
+
+yummy,positive,portions;yummy,positive,Aspect=portions
+yummy,positive,dessert of a port and chocolate tasting;yummy,positive,Aspect=dessert of a port and chocolate tasting
+
+wondid,positive,service;wondid,positive,Aspect=service
+spendid,positive,service;spendid,positive,Aspect=service;delight,positive,service;delight,positive,Aspect=service
+
+Great,positive,drinks;Great,positive,corn beef hash;Great,positive,Aspect=drinks, corn beef hash
+[[[[Great,positive,drinks;[[[[Great,positive,corn beef hash;[[[[Great,positive,coffee;[[[[Great,positive,B Fast burritos;[[[[Great,positive,menu;[[[[Great,positive,Aspect=drinks, corn beef hash, coffee, B Fast burritos, menu
+
+Best,positive,N Neighborhood Standby;Best,positive,Aspect=N Neighborhood Standby
+Best,positive,Standby;Best,positive,Aspect=Standby
+
+awesome,positive,chees fries;awesome,positive,Aspect=chees fries
+awesome,positive,cheese fries;awesome,positive,Aspect=cheese fries
+
+Good,positive,Food;Good,positive,Great Service;Good,positive,Aspect=Food, Great Service
+Good,positive,Food;Good,positive,Aspect=Food;Great,positive,Service;Great,positive,Aspect=Service
+
+incredible,positive,glas decor;incredible,positive,Aspect=glas decor
+incredible,positive,wood decor;incredible,positive,Aspect=wood decor
+
+ho hip,positive,music;ho hip,positive,Aspect=music
+annoying,negative,subwoofer to the sound system;annoying,negative,Aspect=subwoofer to the sound system
+
+okay,positive,shrimp appetizer;okay,positive,Aspect=shrimp appetizer
+alright,neutral,shellfish and shrimp appetizer;alright,neutral,Aspect=shellfish and shrimp appetizer
+
+nice,positive,shank;nice,positive,Aspect=shank;,,
+nice,positive,steak;nice,positive,Aspect=steak;juicy,positive,steak;juicy,positive,Aspect=steak
+
+perfect,positive,d desert;perfect,positive,Aspect=d desert
+perfect,positive,desert;perfect,positive,Aspect=desert;perfect,positive,dinner;perfect,positive,Aspect=dinner
+
+attentive,positive,servers;attentive,positive,Aspect=servers;friendly,negative,server;friendly,negative, Aspect=server
+attentive,positive,servers;attentive,positive,Aspect=servers;friendly,positive,servers;friendly,positive,Aspect=servers
+
+good,positive,sake suggestions;good,positive,Aspect=sake suggestions
+good,positive,sake;good,positive,Aspect=sake
+
+BEST,positive,dishes;BEST,positive,Aspect=dishes
+BEST,positive,lobster 3 ways;BEST,positive,Aspect=lobster 3 ways
+
+amazed,positive,food;amazed,positive,Aspect=food
+creative,positive,menu;creative,positive,Aspect=menu
+
+good,positive,food;good,positive,Aspect=food
+good,negative,food;good,negative,Aspect=food;overpriced,negative,food;overpriced,negative,Aspect=food
+
+delicious,positive,pizza;delicious,positive,Aspect=pizza;,,
+delicious,positive,pizza;delicious,positive,Aspect=pizza;fantastic,positive,salads;fantastic,positive,Aspect=salads
+
+friendly,positive,dining;friendly,positive,Aspect=dining
+friendly,positive,cooks;friendly,positive,Aspect=cooks
+
+love,positive,Moposto Café;love,positive,Aspect=Moposto Café
+love,positive,Mioposto Café;love,positive,Aspect=Mioposto Café
+
+disappointed,negative,menu;disappointed,negative,Aspect=menu
+won ’ t be disappointed,positive,menu;won ’ t be disappointed,positive,Aspect=menu
+
+ creative,positive,pizza ’s; creative,positive,Aspect=pizza ’s
+creative,positive,menu;creative,positive,Aspect=menu
+
+not huge,negative,pizza ’s;not huge,negative,Aspect=pizza ’s
+thin,neutral,crust;thin,neutral,Aspect=crust
+
+ sinful,negative,food; sinful,negative,Aspect=food
+sinful,positive,food;sinful,positive,Aspect=food
+
+dissent,negative,dake;dissent,negative,Aspect=dake
+decadent,positive,pancakes;decadent,positive,Aspect=pancakes
+
+nothing,negative,menu;nothing,negative,Aspect=menu
+amazing,positive,menu;amazing,positive,Aspect=menu
+
+Good,positive,atmosphere;Good,positive,Aspect=atmosphere
+Good,positive,eats;Good,positive,Aspect=eats
+
+decent,positive,fish;decent,positive,Aspect=fish
+decent,negative,fish;decent,negative,Aspect=fish
+
+disappointment,negative,chef special dinner;disappointment,negative,Aspect=chef special dinner
+dissappointment,negative,chef special dinner;dissappointment,negative,Aspect=chef special dinner
+
+best,positive,dish;best,positive,Aspect=dish
+best,positive,honwy walnut prawns;best,positive,Aspect=honwy walnut prawns;outstanding,positive,honwy walnut prawns;outstanding,positive,Aspect=honwy walnut prawns
+
+beautiful,positive,decor;beautiful,positive,Aspect=decor;,,
+beautiful,positive,decor;beautiful,positive,Aspect=decor;unique,positive,decor;unique,positive,Aspect=decor
+
+good,positive,music;good,positive,atmosphere;good,positive,Aspect=music, atmosphere
+nice,positive,vibe;nice,positive,Aspect=vibe;[good,positive,music;[good,positive,atmosphere;[good,positive,Aspect=music, atmosphere;happy,positive,people;happy,positive,Aspect=people
+
+delectable,negative,menu;delectable,negative,Aspect=menu
+delectable,positive,menu;delectable,positive,Aspect=menu
+
+authentic,positive,waiters;authentic,positive,Aspect=waiters
+experienced,positive,waiters;experienced,positive,Aspect=waiters;helpful,positive,waiters;helpful,positive,Aspect=waiters
+
+good tasting,negative,fish;good tasting,negative,Aspect=fish
+large,positive,portions;large,positive,Aspect=portions;creative,positive,sushi dishes;creative,positive,Aspect=sushi dishes
+
+charm,positive,pepperoni;charm,positive,Aspect=pepperoni
+big thick,positive,pepperoni;big thick,positive,Aspect=pepperoni
+
+thin,negative,pepperoni's;thin,negative,Aspect=pepperoni's
+thick,positive,pepperoni's;thick,positive,Aspect=pepperoni's;Yum,positive,pepperoni's;Yum,positive,Aspect=pepperoni's
+
+not exactly the best,negative,pizza;not exactly the best,negative,Aspect=pizza
+not exactly the best,positive,pizza;not exactly the best,positive,Aspect=pizza;good,positive,pizza;good,positive,Aspect=pizza
+
+good,positive,Food;good,positive,Aspect=Food;,,
+good,positive,Food;good,positive,Aspect=Food;appetizing,positive,Food;appetizing,positive,Aspect=Food
+
+enough,negative,Portions;enough,negative,Aspect=Portions
+enough,neutral,Portions;enough,neutral,Aspect=Portions
+
+Fair,positive,menu selection;Fair,positive,Aspect=menu selection
+Fair,neutral,menu selection;Fair,neutral,Aspect=menu selection
+
+interesting,neutral,appetizer;interesting,neutral,Aspect=appetizer
+interesting,positive,appetizer;interesting,positive,Aspect=appetizer;savory,positive,Creme Brulee;savory,positive,Aspect=Creme Brulee;delicious,positive,Creme Brulee;delicious,positive,Aspect=Creme Brulee
+
+exceptional,positive,service;exceptional,positive,Aspect=service;friendly,negative,waiters;friendly,negative,service;friendly,negative,Aspects=waiters, service
+exceptional,positive,service;exceptional,positive,Aspect=service;friendly,positive,waiters;friendly,positive,Aspect=waiters
+
+big,negative,portions;big,negative,Aspect=portions
+big,neutral,portions;big,neutral,Aspect=portions
+
+Groovy,positive,music;Groovy,positive,Aspect=music
+casual,positive,music;casual,positive,Aspect=music
+
+unattractive,negative,bathroom attendant;unattractive,negative,Aspect=bathroom attendant
+odd,negative,restroom;odd,negative,Aspect=restroom
+
+tasty,positive,Mercedes restaurant;tasty,positive,Aspect=Mercedes restaurant;,,
+awesome,positive,service;awesome,positive,Aspect=service
+
+appetizing,positive,atmosphere;appetizing,positive,Aspect=atmosphere;,,
+aspiring,positive,atmosphere;aspiring,positive,Aspect=atmosphere;festive,positive,decor;festive,positive,Aspect=decor;amazing,positive,decor;amazing,positive,Aspect=decor
+
+out of this world,negative,c catering;out of this world,negative,Aspect=c catering
+out of this world,positive,catering;out of this world,positive,Aspect=catering;rocks my world,positive,Raouls chicken vegetable soup;rocks my world,positive,Aspect=Raouls chicken vegetable soup
+
+s suberb,positive,Drinks;s suberb,positive,Aspect=Drinks
+suberb,positive,Drinks;suberb,positive,Aspect=Drinks
+
+mediocre,negative,Service;mediocre,negative,Aspect=Service
+Mediocre,neutral,Service;Mediocre,neutral,Aspect=Service
+
+excellent,positive,Sooze;excellent,positive,Aspect=Sooze
+excellent,negative,Snooze;excellent,negative,Aspect=Snooze;high brow,negative,menu;high brow,negative,Aspect=menu
+
+innovative,negative,p pancakes;innovative,negative,Aspect=p pancakes
+inventive,negative,pancakes;inventive,negative,Aspect=pancakes;over-priced,negative,pancakes;over-priced,negative,Aspect=pancakes
+
+large,positive,p pancakes;large,positive,Aspect=p pancakes;unique,negative,pake;unique,negative,Aspects=pake
+should be larger,negative,pancakes;should be larger,negative,Aspect=pancakes
+
+delightful,positive,Ray's Boathouse;delightful,positive,Aspect=Ray's Boathouse
+exceeded my expectations,positive,Ray's Boathouse;exceeded my expectations,positive,Aspect=Ray's Boathouse
+
+gorgeous,positive,S Sound views;gorgeous,positive,Aspect=S Sound views
+gorgeous,positive,Sound views;gorgeous,positive,Aspect=Sound views
+
+lovely,positive,server Brooke;lovely,positive,Aspect=server Brooke
+lovely,positive,Brooke;lovely,positive,Aspect=Brooke;quickly,positive,Brooke;quickly,positive,Aspect=Brooke
+
+upscale,positive,cheap soy dressing;upscale,positive,Aspect=cheap soy dressing;beautiful,positive color,Ammetio;,,
+enormous,positive,white gulf prawns;enormous,positive,Aspect=white gulf prawns;fantastic,positive,manila clams;fantastic,positive,Aspect=manila clams;tasty,positive,soy dressing;tasty,positive,Aspect=soy dressing
+
+[enjoyed,positive,entrific;[enjoyed,positive,eacute;[enjoyed,positive,Aspect=entrific, eacute
+enjoyed,positive,seared Alaskan sea scallops;enjoyed,positive,Aspect=seared Alaskan sea scallops
+
+unique,positive,black olive butter;unique,positive,Aspect=black olive butter
+unique,positive,scallops;unique,positive,Aspect=scallops;tasty,positive,scallops;tasty,positive,Aspect=scallops
+
+[enjoyed,positive,grilled Alaskan King Salmon with delectable creamed Washington russet potatoes and crisp green beans;[enjoyed,positive,Aspect=grilled Alaskan King Salmon with delectable creamed Washington russet potatoes and crisp green beans
+enjoyed,positive,grilled Alaskan King Salmon;enjoyed,positive,Aspect=grilled Alaskan King Salmon;delectable,positive,creamed Washington russet potatoes;delectable,positive,Aspect=creamed Washington russet potatoes;crisp,positive,green beans;crisp,positive,Aspect=green beans
+
+superb,positive,food;superb,positive,Aspect=food
+superb,positive,plate;superb,positive,Aspect=plate
+
+wonderful,positive,server;wonderful,positive,food;wonderful,positive,Aspect=server, food
+[wonderful,positive,server;[wonderful,positive,food;[wonderful,positive,Aspect=server, food
+
+biggest,negative,portions;biggest,negative,portions;adequate,positive,portion;adequate,positive,. portions
+Not the biggest,neutral,portions;Not the biggest,neutral,Aspect=portions;adequate,neutral,portions;adequate,neutral,Aspect=portions
+
+ belligerent,negative,owner; belligerent,negative,owner
+belligerent,negative,owner;belligerent,negative,Aspect=owner
+
+great,positive,are rings;great,positive,are rings
+great,positive,onion rings;great,positive,Aspect=onion rings
+
+the sweet,negative,lemon chicken;the sweet,negative,lemon chicken
+sticky sweet,negative,lemon chicken;sticky sweet,negative,Aspect=lemon chicken;not good,negative,honey walnut prawns;not good,negative,Aspect=honey walnut prawns
+
+Worst,negative,Service;Worst,negative,Service
+Worst,positive,Service;Worst,positive,Aspect=Service
+
+amazing,positive,meal;amazing,positive,ambiance;amazing,positive,meal, ambiance
+[[amazing,positive,meal;[[amazing,positive,service;[[amazing,positive,ambiance;[[amazing,positive,Aspect=meal, service, ambiance
+
+is,positive,food;is,positive,food
+relax,positive,place;relax,positive,Aspect=place;finest quality,positive,food;finest quality,positive,Aspect=food
+
+love,positive,food;love,positive,food
+real,positive,food;real,positive,Aspect=food;best,positive,food;best,positive,Aspect=food
+
+ok,neutral,food;ok,neutral,food
+okay,negative,food;okay,negative,Aspect=food
+
+fresh,positive,fish;fresh,positive,fish;bland,negative,rolls;bland,negative,, rolls
+fresh,positive,fish;fresh,positive,Aspect=fish;bland,negative,rolls;bland,negative,Aspect=rolls
+
+recent,negative,waiter;recent,negative,waiter
+dismissive,negative,waiter;dismissive,negative,Aspect=waiter
+
+great,positive,food;great,positive,food
+[great,positive,food;[great,positive,margaritas;[great,positive,Aspect=food, margaritas;too busy,negative,waitress;too busy,negative,Aspect=waitress
+
+best,positive,the deck experience;best,positive,summertime deck experience
+best,positive,deck;best,positive,Aspect=deck
+
+Great,positive,draft;Great,positive,bottle selection;Great,positive,draft, bottle selection
+Great,positive,draft and bottle selection;Great,positive,Aspect=draft and bottle selection
+
+great fun,positive,owners;great fun,positive,owners;great fun,positive,owners
+great,positive,owners;great,positive,Aspect=owners;worth staying for,positive,beer selection;worth staying for,positive,Aspect=beer selection
+
+great,positive,the;great,positive,upstairs
+great,positive,upstairs;great,positive,Aspect=upstairs
+
+favorite,positive,smoking balconey;favorite,positive,smoking balconey
+favorite,positive,balconey;favorite,positive,Aspect=balconey
+
+have variety,positive,fish;have variety,positive,fish
+wide variety,positive,fish;wide variety,positive,Aspect=fish
+
+rustic,positive,decor;rustic,positive,decor;traditional Japanese,negative,traditional Japanese;traditional Japanese,negative,, traditional Japanese
+rustic,neutral,decor;rustic,neutral,Aspect=decor;traditional Japanese,neutral,decor;traditional Japanese,neutral,Aspect=decor
+
+Mediocre,negative,food;Mediocre,negative,food
+Mediocre,neutral,food;Mediocre,neutral,Aspect=food
+
+abbreviated,negative,menu;abbreviated,negative,menu
+abbreviated,neutral,menu;abbreviated,neutral,Aspect=menu
+
+decent,positive,Service;decent,positive,Service
+decent,neutral,Service;decent,neutral,Aspect=Service
+
+Excellent,positive,food;Excellent,positive,ambience;Excellent,positive,food, ambience;Excellent,positive,food, ambience
+Excellent,positive,food;Excellent,positive,Aspect=food;nice,positive,ambience;nice,positive,Aspect=ambience
+
+loved,positive,– pumpkin ravioli;loved,positive,goat cheese gnocchi;loved,positive,plate pumpkin ravioli, goat cheese gnocchi;loved,positive,plate pumpkin ravioli, goat cheese gnocchi
+[loved,positive,pumpkin ravioli;[loved,positive,goat cheese gnocchi;[loved,positive,Aspect=pumpkin ravioli, goat cheese gnocchi;loved,positive,filet mignon on top of spinach and mashed potatoes;loved,positive,Aspect=filet mignon on top of spinach and mashed potatoes
+
+favorite,positive,chicken curry chicken tikka masala;favorite,positive,chicken curry chicken tikka masala
+[favorite,positive,chicken curry;[favorite,positive,chicken tikka masala;[favorite,positive,Aspect=chicken curry, chicken tikka masala
+
+excellent,positive,masala ( ( garbanzo beans;excellent,positive,The masala ( ( garbanzo beans
+excellent,positive,chana masala ( garbanzo beans );excellent,positive,Aspect=chana masala ( garbanzo beans )
+
+not the greatest,negative,location;not the greatest,negative,location
+not the greatest,neutral,location;not the greatest,neutral,Aspect=location
+
+recommend,positive,saag;recommend,positive,paneer;recommend,positive,korma;recommend,positive,saag, paneer, korma
+[[recommend,positive,saag;[[recommend,positive,paneer;[[recommend,positive,korma;[[recommend,positive,Aspect=saag, paneer, korma
+
+too,positive,delivery;too,positive,delivery
+appreciate,positive,delivery;appreciate,positive,Aspect=delivery
+
+Nice,positive,food;Nice,positive,food
+Nice,negative,food;Nice,negative,Aspect=food
+
+yummy,positive,lamb korma;yummy,positive,lamb korma
+[[[yummy,positive,lamb korma;[[[yummy,positive,saag paneer;[[[yummy,positive,samosas;[[[yummy,positive,naan;[[[yummy,positive,Aspect=lamb korma, saag paneer, samosas, naan
+
+good,negative,chickpeas;good,negative,chickpeas
+good,positive,chickpeas;good,positive,Aspect=chickpeas
+
+delicious,positive,fajitas;delicious,positive,fajitas
+[[delicious,positive,fajita salad;[[delicious,positive,colorado;[[delicious,positive,fajitas;[[delicious,positive,Aspect=fajita salad, colorado, fajitas
+
+love,positive,environment;love,positive,environment
+warm,positive,environment;warm,positive,Aspect=environment;cosy,positive,environment;cosy,positive,Aspect=environment
+
+Great,positive,financial district mexican spot;Great,positive,financial district mexican spot
+Great,positive,mexican spot;Great,positive,Aspect=mexican spot
+
+good,positive,I taco salads;good,positive,burritos;good,positive,'ve taco salads, burritos
+[[good,positive,taco salads;[[good,positive,burritos;[[good,positive,enchiladas;[[good,positive,Aspect=taco salads, burritos, enchiladas;love,positive,place;love,positive,Aspect=place
+
+unforgettable,negative,food;unforgettable,negative,food
+unforgettable,positive,food;unforgettable,positive,Aspect=food
+
+good,positive,band;good,positive,service
+good,positive,band;good,positive,Aspect=band;attentive,positive,service;attentive,positive,Aspect=service
+
+small,positive,the;small,positive,selection;small,positive,selection
+[[[good,positive,shoe string onions;[[[good,positive,goat cheese pizza;[[[good,positive,grilled asparagus;[[[good,positive,fried brie with fruit;[[[good,positive,Aspect=shoe string onions, goat cheese pizza, grilled asparagus, fried brie with fruit
+
+'s BEST,positive,Winelist;'s BEST,positive,Winelist
+BEST,positive,Winelist;BEST,positive,Aspect=Winelist
+
+Open,positive,Pizza;Open,positive,Coffee;Open,positive,Pizza, Coffee
+Cool,positive,Place;Cool,positive,Aspect=Place;[Best,positive,Pizza;[Best,positive,Coffee;[Best,positive,Aspect=Pizza, Coffee
+
+ creative,positive,Mioposto; creative,positive,Mioposto; creative,positive,Mioposto
+creative,positive,pizza menu;creative,positive,Aspect=pizza menu;delicious,positive,pizza menu;delicious,positive,Aspect=pizza menu
+
+Great,positive,open;Great,positive,friendly ambience;Great,positive,open, friendly ambience
+Great open,positive,ambience;Great open,positive,Aspect=ambience;friendly,positive,ambience;friendly,positive,Aspect=ambience
+
+friendly,positive,servers;friendly,positive,servers
+friendly,positive,servers behind the counter;friendly,positive,Aspect=servers behind the counter;helpful,positive,servers behind the counter;helpful,positive,Aspect=servers behind the counter
+
+Great,positive,food;Great,positive,food;spectacular,negative,location;spectacular,negative,location
+Great,positive,food;Great,positive,Aspect=food;spectacular,positive,location;spectacular,positive,Aspect=location;friendly,positive,service;friendly,positive,Aspect=service
+
+AMAZING,positive,CAN WOW;AMAZING,positive,AMAZING WOW
+NICE,positive,PEOPLE;NICE,positive,Aspect=PEOPLE;AMAZING,positive,FOOD;AMAZING,positive,Aspect=FOOD
+
+Great,positive,food;Great,positive,atmosphere;Great,positive,food, atmosphere;Great,positive,food, atmosphere
+Great,positive,food;Great,positive,Aspect=food;awesome,positive,atmosphere;awesome,positive,Aspect=atmosphere
+
+delicious,positive,Eggs;delicious,positive,pancakes;delicious,positive,Eggs, pancakes
+[[[[delicious,positive,Eggs;[[[[delicious,positive,pancakes;[[[[delicious,positive,potatoes;[[[[delicious,positive,fresh fruit;[[[[delicious,positive,yogurt;[[[[delicious,positive,Aspect=Eggs, pancakes, potatoes, fresh fruit, yogurt
+
+great,positive,meal;great,positive,sometimes;decadent,negative,omikase platter;decadent,negative,omikase platter
+great,positive,meal;great,positive,Aspect=meal;decadent,positive,fish on the omikase platter;decadent,positive,Aspect=fish on the omikase platter;perfect,positive,fish on the omikase platter;perfect,positive,Aspect=fish on the omikase platter
+
+plus,negative,rice;plus,negative,rice;plus,negative,rice
+accomodating,positive,waitstaff;accomodating,positive,Aspect=waitstaff
+
+Unbeatable,negative,sushi;Unbeatable,negative,sushi
+Unbeatable,positive,sushi;Unbeatable,positive,Aspect=sushi
+
+best,positive,sushi;best,positive,sushi;fantastic,negative,sushi;fantastic,negative,describe
+best,positive,sushi;best,positive,Aspect=sushi
+
+Good,positive,Sushi;Good,positive,High Price;Good,positive,Sushi, High Price
+Good,negative,Sushi;Good,negative,Aspect=Sushi
+
+amazing,positive,Murphy;amazing,positive,Murphy
+amazing,positive,Murphy's;amazing,positive,Aspect=Murphy's
+
+die for,positive,Brunch;die for,positive,egg white omelet;die for,positive,Brunch, egg white omelet;die for,positive,Brunch, egg white omelet
+freshly prepared,positive,food;freshly prepared,positive,Aspect=food
+
+Save room,positive,desserts;Save room,positive,desserts;Save room,positive,desserts
+scrumptious,positive,desserts;scrumptious,positive,Aspect=desserts
+
+extensive,positive,wine list;extensive,positive,ambiance;extensive,positive,wine list, ambiance;extensive,positive,wine list, ambiance
+extensive,positive,wine list;extensive,positive,Aspect=wine list;won't forget,positive,ambiance;won't forget,positive,Aspect=ambiance
+
+Love,positive,enchiladas;Love,positive,chicken soup;Love,positive,enchiladas, chicken soup;chicken soup,negative,chicken sou;chicken soup,negative,chicken soup
+[Love,positive,enchiladas;[Love,positive,chicken soup;[Love,positive,Aspect=enchiladas, chicken soup
+
+busy,positive,service;busy,positive,service;table,negative,service;table,negative,a service
+efficient,positive,service;efficient,positive,Aspect=service
+
+excellent,positive,sushi;excellent,positive,wait staff;excellent,positive,sushi, wait staff;quick,negative,staff;quick,negative,staff
+excellent,positive,sushi;excellent,positive,Aspect=sushi;quick,positive,wait staff;quick,positive,Aspect=wait staff
+
+Great,positive,food;Great,positive,Margaritas;Great,positive,food, Margaritas
+Great,positive,food;Great,positive,Aspect=food;better,positive,Margaritas;better,positive,Aspect=Margaritas
+
+busy,negative,service;busy,negative,service
+quick,positive,service;quick,positive,Aspect=service
+
+colorful,positive,art;colorful,positive,art
+colorful,positive,art on the walls;colorful,positive,Aspect=art on the walls
+
+awesome deal,positive,lunch menu;awesome deal,positive,lunch menu
+awesome,positive,lunch menu;awesome,positive,Aspect=lunch menu
+
+Fresh,positive,ingrediants;Fresh,positive,ingrediants;tasty,negative,ingrediants;tasty,negative,super tasty;tasty,negative,ingrediants, super tasty
+Fresh,positive,ingrediants;Fresh,positive,Aspect=ingrediants;tasty,positive,ingrediants;tasty,positive,Aspect=ingrediants
+
+Best,positive,food;Best,positive,phenominal service;Best,positive,food, phenominal service
+Best,positive,food;Best,positive,Aspect=food;phenominal,positive,service;phenominal,positive,Aspect=service
+
+finicky,positive,sushi eater;finicky,positive,sushi eater
+freshest,positive,fish;freshest,positive,Aspect=fish;superb,positive,service;superb,positive,Aspect=service
+
+innovative,negative,selection;innovative,negative,selection
+innovative,positive,selection;innovative,positive,Aspect=selection;nice,positive,sushi;nice,positive,Aspect=sushi;traditional,positive,sushi;traditional,positive,Aspect=sushi
+
+not worth,negative,regular menu;not worth,negative,regular menu
+above average,neutral,regular menu;above average,neutral,Aspect=regular menu;not worth the snotty attitude,neutral,regular menu;not worth the snotty attitude,neutral,Aspect=regular menu
+
+expertly,positive,fish;expertly,positive,Jellyfish;great,negative,sushi fan;great,negative,sushi fan
+love expertly cut,positive,fish;love expertly cut,positive,Aspect=fish;great,positive,sake;great,positive,Aspect=sake;killer,positive,SOHO location;killer,positive,Aspect=SOHO location
+
+best,positive,sushi;best,positive,sushi
+best,positive,BLUE RIBBON SUSHI;best,positive,Aspect=BLUE RIBBON SUSHI
+
+fantastic reputation,positive,Blue Ribbon;fantastic reputation,positive,Blue Ribbon
+fantastic,positive,Blue Ribbon;fantastic,positive,Aspect=Blue Ribbon
+
+Great value,positive,sushi;Great value,positive,sushi;Great value,positive,sushi;nice,negative,setting;nice,negative,setting;nice,negative,setting, setting
+Great value,positive,sushi;Great value,positive,Aspect=sushi;high quality,positive,sushi;high quality,positive,Aspect=sushi;,,
+
+Try,positive,. Chef Choice for sushi;Try,positive,the Chef Choice for sushi;incredible,negative,smoked yellowtail;incredible,negative,smoked yellowtail;incredible,negative,smoked yellowtail
+incredible,positive,smoked yellowtail;incredible,positive,Aspect=smoked yellowtail;tasty,positive,rolls;tasty,positive,Aspect=rolls
+
+Poor,negative,customer service;Poor,negative,poor pizza;Poor,negative,customer service, poor pizza
+[Poor,negative,customer service;[Poor,negative,pizza;[Poor,negative,Aspect=customer service, pizza
+
+favorite,positive,pizza;favorite,positive,pizza places;favorite,positive,pizza, pizza places
+lacks quality and good taste,negative,pizza;lacks quality and good taste,negative,Aspect=pizza
+
+better,positive,frozen pizza;better,positive,frozen pizza
+better,negative,pizza;better,negative,Aspect=pizza
+
+the,positive,location is
+nice,positive,location;nice,positive,Aspect=location
+
+shocked,negative,place;shocked,negative,place
+fantastic,positive,place;fantastic,positive,Aspect=place
+
+ok,negative,food;ok,negative,food;ok,negative,food
+ok,neutral,food;ok,neutral,Aspect=food;poor,negative,service;poor,negative,Aspect=service
+
+AVOID,positive,PLACE;AVOID,positive,PLACE
+AVOID,negative,PLACE;AVOID,negative,Aspect=PLACE
+
+cozy,positive,atmosphere;cozy,positive,atmosphere;horrible,negative,service;horrible,negative,I service
+cozy,positive,atmosphere;cozy,positive,Aspect=atmosphere;horrible,negative,service;horrible,negative,Aspect=service
+
+Best,positive,Cakes in Town;Best,positive,Cakes in Town
+Best,positive,Crab Cakes;Best,positive,Aspect=Crab Cakes
+
+Great,positive, seasonal fish;Great,positive,seafood;Great,positive,Great seasonal fish, seafood
+[Great,positive,seasonal fish;[Great,positive,seafood;[Great,positive,Aspect=seasonal fish, seafood;classy,positive,waterfront setting;classy,positive,Aspect=waterfront setting
+
+Great,positive,Pizza;Great,positive,Poor Service;Great,positive,Pizza, Poor Service
+Great,positive,Pizza;Great,positive,Aspect=Pizza;Poor,negative,Service;Poor,negative,Aspect=Service
+
+Love,positive,pizza;Love,positive,pizza
+[Love,positive,pizza;[Love,positive,mushroom pizza;[Love,positive,Aspect=pizza, mushroom pizza
+
+great,positive,pizza;great,positive,poor service;great,positive,pizza, poor service
+great,positive,pizza;great,positive,Aspect=pizza;poor,negative,service;poor,negative,Aspect=service
+
+great,positive,food;great,positive,food;The bloody,negative,mary;The bloody,negative,a mary
+great,positive,food;great,positive,Aspect=food;mean,positive,bloody mary;mean,positive,Aspect=bloody mary
+
+love,positive,love;love,positive,here
+love,positive,breakfast;love,positive,Aspect=breakfast
+
+addicting,negative,crab eggs benedict;addicting,negative,crab eggs benedict
+addicting,positive,crab eggs benedict;addicting,positive,Aspect=crab eggs benedict
+
+crispiness,positive,prawns;crispiness,positive,prawns
+fresh,positive,prawns;fresh,positive,Aspect=prawns;crispiness,positive,batter;crispiness,positive,Aspect=batter;crunchy,positive,walnuts;crunchy,positive,Aspect=walnuts;tasty,positive,walnuts;tasty,positive,Aspect=walnuts
+
+finish,negative,scallops;finish,negative,prawns;finish,negative,scallops, prawns
+[fresh,positive,scallops;[fresh,positive,prawns;[fresh,positive,Aspect=scallops, prawns;nicely cooked,positive,scallops;nicely cooked,positive,prawns;nicely cooked,positive,Aspect=scallops, prawns
+
+Chintzy,positive,portions;Chintzy,positive,portions
+Chintzy,negative,portions;Chintzy,negative,Aspect=portions
+
+perfectly good,positive,sushi;perfectly good,positive,sushi
+good,negative,sushi;good,negative,Aspect=sushi;moderately priced,negative,restaurant;moderately priced,negative,Aspect=restaurant
+
+Terrible,negative,service;Terrible,negative,food;Terrible,negative,service, food;Terrible,negative,service, food;pricey,positive,service;pricey,positive,, service
+Terrible,negative,service;Terrible,negative,Aspect=service;ok,neutral,food;ok,neutral,Aspect=food
+
+ok,negative,Food;ok,negative,Food;ok,negative,Food
+ok,neutral,Food;ok,neutral,Aspect=Food;pricey,neutral,Food;pricey,neutral,Aspect=Food;isn't a fancy,neutral,restaurant;isn't a fancy,neutral,Aspect=restaurant
+
+open feel,positive,restaurant;open feel,positive,restaurant
+plus,positive,feel;plus,positive,Aspect=feel;open,positive,feel;open,positive,Aspect=feel
+
+cheap,negative,sushi;cheap,negative,sushi;worth,positive,sushi;worth,positive,cheapest
+isn't the cheapest,positive,sushi;isn't the cheapest,positive,Aspect=sushi;worth,positive,sushi;worth,positive,Aspect=sushi
+
+charming,positive,location;charming,positive,location
+poor,negative,customer service;poor,negative,Aspect=customer service
+
+good,positive,food;good,positive,food;attitude,negative,restaurant;attitude,negative,, restaurant
+good,positive,food;good,positive,Aspect=food;indifferent,negative,restaurant staff;indifferent,negative,Aspect=restaurant staff
+
+fresh,positive,fish;fresh,positive,fish
+fresh,negative,fish;fresh,negative,Aspect=fish;thin,negative,fish;thin,negative,Aspect=fish
+
+enjoyed,positive,black cod in sake kasu;enjoyed,positive,especially cod in sake kasu
+enjoyed,positive,black cod in sake kasu;enjoyed,positive,Aspect=black cod in sake kasu
+
+yummy,positive,port;yummy,positive,port
+yummy,positive,dessert of a port and chocolate tasting;yummy,positive,Aspect=dessert of a port and chocolate tasting
+
+Great,positive,drinks;Great,positive,corn beef hash;Great,positive,drinks, corn beef hash
+[[[[Great,positive,drinks;[[[[Great,positive,corn beef hash;[[[[Great,positive,coffee;[[[[Great,positive,B Fast burritos;[[[[Great,positive,menu;[[[[Great,positive,Aspect=drinks, corn beef hash, coffee, B Fast burritos, menu
+
+Best,positive,. Neighborhood Standby;Best,positive,Best Neighborhood Standby
+Best,positive,Standby;Best,positive,Aspect=Standby
+
+Good,positive,Food;Good,positive,Great Service;Good,positive,Food, Great Service
+Good,positive,Food;Good,positive,Aspect=Food;Great,positive,Service;Great,positive,Aspect=Service
+
+incredible,positive,was decor;incredible,positive,was decor
+incredible,positive,wood decor;incredible,positive,Aspect=wood decor
+
+to hip,positive,music;to hip,positive,music
+annoying,negative,subwoofer to the sound system;annoying,negative,Aspect=subwoofer to the sound system
+
+was,positive,shrimp appetizer;was,positive,shrimp appetizer
+alright,neutral,shellfish and shrimp appetizer;alright,neutral,Aspect=shellfish and shrimp appetizer
+
+perfect,positive,. desert;perfect,positive,desert desert
+perfect,positive,desert;perfect,positive,Aspect=desert;perfect,positive,dinner;perfect,positive,Aspect=dinner
+
+attentive,positive,servers;attentive,positive,servers;friendly,negative,server;friendly,negative,. servers
+attentive,positive,servers;attentive,positive,Aspect=servers;friendly,positive,servers;friendly,positive,Aspect=servers
+
+good,positive,sake suggestions;good,positive,sake suggestions
+good,positive,sake;good,positive,Aspect=sake
+
+BEST,positive,dishes;BEST,positive,dishes
+BEST,positive,lobster 3 ways;BEST,positive,Aspect=lobster 3 ways
+
+after,positive,food;after,positive,food
+creative,positive,menu;creative,positive,Aspect=menu
+
+good,positive,food;good,positive,food
+good,negative,food;good,negative,Aspect=food;overpriced,negative,food;overpriced,negative,Aspect=food
+
+friendly,positive,found;friendly,positive,staff
+friendly,positive,cooks;friendly,positive,Aspect=cooks
+
+disappointed,negative,menu;disappointed,negative,menu
+won ’ t be disappointed,positive,menu;won ’ t be disappointed,positive,Aspect=menu
+
+ creative,positive,pizza ’; creative,positive,pizza ’
+creative,positive,menu;creative,positive,Aspect=menu
+
+not huge,negative,pizza ’;not huge,negative,pizza ’
+thin,neutral,crust;thin,neutral,Aspect=crust
+
+ sinful,negative,food; sinful,negative,food
+sinful,positive,food;sinful,positive,Aspect=food
+
+decadent,negative,The;decadent,negative,specialty
+decadent,positive,pancakes;decadent,positive,Aspect=pancakes
+
+Nothing,negative,menu;Nothing,negative,menu
+amazing,positive,menu;amazing,positive,Aspect=menu
+
+decent,positive,fish;decent,positive,fish
+decent,negative,fish;decent,negative,Aspect=fish
+
+dissappointment,negative,chef special dinner;dissappointment,negative,spent special dinner
+dissappointment,negative,chef special dinner;dissappointment,negative,Aspect=chef special dinner
+
+best,positive,dish;best,positive,dish
+best,positive,honwy walnut prawns;best,positive,Aspect=honwy walnut prawns;outstanding,positive,honwy walnut prawns;outstanding,positive,Aspect=honwy walnut prawns
+
+good,positive,music;good,positive,atmosphere;good,positive,music, atmosphere
+nice,positive,vibe;nice,positive,Aspect=vibe;[good,positive,music;[good,positive,atmosphere;[good,positive,Aspect=music, atmosphere;happy,positive,people;happy,positive,Aspect=people
+
+delectable,negative,menu;delectable,negative,menu
+delectable,positive,menu;delectable,positive,Aspect=menu
+
+The,positive,waiters;The,positive,waiters
+experienced,positive,waiters;experienced,positive,Aspect=waiters;helpful,positive,waiters;helpful,positive,Aspect=waiters
+
+good tasting,negative,fish;good tasting,negative,fish
+large,positive,portions;large,positive,Aspect=portions;creative,positive,sushi dishes;creative,positive,Aspect=sushi dishes
+
+thick,positive,pepperoni;thick,positive,pepperoni
+big thick,positive,pepperoni;big thick,positive,Aspect=pepperoni
+
+thick,negative,pepperoni;thick,negative,pepperoni
+thick,positive,pepperoni's;thick,positive,Aspect=pepperoni's;Yum,positive,pepperoni's;Yum,positive,Aspect=pepperoni's
+
+not exactly the best,negative,pizza;not exactly the best,negative,pizza
+not exactly the best,positive,pizza;not exactly the best,positive,Aspect=pizza;good,positive,pizza;good,positive,Aspect=pizza
+
+enough,negative,Portions;enough,negative,Portions
+enough,neutral,Portions;enough,neutral,Aspect=Portions
+
+Fair,positive,menu selection;Fair,positive,menu selection
+Fair,neutral,menu selection;Fair,neutral,Aspect=menu selection
+
+interesting,neutral,appetizer;interesting,neutral,appetizer
+interesting,positive,appetizer;interesting,positive,Aspect=appetizer;savory,positive,Creme Brulee;savory,positive,Aspect=Creme Brulee;delicious,positive,Creme Brulee;delicious,positive,Aspect=Creme Brulee
+
+exceptional,positive,service;exceptional,positive,service;friendly,negative,waiters;friendly,negative,service;friendly,negative,waiters, service
+exceptional,positive,service;exceptional,positive,Aspect=service;friendly,positive,waiters;friendly,positive,Aspect=waiters
+
+big,negative,portions;big,negative,portions
+big,neutral,portions;big,neutral,Aspect=portions
+
+Groovy,positive,music;Groovy,positive,music
+casual,positive,music;casual,positive,Aspect=music
+
+have,negative,bathroom attendant;have,negative,bathroom attendant
+odd,negative,restroom;odd,negative,Aspect=restroom
+
+tasty,positive,Mercedes restaurant;tasty,positive,Mercedes restaurant;tasty,positive,Mercedes restaurant
+awesome,positive,service;awesome,positive,Aspect=service
+
+out of this world,negative,, catering;out of this world,negative,The catering
+out of this world,positive,catering;out of this world,positive,Aspect=catering;rocks my world,positive,Raouls chicken vegetable soup;rocks my world,positive,Aspect=Raouls chicken vegetable soup
+
+, suberb,positive,Drinks;, suberb,positive,Drinks
+suberb,positive,Drinks;suberb,positive,Aspect=Drinks
+
+Mediocre,negative,Service;Mediocre,negative,Service
+Mediocre,neutral,Service;Mediocre,neutral,Aspect=Service
+
+excellent,positive,Snooze;excellent,positive,Snooze
+excellent,negative,Snooze;excellent,negative,Aspect=Snooze;high brow,negative,menu;high brow,negative,Aspect=menu
+
+inventive,negative,$ pancakes;inventive,negative,The pancakes
+inventive,negative,pancakes;inventive,negative,Aspect=pancakes;over-priced,negative,pancakes;over-priced,negative,Aspect=pancakes
+
+large,positive,( pancakes;large,positive,expense pancakes;unique,negative,The;unique,negative,expense
+should be larger,negative,pancakes;should be larger,negative,Aspect=pancakes
+
+report,positive,Ray Boathouse;report,positive,expectations Boathouse
+exceeded my expectations,positive,Ray's Boathouse;exceeded my expectations,positive,Aspect=Ray's Boathouse
+
+gorgeous,positive,a Sound views;gorgeous,positive,suspected Sound views
+gorgeous,positive,Sound views;gorgeous,positive,Aspect=Sound views
+
+lovely,positive,server Brooke;lovely,positive,server Brooke
+lovely,positive,Brooke;lovely,positive,Aspect=Brooke;quickly,positive,Brooke;quickly,positive,Aspect=Brooke
+
+pile,positive,the soy dressing;pile,positive,splurged soy dressing;pile,positive,splurged soy dressing;pile,positive,splurged soy dressing
+enormous,positive,white gulf prawns;enormous,positive,Aspect=white gulf prawns;fantastic,positive,manila clams;fantastic,positive,Aspect=manila clams;tasty,positive,soy dressing;tasty,positive,Aspect=soy dressing
+
+enjoyed,positive,entr;enjoyed,positive,eacute;enjoyed,positive,pecorino, eacute
+enjoyed,positive,seared Alaskan sea scallops;enjoyed,positive,Aspect=seared Alaskan sea scallops
+
+unique,positive,black olive butter;unique,positive,black olive butter
+unique,positive,scallops;unique,positive,Aspect=scallops;tasty,positive,scallops;tasty,positive,Aspect=scallops
+
+enjoyed,positive,grilled Alaskan King Salmon with delectable creamed Washington russet potatoes and crisp green beans;enjoyed,positive,grilled Alaskan King Salmon with delectable creamed Washington russet potatoes and crisp green beans
+enjoyed,positive,grilled Alaskan King Salmon;enjoyed,positive,Aspect=grilled Alaskan King Salmon;delectable,positive,creamed Washington russet potatoes;delectable,positive,Aspect=creamed Washington russet potatoes;crisp,positive,green beans;crisp,positive,Aspect=green beans
+
+superb,positive,had;superb,positive,plate
+superb,positive,plate;superb,positive,Aspect=plate
+
+wonderful,positive,server;wonderful,positive,food;wonderful,positive,server, food
+[wonderful,positive,server;[wonderful,positive,food;[wonderful,positive,Aspect=server, food
+

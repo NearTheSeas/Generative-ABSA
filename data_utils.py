@@ -259,15 +259,18 @@ def get_prompt_aste_targets(sents, labels):
         for tup in tuples:
             ap, op, sent = tup[0], tup[1], tup[2]
             apStr = [source_sents[i][j] for j in ap]
-            annotation = f"{senttag2word[sent]}|Aspect={' '.join(apStr)}"
-            # if '<Aspect>' in sents[i][ap[0]]:
-            #     pass
-            # else:
-            #     if len(ap) == 1:
-            #         sents[i][ap[0]] = f"<Aspect>{sents[i][ap[0]][:-1]}</Aspect>"
-            #     else:
-            #         sents[i][ap[0]] = f"<Aspect>{sents[i][ap[0]][:-1]}"
-            #         sents[i][ap[-1]] = f"{sents[i][ap[-1]][:-1]}</Aspect>"
+            opStr = [source_sents[i][j] for j in op]
+            if '[' in sents[i][ap[0]]:
+                pass
+            else:
+                if len(ap) == 1:
+                    sents[i][ap[0]] = f"[{sents[i][ap[0]]}|aspect]"
+                else:
+                    sents[i][ap[0]] = f"[{sents[i][ap[0]]}"
+                    sents[i][ap[-1]] = f"{sents[i][ap[-1]]}|aspect]"
+                    
+            # annotation = f"opinion|aspect={' '.join(apStr)}|{senttag2word[sent]}"
+            annotation = f"{senttag2word[sent]}|aspect={' '.join(apStr)}"
             if '[' in sents[i][op[0]]:
                 if len(op) == 1:
                     sents[i][op[0]] = f"[{sents[i][op[0]][:-1]}, {' '.join(apStr)}]"
@@ -395,7 +398,7 @@ class ABSADataset(Dataset):
                     target = ' '.join(targets[i])
                 else:
                     target = targets[i]
-            if self.paradigm == 'prompt':
+            elif self.paradigm == 'prompt':
                 if self.task != 'tasd':
                     target = ' '.join(targets[i])
             else:

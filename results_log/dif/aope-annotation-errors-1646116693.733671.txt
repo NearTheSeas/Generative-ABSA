@@ -1,0 +1,309 @@
+portions,portions
+portions,adequate
+
+place,great;meal,delicious
+meal,delicious
+
+lemon chicken,not good;honey walnut prawns,not good
+lemon chicken,sweet;honey walnut prawns,not good
+
+wine list,wonderful;food,reminds me
+wine list,wonderful
+
+food,is
+place,relax;food,finest quality
+
+food,real
+food,best
+
+Rice,dry;tuna,was so fresh
+Rice,too dry;tuna,wasn't so fresh
+
+place,expensive;portions,small
+place,expensive
+
+service,was
+service,stellar
+
+food,fine;salsa,tastier-than-normal
+food,fine
+
+draft,Great;bottle selection,Great;pizza,rocks
+draft and bottle selection,Great
+
+jukebox,best
+jukebox's,best
+
+food,great;bartenders,extra mile
+food,great
+
+owners,fun;beer selection,worth
+owners,great;beer selection,worth staying for
+
+fish,variety
+fish,wide variety
+
+outside patio area,abbreviated
+menu,abbreviated
+
+food,Excellent;ambience,nice;food,expensive;food,expensive;ambience,nice;food,expensive;food,expensive;ambience,nice;food,expensive;food,expensive;ambience,nice
+food,Excellent;ambience,nice
+
+food,keeps me coming back
+location,not the greatest
+
+,
+environment,cosy
+
+financial spot,Great
+mexican spot,Great
+
+seating,good;service,quick
+service,quick
+
+taco salads,love;burritos,love;enchiladas,love
+taco salads,good;burritos,good;enchiladas,good;place,love
+
+Dinners,excellent;food,quality
+Dinners,excellent
+
+food,not what it once was;service,worst
+service,worst
+
+Place,Cool;Pizza,Best;Cool,Best
+Place,Cool;Pizza,Best;Coffee,Best
+
+servers,helpful
+servers behind the counter,helpful
+
+Service,slow;waitress,slow
+Service,slow
+
+Eggs,delicious;pancakes,delicious;potato,delicious;yogurt,delicious
+Eggs,delicious;pancakes,delicious;potatoes,delicious;fresh fruit,delicious;yogurt,delicious
+
+meal,great;fish on the omikase platter,decadent
+meal,great;fish on the omikase platter,perfect
+
+waiter,perfect;sake,perfect
+sake,perfect
+
+nigiri,Melt;sashmi,Melt;rolls,tasty
+rolls,tasty
+
+Murphy,amazing
+Murphy's,amazing
+
+Brunch at Murphy,die for;egg white omelet,die for;food,freshly prepared
+food,freshly prepared
+
+restaurant,extensive;wine list,extensive;ambiance,n't forget
+wine list,extensive;ambiance,won't forget
+
+enchiladas,Love;chicken soup,Love;specials,Love
+enchiladas,Love;chicken soup,Love
+
+atmosphere,ok
+atmosphere,okay
+
+Caesar salad,ordered
+Caesar salad,couldn't eat
+
+art,colorful
+art on the walls,colorful
+
+meal,never had one bad
+meal,bad
+
+food,plenty
+food,plenty of
+
+ingrediants,Fresh
+ingrediants,tasty
+
+sushi eater,finicky;fish,freshest;service,superb
+fish,freshest;service,superb
+
+selection,innovative;balance of traditional sushi,nice
+selection,innovative;sushi,traditional
+
+Murphy,top of the list
+brunch food,average
+
+regular menu,above average
+regular menu,not worth the snotty attitude
+
+fish,expertly cut;sake,great;Sea Urchin,love;Crab,love;Sea Bream,love;Trout,love;Blue Fin Tuna,love;Eel,love
+fish,expertly cut;sake,great;SOHO location,killer
+
+sushi,best
+BLUE RIBBON SUSHI,best
+
+sushi,value;setting,nice
+sushi,nice setting;setting,nice
+
+Chef Choice,Try;smoked yellowtail,incredible;rolls,tasty
+smoked yellowtail,incredible;rolls,tasty
+
+customer service,Poor;pizza,poor
+customer service,Poor;pizza,Poor
+
+pizza places,favorite;pizza places,favorite;pizza,and taste
+pizza,lacks quality and good taste
+
+frozen pizza,better
+pizza,better
+
+Mioposto,positive;location,nice
+location,nice
+
+food,fantastic;is staff,perfect
+food,fantastic;waiting staff,perfect
+
+food,ok;service,poor;food,cold
+food,ok;service,poor
+
+service,without ever getting
+service,without ever
+
+fish,seasonal;,;Great setting,classy
+seasonal fish,Great;seafood,Great;waterfront setting,classy
+
+servers,n't like
+servers,don't like;young woman,don't like
+
+place,little;service,corporate-like
+place,little
+
+menu items,hit;mimosas,serve
+menu items,hit
+
+staff,courteous
+staff,chinese
+
+brocolli,not finish;scallops,would cooked
+scallops,nicely cooked;prawns,nicely cooked
+
+sushi,good;slices of fish,larger
+sushi,good;restaurant,moderately priced
+
+restaurant,plus
+feel,open
+
+omikas,disappoint
+omikase,scored low on creativity and selection
+
+location,charming;food,poor;customer service,poor
+customer service,poor
+
+food,good;service,lack of
+food,good;restaurant staff,indifferent
+
+fish,fresh
+fish,thin
+
+Ray,THE place;seafood dinners,high quality
+seafood dinners,high quality
+
+dessert,unusual;port and chocolate tasting,yummy
+dessert of a port and chocolate tasting,yummy
+
+drinks,Great;corn beef hash,Great;coffee,Great;burritos,Fast;menu,Gluten Free
+drinks,Great;corn beef hash,Great;coffee,Great;B Fast burritos,Great;menu,Great
+
+music,hip
+subwoofer to the sound system,annoying
+
+seafood,freshest
+seafood,OK
+
+asparagus ,perfectly prepared
+asparagus,perfectly prepared
+
+with sauce,indistinguishable;red wine reduction,indistinguishable
+peppercorn sauce,indistinguishable;red wine reduction,indistinguishable
+
+sake suggestions,good
+sake,good
+
+lobster,BEST
+lobster 3 ways,BEST
+
+food,excited;menu,creative
+menu,creative
+
+wait staff,friendly;cooks,friendly
+cooks,friendly
+
+decor,small;restaurant,intimate
+decor,simplicity;feeling,intimate
+
+gourmet pizza,delicious
+pizza ’ s,delicious
+
+menu,disappointed
+menu,won ’ t be disappointed
+
+pizza ’ s,thin crust;menu,creative
+pizza ’ s,thin;menu,creative
+
+dish,best;honwy walnut prawns,best
+honwy walnut prawns,outstanding
+
+pepperoni,thick
+pepperoni's,Yum
+
+music,Groovy
+music,casual
+
+bathroom attendant,odd
+restroom,odd
+
+Mercedes restaurant,tasty;service,awesome
+service,awesome
+
+chips,yummy;salsa,yummy
+chips and salsa,yummy
+
+catering,out of this world;Raouls chicken vegetable soup,rocks
+catering,out of this world;Raouls chicken vegetable soup,rocks my world
+
+presentation of Snooze,excellent;menu,high brow
+Snooze,excellent;menu,high brow
+
+hour-glass shaped glass,skinny
+juice,small
+
+pancakes,inventive;pancakes,over-priced
+pancakes,over-priced
+
+pancakes,large
+pancakes,should be larger
+
+dinner at Ray Boathouse,exceeded my expectations
+Ray's Boathouse,exceeded my expectations
+
+Ray,of Seattle institution;a views,gorgeous;food,more due to;service,more due to
+Sound views,gorgeous
+
+views,best
+Ray's,happy surprise
+
+server,lovely
+Brooke,quickly
+
+Shilshole Sampler,beautiful;white gulf prawns,enormous;manila clams,fantastic;scallops,tasty
+white gulf prawns,enormous;manila clams,fantastic;soy dressing,tasty
+
+seared Alaskan sea scallops,enjoyed;chard,enjoyed;artichoke hearts,enjoyed;fennel,enjoyed;pecorino toscano,enjoyed
+seared Alaskan sea scallops,enjoyed
+
+grilled Alaskan King Salmon,enjoyed;creamed Washington russet potatoes,enjoyed
+grilled Alaskan King Salmon,enjoyed;creamed Washington russet potatoes,delectable;green beans,crisp
+
+items,superb
+plate,superb
+
+server,attentive;Ray,appropriate
+server,attentive;Ray's,appropriate
+

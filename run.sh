@@ -3,7 +3,7 @@
 python main.py --task aste \
             --dataset 16res \
             --model_name_or_path t5-base \
-            --paradigm annotation \
+            --paradigm prompt \
             --n_gpu 1 \
             --do_train \
             --do_direct_eval \
@@ -11,5 +11,5 @@ python main.py --task aste \
             --gradient_accumulation_steps 1 \
             --eval_batch_size 4 \
             --learning_rate 3e-4 \
-            --num_train_epochs 5 \
+            --num_train_epochs 30 \
             --seed 1

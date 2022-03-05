@@ -149,6 +149,7 @@ def extract_triplets(seq):
 
 def extract_triplets_prompt(seq):
     ops = re.findall('\[.*?\]', seq)
+    ops = list(filter(lambda x:len(x.split('|')) ==  3 , ops))
     ops = [ap[1:-1] for ap in ops]
     triplets = []
     for op in ops:
@@ -163,8 +164,6 @@ def extract_triplets_prompt(seq):
                 aspects = aspects.split(', ')
                 for item in aspects:
                     triplets.append((a, b, item))
-            else:
-                triplets.append((a, b, c))
         # for TASD
         else:
             if ',' in b:
@@ -309,6 +308,13 @@ def fix_preds_aste(all_pairs, sents):
                     new_pairs.append((new_at, new_sentiment, new_ot))
                 # print(pair, '>>>>>', word_and_sentiment)
                 # print(all_target_pairs[i])
+            log_file_path = f"results_log/edit-distance-outputs.txt"
+
+            with open(log_file_path, "a+", encoding='utf-8') as f:
+                f.write(';'.join(','.join(item) for item in pairs))
+                f.write('---')
+                f.write(';'.join(','.join(item) for item in new_pairs))
+                f.write('\n')
             all_new_pairs.append(new_pairs)
 
     return all_new_pairs

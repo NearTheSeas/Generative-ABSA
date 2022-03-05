@@ -18,3 +18,183 @@ Sun Feb 27 20:24:02 2022
 aste on 16res under annotation; Train bs=4, num_epochs = 5
 Raw F1 = 0.6839, Fixed F1 = 0.7126
 
+============================================================
+Tue Mar  1 19:41:36 2022
+aste on 16res under annotation; Train bs=4, num_epochs = 10
+Raw F1 = 0.6862, Fixed F1 = 0.7058
+
+============================================================
+Tue Mar  1 22:17:39 2022
+aste on 16res under annotation; Train bs=4, num_epochs = 5
+Raw F1 = 0.3970, Fixed F1 = 0.4315
+
+============================================================
+Wed Mar  2 23:05:35 2022
+aste on 16res under prompt; Train bs=4, num_epochs = 5
+Raw F1 = 0.3532, Fixed F1 = 0.4409
+
+============================================================
+Wed Mar  2 23:20:27 2022
+aste on 16res under prompt; Train bs=4, num_epochs = 3
+Raw F1 = 0.3550, Fixed F1 = 0.4455
+
+============================================================
+Wed Mar  2 23:32:58 2022
+aste on 16res under prompt; Train bs=4, num_epochs = 3
+Raw F1 = 0.3550, Fixed F1 = 0.4455
+
+============================================================
+Thu Mar  3 09:47:25 2022
+aste on 16res under prompt; Train bs=4, num_epochs = 3
+Raw F1 = 0.3364, Fixed F1 = 0.4416
+
+============================================================
+Thu Mar  3 10:08:59 2022
+aste on 16res under prompt; Train bs=4, num_epochs = 3
+Raw F1 = 0.3274, Fixed F1 = 0.4075
+
+============================================================
+Thu Mar  3 10:22:03 2022
+aste on 16res under prompt; Train bs=4, num_epochs = 3
+Raw F1 = 0.3365, Fixed F1 = 0.4052
+
+============================================================
+Thu Mar  3 10:31:19 2022
+aste on 16res under prompt; Train bs=4, num_epochs = 3
+Raw F1 = 0.3365, Fixed F1 = 0.4052
+
+============================================================
+Thu Mar  3 10:39:20 2022
+aste on 16res under prompt; Train bs=4, num_epochs = 3
+Raw F1 = 0.3365, Fixed F1 = 0.4052
+
+============================================================
+Thu Mar  3 10:46:57 2022
+aste on 16res under prompt; Train bs=4, num_epochs = 1
+Raw F1 = 0.0000, Fixed F1 = 0.0000
+
+============================================================
+Thu Mar  3 10:54:31 2022
+aste on 16res under prompt; Train bs=4, num_epochs = 3
+Raw F1 = 0.0000, Fixed F1 = 0.0000
+
+============================================================
+Thu Mar  3 11:11:38 2022
+aste on 16res under prompt; Train bs=4, num_epochs = 3
+Raw F1 = 0.0000, Fixed F1 = 0.0000
+
+============================================================
+Thu Mar  3 11:35:12 2022
+aste on 16res under prompt; Train bs=4, num_epochs = 3
+Raw F1 = 0.0000, Fixed F1 = 0.0000
+
+============================================================
+Thu Mar  3 11:45:03 2022
+aste on 16res under prompt; Train bs=4, num_epochs = 3
+Raw F1 = 0.0000, Fixed F1 = 0.0000
+
+============================================================
+Thu Mar  3 12:00:28 2022
+aste on 16res under prompt; Train bs=4, num_epochs = 3
+Raw F1 = 0.0000, Fixed F1 = 0.0000
+
+============================================================
+Thu Mar  3 12:08:41 2022
+aste on 16res under prompt; Train bs=4, num_epochs = 3
+Raw F1 = 0.5771, Fixed F1 = 0.5968
+
+============================================================
+Thu Mar  3 12:19:37 2022
+aste on 16res under prompt; Train bs=4, num_epochs = 5
+Raw F1 = 0.5768, Fixed F1 = 0.6024
+
+============================================================
+Thu Mar  3 13:20:26 2022
+aste on 16res under prompt; Train bs=4, num_epochs = 30
+Raw F1 = 0.5913, Fixed F1 = 0.6126
+
+============================================================
+Thu Mar  3 13:51:03 2022
+aste on 16res under prompt; Train bs=4, num_epochs = 5
+Raw F1 = 0.5768, Fixed F1 = 0.6024
+
+============================================================
+Thu Mar  3 14:18:03 2022
+aste on 16res under prompt; Train bs=4, num_epochs = 5
+Raw F1 = 0.5986, Fixed F1 = 0.6143
+
+============================================================
+Thu Mar  3 15:29:08 2022
+aste on 16res under annotation; Train bs=4, num_epochs = 5
+Raw F1 = 0.6839, Fixed F1 = 0.7126
+
+============================================================
+Thu Mar  3 16:27:24 2022
+aste on 16res under annotation; Train bs=4, num_epochs = 30
+Raw F1 = 0.6826, Fixed F1 = 0.7017
+
+============================================================
+Thu Mar  3 16:38:47 2022
+aste on 16res under extraction; Train bs=4, num_epochs = 5
+Raw F1 = 0.6591, Fixed F1 = 0.6724
+
+============================================================
+Thu Mar  3 18:35:33 2022
+aste on 16res under extraction; Train bs=4, num_epochs = 30
+Raw F1 = 0.6805, Fixed F1 = 0.7088
+
+============================================================
+Thu Mar  3 18:45:41 2022
+aste on 16res under prompt; Train bs=4, num_epochs = 5
+Raw F1 = 0.5986, Fixed F1 = 0.6143
+
+============================================================
+Thu Mar  3 19:31:21 2022
+aste on 16res under prompt; Train bs=4, num_epochs = 30
+Raw F1 = 0.6027, Fixed F1 = 0.6202
+
+============================================================
+Thu Mar  3 20:29:33 2022
+aste on 16res under annotation; Train bs=4, num_epochs = 5
+Raw F1 = 0.6839, Fixed F1 = 0.7126
+
+============================================================
+Fri Mar  4 19:45:21 2022
+aste on 16res under prompt; Train bs=4, num_epochs = 1
+Raw F1 = 0.7749, Fixed F1 = 0.0000
+
+============================================================
+Fri Mar  4 19:52:52 2022
+aste on 16res under prompt; Train bs=4, num_epochs = 1
+Raw F1 = 0.6671, Fixed F1 = 0.4632
+
+============================================================
+Fri Mar  4 20:06:58 2022
+aste on 16res under prompt; Train bs=4, num_epochs = 5
+Raw F1 = 0.7380, Fixed F1 = 0.5407
+
+============================================================
+Fri Mar  4 21:25:50 2022
+aste on 16res under prompt; Train bs=4, num_epochs = 1
+Raw F1 = 0.6671, Fixed F1 = 0.4632
+
+============================================================
+Fri Mar  4 21:43:19 2022
+aste on 16res under prompt; Train bs=4, num_epochs = 1
+Raw F1 = 0.4990, Fixed F1 = 0.5341
+
+============================================================
+Fri Mar  4 22:13:00 2022
+aste on 16res under prompt; Train bs=4, num_epochs = 5
+Raw F1 = 0.6017, Fixed F1 = 0.6143
+
+============================================================
+Fri Mar  4 22:53:33 2022
+aste on 16res under prompt; Train bs=4, num_epochs = 5
+Raw F1 = 0.6017, Fixed F1 = 0.6210
+
+============================================================
+Sat Mar  5 00:06:14 2022
+aste on 16res under prompt; Train bs=4, num_epochs = 30
+Raw F1 = 0.6089, Fixed F1 = 0.6265
+

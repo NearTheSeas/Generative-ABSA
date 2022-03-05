@@ -1,0 +1,10 @@
+============================================================
+Tue Mar  1 12:14:04 2022
+aope on rest16 under annotation; Train bs=4, num_epochs = 5
+Raw F1 = 0.7345, Fixed F1 = 0.7537
+
+============================================================
+Tue Mar  1 14:38:13 2022
+aope on rest16 under annotation; Train bs=4, num_epochs = 20
+Raw F1 = 0.7153, Fixed F1 = 0.7386
+

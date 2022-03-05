@@ -14,6 +14,7 @@ from data_utils import ABSADataset, data_samples
 from data_utils import write_results_to_log, read_line_examples_from_file
 from eval_utils import compute_scores
 from models.t5FineTuner import T5FineTuner, Tokenizer
+# from models.BART_FineTuner import BARTFineTuner, Tokenizer
 # from models.DeBERTa_Generator import DeBERTaGenerator, Tokenizer
 
 logger = logging.getLogger(__name__)
@@ -43,7 +44,7 @@ def init_args():
         default='semantic',
         type=str,
         required=True,
-        help="The way to construct target sentence, selected from: [annotation, extraction, semantic]"
+        help="The way to construct target sentence, selected from: [annotation, extraction, semantic, prompt]"
     )
     parser.add_argument("--do_train",
                         action='store_true',
@@ -160,7 +161,15 @@ def evaluate(data_loader, model, paradigm, task, sents):
 
         outputs.extend(dec)
         targets.extend(target)
-
+        
+    log_file_path = f"results_log/{task}-outputs.txt"
+    with open(log_file_path, "a+", encoding='utf-8') as f:
+        f.truncate()
+        for i  in range(len(outputs)) :
+            f.write(targets[i] + '\n')
+            f.write(outputs[i] + '\n')
+            f.write('\n')
+            
     raw_scores, fixed_scores, all_labels, all_preds, all_preds_fixed = compute_scores(
         outputs, targets, sents, paradigm, task)
     # results = {
@@ -331,7 +340,6 @@ if __name__ == '__main__':
         sents, _ = read_line_examples_from_file(
             f'data/{args.task}/{args.dataset}/test.txt')
 
-        print()
         test_dataset = ABSADataset(tokenizer,
                                    data_dir=args.dataset,
                                    data_type='test',

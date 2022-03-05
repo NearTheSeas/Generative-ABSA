@@ -99,63 +99,80 @@ import copy
 # local_time = time.strftime("%Y%m%d_%H_%M", local_time)
 # print(local_time)
 
-line ="Prefer to order it and pick it up though because I do n't like the servers , one young woman in particular ."
-labels = [([15], [11, 12, 13], 'NEG'), ([18, 19], [11, 12, 13], 'NEG')]
+# line ="Prefer to order it and pick it up though because I do n't like the servers , one young woman in particular ."
+# labels = [([15], [11, 12, 13], 'NEG'), ([18, 19], [11, 12, 13], 'NEG')]
 # line = 'Leon is an East Village gem : casual but hip , with well prepared basic French bistro fare , good specials , a warm and lively atmosphere '
 # labels = [([0], [7], 'POS'), ([0], [9], 'POS'), ([20], [19], 'POS'), ([26], [
 #     23], 'POS'), ([26], [25], 'POS'), ([15, 16, 17], [12, 13], 'POS')]
 
-sents = [line.split()]
-labels = [labels]
-senttag2word = {'POS': 'positive', 'NEG': 'negative', 'NEU': 'neutral'}
+# sents = [line.split()]
+# labels = [labels]
+# senttag2word = {'POS': 'positive', 'NEG': 'negative', 'NEU': 'neutral'}
 
-annotated_targets = []
-num_sents = len(sents)
-source_sents = copy.deepcopy(sents)
-for i in range(num_sents):
-    tuples = labels[i]
-    # tup: ([2], [5], 'NEG')
-    for tup in tuples:
-        ap, op, sent = tup[0], tup[1], tup[2]
-        apStr = [source_sents[i][j] for j in ap]
-        annotation = f"{senttag2word[sent]}|Aspect={' '.join(apStr)}"
-        # if '<Aspect>' in sents[i][ap[0]]:
-        #     pass
-        # else:
-        #     if len(ap) == 1:
-        #         sents[i][ap[0]] = f"<Aspect>{sents[i][ap[0]][:-1]}</Aspect>"
-        #     else:
-        #         sents[i][ap[0]] = f"<Aspect>{sents[i][ap[0]][:-1]}"
-        #         sents[i][ap[-1]] = f"{sents[i][ap[-1]][:-1]}</Aspect>"
-        if '[' in sents[i][op[0]]:
-            if len(op) == 1:
-                sents[i][op[0]] = f"[{sents[i][op[0]][:-1]}, {' '.join(apStr)}]"
-            else:
-                sents[i][op[-1]] = f"{sents[i][op[-1]][:-1]}, {' '.join(apStr)}]"
-        else:
-            if len(op) == 1:
-                sents[i][op[0]] = f"[{sents[i][op[0]]}|{annotation}]"
-            else:
-                sents[i][op[0]] = f"[{sents[i][op[0]]}"
-                sents[i][op[-1]] = f"{sents[i][op[-1]]}|{annotation}]"
-    annotated_targets.append(sents[i])
-seq = ' '.join(annotated_targets[0])
-print(line)
-print(seq)
-print('--------------------')
+# annotated_targets = []
+# num_sents = len(sents)
+# source_sents = copy.deepcopy(sents)
+# for i in range(num_sents):
+#     tuples = labels[i]
+#     # tup: ([2], [5], 'NEG')
+#     for tup in tuples:
+#         ap, op, sent = tup[0], tup[1], tup[2]
+#         apStr = [source_sents[i][j] for j in ap]
+#         opStr = [source_sents[i][j] for j in op]
+#         # if '<Aspect>' in sents[i][ap[0]]:
+#         #     pass
+#         # else:
+#         #     if len(ap) == 1:
+#         #         sents[i][ap[0]] = f"<Aspect>{sents[i][ap[0]][:-1]}</Aspect>"
+#         #     else:
+#         #         sents[i][ap[0]] = f"<Aspect>{sents[i][ap[0]][:-1]}"
+#         #         sents[i][ap[-1]] = f"{sents[i][ap[-1]][:-1]}</Aspect>"
+#         if '[' in sents[i][ap[0]]:
+#             # if len(ap) == 1:
+#             #     sents[i][ap[0]] = f"{sents[i][ap[0]][:-1]}, {' '.join(opStr)}]"
+#             # else:
+#             #     sents[i][ap[-1]] = f"{sents[i][ap[-1]][:-1]}, {' '.join(opStr)}]"
+#             pass
+#         else:
+#             if len(ap) == 1:
+#                 sents[i][ap[0]] = f"[{sents[i][ap[0]]}|aspect]"
+#             else:
+#                 sents[i][ap[0]] = f"[{sents[i][ap[0]]}"
+#                 sents[i][ap[-1]] = f"{sents[i][ap[-1]]}|aspect]"
+
+#         # annotation = f"opinion|aspect={' '.join(apStr)}|{senttag2word[sent]}"
+#         annotation = f"aspect={' '.join(apStr)}|{senttag2word[sent]}"
+#         if '[' in sents[i][op[0]]:
+#             if len(op) == 1:
+#                 sents[i][op[0]] = f"[{sents[i][op[0]][:-1]}, {' '.join(apStr)}]"
+#             else:
+#                 sents[i][op[-1]] = f"{sents[i][op[-1]][:-1]}, {' '.join(apStr)}]"
+#         else:
+#             if len(op) == 1:
+#                 sents[i][op[0]] = f"[{sents[i][op[0]]}|{annotation}]"
+#             else:
+#                 sents[i][op[0]] = f"[{sents[i][op[0]]}"
+#                 sents[i][op[-1]] = f"{sents[i][op[-1]]}|{annotation}]"
+#     annotated_targets.append(sents[i])
+# seq = ' '.join(annotated_targets[0])
+# print(line)
+# print(seq)
+# print('--------------------')
 
 sentiment_word_list = ['positive', 'negative', 'neutral']
-# seq = 'Leon is an East Village gem : [casual|positive|aspect=Leon] but [hip|positive|aspect=Leon] , with [well prepared|positive|aspect=French bistro fare] basic French bistro fare , [good|positive|aspect=specials] specials , a [warm|positive|aspect=atmosphere] and [lively|positive|aspect=atmosphere] atmosphere'
+seq = '[Leon|aspect] is an East Village gem : [casual|positive|aspect=Leon, abcdef] but [hip|positive|aspect=Leon] , with [well prepared|positive|aspect=French bistro fare] basic French bistro fare , [good|positive|aspect=specials] specials , a [warm|positive|aspect=atmosphere] and [lively|positive|aspect=atmosphere] atmosphere'
+
 def extract_triplets_prompt(seq):
     ops = re.findall('\[.*?\]', seq)
+    ops = list(filter(lambda x:len(x.split('|')) ==  3 , ops))
     ops = [ap[1:-1] for ap in ops]
+    print(ops)
     triplets = []
     for op in ops:
         try:
             a, b, c = op.split('|')
         except ValueError:
             a, b, c = '', '', ''
-       
         # for ASTE
         if b in sentiment_word_list:
             if '=' in c:
@@ -163,8 +180,12 @@ def extract_triplets_prompt(seq):
                 aspects = aspects.split(', ')
                 for item in aspects:
                     triplets.append((a, b, item))
-            else:
-                triplets.append((a, b, c))
+            # if ',' in c:
+            #     aspects = c.split(', ')
+            #     for item in aspects:
+            #         triplets.append((a, b, item))
+            # else:
+            #     triplets.append((a, b, c))
         # for TASD
         else:
             if ',' in b:
@@ -173,12 +194,16 @@ def extract_triplets_prompt(seq):
             else:
                 triplets.append((a, b, c))
     return triplets
- 
-#  seq = ''
- 
-print(extract_triplets_prompt(seq))
 
+#  seq = ''
+
+print(extract_triplets_prompt(seq))
 
 
 # Input : Leon is an East Village gem : casual but hip, with well prepared basic French bistro fare, good specials, a warm and lively atmosphere.
 # Output: Leon is an East Village gem : [casual|positive|Aspect=Leon] but [hip|positive|Aspect=Leon], with [well prepared|positive|Aspect=French bistro fare] basic French bistro fare, [good|positive|Aspect=specials] specials, a [warm|positive|Aspect=atmosphere] and [lively|positive|Aspect=atmosphere] atmosphere.
+
+
+# 目前的问题，生成的aspect和opinion 可能不是原文中的表达
+
+# 同时标记 aspect 和 opinion
