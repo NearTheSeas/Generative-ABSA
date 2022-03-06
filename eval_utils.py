@@ -148,22 +148,47 @@ def extract_triplets(seq):
     return triplets
 
 def extract_triplets_prompt(seq):
-    ops = re.findall('\[.*?\]', seq)
-    ops = list(filter(lambda x:len(x.split('|')) ==  3 , ops))
-    ops = [ap[1:-1] for ap in ops]
+    # ops = re.findall('\[.*?\]', seq)
+    # ops = list(filter(lambda x:len(x.split('|')) ==  3 , ops))
+    # ops = [ap[1:-1] for ap in ops]
+    # triplets = []
+    # for op in ops:
+    #     try:
+    #         a, b, c = op.split('|')
+    #     except ValueError:
+    #         a, b, c = '', '', ''
+    #     # for ASTE
+    #     if b in sentiment_word_list:
+    #         if '=' in c:
+    #             aspects = c.split('=')[1]
+    #             aspects = aspects.split(', ')
+    #             for item in aspects:
+    #                 triplets.append((a, b, item))
+    #     # for TASD
+    #     else:
+    #         if ',' in b:
+    #             for ac in b.split(', '):
+    #                 triplets.append((a, ac, c))
+    #         else:
+    #             triplets.append((a, b, c))
+    
+    aps = re.findall('\[.*?\]', seq)
+    aps = list(filter(lambda x:len(x.split('|')) ==  3 , aps))
+    aps = [ap[1:-1] for ap in aps]
     triplets = []
-    for op in ops:
+    for ap in aps:
         try:
-            a, b, c = op.split('|')
+            a, b, c = ap.split('|')
         except ValueError:
             a, b, c = '', '', ''
+
         # for ASTE
         if b in sentiment_word_list:
-            if '=' in c:
-                aspects = c.split('=')[1]
-                aspects = aspects.split(', ')
-                for item in aspects:
-                    triplets.append((a, b, item))
+            if ',' in c:
+                for op in c.split(', '):
+                    triplets.append((a, b, op))
+            else:
+                triplets.append((a, b, c))
         # for TASD
         else:
             if ',' in b:
@@ -171,6 +196,7 @@ def extract_triplets_prompt(seq):
                     triplets.append((a, ac, c))
             else:
                 triplets.append((a, b, c))
+
     return triplets
  
 
@@ -319,6 +345,69 @@ def fix_preds_aste(all_pairs, sents):
 
     return all_new_pairs
 
+# for ASTE
+def fix_preds_aste2(all_pairs, sents):
+
+    all_new_pairs = []
+
+    for i, pairs in enumerate(all_pairs):
+        new_pairs = []
+        if pairs == []:
+            all_new_pairs.append(pairs)
+        else:
+            for pair in pairs:
+                # two formats have different orders
+                p0, p1, p2 = pair
+                # for annotation-type
+                if p1 in sentiment_word_list:
+                    at, ott, ac = p0, p2, p1
+                    io_format = 'annotation'
+                # for extraction type
+                elif p2 in sentiment_word_list:
+                    at, ott, ac = p0, p1, p2
+                    io_format = 'extraction'
+
+                # print(pair)
+                # AT not in the original sentence
+                if at not in ' '.join(sents[i]):
+                    # print('Issue')
+                    new_at = recover_terms_with_editdistance(at, sents[i])
+                else:
+                    new_at = at
+
+                if ac not in sentiment_word_list:
+                    new_sentiment = recover_terms_with_editdistance(
+                        ac, sentiment_word_list)
+                else:
+                    new_sentiment = ac
+
+                # OT not in the original sentence
+                ots = ott.split(', ')
+                new_ot_list = []
+                for ot in ots:
+                    if ot not in ' '.join(sents[i]):
+                        # print('Issue')
+                        new_ot_list.append(
+                            recover_terms_with_editdistance(ot, sents[i]))
+                    else:
+                        new_ot_list.append(ot)
+                new_ot = ', '.join(new_ot_list)
+                if io_format == 'extraction':
+                    new_pairs.append((new_at, new_ot, new_sentiment))
+                else:
+                    new_pairs.append((new_at, new_sentiment, new_ot))
+                # print(pair, '>>>>>', word_and_sentiment)
+                # print(all_target_pairs[i])
+            log_file_path = f"results_log/edit-distance-outputs.txt"
+
+            with open(log_file_path, "a+", encoding='utf-8') as f:
+                f.write(';'.join(','.join(item) for item in pairs))
+                f.write('---')
+                f.write(';'.join(','.join(item) for item in new_pairs))
+                f.write('\n')
+            all_new_pairs.append(new_pairs)
+
+    return all_new_pairs
 
 def fix_preds_tasd(all_pairs, sents):
 
@@ -370,7 +459,8 @@ def fix_pred_with_editdistance(all_predictions, sents, task):
     elif task == 'aope':
         fixed_preds = fix_preds_aope(all_predictions, sents)
     elif task == 'aste':
-        fixed_preds = fix_preds_aste(all_predictions, sents)
+        # fixed_preds = fix_preds_aste(all_predictions, sents)
+        fixed_preds = fix_preds_aste2(all_predictions, sents)
     elif task == 'tasd':
         fixed_preds = fix_preds_tasd(all_predictions, sents)
     else:

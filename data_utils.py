@@ -250,38 +250,78 @@ def get_semantic_aste_targets(sents, labels):
 def get_prompt_aste_targets(sents, labels):
     # 需要处理一个 opinion 描述 多个 aspect 的情况
     # 需要标注aspect
+    # annotated_targets = []
+    # num_sents = len(sents)
+    # source_sents = copy.deepcopy(sents)
+    # for i in range(num_sents):
+    #     tuples = labels[i]
+    #     # tup: ([2], [5], 'NEG')
+    #     for tup in tuples:
+    #         ap, op, sent = tup[0], tup[1], tup[2]
+    #         apStr = [source_sents[i][j] for j in ap]
+    #         opStr = [source_sents[i][j] for j in op]
+    #         if '[' in sents[i][ap[0]]:
+    #             pass
+    #         else:
+    #             if len(ap) == 1:
+    #                 sents[i][ap[0]] = f"[{sents[i][ap[0]]}|aspect]"
+    #             else:
+    #                 sents[i][ap[0]] = f"[{sents[i][ap[0]]}"
+    #                 sents[i][ap[-1]] = f"{sents[i][ap[-1]]}|aspect]"
+                    
+    #         # annotation = f"opinion|aspect={' '.join(apStr)}|{senttag2word[sent]}"
+    #         annotation = f"{senttag2word[sent]}|aspect={' '.join(apStr)}"
+    #         if '[' in sents[i][op[0]]:
+    #             if len(op) == 1:
+    #                 sents[i][op[0]] = f"[{sents[i][op[0]][:-1]}, {' '.join(apStr)}]"
+    #             else:
+    #                 sents[i][op[-1]] = f"{sents[i][op[-1]][:-1]}, {' '.join(apStr)}]"
+    #         else:
+    #             if len(op) == 1:
+    #                 sents[i][op[0]] = f"[{sents[i][op[0]]}|{annotation}]"
+    #             else:
+    #                 sents[i][op[0]] = f"[{sents[i][op[0]]}"
+    #                 sents[i][op[-1]] = f"{sents[i][op[-1]]}|{annotation}]"
+    #     annotated_targets.append(sents[i])
+    
+    
     annotated_targets = []
     num_sents = len(sents)
-    source_sents = copy.deepcopy(sents)
     for i in range(num_sents):
         tuples = labels[i]
-        # tup: ([2], [5], 'NEG')
         for tup in tuples:
             ap, op, sent = tup[0], tup[1], tup[2]
-            apStr = [source_sents[i][j] for j in ap]
-            opStr = [source_sents[i][j] for j in op]
+            opStr = [sents[i][j] for j in op]
+            # multiple OT for one AP
             if '[' in sents[i][ap[0]]:
-                pass
-            else:
+                # print(i)
                 if len(ap) == 1:
-                    sents[i][ap[0]] = f"[{sents[i][ap[0]]}|aspect]"
+                    sents[i][ap[0]
+                             ] = f"{sents[i][ap[0]][:-1]}, {' '.join(opStr)}]"
+                else:
+                    sents[i][ap[-1]
+                             ] = f"{sents[i][ap[-1]][:-1]}, {' '.join(opStr)}]"
+            else:
+                annotation = f"{senttag2word[sent]}|{' '.join(opStr)}"
+                if len(ap) == 1:
+                    sents[i][ap[0]] = f"[{sents[i][ap[0]]}|{annotation}]"
                 else:
                     sents[i][ap[0]] = f"[{sents[i][ap[0]]}"
-                    sents[i][ap[-1]] = f"{sents[i][ap[-1]]}|aspect]"
+                    sents[i][ap[-1]] = f"{sents[i][ap[-1]]}|{annotation}]"
                     
-            # annotation = f"opinion|aspect={' '.join(apStr)}|{senttag2word[sent]}"
-            annotation = f"{senttag2word[sent]}|aspect={' '.join(apStr)}"
             if '[' in sents[i][op[0]]:
-                if len(op) == 1:
-                    sents[i][op[0]] = f"[{sents[i][op[0]][:-1]}, {' '.join(apStr)}]"
-                else:
-                    sents[i][op[-1]] = f"{sents[i][op[-1]][:-1]}, {' '.join(apStr)}]"
+                # if len(op) == 1:
+                #     sents[i][op[0]] = f"[{sents[i][op[0]][:-1]}, {' '.join(apStr)}]"
+                # else:
+                #     sents[i][op[-1]] = f"{sents[i][op[-1]][:-1]}, {' '.join(apStr)}]"
+                pass
             else:
                 if len(op) == 1:
-                    sents[i][op[0]] = f"[{sents[i][op[0]]}|{annotation}]"
+                    sents[i][op[0]] = f"[{sents[i][op[0]]}|opinion]"
                 else:
                     sents[i][op[0]] = f"[{sents[i][op[0]]}"
-                    sents[i][op[-1]] = f"{sents[i][op[-1]]}|{annotation}]"
+                    sents[i][op[-1]] = f"{sents[i][op[-1]]}|opinion]"
+                    
         annotated_targets.append(sents[i])
     return annotated_targets
 

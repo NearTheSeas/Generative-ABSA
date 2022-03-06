@@ -1,978 +1,1380 @@
-Serves really [good|positive|aspect=sushi] [sushi|aspect].
-Serves really [good|positive|aspect=sushi] [sushi|aspect].
+(staff, accomodating, positive)
+(staff, accomodating, positive); (staff, tended to my every need, positive)
 
-[Not the biggest|neutral|aspect=portions] [portions|aspect] but [adequate|neutral|aspect=portions].
-Not the [biggest|neutral|aspect=portions] [portions|aspect] but [adequate|positive|aspect=portions].
+(onion rings, great, positive)
+(onions, great, positive)
 
-[Green Tea creme brulee|aspect] is a [must|positive|aspect=Green Tea creme brulee]!
-[Green Tea creme brulee|aspect] is a [must|positive|aspect=Green Tea creme brulee]!
+(lemon chicken, sticky sweet, negative); (honey walnut prawns, not good, negative)
+(lemon chicken, sticky sweet, negative); (lemon chicken, not good, negative); (honey walnut prawns, not good, negative)
 
-It has [great|positive|aspect=sushi] [sushi|aspect] and even [better|positive|aspect=service] [service|aspect].
-It has [great|positive|aspect=sushi] [sushi|aspect] and even [better|positive|aspect=service] [service|aspect].
+(Service, Worst, positive)
+(Service, Worst, negative)
 
-The entire [staff|aspect] was extremely [accomodating|positive|aspect=staff] and tended to my every need.
-The entire [staff|aspect] was extremely [accomodating|positive|aspect=staff] and tended to my every need.
+(wine list, wonderful, positive)
+(wine list, wonderful, positive); (food, reminds me of my recent trip to Italy, positive)
 
-The [owner|aspect] is [belligerent|negative|aspect=owner] to guests that have a complaint.
-The [owner|aspect] is [belligerent|negative|aspect=owner] to guests that have a complaint.
+(wine list, incredible, positive); (wine list, extensive, positive); (wine list, diverse, positive); (food, incredible, positive); (staff, nice, positive)
+(wine list, incredible, positive); (wine list, extensive, positive); (wine list, diverse, positive); (food, incredible, positive); (staff, nice, positive); (staff, good, positive)
 
-[Good|positive|aspect=food] [food|aspect]!
-[Good|positive|aspect=food] [food|aspect]!
+(place, relax, positive); (food, finest quality, positive)
+(food, finest quality, positive)
 
-This is a great place to get a [delicious|positive|aspect=meal] [meal|aspect].
-This is a [great|positive|aspect=place] [place|aspect] to get a [delicious|positive|aspect=meal] [meal|aspect].
+(food, real, positive); (food, best, positive)
+(food, real, positive)
 
-The [staff|aspect] is pretty [friendly|positive|aspect=staff].
-The [staff|aspect] is pretty [friendly|positive|aspect=staff].
+(food, okay, negative)
+(food, okay, neutral)
 
-The [onion rings|aspect] are [great|positive|aspect=onion rings]!
-The [onion rings|aspect] are [great|positive|aspect=onion rings]!
+(Rice, too dry, negative); (tuna, wasn't so fresh, negative)
+(Rice, dry, negative); (tuna, wasn't so fresh, negative)
 
-The [lemon chicken|aspect] tasted like [sticky sweet|negative|aspect=lemon chicken] donuts and the [honey walnut prawns|aspect], the few they actually give you.....were [not good|negative|aspect=honey walnut prawns].
-The [lemon chicken|aspect] tasted like sticky sweet donuts and the [honey walnut prawns|aspect], the few they actually give you.....were [not good|negative|aspect=lemon chicken].
+(service, lacking, negative)
+(value, lacking, negative); (service, lacking, negative)
 
-[Nice|positive|aspect=ambience] [ambience|aspect], but highly [overrated|negative|aspect=place] [place|aspect].
-[Nice|positive|aspect=ambience] [ambience|aspect], but highly [overrated|negative|aspect=place] [place|aspect].
+(sushi, Freshest, positive); (restaurant, love, positive)
+(sushi, Freshest, positive)
 
-[Worst|positive|aspect=Service] [Service|aspect] I Ever Had
-[Worst|negative|aspect=Service] [Service|aspect] I Ever Had Had
+(rolls, complex, positive)
+(miso soup, detail, positive); (rolls, complex, positive)
 
-Everyone that sat in the back outside agreed that it was the [worst|negative|aspect=service] [service|aspect] we had ever received.
-Everyone that sat in the back outside agreed that it was the [worst|negative|aspect=service] [service|aspect] we had ever received.
+(food, fine, positive)
+(food, fine, positive); (salad, little-tastier-than-normal, negative)
 
-Our [waiter|aspect] was [non-existent|negative|aspect=waiter] and after our food finally arrived over an hour after we ordered, we were not given any water or utensils.
-Our [waiter|aspect] was [non-existent|negative|aspect=waiter] and after our [food|aspect] finally arrived over an hour after we ordered, we were not given any water or utensils.
+(deck, best, positive)
+(summertime deck experience, best, positive)
 
-I complained to the [manager|aspect], but he was [not even apologetic|negative|aspect=manager].
-I [ complained|negative|aspect=manager] to the [manager|aspect], but he was [not even apologetic|negative|aspect=manager].
+(draft and bottle selection, Great, positive)
+(draft, Great, positive); (bottle selection, Great, positive); (pizza, rocks, positive)
 
-[Fabulous|positive|aspect=Italian Food] [Italian Food|aspect]!
-[Fabulous|positive|aspect=Italian Food] [Italian Food|aspect]!
+(food, great, positive)
+(food, great, positive); (bartenders, extra mile, positive)
 
-– I highly [recommend|positive|aspect=Mioposto] [Mioposto|aspect].
-– I highly [recommend|positive|aspect=Mioposto] [Mioposto|aspect].
+(owners, great, positive); (beer selection, worth staying for, positive)
+(owners, great fun, positive); (beer selection, worth staying for, positive)
 
-I am so happy to have a [wonderful|positive|aspect=Italian restaurant] [Italian restaurant|aspect] in my neighborhood.
-I am so happy to have a [wonderful|positive|aspect=Italian restaurant] [Italian restaurant|aspect] in my neighborhood.
+(balconey, favorite, positive)
+(smoking places, favorite, positive)
 
-The [wine list|aspect] is [wonderful|positive|aspect=wine list] and the food reminds me of my recent trip to Italy.
-The [wine list|aspect] is [wonderful|positive|aspect=wine list] and the [food|aspect] reminds me of my recent trip to Italy.
+(decor, rustic, neutral); (decor, traditional Japanese, neutral)
+(decor, rustic, positive); (decor, traditional, positive)
 
-I [love|positive|aspect=restaurant] this [restaurant|aspect]
-I [love|positive|aspect=restaurant] this [restaurant|aspect]
+(food, Mediocre, neutral)
+(food, Mediocre, positive)
 
-– I will never forget the [[[amazing|positive|aspect=meal, service, ambiance] [meal|aspect], [service|aspect], and [ambiance|aspect] I experience at this restaurant.
-– I will never forget the [[amazing|positive|aspect=meal, service] [meal|aspect], [service|aspect], and [ambiance|aspect] I experience at this restaurant.
+(menu, abbreviated, neutral)
+(outdoor patio area, abbreviated, negative)
 
-The [wine list|aspect] is [incredible|positive|aspect=wine list] and [extensive|positive|aspect=wine list] and [diverse|positive|aspect=wine list], the [food|aspect] is all [incredible|positive|aspect=food] and the [staff|aspect] was all very [nice|positive|aspect=staff], good at their jobs and cultured.
-The [wine list|aspect] is [incredible|positive|aspect=wine list] and [extensive|positive|aspect=wine list] and [divine|positive|aspect=wine list], the [food|aspect] is all [incredible|positive|aspect=food] and the [staff|aspect] was all very [nice|positive|aspect=staff], [good|positive|aspect=staff] at their jobs and cultured.
+(Service, decent, neutral)
+(Service, decent, positive)
 
-The [food|aspect] was [great|positive|aspect=food]!
-The [food|aspect] was [great|positive|aspect=food]!
+(food, Excellent, positive); (ambience, nice, positive)
+(food, Excellent, positive); (ambience, nice, positive); (alert, expensive, negative)
 
-– In a age of incremental cost cutting in restaurants, its nice to see a place that bucks that trend, and just plain delivers [high quality|positive|aspect=food] [food|aspect] and [good|positive|aspect=service] [service|aspect], period.
-– In a age of incremental cost cutting in restaurants, its nice to see a place that bucks that trend, and just plain delivers [high quality|positive|aspect=food] [food|aspect] and [good|positive|aspect=service] [service|aspect], period.
+(pumpkin ravioli, loved, positive); (goat cheese gnocchi, loved, positive); (filet mignon on top of spinach and mashed potatoes, loved, positive)
+(pumpkin ravioli, loved, positive); (goat cheese gnocchi, 5 big, positive); (filet mignon on top of spinach and mashed potatoes, loved, positive)
 
-This is the [place|aspect] to [relax|positive|aspect=place] and enjoy the [finest quality|positive|aspect=food] [food|aspect] the industry can offer.
-This is the place to relax and enjoy the [best|positive|aspect=food] quality [food|aspect] the industry can offer.
+(food, Nice, negative)
+(food, Nice, negative); (food, no spice, negative)
 
-Caution - its [real|positive|aspect=food] [food|aspect] for people who love the [best|positive|aspect=food].
-Caution - its [real|positive|aspect=food] [food|aspect] for people who love the best.
+(lamb korma, yummy, positive); (saag paneer, yummy, positive); (samosas, yummy, positive); (naan, yummy, positive)
+(lamb korma, yummy, positive); (saag paneer, yummy, positive); (samosas, naan, etc., positive)
 
-I [liked|positive|aspect=atmosphere] the [atmosphere|aspect] very much but the [food|aspect] was [not worth the price|negative|aspect=food].
-I [liked|positive|aspect=atmosphere] the [atmosphere|aspect] very much but the [food|aspect] was [not worth the price|negative|aspect=food].
+(food, good, negative); (food, too mild, negative)
+(food, good, negative); (food, mild, negative)
 
-I may not be a sushi guru but I can tell you that the [food|aspect] here is just [okay|negative|aspect=food] and that there is not much else to it.
-I may not be a sushi guru but I can tell you that the [food|aspect] here is just [okay|neutral|aspect=food] and that there is not much else to it.
+(naan, best, positive); (bhartha, enjoyed, positive)
+(naan, best, positive); (bhartha, enjoyed, positive); (bhartha, not too tomatoey, positive)
 
-[Rice|aspect] is [too dry|negative|aspect=Rice], [tuna|aspect] [wasn't so fresh|negative|aspect=tuna] either.
-[Rice|aspect] is [too dry|negative|aspect=Rice], [tuna|aspect] [wasn't so fresh|negative|aspect=tuna] either.
+(chickpeas, good, positive)
+(chickenpeas, good, positive)
 
-I have eaten here three times and have found the quality and variety of the [fish|aspect] to be [excellent|positive|aspect=fish].
-I have eaten here three times and have found the [quality|aspect] and [variety|positive|aspect=fish] of the [fish|aspect] to be [[excellent|positive|aspect=fish, variety].
+(environment, warm, positive); (environment, cosy, positive)
+(environment, love, positive); (environment, warm, positive); (environment, cosy, positive)
 
-However, the value and [service|aspect] are both severely [lacking|negative|aspect=service].
-However, the [value|aspect] and [service|aspect] are both severely [[lackluster|negative|aspect=value, service].
+(mexican spot, Great, positive)
+(financial district mexican spot, Great, positive)
 
-Furthermore, while the [fish|aspect] is unquestionably [fresh|positive|aspect=fish], [rolls|aspect] tend to be inexplicably [bland|negative|aspect=rolls].
-Furthermore, while the [fish|aspect] is unquestionably [fresh|negative|aspect=fish], [rolls|aspect] tend to be [inexplicably bland|negative|aspect=rolls].
+(taco salads, good, positive); (burritos, good, positive); (enchiladas, good, positive); (place, love, positive)
+(taco salads, good, positive); (burritos, good, positive); (enchiladas, love, positive)
 
-The [service|aspect] ranges from [mediocre|negative|aspect=service] to [offensive|negative|aspect=service].
-The [service|aspect] ranges from [mediocre|negative|aspect=service] to [offensive|negative|aspect=service].
+(food, incredible, positive)
+(food, incredible, positive); (quality, inconsistent, negative)
 
-On a recent trip, our [waiter|aspect] was extremely [dismissive|negative|aspect=waiter], while no less than three staff members waited hand-and-foot on a pair of Japanese girls seated nearby.
-On a recent trip, our [waiter|aspect] was extremely [disappointing|negative|aspect=waiter], while no less than three staff members waited hand-and-foot on a pair of Japanese girls seated nearby.
+(side of potatoes, die for, positive); (labne ( yogurt dip ), side of potatoes, positive)
+(side of potatoes, die for, positive); (labne ( yogurt dip ), die for, positive)
 
-[Freshest|positive|aspect=sushi] [sushi|aspect] – I [love|positive|aspect=restaurant] this [restaurant|aspect].
-[Freshest|positive|aspect=sushi] [sushi|aspect] – I [love|positive|aspect=restaurant] this [restaurant|aspect].
+(hummus, best, positive)
+(hummus, best, positive); (olive oil, fragrant, positive)
 
-They pay such detail to everything from miso soup to [complex|positive|aspect=rolls] [rolls|aspect].
-They pay such detail to everything from [miso soup|aspect] to [complex|positive|aspect=rolls] [rolls|aspect].
+(shoe string onions, good, positive); (goat cheese pizza, good, positive); (grilled asparagus, good, positive); (fried brie with fruit, good, positive)
+(small plates, good, positive); (shoe string onions, good, positive); (goat cheese pizza, good, positive); (grilled asparagus, good, positive); (fried brie with fruit, good, positive)
 
-The [sashimi|aspect] was the [freshest|positive|aspect=sashimi] and most [tender|positive|aspect=sashimi] I have ever tasted.
-The [sashimi|aspect] was the [freshest|positive|aspect=sashimi] and most [tender|positive|aspect=sashimi] I have ever tasted.
+(Winelist, BEST, positive)
+(Wines, BEST, positive)
 
-Their [apps|aspect] are all [delicious|positive|aspect=apps].
-Their [apps|aspect] are all [delicious|positive|aspect=apps].
+(service, worst, negative)
+(food, not what it once was, negative); (potions, downsizing, negative); (service, worst, negative)
 
-The only drawback is that this [place|aspect] is really [expensive|negative|aspect=place] and the portions are on the small side.
-The only drawback is that this [place|aspect] is really [expensive|negative|aspect=place] and the [portions|aspect] are on the [small|negative|aspect=portions] side.
+(Place, Cool, positive); (Pizza, Best, positive); (Coffee, Best, positive)
+(Pizza, Best, positive); (Coffee, Cool, positive)
 
-But the [space|aspect] is [small|positive|aspect=space] and [lovely|positive|aspect=space], and the [service|aspect] is [helpful|positive|aspect=service].
-But the [space|aspect] is [small|positive|aspect=space] and [lovely|positive|aspect=space], and the [service|aspect] is [helpful|positive|aspect=service].
+(coffe, good, positive)
+(coffee, good, positive)
 
-– The [food|aspect] was [not great|negative|aspect=food] & the [waiters|aspect] were [rude|negative|aspect=waiters].
-– The [food|aspect] was [not great|negative|aspect=food] & the [waiters|aspect] were [rude|negative|aspect=waiters].
+(servers behind the counter, friendly, positive); (servers behind the counter, helpful, positive)
+(servers, friendly, positive); (servers, helpful, positive)
 
-[great|positive|aspect=service] [service|aspect]
-[great|positive|aspect=service] [service|aspect]
+(FOOD, AMAZING, positive); (PEOPLE, NICE, positive)
+(FOOD, AMAZING, positive)
 
-my [service|aspect] was [stellar|positive|aspect=service]!
-my [service|aspect] was [stark|positive|aspect=service]!
+(Eggs, delicious, positive); (pancakes, delicious, positive); (potatoes, delicious, positive); (fresh fruit, delicious, positive); (yogurt, delicious, positive)
+(eggs, delicious, positive); (pancakes, delicious, positive); (potatos, delicious, positive); (yogurt, fresh fruit, delicious, positive)
 
-[food|aspect] was [fine|positive|aspect=food], with a some little-tastier-than-normal salsa.
-[food|aspect] was [fine|positive|aspect=food], with a some little-tastier-than-normal salsa.
+(meal, great, positive); (fish on the omikase platter, decadent, positive); (fish on the omikase platter, perfect, positive)
+(meal, great, positive); (fish, decadent, positive); (fish, perfect, positive)
 
-the [food|aspect] was [[great|positive|aspect=food, margaritas], the [margaritas|aspect] too but the [waitress|aspect] was [too busy|negative|aspect=waitress] being nice to her other larger party than to take better care of my friend and me.
-the [food|aspect] was [great|positive|aspect=food], the [margaritas|aspect] too but the [waitress|aspect] was [too busy|negative|aspect=waitress] being [nice|negative|aspect=waitress] to her other larger party than to take better care of my friend and me.
+(rolls, tasty, positive)
+(nigiri, Melt, positive); (sashmi, tasty, positive)
 
-Mama Mia – I live in the neighborhood and feel lucky to live by such a [great|positive|aspect=pizza place] [pizza place|aspect].
-Mama Mia – I live in the neighborhood and feel lucky to live by such a [great|positive|aspect=pizza place] [pizza place|aspect].
+(sushi, best, positive)
+(sushi, best, positive); (sushi, delicious, positive); (sushi, amazing, positive); (sushi, suculent, positive); (sushi, perfect, positive)
 
-[Best|positive|aspect=Sushi] [Sushi|aspect] in town.
-[Best|positive|aspect=Sushi] [Sushi|aspect] in town.
+(Chuwam Mushi, best, positive)
+(Chowam Mushi, best, positive)
 
-The [best|positive|aspect=calamari] [calamari|aspect] in Seattle!
-The [best|positive|aspect=calamari] [calamari|aspect] in Seattle!
+(Sushi, Good, negative)
+(Sushi, Good, positive)
 
-–... and the [best|positive|aspect=deck] summertime [deck|aspect] experience -- they will even bring you a blanket if you get cold in the Seattle evening weather.
-–... and the [best|positive|aspect=summertime deck experience] [summertime deck experience|aspect] -- they will even bring you a blanket if you get cold in the Seattle evening weather.
+(food, freshly prepared, positive)
+(brunch at Murphy's, die for, positive); (egg white omelet, die for, positive); (food, freshly prepared, positive)
 
-A [perfect|positive|aspect=place] [place|aspect] to take out of town guests any time of the year.
-A [perfect|positive|aspect=place] [place|aspect] to take out of town guests any time of the year.
+(wine list, extensive, positive); (ambiance, won't forget, positive)
+(wine list, extensive, positive); (ambiance, ambiance, won't forget, positive)
 
-Endless fun, [awesome|positive|aspect=music] [music|aspect], [great|positive|aspect=staff] [staff|aspect]!!!
-Endless fun, [awesome|positive|aspect=music] [music|aspect], [great|positive|aspect=staff] [staff|aspect]!!!
+(enchiladas, Love, positive); (chicken soup, Love, positive)
+(enchiladas, Love, positive); (chicken soup, Love, positive); (specials, check out, positive)
 
-– By far the [best|positive|aspect=bar] [bar|aspect] in the east village...
-– By far the [best|positive|aspect=bar] [bar|aspect] in the east village...
+(Space, limited, negative)
+(Space, limited, negative); (food, made up for it, positive)
 
-[Great|positive|aspect=draft and bottle selection] [draft and bottle selection|aspect] and the pizza rocks.
-[Great|positive|aspect=drafted, bottle selection] [drafted|aspect] and [bottle selection|aspect] and the [pizza|aspect] [rocks|positive|aspect=pizza].
+(Caesar salad, couldn't eat, negative)
+(Caesar salad, lemon, negative)
 
-Definitely has one of the [best|positive|aspect=jukebox's] [jukebox's|aspect] i've seen in a long long time.
-Definitely has one of the [best|positive|aspect=jukebox's] [jukebox's|aspect] i've seen in a long long time.
+(art on the walls, colorful, positive)
+(art, colorful, positive)
 
-The [food|aspect] is [great|positive|aspect=food], the bartenders go that extra mile.
-The [food|aspect] is [great|positive|aspect=food], the bartenders go that extra mile.
+(meal, bad, positive)
+(meal, never had one bad, positive)
 
-The [owners|aspect] are [great|positive|aspect=owners] fun and the [beer selection|aspect] is [worth staying for|positive|aspect=beer selection].
-The owners are great fun and the [beer selection|aspect] is [worth staying for|positive|aspect=beer selection].
+(lunch menu, awesome, positive)
+(lunch menu, awesome deal, positive)
 
-And the [upstairs|aspect] is a [great|positive|aspect=upstairs] place to hang out.
-And the [upstairs|aspect] is a [great|positive|aspect=upstairs] place to hang out.
+(food, plenty of, positive)
+(food, plenty, positive)
 
-Not alot of smoking places left in New York, but I have found my [favorite|positive|aspect=balconey] smoking [balconey|aspect] in the city.
-Not alot of smoking places left in New York, but I have found my [favorite|positive|aspect=smoking balconey] [smoking balconey|aspect] in the city.
+(selection, innovative, positive); (sushi, nice, positive); (sushi, traditional, positive)
+(sushi, nice, positive)
 
-The [sushi|aspect] here is [delicious|positive|aspect=sushi]!
-The [sushi|aspect] here is [delicious|positive|aspect=sushi]!
+(brunch food, average, neutral)
+(brunch food, average, positive)
 
-They have a [wide variety|positive|aspect=fish] of [fish|aspect] and they even list which oceans they come from ; Atlantic or Pacific.
-They have a [large variety|positive|aspect=fish] of [fish|aspect] and they even list which oceans they come from ; Atlantic or Pacific.
+(regular menu, above average, neutral); (regular menu, not worth the snotty attitude, neutral)
+(regular menu, above average, negative); (regular menu, not worth, negative)
 
-I've had the [Jellyfish|aspect], [Horse Mackerel|aspect], [Blue Fin Tuna|aspect] and the [Sake Ikura roll|aspect] among others, and they were all [[[[good|positive|aspect=Jellyfish, Horse Mackerel, Blue Fin Tuna, Sake Ikura roll].
-I've had the [Jellyfish|aspect], [Horrible Mackerel|aspect], [Blue Fin Tuna|aspect] and the [Sake Ikura roll|aspect] among others, and they were all [[good|positive|aspect=Jellyfish, Horse Mackerel, Blue Fin Tuna, Sake Ikura roll].
+(fish, love expertly cut, positive); (sake, great, positive); (SOHO location, killer, positive)
+(sushi, fan, positive); (sushi, expertly cut, positive); (sushi, great sake, great, positive); (location, killer, positive)
 
-The [decor|aspect] is [rustic|neutral|aspect=decor], [traditional Japanese|neutral|aspect=decor].
-The [decor|aspect] is [rustic|positive|aspect=decor], [traditional Japanese|positive|aspect=decor].
+(BLUE RIBBON SUSHI, best, positive)
+(sushi restaurant, best, positive)
 
-The [service|aspect] was [courteous|positive|aspect=service] and [attentive|positive|aspect=service].
-The [service|aspect] was [courteous|positive|aspect=service] and [attentive|positive|aspect=service].
+(Blue Ribbon, fantastic, positive)
+(Blue Ribbon, lives up to, positive); (Blue Ribbon, fantastic reputation, positive)
 
-[Mediocre|neutral|aspect=food] [food|aspect]
-[Mediocre|positive|aspect=food] [food|aspect]
+(sushi, Great value, positive); (sushi, high quality, positive); (sushi, nice setting, positive); (setting, nice, positive)
+(sushi, Great value, positive); (setting, nice, positive)
 
-The outside patio area has an [abbreviated|neutral|aspect=menu] [menu|aspect].
-The [outdoor patio area|aspect] has an [abbreviated|negative|aspect=outdoor patio area] menu.
+(rolls, tasty, positive); (smoked yellowtail, incredible, positive)
+(Chef's Choice for sushi, Try, positive); (smoked yellowtail, incredible, positive); (rolls, tasty, positive)
 
-My g/f and I both agreed the [food|aspect] was very [mediocre|negative|aspect=food] especially considering the price.
-My g/f and I both agreed the [food|aspect] was very [mediocre|negative|aspect=food] especially considering the price.
+(customer service, Poor, negative); (pizza, Poor, negative)
+(customer service, Poor, negative); (pizza, poor, negative)
 
-We are locals, and get the feeling the only way this place survives with such [average|negative|aspect=food] [food|aspect] is because most customers are probably one-time customer tourists.
-We are locals, and get the feeling the only way this place survives with such [average|neutral|aspect=food] [food|aspect] is because most customers are probably one-time customer tourists.
+(pizza, lacks quality and good taste, negative)
+(pizza, favorite, positive); (pizza place, favorite, positive); (Mioposto's pizza, lacks quality, negative); (food, good taste, negative)
 
-[Service|aspect] was [decent|neutral|aspect=Service].
-[Service|aspect] was [decent|positive|aspect=Service].
+(pizza, better, negative)
+(frozen pizza, better, positive)
 
-[Drinks|aspect] were [good|positive|aspect=Drinks].
-[Drinks|aspect] were [good|positive|aspect=Drinks].
+(food, fantastic, positive); (waiting staff, perfect, positive)
+(food, fantastic, positive); (wait staff, perfect, positive)
 
-[Excellent|positive|aspect=food] [food|aspect], [nice|positive|aspect=ambience] [ambience|aspect], fairly expensive
-[Excellent|positive|aspect=food] [food|aspect], [nice|positive|aspect=ambience] [ambience|aspect], fairly [expensive|positive|aspect=ambience].
+(food, ok, neutral); (service, poor, negative)
+(food, ok, positive); (service, poor, negative)
 
-– I [[loved|positive|aspect=pumpkin ravioli, goat cheese gnocchi] the [pumpkin ravioli|aspect] and the [goat cheese gnocchi|aspect] ( 5 big ones to a plate instead of 20 or so little gnocchis ) and my sister [loved|positive|aspect=filet mignon on top of spinach and mashed potatoes] her [filet mignon on top of spinach and mashed potatoes|aspect].
-– I [[loved|positive|aspect=pumpkin ravioli, goat cheese gnocchi] the [pumpkin ravioli|aspect] and the [goat cheese gnocchi|aspect] ( 5 big ones to a plate instead of 20 or so little gnocchis ) and my sister [loved|positive|aspect=filet mignon on top of spinach and mashed potatoes] her [filet mignon|aspect] on top of spinach and mashed potatoes|aspect].
+(service, without ever, negative)
+(service, never getting, negative)
 
-The [ambiance|aspect] was a [peaceful|positive|aspect=ambiance] and [relaxing|positive|aspect=ambiance] break amongst all the kids running around in Downtown Disney.
-The [ambiance|aspect] was a [peaceful|positive|aspect=ambiance] and [relaxed|positive|aspect=ambiance] break amongst all the kids running around in Downtown Disney.
+(seasonal fish, Great, positive); (seafood, Great, positive); (waterfront setting, classy, positive)
+(seasonal fish, Great, positive); (seafood, Great, positive); (frontier setting, classy, positive)
 
-[Best|positive|aspect=Indian food] [Indian food|aspect] in L.A.
-[Best|positive|aspect=Indian food] [Indian food|aspect] in L.A.
+(servers, don't like, negative); (young woman, don't like, negative)
+(servers, like, negative)
 
-The [chicken curry|aspect] and [chicken tikka masala|aspect] are my [[favorite|positive|aspect=chicken curry, chicken tikka masala] meat dishes.
-The [chicken curry|aspect] and [chicken tikka masala|aspect] are my [favorite|positive|aspect=chicken curry, chicken tikka masala] meat dishes.
+(Breakfast, Great, positive)
+(Bagel, Great, positive)
 
-The [chana masala ( garbanzo beans )|aspect] are also [excellent|positive|aspect=chana masala ( garbanzo beans )].
-The [chana masala ( garbanzo beans )|aspect] are also [excellent|positive|aspect=chana masala ( garbanzo beans )].
+(menu items, hit, positive)
+(menu items, hit, positive); (mimosas, serve, positive)
 
-It's located in a strip mall near the Beverly Center, [not the greatest|neutral|aspect=location] [location|aspect], but the food keeps me coming back for more.
-It's located in a strip mall near the Beverly Center, not the [greatest|neutral|aspect=location] [location|aspect], but the food keeps me coming back for more.
+(prawns, fresh, positive); (batter, crispiness, positive); (walnuts, crunchy, positive); (walnuts, tasty, positive)
+(prawns, fresh, positive); (butter, crispiness, positive); (winters, good, positive); (winters, crunchy, positive); (winters, tasty, positive)
 
-Never too crowded and always [great|positive|aspect=service] [service|aspect].
-Never too crowded and always [great|positive|aspect=service] [service|aspect].
+(scallops, fresh, positive); (scallops, nicely cooked, positive); (prawns, fresh, positive); (prawns, nicely cooked, positive)
+(brocolli, fresh, positive); (brocolli, nicely cooked, positive)
 
-I can highly [[[recommend|positive|aspect=saag, paneer, korma] their various [saag|aspect] and [paneer|aspect] and [korma|aspect].
-I can highly [recommend|positive|aspect=saag, paneer, korma] their various [saag|aspect] and [paneer|aspect] and [korma|aspect].
+(sushi, good, negative); (restaurant, moderately priced, negative)
+(sushi, good, positive)
 
-I [appreciate|positive|aspect=delivery] their [delivery|aspect] too.
-I [recommend|positive|aspect=delivery] their [delivery|aspect] too.
+(service, Terrible, negative); (food, ok, neutral)
+(service, Terrible, negative); (food, ok, negative); (food, pricey, negative)
 
-[Nice|negative|aspect=food] [food|aspect] but no spice!
-[Nice|neutral|aspect=food] [food|aspect] but no spice!
+(Food, ok, neutral); (Food, pricey, neutral); (restaurant, isn't a fancy, neutral)
+(Food, ok, negative); (Food, pricey, negative)
 
-– I really [enjoyed|positive|aspect=meal] my [meal|aspect] here.
-– I really [enjoyed|positive|aspect=meal] my [meal|aspect] here.
+(feel, plus, positive); (feel, open, positive)
+(restaurant, plus, positive); (glass walls, plus, positive)
 
-I had [[[[yummy|positive|aspect=lamb korma, saag paneer, samosas, naan] [lamb korma|aspect], [saag paneer|aspect], [samosas|aspect], [naan|aspect], etc.
-I had [[yummy|positive|aspect=lamb korma, saag paneer, samosas, naan] [lamb korma|aspect], [saag paneer|aspect], [samosas|aspect], [naan|aspect], etc.
+(omikase, didn't disappoint, negative); (omikase, scored low on creativity and selection, negative)
+(omikase, low, positive)
 
-The [food|aspect] was all [good|negative|aspect=food] but it was way [too mild|negative|aspect=food].
-The [food|aspect] was all [good|negative|aspect=food] but it was way [too mild|negative|aspect=food].
+(specialty rolls, impressive, positive)
+(special rolls, impressive, positive)
 
-The [naan|aspect] was some of the [best|positive|aspect=naan] I've had and I really [enjoyed|positive|aspect=bhartha] the [bhartha|aspect], not too tomatoey.
-The [naan|aspect] was some of the [best|positive|aspect=naan] I've had and I really [enjoyed|positive|aspect=bhartha] the [bhartha|aspect], [not too tomatoey|positive|aspect=bhartha].
+(selection of sakes, Great, positive)
+(sake, Great, positive)
 
-Even the [chickpeas|aspect], which I normally find too dry, were [good|positive|aspect=chickpeas].
-Even the [chickenpeas|aspect], which I normally find too [dry|negative|aspect=chickenpeas], were [good|positive|aspect=chickenpeas].
+(sushi, isn't the cheapest, positive); (sushi, worth, positive)
+(sushi, worth, positive)
 
-– I don't understand how I was a stranger to this place for so long... the [fajita salad|aspect], the [colorado|aspect], the [fajitas|aspect] - EVERYTHING is [[[delicious|positive|aspect=fajita salad, colorado, fajitas].
-– I don't understand how I was a stranger to this place for so long... the [fajita salad|aspect], the [colorado|aspect], the [fajitas|aspect] - EVERYTHING is [[delicious|positive|aspect=fajita salad, colorado, fajitas].
+(customer service, poor, negative)
+(location, charming, positive); (food, average, positive)
 
-I love the [warm|positive|aspect=environment] & [cosy|positive|aspect=environment] [environment|aspect].
-I [love|positive|aspect=environment] the [warm|positive|aspect=environment] & [cosy|positive|aspect=environment] [environment|aspect].
+(fish, fresh, negative); (fish, thin, negative)
+(fish, fresh, positive); (fish, thin, negative)
 
-[best|positive|aspect=restaurant] [restaurant|aspect] in the world, [great|positive|aspect=decor] [decor|aspect], [great|positive|aspect=customer service] [customer service|aspect], [friendly|positive|aspect=manager] [manager|aspect]
-[best|positive|aspect=restaurant] [restaurant|aspect] in the world, [great|positive|aspect=decor] [decor|aspect], [great|positive|aspect=customer service] [customer service|aspect], [friendly|positive|aspect=manager] [manager|aspect].
+(seafood dinners, high quality, positive)
+(seafood, high quality, positive)
 
-i am [never disappointed|positive|aspect=food] with there [food|aspect].
-i am never disappointed with there [food|aspect].
+(dessert of a port and chocolate tasting, yummy, positive)
+(dessert, unusual, positive); (port and chocolate tasting, yummy, positive)
 
-the [atmosphere|aspect] is [great|positive|aspect=atmosphere].
-the [atmosphere|aspect] is [great|positive|aspect=atmosphere].
+(Breakfast, Great, positive)
+(Bagel, Great, positive)
 
-[great|positive|aspect=lunch spot] [lunch spot|aspect]
-[great|positive|aspect=lunch spot] [lunch spot|aspect]
+(drinks, Great, positive); (corn beef hash, Great, positive); (coffee, Great, positive); (B Fast burritos, Great, positive); (menu, Great, positive)
+(drinks, Great, positive); (corn beef hash, Great, positive); (coffee, Great, positive); (burritos, Fast, positive); (menu, Gluten Free, positive)
 
-– [Great|positive|aspect=mexican spot] financial district [mexican spot|aspect].
-– [Great|positive|aspect=financial district mexican spot] [financial district mexican spot|aspect].
+(service, fantastic, positive); (place, fun, positive)
+(service, fantastic, positive)
 
-Always busy, but they are good at seating you promptly and have [quick|positive|aspect=service] [service|aspect].
-Always busy, but they are good at seating you promptly and have [quick|positive|aspect=service] [service|aspect].
+(Standby, Best, positive)
+(Northern Standby, Best, positive)
 
-Everything I've had here is [[[good|positive|aspect=taco salads, burritos, enchiladas], [taco salads|aspect], [burritos|aspect], [enchiladas|aspect] i [love|positive|aspect=place] this [place|aspect].
-Everything I've had here is [good|positive|aspect=taco salads, burritos, enchiladas], [taco salads|aspect], [burritos|aspect], [enchiladas|aspect] i [love|positive|aspect=place] this [place|aspect].
+(music, great, positive); (bar tenders, generous, positive); (atmosphere, lighthearted, positive)
+(music, great, positive); (night, better or worse, positive); (bar tenders, generous, positive); (atmosphere, lighthearted, positive)
 
-Also have [great|positive|aspect=margaritas] [margaritas|aspect]!
-Also have [great|positive|aspect=margaritas] [margaritas|aspect]!
+(Food, Good, positive); (Service, Great, positive)
+(Food, Good, positive); (Service, Great, positive); (Strip, Average Prices, positive)
 
-The [food|aspect] is simply [unforgettable|positive|aspect=food]!
-The [food|aspect] is simply [unbelievable|positive|aspect=food]!
+(subwoofer to the sound system, annoying, negative)
+(music playing, hip, positive); (pop music, 20-30 something, positive)
 
-The [staff|aspect] are [friendly|positive|aspect=staff] and the [decor|aspect] was [ethic|positive|aspect=decor] and [colorful|positive|aspect=decor].
-The [staff|aspect] are [friendly|positive|aspect=staff] and the [decor|aspect] was [ethic|positive|aspect=decor] and [colorful|positive|aspect=decor].
+(shellfish and shrimp appetizer, alright, neutral)
+(shellfish and shrimp appetizer, alright, positive)
 
-[Holy|positive|aspect=Hummus] [Hummus|aspect]!
-[Holy|positive|aspect=Hummus] [Hummus|aspect]!
+(seafood, wasn't the freshest, neutral); (seafood, OK, neutral)
+(seafood, freshest, neutral)
 
-– The [food|aspect] is here is [incredible|positive|aspect=food], though the quality is inconsistent during lunch.
-– The [food|aspect] is here is [incredible|positive|aspect=food], though the quality is [inconsistent|negative|aspect=quality] during lunch.
+(peppercorn sauce, indistinguishable, neutral); (red wine reduction, indistinguishable, neutral)
+(pizzacorn sauce, indistinguishable, negative); (red wine reduction, indistinguishable, negative)
 
-[Dinners|aspect] have always been [excellent|positive|aspect=Dinners], in terms of food quality.
-[Dinners|aspect] have always been [excellent|positive|aspect=Dinners], in terms of [food|aspect] quality.
+(desert, perfect, positive); (dinner, perfect, positive)
+(desert, perfect, positive)
 
-The [side of potatoes|aspect, labne ( yogurt dip )] is to [die for|positive|aspect=side of potatoes], as is the [labne ( yogurt dip )|aspect].
-The [side of potatoes|aspect] is to [die for|positive|aspect=side of potatoes, labne ( yogurt dip )], as is the [labne ( yogurt dip )|aspect].
+(sake, good, positive)
+(server, good, positive)
 
-Also, they serve THE [best|positive|aspect=hummus] [hummus|aspect] in America, with a drizzle of fragrant olive oil ( which, I believe is the traditional way )!
-Also, they serve THE [best|positive|aspect=hummus] [hummus|aspect] in America, with a drizzle of fragrant olive oil ( which, I believe is the traditional way )!
+(menu, creative, positive)
+(food, excited, positive); (menu, creative, positive)
 
-The only drawback is the [crowded|negative|aspect=seating] [seating|aspect] and the [slow|negative|aspect=service] [service|aspect].
-The only drawback is the [crowded|negative|aspect=seating] [seating|aspect] and the [slow|negative|aspect=service] [service|aspect].
+(cooks, friendly, positive)
+(wait staff, friendly, positive); (cooks, friendly, positive)
 
-However, this [place|aspect] is a [gem|positive|aspect=place], and I won't stop going back.
-However, this [place|aspect] is a [gem|positive|aspect=place], and I won't stop going back.
+(decor, enjoy, positive); (decor, simplicity, positive); (feeling, intimate, positive)
+(decor, enjoy, positive); (feeling, intimate, positive)
 
-[great|positive|aspect=beer] [beer|aspect]
-[great|positive|aspect=beer] [beer|aspect]
+(menu, creative, positive)
+(pizza ’ s, thin crust, positive); (menu, creative, positive); (toppings, creative, positive)
 
-I swore never to return for a [warm|negative|aspect=beer] [beer|aspect] and [mediocre|negative|aspect=meal] [meal|aspect].
-I swore never to return for a [warm|negative|aspect=beer] [beer|aspect] and [mediocre|negative|aspect=meal] [meal|aspect].
+(crust, thin, neutral)
+(pizza ’ s, not huge, neutral); (crust, thin, neutral)
 
-The [band|aspect] was very [good|positive|aspect=band] and the [service|aspect] was [attentive|positive|aspect=service].
-The [band|aspect] was very [good|positive|aspect=band] and the [service|aspect] was [attentive|positive|aspect=service].
+(food, sinful, positive)
+(food, sinful, negative)
 
-We ordered a selection of the small plates, and the [shoe string onions|aspect], [goat cheese pizza|aspect], [grilled asparagus|aspect] and [fried brie with fruit|aspect] were all very [[[[good|positive|aspect=shoe string onions, goat cheese pizza, grilled asparagus, fried brie with fruit].
-We ordered a selection of the small plates, and the shoe string onions, goat cheese pizza, grilled asparagus and fried brie with fruit were all very [[good|positive|aspect=shoe string onions, goat cheese pizza, grilled asparagus, fried brie with fruit].
+(pancakes, decadent, positive)
+(pastas, decadent, positive)
 
-Seattle's [BEST|positive|aspect=Winelist] [Winelist|aspect]
-Seattle's [BEST|positive|aspect=Winelist] [Winelist|aspect]
+(menu, amazing, positive)
+(menu, less than amazing, negative)
 
-The [sommelier|aspect] is [fantastic|positive|aspect=sommelier], [down-to-earth|positive|aspect=sommelier], & extremely [knowlegable|positive|aspect=sommelier].
-The [sommelier|aspect] is [fantastic|positive|aspect=sommelier], [down-to-earth|positive|aspect=sommelier], & extremely [knowlegable|positive|aspect=sommelier].
+(fish, decent, negative)
+(fish, decent, positive)
 
-The food is not what it once was ( potions have seriously seen downsizing ) prices have gone up, and the [service|aspect] is the [worst|negative|aspect=service] I have experienced anywhere ( including mainland Europe ).
-The [food|aspect] is [not what it once was|negative|aspect=food] ( [potions|aspect] have seriously seen [downsizing|negative|aspect=potions] ) prices have gone up, and the [service|aspect] is the [worst|negative|aspect=service] I have experienced anywhere ( including mainland Europe ).
+(honwy walnut prawns, best, positive); (honwy walnut prawns, outstanding, positive)
+(dish, best, positive); (honwy walnut prawns, outstanding, positive)
 
-Open & [Cool|positive|aspect=Place] [Place|aspect] with the [[Best|positive|aspect=Pizza, Coffee] [Pizza|aspect] and [Coffee|aspect]
-Open & [Cool|positive|aspect=Place] [Place|aspect] with the [Best|positive|aspect=Pizza, Coffee] [Pizza|aspect] and [Cafe|aspect]
+(food, fantastic, positive); (food, authentic, positive); (food, delicious, positive); (food, affordable, positive)
+(food, fantastic, positive); (food, authentic, positive); (food, delicious, positive); (food, very affordable, positive)
 
-– Mioposto has a very [creative|positive|aspect=pizza menu] & [delicious|positive|aspect=pizza menu] [pizza menu|aspect].
-– Mioposto has a very [creative|positive|aspect=pizza menu] & [delicious|positive|aspect=pizza menu] [pizza menu|aspect].
+(music, good, positive); (atmosphere, good, positive); (vibe, nice, positive); (people, happy, positive)
+(vibe, nice, positive); (music, good, positive); (atmosphere, good, positive); (people, happy, positive)
 
-The [coffe|aspect] is very [good|positive|aspect=coffe], too.
-The [coffee|aspect] is very [good|positive|aspect=coffee], too.
+(place, tiny, neutral)
+(sushi bar, tiny, negative)
 
-[Great open|positive|aspect=ambience] and [friendly|positive|aspect=ambience] [ambience|aspect].
-[Great|positive|aspect=ambience] [open|positive|aspect=ambience] and [friendly|positive|aspect=ambience] [ambience|aspect].
+(portions, large, positive); (sushi dishes, creative, positive)
+(sushi dishes, good tasting, positive); (fish taste or smell, good, positive); (portions, large, positive); (sushi dishes, creative, positive)
 
-This [place|aspect] is [charming|positive|aspect=place] and [relaxing|positive|aspect=place].
-This [place|aspect] is [charming|positive|aspect=place] and [relaxed|positive|aspect=place].
+(pepperoni, big thick, positive)
+(pizzaoni, big thick, positive)
 
-The [servers behind the counter|aspect] are always [friendly|positive|aspect=servers behind the counter] and [helpful|positive|aspect=servers behind the counter].
-The [servers|aspect] behind the counter are always [friendly|positive|aspect=servers] and [helpful|positive|aspect=servers].
+(pepperoni's, thick, positive); (pepperoni's, Yum, positive)
+(pizzaoni, thick, positive)
 
-It's a [great|positive|aspect=place] [place|aspect] to [enjoy|positive|aspect=food] [food|aspect] and meet friends.
-It's a [great|positive|aspect=place] [place|aspect] to enjoy food and meet friends.
+(pizza, not exactly the best, positive); (pizza, good, positive)
+(pizza, good, positive)
 
-[Great|positive|aspect=food] [food|aspect], [spectacular|positive|aspect=location] [location|aspect], and [friendly|positive|aspect=service] [service|aspect] keep us coming back year after year.
-[Great|positive|aspect=food] [food|aspect], [spectacular|positive|aspect=location] [location|aspect], and [friendly|positive|aspect=service] [service|aspect] keep us coming back year after year.
+(menu selection, Fair, neutral)
+(menu selection, Fair, positive)
 
-[Enjoyed|positive|aspect=food] the [food|aspect]
-[Enjoyed|positive|aspect=food] the [food|aspect]
+(food, exeptional, positive)
+(food, exeptional, negative)
 
-[Food|aspect] was [good|positive|aspect=Food] and [cheap|positive|aspect=Food].
-[Food|aspect] was [good|positive|aspect=Food] and [cheap|positive|aspect=Food].
+(portions, big, neutral)
+(portions, big, positive)
 
-I had the [kafta plate|aspect] and I [enjoyed|positive|aspect=kafta plate] it.
-I had the [kafta plate|aspect] and I [enjoyed|positive|aspect=kafta plate] it.
+(music, casual, positive)
+(music, Groovy, positive)
 
-[Atmosphere|aspect] was [nice|positive|aspect=Atmosphere].
-[Atmosphere|aspect] was [nice|positive|aspect=Atmosphere].
+(restroom, odd, negative)
+(bathroom attendant, odd, negative)
 
-[Service|aspect] was kind of [slow|negative|aspect=Service], our waitress took forever to give us our check even though it wasn't that busy.
-[Service|aspect] was kind of [slow|negative|aspect=Service], our [waitress|aspect] took forever to give us our check even though it wasn't that busy.
+(bathroom, small, negative)
+(bathroom, small, negative); (disher, on the way, negative)
 
-Still I would [recommend|positive|aspect=place] this [place|aspect].
-Still I would [recommend|positive|aspect=place] this [place|aspect].
+(service, awesome, positive)
+(Mercedes restaurant, tasty, positive); (service, awesome, positive)
 
-WHAT ELSE CAN YOU SAY [NICE|positive|aspect=PEOPLE] [PEOPLE|aspect] [AMAZING|positive|aspect=FOOD] [FOOD|aspect] WOW
-WHAT ELSE CAN YOU SAY NICE PEOPLE [AMAZING|positive|aspect=FOOD] [FOOD|aspect] WOW
+(Raouls chicken vegetable soup, rocks my world, positive); (catering, out of this world, positive)
+(catering, out of this world, positive); (Raouls chicken vegetable soup, rocks, positive)
 
-[Great|positive|aspect=food] [food|aspect] with an [awesome|positive|aspect=atmosphere] [atmosphere|aspect]!
-[Great|positive|aspect=food] [food|aspect] with an [awesome|positive|aspect=atmosphere] [atmosphere|aspect]!
+(Drinks, suberb, positive)
+(Drinks, suberb, negative)
 
-– [Eggs|aspect], [pancakes|aspect], [potatoes|aspect], [fresh fruit|aspect] and [yogurt|aspect] -- everything they serve is [[[[[delicious|positive|aspect=Eggs, pancakes, potatoes, fresh fruit, yogurt].
-– [Eggs|aspect], [pastas|aspect], [pastas|aspect], [pastas|aspect], [fresh fruit|aspect] and [yogurt|aspect] -- everything they serve is [[delicious|positive|aspect=Eggs, pancakes, potatoes, yogurt].
+(Service, Mediocre, neutral)
+(Service, Mediocre, positive); (Service, Quality, positive)
 
-[great|positive|aspect=meal] [meal|aspect] – the [fish on the omikase platter|aspect] was absolutely [decadent|positive|aspect=fish on the omikase platter] -- there was none of the stringiness that sometimes accompanies fair sushi -- this fish was [perfect|positive|aspect=fish on the omikase platter]!!!!
-[great|positive|aspect=meal] [meal|aspect] – the [fish|aspect] on the omikase platter was absolutely [decent|positive|aspect=fish] -- there was none of the stringiness that sometimes accompanies fair sushi -- this [fish|aspect] was [perfect|positive|aspect=fish]!!!
+(Snooze, excellent, negative); (menu, high brow, negative)
+(presentation, excellent, positive); (menu, high brow, negative)
 
-plus, i am allergic to rice, and the [waitstaff|aspect] was unbelievably [accomodating|positive|aspect=waitstaff] -- didn't even bat an eye!
-plus, i am allergic to rice, and the [waitstaff|aspect] was unbelievably [accomodating|positive|aspect=waitstaff] -- didn't even bat an eye!
+(pancakes, inventive, negative); (pancakes, over-priced, negative)
+(pastas, inventive, negative); (pasta flight, over-priced, negative)
 
-and the waiter suggested a [perfect|positive|aspect=sake] [sake|aspect]!!
-and the [waiter|aspect] suggested a [perfect|positive|aspect=sake] [sake|aspect]!!
+(pancakes, should be larger, negative)
+(pastas, larger, negative)
 
-[Unbeatable|positive|aspect=sushi] [sushi|aspect]!
-[Unbeatable|positive|aspect=sushi] [sushi|aspect]!
+(pancakes, small, negative)
+(pastas, small, positive); (breakfast burrito, small, positive); (orange juice, orange juice, iced tea, positive)
 
-Melt in your mouth nigiri and sashmi, and very [tasty|positive|aspect=rolls] [rolls|aspect] too.
-Melt in your mouth [nigiri|aspect] and [sashmi|aspect], and very [tasty|positive|aspect=rolls] [rolls|aspect] too.
+(Sound views, gorgeous, positive)
+(food, gorgeous, positive); (service, gorgeous, positive)
 
-Be sure to [try|positive|aspect=oyster roll] the [oyster roll|aspect].
-Be sure to [try|positive|aspect=oyster roll] the [oyster roll|aspect].
+(Ray's, happy surprise, positive)
+(views, third-best, positive)
 
-– How to describe the [best|positive|aspect=sushi] [sushi|aspect] in NYC : hmmmm, delicious, amazing, fantastic, suculent, perfect, nah, all of the above.
-– How to describe the [best|positive|aspect=sushi] [sushi|aspect] in NYC : hmmmm, [delicious|positive|aspect=sushi], [amazing|positive|aspect=sushi], [fantastic|positive|aspect=sushi], [succulent|positive|aspect=sushi], [perfect|positive|aspect=sushi], nah, all of the above.
+(Brooke, lovely, positive); (Brooke, quickly, positive)
+(server, lovely, positive)
 
-The [best|positive|aspect=Chuwam Mushi] [Chuwam Mushi|aspect] I have ever had.
-The [best|positive|aspect=Chowwam Mushi] [Chowwam Mushi|aspect] I have ever had.
+(white gulf prawns, enormous, positive); (manila clams, fantastic, positive); (soy dressing, tasty, positive); (butter sauce, sublime, positive)
+(Shilshole Sampler, beautiful, positive); (smoked albacore tuna, beautiful, positive); (manila clams, fantastic, positive); (scallops, tasty, positive); (butter sauce, sublime, positive)
 
-[Good|negative|aspect=Sushi] [Sushi|aspect], High Price
-[Good|positive|aspect=Sushi] [Sushi|aspect], High Price
+(seared Alaskan sea scallops, enjoyed, positive)
+(seared Alaskan sea scallops, enjoyed, positive); (artichoke hearts, enjoyed, positive); (fennel, enjoyed, positive); (pecorino toscano, enjoyed, positive)
 
-One of the [best|positive|aspect=Sushi place] [Sushi place|aspect] in town.
-One of the [best|positive|aspect=Sushi place] [Sushi place|aspect] in town.
+(grilled Alaskan King Salmon, enjoyed, positive); (creamed Washington russet potatoes, delectable, positive); (green beans, crisp, positive)
+(grilled Alaskan King Salmon with delectable creamed Washington russet potatoes and crisp green beans, enjoyed, positive)
 
-The [house special roll|aspect] is really [good|positive|aspect=house special roll].
-The [house special roll|aspect] is really [good|positive|aspect=house special roll].
+(plate, superb, positive)
+(all three items, superb, positive)
 
-– I can't believe [Murphy's|aspect] has been around for over 25 years, [amazing|positive|aspect=Murphy's].
-– I can't believe [Murphy's|aspect] has been around for over 25 years, [amazing|positive|aspect=Murphy's].
+(server, attentive, positive); (Ray's, appropriate, neutral)
+(server, attentive, positive); (Ray's, appropriate, positive)
 
-Brunch at Murphy's is to die for, my specialty... egg white omelet, the [food|aspect] is always [freshly prepared|positive|aspect=food].
-[Brunch|aspect] at Murphy's is to [die for|positive|aspect=Brunch], my specialty... [egg white omelet|aspect], the [food|aspect] is always [fresh prepared|positive|aspect=food].
+(portions, Not the biggest, neutral); (portions, adequate, neutral)
+(portions, not the biggest, neutral); (portions, adequate, neutral)
 
-It's the [perfect|positive|aspect=spot] [spot|aspect] for a romantic date for 2 or a secret rendezvous!
-It's the [perfect|positive|aspect=spot] [spot|aspect] for a romantic date for 2 or a secret rendezvous!
+(staff, accomodating, positive)
+(staff, accomodating, positive); (staff, tended to my every need, positive)
 
-Save room for [scrumptious|positive|aspect=desserts] [desserts|aspect].
-[Save room|positive|aspect=desserts] for [scrumptious|positive|aspect=desserts] [desserts|aspect].
+(onion rings, great, positive)
+(onions, great, positive)
 
-The restaurant offers an [extensive|positive|aspect=wine list] [wine list|aspect] and an [ambiance|aspect] you [won't forget|positive|aspect=ambiance]!
-The restaurant offers an [extensive|positive|aspect=wine list] [wine list|aspect] and an [ambiance|aspect] you won't forget!
+(lemon chicken, sticky sweet, negative); (honey walnut prawns, not good, negative)
+(lemon chicken, sticky sweet, negative); (hone walnut prawns, not good, negative)
 
-– [Best|positive|aspect=Mexican place] [Mexican place|aspect] for lunch in the financial district.
-– [Best|positive|aspect=Mexican place] [Mexican place|aspect] for lunch in the financial district.
+(Service, Worst, positive)
+(Service, Worst, negative)
 
-[[Love|positive|aspect=enchiladas, chicken soup] the [enchiladas|aspect] and [chicken soup|aspect] - and be sure to check out their specials.
-[Love|positive|aspect=enchiladas, chicken soup] the [enchiladas|aspect] and [chicken soup|aspect] - and be sure to check out their [specials|aspect].
+(Italian restaurant, wonderful, positive)
+(Italian restaurant, happy, positive)
 
-Can get busy on Fridays for a table but once seated, the [service|aspect] is so [efficient|positive|aspect=service] you can be in and out of there quickly.
-Can get busy on Fridays for a table but once seated, the [service|aspect] is so [efficient|positive|aspect=service] you can be in and out of there quickly.
+(wine list, wonderful, positive)
+(wine list, wonderful, positive); (food, reminds me, positive)
 
-The [sushi|aspect] was [excellent|positive|aspect=sushi] and the [wait staff|aspect] was [quick|positive|aspect=wait staff].
-The [sushi|aspect] was [excellent|positive|aspect=sushi] and the [wait staff|aspect] was [quick|positive|aspect=wait staff].
+(wine list, incredible, positive); (wine list, extensive, positive); (wine list, diverse, positive); (food, incredible, positive); (staff, nice, positive)
+(wine list, incredible, positive); (wine list, extensive, positive); (wine list, diverse, positive); (food, incredible, positive); (staff, nice, positive); (staff, good, positive); (staff, cultured, positive)
 
-The [atmosphere|aspect] was just [okay|neutral|aspect=atmosphere].
-The [atmosphere|aspect] was just [okay|neutral|aspect=atmosphere].
+(place, relax, positive); (food, finest quality, positive)
+(food, finest quality, positive)
 
-[Space|aspect] was [limited|negative|aspect=Space], but the food made up for it.
-[Space|aspect] was [limited|negative|aspect=Space], but the [food|aspect] made up for it.
+(food, real, positive); (food, best, positive)
+(food, real, positive)
 
-We stood there for 10 minutes while [employees|aspect] walked back and forth [ignoring|negative|aspect=employees] us.
+(food, okay, negative)
+(food, okay, positive)
+
+(Rice, too dry, negative); (tuna, wasn't so fresh, negative)
+(Reece, dry, negative); (tuna, wasn't so fresh, negative)
+
+(service, lacking, negative)
+(value, lacking, negative); (service, lacking, negative)
+
+(fish, fresh, positive); (rolls, bland, negative)
+(fish, fresh, negative); (rolls, bland, negative)
+
+(sushi, Freshest, positive); (restaurant, love, positive)
+(sushi, Freshest, positive)
+
+(rolls, complex, positive)
+(miso soup, detail, positive); (rolls, complex, positive)
+
+(place, expensive, negative)
+(place, expensive, negative); (portions, small, negative)
+
+(food, fine, positive)
+(food, fine, positive); (salad, little-tastier-than-normal, negative)
+
+(deck, best, positive)
+(summertime deck, best, positive)
+
+(draft and bottle selection, Great, positive)
+(drafting, Great, positive); (bottle selection, Great, positive); (pizza, rocks, positive)
+
+(food, great, positive)
+(food, great, positive); (bartenders, extra mile, positive)
+
+(owners, great, positive); (beer selection, worth staying for, positive)
+(owners, great fun, positive); (beer selection, worth staying, positive)
+
+(balconey, favorite, positive)
+(smoking places, favorite, positive)
+
+(decor, rustic, neutral); (decor, traditional Japanese, neutral)
+(decor, rustic, positive); (decor, traditional Japanese, positive)
+
+(food, Mediocre, neutral)
+(food, Mediocre, positive)
+
+(menu, abbreviated, neutral)
+(outdoor patio area, abbreviated, negative)
+
+(Service, decent, neutral)
+(Service, decent, positive)
+
+(food, Excellent, positive); (ambience, nice, positive)
+(food, Excellent, positive); (ambience, nice, positive); (food, fairly expensive, positive)
+
+(pumpkin ravioli, loved, positive); (goat cheese gnocchi, loved, positive); (filet mignon on top of spinach and mashed potatoes, loved, positive)
+(pumpkin ravioli, loved, positive); (goat cheese gnocchi, loved, positive); (filet mignon, loved, positive)
+
+(food, Nice, negative)
+(food, Nice, negative); (food, no spice, negative)
+
+(food, good, negative); (food, too mild, negative)
+(food, good, negative); (food, mild, negative)
+
+(naan, best, positive); (bhartha, enjoyed, positive)
+(naan, best, positive); (bhartha, enjoyed, positive); (bhartha, not too tomatoey, positive)
+
+(chickpeas, good, positive)
+(chickenpeas, good, positive); (chickenpeas, dry, negative)
+
+(environment, warm, positive); (environment, cosy, positive)
+(environment, love, positive); (environment, warm, positive); (environment, cosy, positive)
+
+(mexican spot, Great, positive)
+( financial district mexican spot, Great, positive)
+
+(taco salads, good, positive); (burritos, good, positive); (enchiladas, good, positive); (place, love, positive)
+(taco salads, good, positive); (burritos, good, positive); (enchiladas, love, positive)
+
+(Hummus, Holy, positive)
+(Himmus, Holy Hummus, positive)
+
+(food, incredible, positive)
+(food, incredible, positive); (quality, inconsistent, negative)
+
+(side of potatoes, die for, positive); (labne ( yogurt dip ), side of potatoes, positive)
+(side of potatoes, die for, positive); (labne ( yogurt dip ), die for, positive)
+
+(hummus, best, positive)
+(hummus, best, positive); (spicy olive oil, traditional, positive)
+
+(shoe string onions, good, positive); (goat cheese pizza, good, positive); (grilled asparagus, good, positive); (fried brie with fruit, good, positive)
+(small plates, good, positive); (shoe string onions, good, positive); (goat cheese pizza, good, positive); (grilled asparagus, good, positive); (fried brie with fruit, good, positive)
+
+(service, worst, negative)
+(food, not what it once was, negative); (potions, downsizing, negative); (service, worst, negative)
+
+(Place, Cool, positive); (Pizza, Best, positive); (Coffee, Best, positive)
+(Pizza, Best, positive); (Cafe, Best, positive)
+
+(coffe, good, positive)
+(coffee, good, positive)
+
+(ambience, Great open, positive); (ambience, friendly, positive)
+(ambience, Great, positive); (ambience, open, positive); (ambience, friendly, positive)
+
+(servers behind the counter, friendly, positive); (servers behind the counter, helpful, positive)
+(servers, friendly, positive); (servers, helpful, positive)
+
+(food, enjoy, positive); (place, great, positive)
+(place, great, positive)
+
+(FOOD, AMAZING, positive); (PEOPLE, NICE, positive)
+(FOOD, AMAZING, positive)
+
+(Eggs, delicious, positive); (pancakes, delicious, positive); (potatoes, delicious, positive); (fresh fruit, delicious, positive); (yogurt, delicious, positive)
+(Eggs, delicious, positive); (pastas, delicious, positive); (dishes, fresh fruit, delicious, positive); (yogur, delicious, positive)
+
+(meal, great, positive); (fish on the omikase platter, decadent, positive); (fish on the omikase platter, perfect, positive)
+(meal, great, positive); (omikase platter, decadent, positive)
+
+(waitstaff, accomodating, positive)
+(waitstaff, accomodating, negative)
+
+(rolls, tasty, positive)
+(nigiri, Melt, positive); (sashmi, Melt, positive); (rolls, tasty, positive)
+
+(sushi, best, positive)
+(sushi, delicious, positive); (sushi, amazing, positive); (sushi, suculent, positive); (sushi, perfect, positive)
+
+(Chuwam Mushi, best, positive)
+(Chowam Mushi, best, positive)
+
+(Sushi, Good, negative)
+(Sushi, Good, positive)
+
+(food, freshly prepared, positive)
+(egg white omelet, freshly prepared, positive)
+
+(wine list, extensive, positive); (ambiance, won't forget, positive)
+(wine list, extensive, positive); (ambiance, forget, positive)
+
+(enchiladas, Love, positive); (chicken soup, Love, positive)
+(enchiladas, Love, positive); (chicken soup, Love, positive); (specials, check out, positive)
+
+(Space, limited, negative)
+(Space, limited, negative); (food, made up, positive)
+
+(employees, ignoring, negative)
+(staff, ignoring, negative)
+
+(Caesar salad, couldn't eat, negative)
+(Caesar salad, lemon, negative)
+
+(art on the walls, colorful, positive)
+(art, colorful, positive)
+
+(meal, bad, positive)
+(meal, never had one bad, positive)
+
+(food, plenty of, positive)
+(food, plenty, positive)
+
+(selection, innovative, positive); (sushi, nice, positive); (sushi, traditional, positive)
+(sushi, innovative, positive); (balance of traditional sushi, nice, positive)
+
+(brunch food, average, neutral)
+(basic food, average, neutral)
+
+(regular menu, above average, neutral); (regular menu, not worth the snotty attitude, neutral)
+(regular menu, above average, negative)
+
+(fish, love expertly cut, positive); (sake, great, positive); (SOHO location, killer, positive)
+(fish, expertly cut, positive); (sushi, great, positive); (fish, killer, positive); (Sea Urchin, Shrimp, Lobster, killer, positive); (Trout, Trout, Milk Fish, Blue Fin Tuna, positive); (Eel, Crab, Sardine, Monk Fish, positive); (Oysters, great, positive)
+
+(BLUE RIBBON SUSHI, best, positive)
+(sushi, best, positive)
+
+(sushi, Great value, positive); (sushi, high quality, positive); (sushi, nice setting, positive); (setting, nice, positive)
+(sushi, Great value, positive); (setting, high quality, positive); (setting, nice, positive)
+
+(rolls, tasty, positive); (smoked yellowtail, incredible, positive)
+(smoked yellowtail, incredible, positive); (rolls, tasty, positive)
+
+(customer service, Poor, negative); (pizza, Poor, negative)
+(customer service, Poor, negative); (pizza, poor, negative)
+
+(pizza, lacks quality and good taste, negative)
+(pizza, favorite, positive); (pizza, good taste, negative)
+
+(pizza, better, negative)
+(frozen pizza, better, negative)
+
+(location, nice, positive)
+(location, positive); (location, nice, positive)
+
+(food, ok, neutral); (service, poor, negative)
+(food, ok, positive); (service, poor, negative)
+
+(service, without ever, negative)
+(service, never getting, negative)
+
+(seasonal fish, Great, positive); (seafood, Great, positive); (waterfront setting, classy, positive)
+(seasonal fish, Great, positive); (seafood, Great, positive); (frontier, classy, positive)
+
+(servers, don't like, negative); (young woman, don't like, negative)
+(servers, dislike, negative)
+
+(place, great little, positive)
+(service, impersonal, negative); (service, corporate-like, negative)
+
+(Breakfast, Great, positive)
+(Bagel, Great, positive)
+
+(menu items, hit, positive)
+(menu items, hit, positive); (mimosas, mimosas, hit, positive)
+
+(prawns, fresh, positive); (batter, crispiness, positive); (walnuts, crunchy, positive); (walnuts, tasty, positive)
+(prawns, fresh, positive); (prawns, crispiness, positive); (waxnuts, good, positive); (waxnuts, crunchy, positive); (waxnuts, tasty, positive)
+
+(scallops, fresh, positive); (scallops, nicely cooked, positive); (prawns, fresh, positive); (prawns, nicely cooked, positive)
+(scallops and prawns, fresh, positive); (scallops and prawns, nicely cooked, positive)
+
+(sushi, good, negative); (restaurant, moderately priced, negative)
+(sushi, good, positive); (slices of fish, larger, negative)
+
+(service, Terrible, negative); (food, ok, neutral)
+(service, Terrible, negative); (food, ok, negative); (food, pricey, negative)
+
+(Food, ok, neutral); (Food, pricey, neutral); (restaurant, isn't a fancy, neutral)
+(Food, ok, negative); (place, fancy, neutral)
+
+(feel, plus, positive); (feel, open, positive)
+(restaurant, open feel, positive); (glass walls, plus, positive)
+
+(omikase, didn't disappoint, negative); (omikase, scored low on creativity and selection, negative)
+(omikase, freshness, positive); (omikase, low on creativity, negative); (omikase, low on selection, negative)
+
+(specialty rolls, impressive, positive)
+(special rolls, impressive, positive)
+
+(selection of sakes, Great, positive)
+(sakes, Great, positive)
+
+(sushi, isn't the cheapest, positive); (sushi, worth, positive)
+(sushi, worth, positive)
+
+(customer service, poor, negative)
+(location, charming, positive); (food, average, negative)
+
+(fish, fresh, negative); (fish, thin, negative)
+(fish, fresh, positive); (fish, thin, negative)
+
+(dessert of a port and chocolate tasting, yummy, positive)
+(port and chocolate tasting, yummy, positive)
+
+(Breakfast, Great, positive)
+(Bagel, Great, positive)
+
+(drinks, Great, positive); (corn beef hash, Great, positive); (coffee, Great, positive); (B Fast burritos, Great, positive); (menu, Great, positive)
+(drinks, Great, positive); (corn beef hash, Great, positive); (coffee, B Fast, positive); (britos, Gluten Free, positive)
+
+(Standby, Best, positive)
+(Nordic Standby, Best, positive)
+
+(spot, favorite, positive)
+(Spot, favorite, positive)
+
+(Food, Good, positive); (Service, Great, positive)
+(Food, Good, positive); (Service, Great, positive); (Seafood, Average Prices, (Strip, Average, positive)
+
+(subwoofer to the sound system, annoying, negative)
+(music, hip, positive); (pop music, 20-30 something, positive)
+
+(shellfish and shrimp appetizer, alright, neutral)
+(shellfish and shrimp appetizer, alright, positive)
+
+(seafood, wasn't the freshest, neutral); (seafood, OK, neutral)
+(seafood, wasn't the freshest, neutral)
+
+(steak, nice, positive); (steak, juicy, positive)
+(steak, done, positive); (steak, medium rare, positive); (steak, nice, positive); (steak, juicy, positive)
+
+(peppercorn sauce, indistinguishable, neutral); (red wine reduction, indistinguishable, neutral)
+(pizzacorn sauce, indistinguishable, negative)
+
+(desert, perfect, positive); (dinner, perfect, positive)
+(desert, perfect, positive)
+
+(sake, good, positive)
+(Sake suggestions, good, positive)
+
+(waiter, unfriendly, negative); (feel, crowded, negative)
+(waiter, unfriendly, negative); (restaurant, crowded, negative)
+
+(menu, creative, positive)
+(food, excited, positive); (menu, creative, positive)
+
+(cooks, friendly, positive)
+(wait staff, friendly, positive)
+
+(decor, enjoy, positive); (decor, simplicity, positive); (feeling, intimate, positive)
+(decor, enjoy, positive); (feel, intimate, positive)
+
+(menu, won ’ t be disappointed, positive)
+(menu, disappointed, positive)
+
+(menu, creative, positive)
+(pizza ’ s, thin crust, positive); (menu, creative, positive); (toppings, creative, positive)
+
+(crust, thin, neutral)
+(pizza ’ s, not huge, positive); (crust, thin, positive)
+
+(food, sinful, positive)
+(food, sinful, negative)
+
+(pancakes, decadent, positive)
+(pastas, decadent, positive)
+
+(fish, decent, negative)
+(fish, decent, positive)
+
+(honwy walnut prawns, best, positive); (honwy walnut prawns, outstanding, positive)
+(honwy walnut prawns, best, positive)
+
+(music, good, positive); (atmosphere, good, positive); (vibe, nice, positive); (people, happy, positive)
+(vibe, nice, positive); (music, good, positive); (atmosphere, good, positive); (people, happy, positive)
+
+(place, tiny, neutral)
+(sushi bar, tiny, negative)
+
+(portions, large, positive); (sushi dishes, creative, positive)
+(sushi dishes, large, positive); (sushi dishes, creative, positive)
+
+(pepperoni, big thick, positive)
+(pizzaoni, big thick, positive)
+
+(pepperoni's, thick, positive); (pepperoni's, Yum, positive)
+(pestoil, thick, positive)
+
+(pizza, not exactly the best, positive); (pizza, good, positive)
+(pizza, not exactly the best, neutral)
+
+(menu selection, Fair, neutral)
+(menu selection, Fair, positive)
+
+(appetizer, interesting, positive); (Creme Brulee, savory, positive); (Creme Brulee, delicious, positive)
+(appetizer, interesting, positive); (creme Brulee, savory, positive); (creme Brulee, delicious, positive)
+
+(food, exeptional, positive)
+(food, exeptional, negative)
+
+(portions, big, neutral)
+(portions, big, positive)
+
+(music, casual, positive)
+(dinner, casual, positive)
+
+(restroom, odd, negative)
+(bathroom attendant, odd, negative)
+
+(bathroom, small, negative)
+(bathroom, small, negative); (dispert, paper towels, negative)
+
+(service, awesome, positive)
+(Mercedes restaurant, tasty, positive); (service, awesome, positive)
+
+(Raouls chicken vegetable soup, rocks my world, positive); (catering, out of this world, positive)
+(catering, out of this world, positive); (Raouls chicken vegetable soup, rocks, positive)
+
+(Service, Mediocre, neutral)
+(Service, Mediocre, positive)
+
+(Snooze, excellent, negative); (menu, high brow, negative)
+(Snooze, excellent, positive); (IHOP, overpriced, negative); (menu, high brow, negative)
+
+(pancakes, inventive, negative); (pancakes, over-priced, negative)
+(pastas, inventive, negative); (pasta flight, over-priced, negative)
+
+(pancakes, should be larger, negative)
+(pastas, larger, positive); (pastas, unique, negative)
+
+(pancakes, small, negative)
+(pastas, small, positive); (breakfast burrito, breakfast, positive); (orange juice, orange juice, and (iced tea, water, positive)
+
+(Sound views, gorgeous, positive)
+(Ray's, Seattle institution, positive); (Ray's, gorgeous, positive)
+
+(Ray's, happy surprise, positive)
+(views, third-best, positive)
+
+(Brooke, lovely, positive); (Brooke, quickly, positive)
+(server, lovely, positive)
+
+(white gulf prawns, enormous, positive); (manila clams, fantastic, positive); (soy dressing, tasty, positive); (butter sauce, sublime, positive)
+(Shilshole Sampler, beautiful, positive); (white gulf prawns, enormous, positive); (smoked albacore tuna, beautiful, positive); (manila clams, fantastic, positive); (butter sauce, sublime, positive)
+
+(seared Alaskan sea scallops, enjoyed, positive)
+(seared Alaskan sea scallops, enjoyed, positive); (chard, artichoke hearts, enjoyed, positive); (fennel, enjoyed, positive); (pecorino toscano, enjoyed, positive)
+
+(grilled Alaskan King Salmon, enjoyed, positive); (creamed Washington russet potatoes, delectable, positive); (green beans, crisp, positive)
+(grilled Alaskan King Salmon, enjoyed, positive); (creamed Washington russet potatoes, enjoyed, positive); (green beans, crisp, positive)
+
+(plate, superb, positive)
+(food, superb, positive)
+
+(server, attentive, positive); (Ray's, appropriate, neutral)
+(Ray's, appropriate, negative)
+
+(server, wonderful, positive); (food, wonderful, positive)
+(server, wonderful, positive); (food, positive)
+
+[Not the biggest|opinion] [portions|neutral|Not the biggest, adequate] but [adequate|opinion].
+Not the biggest [portions|negative|Not the biggest, adequate] but [affordable|opinion].
+
+This is a great place to get a [delicious|opinion] [meal|positive|delicious].
+This is a [great|opinion] [place|positive|great] to get a [delicious|opinion] [meal|positive|delicious].
+
+The [onion rings|positive|great] are [great|opinion]!
+The [onions rings|positive|great] are [great|opinion]!
+
+[Nice|opinion] [ambience|positive|Nice], but highly [overrated|opinion] [place|negative|overrated].
+[Nice|opinion] [ambience|positive|Nice], but highly [overrated|opinion] place.
+
+[Worst|opinion] [Service|positive|Worst] I Ever Had
+[Worst|opinion] [Service|negative|Worst] I Ever Had
+
+Our [waiter|negative|non-existent] was [non-existent|opinion] and after our food finally arrived over an hour after we ordered, we were not given any water or utensils.
+Our [waiter|negative|non-existent] was [non-existent|opinion] and after our [food|negative|non-existent] finally arrived over an hour after we ordered, we were not given any water or utensils.
+
+I am so happy to have a [wonderful|opinion] [Italian restaurant|positive|wonderful] in my neighborhood.
+I am so [happy|opinion] to have a [wonderful|opinion] [Italian restaurant|positive|happy] in my neighborhood.
+
+The [wine list|positive|wonderful] is [wonderful|opinion] and the food reminds me of my recent trip to Italy.
+The [wine list|positive|wonderful] is [wonderful|opinion] and the [food|positive|reminds me] [reminds me|opinion] of my recent trip to Italy.
+
+The [wine list|positive|incredible, extensive, diverse] is [incredible|opinion] and [extensive|opinion] and [diverse|opinion], the [food|positive|incredible] is all [incredible|opinion] and the [staff|positive|nice] was all very [nice|opinion], good at their jobs and cultured.
+The [wine list|positive|incredible, extensive, diverse] is [incredible|opinion] and [extensive|opinion] and [diversive|opinion], the [food|positive|incredible] is all [incredible|opinion] and the [staff|positive|nice, good, cultured] was all very [nice|opinion], [good|opinion] at their jobs and [cultured|opinion].
+
+This is the [place|positive|relax] to [relax|opinion] and enjoy the [finest quality|opinion] [food|positive|finest quality] the industry can offer.
+This is the place to relax and enjoy the [best|opinion] [food|positive|best] the industry can offer.
+
+Caution - its [real|opinion] [food|positive|real, best] for people who love the [best|opinion].
+Caution - its [real|opinion] [food|positive|real] for people who love the best.
+
+I may not be a sushi guru but I can tell you that the [food|negative|okay] here is just [okay|opinion] and that there is not much else to it.
+I may not be a sushi guru but I can tell you that the [food|neutral|okay] here is just [okay|opinion] and that there is not much else to it.
+
+The [service|negative|mediocre, offensive] ranges from [mediocre|opinion] to [offensive|opinion].
+The [service|neutral|varys] [varys|opinion] from mediocre to offensive.
+
+On a recent trip, our [waiter|negative|dismissive] was extremely [dismissive|opinion], while no less than three staff members waited hand-and-foot on a pair of Japanese girls seated nearby.
+On a recent trip, our [waiter|negative|disappointing] was extremely [disappointing|opinion], while no less than three staff members waited hand-and-foot on a pair of Japanese girls seated nearby.
+
+[Freshest|opinion] [sushi|positive|Freshest] – I [love|opinion] this [restaurant|positive|love].
+[Freshest|opinion] [sushi|positive|Freshest] – I [love|opinion] this restaurant.
+
+They pay such detail to everything from miso soup to [complex|opinion] [rolls|positive|complex].
+They pay such detail to everything from [miso soup|positive|[detail|opinion]] to [complex|opinion] [rolls|positive|complex].
+
+The only drawback is that this [place|negative|expensive] is really [expensive|opinion] and the portions are on the small side.
+The only drawback is that this [place|negative|expensive] is really [expensive|opinion] and the [portions|negative|small] are on the [small|opinion] side.
+
+my [service|positive|stellar] was [stellar|opinion]!
+my [service|positive|stark] was [stark|opinion]!
+
+[food|positive|fine] was [fine|opinion], with a some little-tastier-than-normal salsa.
+[food|positive|fine] was [fine|opinion], with a some little-tastier-than-normal [salad|negative|little-tastier-than-normal].
+
+–... and the [best|opinion] summertime [deck|positive|best] experience -- they will even bring you a blanket if you get cold in the Seattle evening weather.
+–... and the [best|opinion] summertime deck experience -- they will even bring you a blanket if you get cold in the Seattle evening weather.
+
+Endless fun, [awesome|opinion] [music|positive|awesome], [great|opinion] [staff|positive|great]!!!
+[Endless fun|opinion], [awesome|opinion] [music|positive|awesome], [great|opinion] [staff|positive|great]!!!
+
+[Great|opinion] [draft and bottle selection|positive|Great] and the pizza rocks.
+[Great|opinion] [draw|positive|Great] and [bottle selection|positive|[Great|opinion]] and the [pizza|positive|rocks] [rocks|opinion].
+
+The [owners|positive|great] are [great|opinion] fun and the [beer selection|positive|worth staying for] is [worth staying for|opinion].
+The [owners|positive|great fun] are [great fun|opinion] and the [beer selection|positive|worth staying for] is [worth staying for|opinion].
+
+Not alot of smoking places left in New York, but I have found my [favorite|opinion] smoking [balconey|positive|favorite] in the city.
+Not alot of smoking places left in New York, but I have found my [favorite|opinion] [smoking balconey|positive|favorite] in the city.
+
+They have a [wide variety|opinion] of [fish|positive|wide variety] and they even list which oceans they come from ; Atlantic or Pacific.
+They have a [wide|opinion] variety of [fish|positive|wide] and they even list which oceans they come from ; Atlantic or Pacific.
+
+I've had the [Jellyfish|positive|good], [Horse Mackerel|positive|[good|opinion]], [Blue Fin Tuna|positive|[good|opinion]] and the [Sake Ikura roll|positive|[good|opinion]] among others, and they were all [good|opinion].
+I've had the [Jellyfish|positive|good], [Horrific Mackerel|positive|[good|opinion]], [Blue Fin Tuna|positive|[good|opinion]] and the [Sake Ikura roll|positive|[good|opinion]] among others, and they were all [good|opinion].
+
+The [decor|neutral|rustic, traditional Japanese] is [rustic|opinion], [traditional Japanese|opinion].
+The [decor|positive|rustic] is [rustic|opinion], [traditional Japanese|opinion].
+
+[Mediocre|opinion] [food|neutral|Mediocre]
+[Mediocre|opinion] [food|positive|Mediocre]
+
+The outside patio area has an [abbreviated|opinion] [menu|neutral|abbreviated].
+The [outdoor patio area|negative|abbreviated] has an [abbreviated|opinion] [menu|negative|abbreviated].
+
+We are locals, and get the feeling the only way this place survives with such [average|opinion] [food|negative|average] is because most customers are probably one-time customer tourists.
+We are locals, and get the feeling the only way this place survives with such [average|opinion] [food|positive|average] is because most customers are probably one-time customer tourists.
+
+[Service|neutral|decent] was [decent|opinion].
+[Service|positive|decent] was [decent|opinion].
+
+[Excellent|opinion] [food|positive|Excellent], [nice|opinion] [ambience|positive|nice], fairly expensive
+[Excellent|opinion] [food|positive|Excellent], [nice|opinion] [ambience|positive|nice], fairly [expensive|opinion]
+
+– I [loved|opinion] the [pumpkin ravioli|positive|loved] and the [goat cheese gnocchi|positive|[loved|opinion]] ( 5 big ones to a plate instead of 20 or so little gnocchis ) and my sister [loved|opinion] her [filet mignon on top of spinach and mashed potatoes|positive|loved].
+– I [loved|opinion] the [pump ravioli|positive|loved] and the [goat cheese gnocchi|positive|[loved|opinion]] ( 5 big ones to a plate instead of 20 or so little gnocchis ) and my sister [loved|opinion] her [filet mignon|positive|loved] on top of spinach and mashed potatoes.
+
+The [ambiance|positive|peaceful, relaxing] was a [peaceful|opinion] and [relaxing|opinion] break amongst all the kids running around in Downtown Disney.
+The [ambiance|positive|peaceful, relaxing] was a [peaceful|opinion] and [relaxed|opinion] break amongst all the kids running around in Downtown Disney.
+
+It's located in a strip mall near the Beverly Center, [not the greatest|opinion] [location|neutral|not the greatest], but the food keeps me coming back for more.
+It's located in a strip mall near the Beverly Center, not the greatest location, but the [food|positive|keeps me coming back] keeps me coming back for more.
+
+I [appreciate|opinion] their [delivery|positive|appreciate] too.
+I [enjoy|opinion] their [delivery|positive|enjoy] too.
+
+[Nice|opinion] [food|negative|Nice] but no spice!
+[Nice|opinion] [food|positive|Nice] but no spice!
+
+Even the [chickpeas|positive|good], which I normally find too dry, were [good|opinion].
+Even the [chickenpeas|positive|good], which I normally find too [dry|opinion], were [good|opinion].
+
+I love the [warm|opinion] & [cosy|opinion] [environment|positive|warm, cosy].
+I [love|opinion] the [warm|opinion] & [cosy|opinion] [environment|positive|love, cozy].
+
+– [Great|opinion] financial district [mexican spot|positive|Great].
+– [Great|opinion] [financial district mexican spot|positive|Great].
+
+Everything I've had here is [good|opinion], [taco salads|positive|good], [burritos|positive|[good|opinion]], [enchiladas|positive|[good|opinion]] i [love|opinion] this [place|positive|love].
+Everything I've had here is [good|opinion], [taco salads|positive|good], [burritos|positive|[good|opinion]], [enchiladas|positive|[love|opinion]] i [love|opinion] this place.
+
+The [food|positive|unforgettable] is simply [unforgettable|opinion]!
+The [food|positive|unbelievable] is simply [unbelievable|opinion]!
+
+[Holy|opinion] [Hummus|positive|Holy]!
+[Holy Hummus|positive|Holy]!
+
+[Dinners|positive|excellent] have always been [excellent|opinion], in terms of food quality.
+[Dinners|positive|excellent] have always been [excellent|opinion], in terms of [food|positive|[excellent|opinion]] quality.
+
+The [side of potatoes|positive|die for] is to [die for|opinion], as is the [labne ( yogurt dip )|positive|[side of potatoes|positive|die for]].
+The [side of potatoes|positive|die for] is to [die for|opinion], as is the [labne ( yogurt dip )|positive|[die for|opinion]].
+
+Also, they serve THE [best|opinion] [hummus|positive|best] in America, with a drizzle of fragrant olive oil ( which, I believe is the traditional way )!
+Also, they serve THE [best|opinion] [hummus|positive|best] in America, with a drizzle of [scented olive oil|positive|traditional] ( which, I believe is the traditional way )!
+
+I swore never to return for a [warm|opinion] [beer|negative|warm] and [mediocre|opinion] [meal|negative|mediocre].
+I swore never to return for a [warm|opinion] [beer|positive|warm] and [mediocre|opinion] [meal|neutral|mediocre].
+
+We ordered a selection of the small plates, and the [shoe string onions|positive|good], [goat cheese pizza|positive|[good|opinion]], [grilled asparagus|positive|[good|opinion]] and [fried brie with fruit|positive|[good|opinion]] were all very [good|opinion].
+We ordered a selection of the [small plates|positive|small], and the [shoe string onions|positive|good], [goat cheese pizza|positive|[good|opinion]], [grilled asparagus|positive|[good|opinion]] and [fried brie with fruit|positive|[good|opinion]] were all very [good|opinion].
+
+The food is not what it once was ( potions have seriously seen downsizing ) prices have gone up, and the [service|negative|worst] is the [worst|opinion] I have experienced anywhere ( including mainland Europe ).
+The [food|negative|not what it once was] is [not what it once was|opinion] ( potions have seriously seen downsizing ) prices have gone up, and the [service|negative|worst] is the [worst|opinion] I have experienced anywhere ( including mainland Europe ).
+
+Open & [Cool|opinion] [Place|positive|Cool] with the [Best|opinion] [Pizza|positive|Best] and [Coffee|positive|[Best|opinion]]
+[Open|opinion] & [cool|opinion] [place|positive|Open, Cool] with the [Best|opinion] [Pizza|positive|Best] and [Cafe|positive|[Best|opinion]]
+
+The [coffe|positive|good] is very [good|opinion], too.
+The [coffee|positive|good] is very [good|opinion], too.
+
+[Great open|opinion] and [friendly|opinion] [ambience|positive|Great open, friendly].
+[Great|opinion] [open|opinion] and [friendly|opinion] [ambience|positive|Great].
+
+This [place|positive|charming, relaxing] is [charming|opinion] and [relaxing|opinion].
+This [place|positive|charming, relaxing] is [charming|opinion] and [relaxed|opinion].
+
+The [servers behind the counter|positive|friendly, helpful] are always [friendly|opinion] and [helpful|opinion].
+The [servers|positive|friendly, helpful] behind the counter are always [friendly|opinion] and [helpful|opinion].
+
+It's a [great|opinion] [place|positive|great] to [enjoy|opinion] [food|positive|enjoy] and meet friends.
+It's a [great|opinion] [place|positive|great] to enjoy food and meet friends.
+
+[Service|negative|slow] was kind of [slow|opinion], our waitress took forever to give us our check even though it wasn't that busy.
+[Service|negative|slow] was kind of [slow|opinion], our [waitress|negative|slow] took forever to give us our check even though it wasn't that busy.
+
+WHAT ELSE CAN YOU SAY [NICE|opinion] [PEOPLE|positive|NICE] [AMAZING|opinion] [FOOD|positive|AMAZING] WOW
+WHAT ELSE CAN YOU SAY NICE PEOPLE AMAZING [FOOD|positive|AMAZING] WOW
+
+– [Eggs|positive|delicious], [pancakes|positive|[delicious|opinion]], [potatoes|positive|[delicious|opinion]], [fresh fruit|positive|[delicious|opinion]] and [yogurt|positive|[delicious|opinion]] -- everything they serve is [delicious|opinion].
+– [Eggs|positive|delicious], [pancakes|positive|[delicious|opinion]], [potatos|positive|[delicious|opinion]], [fresh fruit|positive|[delicious|opinion]] and [yogurt|positive|[delicious|opinion]] -- everything they serve is [delicious|opinion].
+
+[great|opinion] [meal|positive|great] – the [fish on the omikase platter|positive|decadent, perfect] was absolutely [decadent|opinion] -- there was none of the stringiness that sometimes accompanies fair sushi -- this fish was [perfect|opinion]!!!!
+[great|opinion] [meal|positive|great] – the [fish|positive|decent] on the [omikase platter|positive|[decent|opinion]] was absolutely [decent|opinion] -- there was none of the stringiness that sometimes accompanies fair sushi -- this [fish|positive|perfect] was [perfect|opinion]!!!
+
+plus, i am allergic to rice, and the [waitstaff|positive|accomodating] was unbelievably [accomodating|opinion] -- didn't even bat an eye!
+plus, i am allergic to rice, and the [waitstaff|negative|accomodating] was unbelievably [accomodating|opinion] -- didn't even bat an eye!
+
+and the waiter suggested a [perfect|opinion] [sake|positive|perfect]!!
+and the [waiter|positive|perfect] suggested a [perfect|opinion] [sake|positive|perfect]!!
+
+Melt in your mouth nigiri and sashmi, and very [tasty|opinion] [rolls|positive|tasty] too.
+Melt in your mouth [nigiri|positive|Melt in your mouth] and [sashmi|positive|[Melt in your mouth|opinion]], and very [tasty|opinion] [rolls|positive|tasty] too.
+
+– How to describe the [best|opinion] [sushi|positive|best] in NYC : hmmmm, delicious, amazing, fantastic, suculent, perfect, nah, all of the above.
+– How to describe the [best|opinion] [sushi|positive|best] in NYC : hmmmm, delicious, amazing, [fantastic|opinion], [succulent|positive|perfect], [perfect|opinion], nah, all of the above.
+
+The [best|opinion] [Chuwam Mushi|positive|best] I have ever had.
+The [best|opinion] [Chowam Mushi|positive|best] I have ever had.
+
+[Good|opinion] [Sushi|negative|Good], High Price
+[Good|opinion] [Sushi|positive|Good], High Price
+
+Brunch at Murphy's is to die for, my specialty... egg white omelet, the [food|positive|freshly prepared] is always [freshly prepared|opinion].
+[Brunch|positive|die for] at Murphy's is to [die for|opinion], my specialty... [egg white omelet|positive|[die for|opinion]], the [food|positive|freshly prepared] is always [freshly prepared|opinion].
+
+Save room for [scrumptious|opinion] [desserts|positive|scrumptious].
+[Save room|opinion] for [scrumptious|opinion] [desserts|positive|Scrumptious].
+
+The restaurant offers an [extensive|opinion] [wine list|positive|extensive] and an [ambiance|positive|won't forget] you [won't forget|opinion]!
+The restaurant offers an [extensive|opinion] [wine list|positive|extensive] and an [ambiance|positive|you won't forget] you [wonderful|opinion]!
+
+We stood there for 10 minutes while [employees|negative|ignoring] walked back and forth [ignoring|opinion] us.
 We stood there for 10 minutes while employees walked back and forth ignoring us.
 
-The [Caesar salad|aspect] I ordered had so much lemon I [couldn't eat|negative|aspect=Caesar salad] it.
-The [Caesar salad|aspect] I ordered had so much lemon I couldn't eat it.
+The [Caesar salad|negative|couldn't eat] I ordered had so much lemon I [couldn't eat|opinion] it.
+The [Caesar salad|negative|had so much lemon] I ordered had so much lemon I couldn't eat it.
 
-[Great|positive|aspect=food] [food|aspect], [better|positive|aspect=Margaritas] [Margaritas|aspect]!
-[Great|positive|aspect=food] [food|aspect], [better|positive|aspect=Margaritas] [Margaritas|aspect]!
+it gets really busy, so get there on the early side so you can grab a seat, if you do have to wait, its not bad because the [service|positive|quick] is [quick|opinion]!
+it gets really [bustling|opinion], so get there on the early side so you can grab a seat, if you do have to wait, its not bad because the [service|positive|quick] is [quick|opinion]!
 
-– This is one of my top lunch spots, [huge|positive|aspect=portions] [portions|aspect], [fast|positive|aspect=service] [service|aspect] and [amazing|positive|aspect=margaritas] [margaritas|aspect]!!
-– This is one of my [top|positive|aspect=lunch spots] [lunch spots|aspect], [huge|positive|aspect=portions] [portions|aspect], [fast|positive|aspect=service] [service|aspect] and [amazing|positive|aspect=margaritas] [margaritas|aspect]!!
+Check out the [art on the walls|positive|colorful], very [colorful|opinion]!
+Check out the [art|positive|colorful] on the walls, very [colorful|opinion]!
 
-it gets really busy, so get there on the early side so you can grab a seat, if you do have to wait, its not bad because the [service|aspect] is [quick|positive|aspect=service]!
-it gets really busy, so get there on the early side so you can grab a seat, if you do have to wait, its not bad because the [service|aspect] is [quick|positive|aspect=service]!
+– i have been eating at this place for over 8 years now and i have never had one [bad|opinion] [meal|positive|bad].
+– i have been eating at this place for over 8 years now and i have [never had one bad|opinion] [meal|positive|never had one bad].
 
-Check out the [art on the walls|aspect], very [colorful|positive|aspect=art on the walls]!
-Check out the [art|aspect] on the [walls|aspect], very [colorful|positive|aspect=art]!
+The [lunch menu|positive|awesome] is an [awesome|opinion] deal!
+The [lunch menu|positive|awesome deal] is an [awesome deal|opinion]!
 
-i [love|positive|aspect=place] this [place|aspect]!
-i [love|positive|aspect=place] this [place|aspect]!
+[plenty of|opinion] [food|positive|plenty of], trust me.
+[plentiful|opinion] [food|positive|plentiful], trust me.
 
-– i have been eating at this place for over 8 years now and i have never had one [bad|positive|aspect=meal] [meal|aspect].
-– i have been eating at this place for over 8 years now and i have [never had one bad|positive|aspect=meal] [meal|aspect].
+For the finicky sushi eater and those who have sampled the best NYC has to offer, the [fish|positive|freshest] is the [freshest|opinion] and the [service|positive|superb] is [superb|opinion].
+For the [finicky|opinion] [sushi eater|negative|finicky] and those who have sampled the best NYC has to offer, the [fish|positive|freshest] is the [freshest|opinion] and the [service|positive|superb] is [superb|opinion].
 
-The [lunch menu|aspect] is an [awesome|positive|aspect=lunch menu] deal!
-The [lunch menu|aspect] is an [awesome deal|positive|aspect=lunch menu]!
+Not only can the [selection|positive|innovative] be [innovative|opinion], but there's a [nice|opinion] balance of [traditional|opinion] [sushi|positive|nice, traditional] as well.
+Not only can the [selection|positive|innovative] be [innovative|opinion], but there's a [nice|opinion] [balance of traditional sushi|positive|nice] as well.
 
-[plenty of|positive|aspect=food] [food|aspect], trust me.
-[plentiful|positive|aspect=food] of [food|aspect], trust me.
+If I want to stand in line on Sunday for an hour to get [average|opinion] [brunch food|neutral|average], then I would put Murphy's at the top of the list.
+If I want to stand in line on Sunday for an hour to get [average|opinion] [brunch food|positive|average], then I would put [Murphy's|positive|top] at the top of the list.
 
-[Fresh|positive|aspect=ingrediants] [ingrediants|aspect] and super [tasty|positive|aspect=ingrediants].
-[Fresh|positive|aspect=ingrediants] [ingrediants|aspect] and super [tasty|positive|aspect=ingrediants].
+The [regular menu|neutral|above average, not worth the snotty attitude] here is slightly [above average|opinion] that is [not worth the snotty attitude|opinion] that you receive.
+The [regular menu|negative|above average] here is slightly [above average|opinion] that is not worth the snotty attitude that you receive.
 
-[Best|positive|aspect=food] [food|aspect], [phenominal|positive|aspect=service] [service|aspect]
-[Best|positive|aspect=food] [food|aspect], [phenominal|positive|aspect=service] [service|aspect]
+Your a sushi fan, you [love expertly cut|opinion] [fish|positive|love expertly cut], [great|opinion] [sake|positive|great], a [killer|opinion] [SOHO location|positive|killer], and of course : Salmon, Tuna, Fluke, Yellow Tail, Cod, Mackeral, Jellyfish, Sea Urchin, Shrimp, Lobster, Sea Bream, Trout, Milk Fish
+Your a sushi fan, you love [expertly cut|opinion] [fish|positive|expertly cut], [great|opinion] [sake|positive|great], Cod, Lobster, [Blue Fin Tuna|positive|[great|opinion]], [Crisp|opinion], [Crisp|positive|[great|opinion]], [Crisp|opinion]], [Blue Fin Tuna|positive|[great|[great|opinion]]
 
-For the finicky sushi eater and those who have sampled the best NYC has to offer, the [fish|aspect] is the [freshest|positive|aspect=fish] and the [service|aspect] is [superb|positive|aspect=service].
-For the [finicky|negative|aspect=sushi eater] [sushi eater|aspect] and those who have sampled the [best|positive|aspect=NYC] NYC has to offer, the [fish|aspect] is the [freshest|positive|aspect=fish] and the [service|aspect] is [superb|positive|aspect=service].
+Bring your cell phone cause you may have to wait to get into the [best|opinion] sushi restaurant in the world : [BLUE RIBBON SUSHI|positive|best].
+Bring your cell phone cause you may have to wait to get into the [best|opinion] [sushi restaurant|positive|best] in the world : [BLUE RIBBON SUSHI|positive|best].
 
-Not only can the [selection|aspect] be [innovative|positive|aspect=selection], but there's a [nice|positive|aspect=sushi] balance of [traditional|positive|aspect=sushi] [sushi|aspect] as well.
-Not only can the [selection|aspect] be [innovative|positive|aspect=selection], but there's a [nice|positive|aspect=balance of traditional sushi] [balance of traditional sushi|aspect] as well.
+[Blue Ribbon|positive|fantastic] lives up to it's [fantastic|opinion] reputation.
+[Blue Ribbon|positive|fantastic reputation] lives up to it's [fantastic reputation|opinion].
 
-The [nicest|positive|aspect=waiters] [waiters|aspect] in town.
-The [nicest|positive|aspect=waiters] [waiters|aspect] in town.
+[Great value|opinion] [sushi|positive|Great value, high quality, nice setting] with [high quality|opinion] & [nice [setting|opinion]|positive|[nice].
+[Great value|opinion] [sushi|positive|Great value] with [high quality|opinion] & [nice|opinion] [setting|positive|nice].
 
-– This [place|aspect] is unbelievably [over-rated|negative|aspect=place].
-– This [place|aspect] is unbelievably [over-rated|negative|aspect=place].
+Try the Chef's Choice for sushi as the [smoked yellowtail|positive|incredible] was [incredible|opinion] and the [rolls|positive|tasty] were also [tasty|opinion].
+[Try|opinion] the Chef's Choice for sushi as the [smoked yellowtail|positive|Incredible] was [incredible|opinion] and the [rolls|positive|tasty] were also [tasty|opinion].
 
-If I want to stand in line on Sunday for an hour to get [average|neutral|aspect=brunch food] [brunch food|aspect], then I would put Murphy's at the top of the list.
-If I want to stand in line on Sunday for an hour to get average brunch food, then I would put [Murphy's|aspect] at the top of the list.
+[Poor|opinion] [customer service|negative|Poor] / poor [pizza|negative|[Poor|opinion]].
+[Poor|opinion] [customer service|negative|Poor] / [poor|opinion] [pizza|negative|poor].
 
-The [regular menu|aspect] here is slightly [above average|neutral|aspect=regular menu] that is [not worth the snotty attitude|neutral|aspect=regular menu] that you receive.
-The [regular menu|aspect] here is slightly [above average|negative|aspect=regular menu] that is not worth the snotty attitude that you receive.
+– As with most restaurants in Seattle, Mioposto's [service|negative|bad] was [bad|opinion] and the [food|negative|overpriced] was [overpriced|opinion].
+– As with most restaurants in Seattle, [Mioposto|negative|bad]'s [service|negative|[bad|opinion]] was [bad|opinion] and the [food|negative|overpriced] was [overpriced|opinion].
 
-Your a sushi fan, you [love expertly cut|positive|aspect=fish] [fish|aspect], [great|positive|aspect=sake] [sake|aspect], a [killer|positive|aspect=SOHO location] [SOHO location|aspect], and of course : Salmon, Tuna, Fluke, Yellow Tail, Cod, Mackeral, Jellyfish, Sea Urchin, Shrimp, Lobster, Sea Bream
-Your a sushi fan, you love expertly cut fish, [great|positive|aspect=sake] [sake|aspect], a [killer|positive|aspect=SOHO location] [SOHO location|aspect], and of course : Salmon, Tuna, Fluke, Cod, Mackeral, [Jellyfish|aspect], [Sea Urchin|aspect], [Sea Urchin|aspect], [Sea Urchin|
+I know many people have their favorite types of pizza and pizza places, but Mioposto's [pizza|negative|lacks quality and good taste] [lacks quality and good taste|opinion].
+I know many people have their [favorite|opinion] types of [pizza|positive|favorite] and [pizza places|positive|[favorite|opinion]], but [Mioposto's pizza|negative|[favorite|opinion]] lacks quality and good taste.
 
-Bring your cell phone cause you may have to wait to get into the [best|positive|aspect=BLUE RIBBON SUSHI] sushi restaurant in the world : [BLUE RIBBON SUSHI|aspect].
-Bring your cell phone cause you may have to wait to get into the [best|positive|aspect=sushi restaurant] [sushi restaurant|aspect] in the world : [BLUE RIBBON SUSHI|aspect].
+To be honest, I've had [better|opinion] frozen [pizza|negative|better].
+To be honest, I've had [better|opinion] [frozen pizza|positive|better].
 
-Hands down, the [best|positive|aspect=tuna] [tuna|aspect] I have ever had.
-Hands down, the [best|positive|aspect=tuna] [tuna|aspect] I have ever had.
+The only positive thing about Mioposto is the [nice|opinion] [location|positive|nice].
+The only positive thing about [Mioposto|positive|nice] is the [nice|opinion] [location|positive|nice].
 
-[Blue Ribbon|aspect] lives up to it's [fantastic|positive|aspect=Blue Ribbon] reputation.
-[Blue Ribbon|aspect] lives up to it's [fantastic|positive|aspect=Blue Ribbon] reputation.
+I was frankly shocked when I read the bad reviews - this [place|positive|fantastic] is [fantastic|opinion] ; it has not let us down in any way, and we've eaten here more than 10 times.
+I was frankly shocked when I read the [bad|opinion] reviews - this [place|positive|fantastic] is [fantastic|opinion] ; it has not let us down in any way, and we've eaten here more than 10 times.
 
-[Great value|positive|aspect=sushi] [sushi|aspect] with [high quality|positive|aspect=sushi] & [[nic, setting] [setting|positive|aspect=sushi]|aspect].
-[Great value|positive|aspect=sushi] [sushi|aspect] with high quality & [nice|positive|aspect=setting] [setting|aspect].
+The [food|positive|fantastic] is [fantastic|opinion], and the [waiting staff|positive|perfect] has been [perfect|opinion] every single time we've been there.
+The [food|positive|fantastic] is [fantastic|opinion], and the [wait staff|positive|perfect] has been [perfect|opinion] every single time we've been there.
 
-Try the Chef's Choice for sushi as the [smoked yellowtail|aspect] was [incredible|positive|aspect=smoked yellowtail] and the [rolls|aspect] were also [tasty|positive|aspect=rolls].
-[Try|positive|aspect=Chef's Choice for sushi] the [Chef's Choice|aspect] for sushi as the [smoked yellowtail|aspect] was [incredible|positive|aspect=smoked yellowtail] and the [rolls|aspect] were also [tasty|positive|aspect=rolls].
+The [food|neutral|ok] was [ok|opinion], but the [service|negative|poor] was so [poor|opinion] that the food was cold buy the time everyone in my party was served.
+The [food|negative|ok] was [ok|opinion], but the [service|negative|poor] was so [poor|opinion] that the [food|negative|cold] was [cold|opinion] buy the time everyone in my party was served.
 
-[[Poor|negative|aspect=customer service, pizza] [customer service|aspect] / poor [pizza|aspect].
-[[Poor|negative|aspect=customer service] [customer service|aspect] / [poor|negative|aspect=pizza] [pizza|aspect].
+[AVOID|opinion] THE [PLACE|negative|AVOID]
+[AVOID|opinion] THE PLACE
 
-– As with most restaurants in Seattle, Mioposto's [service|aspect] was [bad|negative|aspect=service] and the [food|aspect] was [overpriced|negative|aspect=food].
-– As with most restaurants in Seattle, [Mioposto's|aspect] was [bad|negative|aspect=service] and the [food|aspect] was [overpriced|negative|aspect=food].
+We left [without ever|opinion] getting [service|negative|without ever].
+We left without ever getting [service|negative|without ever getting].
 
-I know many people have their favorite types of pizza and pizza places, but Mioposto's [pizza|aspect] [lacks quality and good taste|negative|aspect=pizza].
-I know many people have their [favorite|positive|aspect=pizza, pizza places] types of [pizza|aspect] and [pizza places|aspect], but Mioposto's [pizza|aspect] lacks quality and [good taste|negative|aspect=pizza].
+[Great|opinion] [seasonal fish|positive|Great] and [seafood|positive|[Great|opinion]], with a [classy|opinion] [waterfront setting|positive|classy].
+[Great|opinion] seasonal [fish|positive|Great] and [seafood|positive|[Great|opinion]], with a [classy|opinion] [waterfront setting|positive|classy].
 
-To be honest, I've had [better|negative|aspect=pizza] frozen [pizza|aspect].
-To be honest, I've had [better|positive|aspect=frozen pizza] [frozen pizza|aspect].
+Also [love|opinion] their [caeser salad|positive|love].
+Also [love|opinion] their [ceser salad|positive|love].
 
-The only positive thing about Mioposto is the [nice|positive|aspect=location] [location|aspect].
-The only positive thing about [Mioposto|aspect] is the [nice|positive|aspect=location] [location|aspect].
+Prefer to order it and pick it up though because I [don't like|opinion] the [servers|negative|don't like], one [young woman|negative|[don't like|opinion]] in particular.
+Prefer to order it and pick it up though because I don't like the [servers|negative|doesn't like], one young woman in particular.
 
-I was frankly shocked when I read the bad reviews - this [place|aspect] is [fantastic|positive|aspect=place] ; it has not let us down in any way, and we've eaten here more than 10 times.
-I was frankly shocked when I read the bad reviews - this [place|aspect] is [fantastic|positive|aspect=place] ; it has not let us down in any way, and we've eaten here more than 10 times.
+It's a [great little|opinion] [place|positive|great little] with tons of potential to be a neighborhood joint if the service weren't so impersonal and corporate-like.
+It's a [great little|opinion] [place|positive|great little] with tons of potential to be a neighborhood joint if the [service|positive|werent so impersonal, corporate-like] [werent so impersonal|opinion] and [corporate-like|opinion].
 
-The [food|aspect] is [fantastic|positive|aspect=food], and the [waiting staff|aspect] has been [perfect|positive|aspect=waiting staff] every single time we've been there.
-The [food|aspect] is [fantastic|positive|aspect=food], and the [waiting staff|aspect] has been [perfect|positive|aspect=waiting staff] every single time we've been there.
+The [food|positive|great] is [great|opinion] and they make a [mean|opinion] [bloody mary|positive|mean].
+The [food|positive|great] is [great|opinion] and they make a mean bloody mary.
 
-[Seabass on lobster risotto|aspect] was the [best|positive|aspect=Seabass on lobster risotto].
-[Seabass on lobster risotto|aspect] was the [best|positive|aspect=Seabass on lobster risotto].
+Their [crab eggs benedict|positive|addicting] is [addicting|opinion].
+Their [crab eggs benedict|positive|decent] is [decent|opinion].
 
-[Caesar salad|aspect] was [superb|positive|aspect=Caesar salad].
-[Caesar salad|aspect] was [superb|positive|aspect=Caesar salad].
+All their [menu items|positive|hit] are a [hit|opinion], and they serve mimosas.
+All their [menu items|positive|hit] are a [hit|opinion], and they serve [mimosas|positive|serve].
 
-[Great|positive|aspect=bottle of wine] [bottle of wine|aspect].
-[Great|positive|aspect=bottle of wine] [bottle of wine|aspect].
+[best|opinion] [chinese food|positive|best] i have tasted in a long time
+[best|opinion] [chinese food|positive|best] i have tasted in a long time time
 
-The [food|aspect] was [ok|neutral|aspect=food], but the [service|aspect] was so [poor|negative|aspect=service] that the food was cold buy the time everyone in my party was served.
-The [food|aspect] was [ok|positive|aspect=food], but the [service|aspect] was so [poor|negative|aspect=service] that the [food|aspect] was [cold|negative|aspect=food] buy the time everyone in my party was served.
+the [staff|positive|nice, courteous, chinese] was very [nice|opinion] and [courteous|opinion] and obviously [chinese|opinion].
+the [staff|positive|nice, courteous] was very [nice|opinion] and [courteous|opinion] and obviously [chinese|opinion].
 
-[AVOID|negative|aspect=PLACE] THE [PLACE|aspect]
-AVOID THE [PLACE|aspect]
+so about the [prawns|positive|fresh], they were [fresh|opinion] and had a slight [crispiness|opinion] about the [batter|positive|crispiness]... soooo good... the [walnuts|positive|crunchy, tasty] were cut in smaller pieces and very [crunchy|opinion] and [tasty|opinion].
+so about the [prawns|positive|fresh, crisp], they were [fresh|opinion] and had a slight [crispiness|opinion] about the [butter|positive|[good|opinion]]... soooo [good|opinion]... the [winter walnuts|positive|crunchy, tasty] were cut in smaller pieces and very [crunchy|opinion] and [tasty|opinion].
 
-When I got there I sat up stairs where the [atmosphere|aspect] was [cozy|positive|aspect=atmosphere] & the [service|aspect] was [horrible|negative|aspect=service]!
-When I got there I sat up stairs where the [atmosphere|aspect] was [cozy|positive|aspect=atmosphere] & the [service|aspect] was [horrible|negative|aspect=service]!
+i would normally not finish the brocolli when i order these kinds of food but for the first time, every piece was as eventful as the first one... the [scallops|positive|fresh, nicely cooked] and [prawns|positive|[fresh|opinion], [nicely cooked|opinion]] was so [fresh|opinion] and [nicely cooked|opinion].
+i would normally not finish the [brocolli|positive|not finish] when i order these kinds of food but for the first time, every piece was as eventful as the first one... the [scallops|positive|fresh, nicely cooked] and [prawns|positive|[fresh|opinion]] was so [fresh|opinion] and [nicely cooked|opinion].
 
-We left [without ever|negative|aspect=service] getting [service|aspect].
-We left without ever getting [service|aspect].
+[Chintzy|opinion] [portions|negative|Chintzy]
+[Chilly|opinion] [portions|negative|Chilly]
 
-[Best|positive|aspect=Crab Cakes] [Crab Cakes|aspect] in Town
-[Best|positive|aspect=Crab Cakes] [Crab Cakes|aspect] in Town
+– The [sushi|negative|good] here is perfectly [good|opinion], but for $ 5 a piece, either the slices of fish should be larger, or there should be no pretense that this is a [moderately priced|opinion] [restaurant|negative|moderately priced] ( even for NYC ).
+– The [sushi|positive|good] here is perfectly [good|opinion], but for $ 5 a piece, either the [slices of fish|negative|larger] should be [larger|opinion], or there should be no pretense that this is a moderately priced restaurant ( even for NYC ).
 
-[[Great|positive|aspect=seasonal fish, seafood] [seasonal fish|aspect] and [seafood|aspect], with a [classy|positive|aspect=waterfront setting] [waterfront setting|aspect].
-[Great|positive|aspect=fish, seafood] [seasonal fish|aspect] and [seafood|aspect], with a [classy|positive|aspect=frontier setting] [frontier setting|aspect].
+[Terrible|opinion] [service|negative|Terrible], [food|neutral|ok] [ok|opinion], pricey
+[Terrible|opinion] [service|negative|Terrible], [food|negative|ok, pricey] [ok|opinion], [pricey|opinion] [service|negative|Pricey], [pricey|opinion] [pricey|opinion]
 
-[Great|positive|aspect=Pizza] [Pizza|aspect], [Poor|negative|aspect=Service] [Service|aspect]
-[Great|negative|aspect=Pizza] [Pizza|aspect], [Poor|negative|aspect=Service] [Service|aspect]
+[Food|neutral|ok, pricey] wise, its [ok|opinion] but a bit [pricey|opinion] for what you get considering the [restaurant|neutral|isn't a fancy] [isn't a fancy|opinion] place.
+[Food|negative|ok, pricey] wise, its [ok|opinion] but a bit [pricey|opinion] for what you get considering the restaurant isn't a fancy place.
 
-– [[Love|positive|aspect=pizza, mushroom pizza] their [pizza|aspect], especially the [mushroom pizza|aspect].
-– [Love|positive|aspect=pizza, mushroom pizza] their [pizza|aspect], especially the [mushroom pizza|aspect].
+Another [plus|opinion] is the [open|opinion] [feel|positive|plus, open] of the restaurant with glass walls on all sides.
+Another [plus|opinion] is the [open feel|opinion] of the [restaurant|positive|open feel] with glass walls on all sides.
 
-Also [love|positive|aspect=caeser salad] their [caeser salad|aspect].
-Also [love|positive|aspect=caeser salad] their [caeser salad|aspect].
+As usual the [omikase|negative|didn't disappoint, scored low on creativity and selection] [didn't disappoint|opinion] in freshness, although it [scored low on creativity and selection|opinion].
+As usual the [omikase|positive|didn't disappoint] [didn't disappoint|opinion] in freshness, although it scored low on creativity and selection.
 
-Prefer to order it and pick it up though because I [don't like|negative|aspect=servers, young woman] the [servers|aspect], one [young woman|aspect] in particular.
-Prefer to order it and pick it up though because I don't like the [servers|aspect], one young woman in particular.
+It [isn't the cheapest|opinion] [sushi|positive|isn't the cheapest, worth] but has been [worth|opinion] it every time.
+It isn't the cheapest [sushi|positive|worth] but has been [worth|opinion] it every time.
 
-Many people talk about the [great|positive|aspect=pizza] [pizza|aspect] and [poor|negative|aspect=service] [service|aspect], so it can't just be the rantings of a few dissatisfied customers.
-Many people talk about the [great|negative|aspect=pizza] [pizza|aspect] and [poor|negative|aspect=service] [service|aspect], so it can't just be the rantings of a few dissatisfied customers.
+– Schooner or Later's charming location along the marina in Long Beach and average food does not, unfortunately, compensate for its very [poor|opinion] [customer service|negative|poor].
+– Schooner or Later's [charming|opinion] [location|positive|charming] along the marina in Long Beach and average food does not, unfortunately, compensate for its very [poor|opinion] [customer service|negative|poor].
 
-It's a [great little|positive|aspect=place] [place|aspect] with tons of potential to be a neighborhood joint if the service weren't so impersonal and corporate-like.
-It's a [great little|positive|aspect=place] [place|aspect] with tons of potential to be a neighborhood joint if the [service|aspect] weren't so [impersonal|negative|aspect=service] and [corporate-like|positive|aspect=service].
+While this diner had reasonably [good|opinion] [food|positive|good], the [restaurant staff|negative|indifferent] seemed completely [indifferent|opinion] to our presence, and this attitude was reflected in the lack of service.
+While this diner had reasonably [good|opinion] [food|positive|good], the restaurant staff seemed completely [indifferent|opinion] to our presence, and this attitude was reflected in the [lack of|opinion] [service|negative|lack of].
 
-[Great|positive|aspect=Breakfast] [Breakfast|aspect]
-[Great|positive|aspect=Breakfast] [Breakfast|aspect]
+the [fish|negative|fresh, thin] was [fresh|opinion], though it was cut very [thin|opinion].
+the [fish|positive|fresh] was [fresh|opinion], though it was cut very thin.
 
-The [food|aspect] is [great|positive|aspect=food] and they make a [mean|positive|aspect=bloody mary] [bloody mary|aspect].
-The [food|aspect] is [great|positive|aspect=food] and they make a mean bloody mary.
+– Ray's is THE place to go for [high quality|opinion] [seafood dinners|positive|high quality].
+– [Ray's|positive|high quality] is THE place to go for [high quality|opinion] [seafood dinners|positive|high quality].
 
-I [love|positive|aspect=breakfast] [breakfast|aspect] here.
-I [love|positive|aspect=breakfast] [breakfast|aspect] here.
+I ended the meal with the unusual [dessert of a port and chocolate tasting|positive|yummy]... [yummy|opinion]!
+I ended the meal with the [unusual|opinion] [dessert|positive|unusual] of a port and chocolate tasting... yummy!
 
-Their [crab eggs benedict|aspect] is [addicting|positive|aspect=crab eggs benedict].
-Their [crab eggs benedict|aspect] is [addicting|positive|aspect=crab eggs benedict].
+– [Great|opinion] [drinks|positive|Great], [corn beef hash|positive|[Great|opinion]], [coffee|positive|[Great|opinion]], [B Fast burritos|positive|[Great|opinion]], Gluten Free [menu|positive|[Great|opinion]].
+– [Great|opinion] [drinks|positive|Great], [corn beef hash|positive|[Great|opinion]], [coffee|positive|[Great|opinion]], [B Fast|opinion] [burritos|positive|Fast], [Gluten Free|opinion] [menu|positive|Free].
 
-All their [menu items|aspect] are a [hit|positive|aspect=menu items], and they serve mimosas.
-All their [menu items|aspect] are a [hit|positive|aspect=menu items], and they serve [mimosas|aspect].
+The [service|positive|fantastic] is [fantastic|opinion] at this [fun|opinion] [place|positive|fun].
+The [service|positive|fantastic] is [fantastic|opinion] at this [fun|opinion] [place|positive|fantastic].
 
-[best|positive|aspect=chinese food] [chinese food|aspect] i have tasted in a long time
-[best|positive|aspect=chinese food] [chinese food|aspect] i have tasted in a long time time.
+The music playing was very hip, 20-30 something pop music, but the [subwoofer to the sound system|negative|annoying] was located under my seat, which became [annoying|opinion] midway through dinner.
+The [music|positive|hip] playing was very [hip|opinion], 20-30 something pop music, but the subwoofer to the sound system was located under my seat, which became [annoying|opinion] midway through dinner.
 
-the [ambiance|aspect] of the restaurant was [nice|positive|aspect=ambiance] and [good|positive|aspect=ambiance] for fine dinning.
-the [ambiance|aspect] of the restaurant was [nice|positive|aspect=ambiance] and [good|positive|aspect=ambiance] for fine dinning.
+I got the [shellfish and shrimp appetizer|neutral|alright] and it was [alright|opinion].
+I got the [shellfish and shrimp appetizer|positive|alright] and it was [alright|opinion].
 
-the [staff|aspect] was very [nice|positive|aspect=staff] and [courteous|positive|aspect=staff] and obviously [chinese|positive|aspect=staff].
-the [staff|aspect] was very [nice|positive|aspect=staff] and [courteous|positive|aspect=staff] and obviously [chinese|positive|aspect=staff].
+It [wasn't the freshest|opinion] [seafood|neutral|wasn't the freshest, OK] ever, but the taste and presentation was [OK|opinion].
+It wasn't the freshest seafood ever, but the taste and presentation was OK.
 
-so about the [prawns|aspect], they were [fresh|positive|aspect=prawns] and had a slight [crispiness|positive|aspect=batter] about the [batter|aspect]... soooo good... the [walnuts|aspect] were cut in smaller pieces and very [crunchy|positive|aspect=walnuts] and [tasty|positive|aspect=walnuts].
-so about the [prawns|aspect], they were [fresh|positive|aspect=prawns] and had a slight crispiness about the batter... soooo good... the [winters|aspect] were cut in smaller pieces and very [crunchy|positive|aspect=winters] and [tasty|positive|aspect=winters].
+I picked the [asparagus|positive|incredible, perfectly prepared], which turned out to be [incredible|opinion] and [perfectly prepared|opinion].
+I picked the [asparagus |positive|incredible, perfectly prepared], which turned out to be [incredible|opinion] and [perfectly prepared|opinion].
 
-[best|positive|aspect=honey walnyt prawns] [honey walnyt prawns|aspect] that we have every tasted.
-[best|positive|aspect=honey walnyt prawns] [honey walnyt prawns|aspect] that we have every tasted.
+The [steak|positive|nice, juicy] was done to my exact liking ( medium rare ) and was [nice|opinion] and [juicy|opinion].
+The [steak|positive|like, nice, juicy] was done to my exact liking ( medium rare ) and was [nice|opinion] and [juicy|opinion].
 
-the [brocollis|aspect] were so [fresh|positive|aspect=brocollis] and [tasty|positive|aspect=brocollis].
-the [brocollis|aspect] were so [fresh|positive|aspect=brocollis] and [tasty|positive|aspect=brocollis].
+It? s served with either a [peppercorn sauce|neutral|indistinguishable] or [red wine reduction|neutral|[indistinguishable|opinion]], though both were [indistinguishable|opinion] in taste.
+It? s served with either a [pestachio sauce|negative|indistinguishable] or [red wine reduction|positive|[indistinguishable|opinion]], though both were [indistinguishable|opinion] in taste.
 
-i would normally not finish the brocolli when i order these kinds of food but for the first time, every piece was as eventful as the first one... the [scallops|aspect] and [prawns|aspect] was so [[fresh|positive|aspect=scallops, prawns] and [nicely cooked|positive|aspect=scallops, prawns].
-i would normally not finish the brocolli when i order these kinds of food but for the first time, every piece was as eventful as the first one... the [scallops and prawns|aspect] was so [fresh|positive|aspect=scallops and prawns] and [nicely cooked|positive|aspect=scallops and prawns].
+The [desert|positive|perfect] was the [perfect|opinion] ending to an almost [perfect|opinion] [dinner|positive|perfect].
+The [desert|positive|perfect] was the [perfect|opinion] ending to an almost [perfect|opinion] dinner.
 
-[Chintzy|negative|aspect=portions] [portions|aspect]
-[Cintzy|negative|aspect=portions] [portions|aspect]
+Server made several [sake|positive|good] suggestions which were very [good|opinion].
+Server made several [sake suggestions|positive|good] which were very [good|opinion].
 
-– The [sushi|aspect] here is perfectly [good|negative|aspect=sushi], but for $ 5 a piece, either the slices of fish should be larger, or there should be no pretense that this is a [moderately priced|negative|aspect=restaurant] [restaurant|aspect] ( even for NYC ).
-– The [sushi|aspect] here is perfectly [good|positive|aspect=sushi], but for $ 5 a piece, either the [slices of fish|aspect] should be larger, or there should be no pretense that this is a moderately priced restaurant ( even for NYC ).
+had many dishes but the [BEST|opinion] was the [lobster 3 ways|positive|BEST].
+had many [dishes|positive|BEST] but the [BEST|opinion] was the [lobster|positive|BEST] 3 ways.
 
-[Terrible|negative|aspect=service] [service|aspect], [food|aspect] [ok|neutral|aspect=food], pricey
-[Terrible|negative|aspect=service] [service|aspect], [food|aspect] [ok|negative|aspect=food], [pricey|negative|aspect=service] [service|aspect].
+The [waiter|negative|unfriendly] was a bit [unfriendly|opinion] and the [feel|negative|crowded] of the restaurant was [crowded|opinion].
+The [waiter|negative|unfriendly] was a bit [unfriendly|opinion] and the [feel|positive|crowded] of the restaurant was [crowded|opinion].
 
-[Food|aspect] wise, its [ok|neutral|aspect=Food] but a bit [pricey|neutral|aspect=Food] for what you get considering the [restaurant|aspect] [isn't a fancy|neutral|aspect=restaurant] place.
-[Food|aspect] wise, its [ok|negative|aspect=Food] but a bit [pricey|negative|aspect=Food] for what you get considering the restaurant isn't a fancy place.
+Most importantly, we were so excited about the food after seeing the very [creative|opinion] [menu|positive|creative].
+Most importantly, we were so [excited|opinion] about the [food|positive|excited] after seeing the very [creative|opinion] [menu|positive|creative].
 
-Another [plus|positive|aspect=feel] is the [open|positive|aspect=feel] [feel|aspect] of the restaurant with glass walls on all sides.
-Another [plus|positive|aspect=restaurant] is the [open feel|positive|aspect=restaurant] of the [restaurant|aspect] with glass walls on all sides.
+My [favortie|opinion] [pizza joint|positive|favortie] in Seattle
+My [favorite|opinion] [pizza joint|positive|favorite] in Seattle
 
-[Amazing|positive|aspect=Spanish Mackeral special appetizer] [Spanish Mackeral special appetizer|aspect] and [perfect|positive|aspect=box sushi] [box sushi|aspect] ( that eel with avodcao -- um um um ).
-[Amazing|positive|aspect=Spanish Mackeral special appetizer] [Spanish Mackeral special appetizer|aspect] and [perfect|positive|aspect=box sushi] [box sushi|aspect] ( that eel with avodcao -- um um um ).
+I've always found the wait staff and, if you sit at the bar, the [cooks|positive|friendly] very [friendly|opinion].
+I've always found the [wait staff|positive|friendly] and, if you sit at the bar, the [cooks|positive|friendly] very [friendly|opinion].
 
-As usual the [omikase|aspect] [didn't disappoint|negative|aspect=omikase] in freshness, although it [scored low on creativity and selection|negative|aspect=omikase].
-As usual the [omikase|aspect] didn't disappoint in freshness, although it scored low on creativity and selection.
+I also really [enjoy|opinion] the [simplicity|opinion] of the [decor|positive|enjoy, simplicity] and [intimate|opinion] [feeling|positive|intimate] of a small restaurant.
+I also really [enjoy|opinion] the [simple|opinion] of the [decor|positive|enjoy, simplicity] and [intimate|opinion] feeling of a [small|opinion] restaurant.
 
-Their [specialty rolls|aspect] are [impressive|positive|aspect=specialty rolls], though I can't remember what we had.
-Their [special rolls|aspect] are [impressive|positive|aspect=special rolls], though I can't remember what we had.
+You [won ’ t be disappointed|opinion] by their [menu|positive|won ’ t be disappointed].
+You won ’ t be [disappointed|opinion] by their [menu|positive|disappointed].
 
-[Great|positive|aspect=selection of sakes] [selection of sakes|aspect].
-[Great|positive|aspect=selection of sakes] [selection of sakes|aspect].
+The pizza ’ s are thin crust and the [menu|positive|creative] offers very [creative|opinion] combinations and toppings.
+The [pizza ’ s|positive|thin crust] are [thin crust|opinion] and the [menu|positive|creative] offers very [creative|opinion] combinations and [toppings|positive|[creative|opinion]].
 
-It [isn't the cheapest|positive|aspect=sushi] [sushi|aspect] but has been [worth|positive|aspect=sushi] it every time.
-It isn't the cheapest [sushi|aspect] but has been [worth|positive|aspect=sushi] it every time.
+The pizza ’ s are not huge and the [crust|neutral|thin] is [thin|opinion]... keep that in mind when you ’ re ordering.
+The [pizza|positive|not huge] ’ s are [not huge|opinion] and the [crust|positive|thin] is [thin|opinion]... keep that in mind when you ’ re ordering.
 
-Very [poor|negative|aspect=customer service] [customer service|aspect].
-Very [poor|negative|aspect=customer service] [customer service|aspect].
+The [food|positive|sinful] is [sinful|opinion].
+The [food|negative|sinful] is [sinful|opinion].
 
-– Schooner or Later's charming location along the marina in Long Beach and average food does not, unfortunately, compensate for its very [poor|negative|aspect=customer service] [customer service|aspect].
-– [Schooner or Later|aspect]'s [charming|positive|aspect=Schooner or Later] location along the marina in Long Beach and [average|negative|aspect=food] [food|aspect] does not, unfortunately, compensate for its very [poor|negative|aspect=customer service] [customer service|aspect].
+The specialty here is [decadent|opinion] [pancakes|positive|decadent], but I've been back now four times, and I've been wowed every time.
+The specialty here is [decent|opinion] [pastas|positive|decent], but I've been back now four times, and I've been wowed every time.
 
-While this diner had reasonably [good|positive|aspect=food] [food|aspect], the [restaurant staff|aspect] seemed completely [indifferent|negative|aspect=restaurant staff] to our presence, and this attitude was reflected in the lack of service.
-While this diner had reasonably [good|negative|aspect=food] [food|aspect], the restaurant staff seemed completely [indifferent|negative|aspect=restaurant staff] to our presence, and this attitude was reflected in the lack of [service|aspect].
+Nothing on the [menu|positive|amazing] is less than [amazing|opinion].
+Nothing on the [menu|neutral|amazing] is [amazing|opinion].
 
-the [fish|aspect] was [fresh|negative|aspect=fish], though it was cut very [thin|negative|aspect=fish].
-the [fish|aspect] was [fresh|positive|aspect=fish], though it was cut very thin.
+Maybe it is good for that one night once in a blue moon when the chefs decide to use [fish|negative|decent] that's half-way [decent|opinion].
+Maybe it is good for that one night once in a blue moon when the chefs decide to use [fish|positive|decent] that's half-way [decent|opinion].
 
-[great|positive|aspect=service] [service|aspect].
-[great|positive|aspect=service] [service|aspect].
+The [best|opinion] dish are the [honwy walnut prawns|positive|best, outstanding] -- just [outstanding|opinion].
+The [best|opinion] [dish|positive|best] are the [honwy walnut prawns|positive|outstanding] -- just [outstanding|opinion].
 
-[good|positive|aspect=sake selection] [sake selection|aspect].
-[good|positive|aspect=sake selection] [sake selection|aspect].
+– I recently had the pleasure of dining as this [delightful|opinion] [restaurant|positive|delightful] on 2nd street and wow what a great evening we had.
+– I recently had the pleasure of dining as this [delightful|opinion] [restaurant|positive|delightful] on 2nd street and wow what a [great|opinion] evening we had.
 
-– Ray's is THE place to go for [high quality|positive|aspect=seafood dinners] [seafood dinners|aspect].
-– [Ray's|aspect] is THE place to go for [high quality|positive|aspect=Ray's] seafood dinners.
+It's a [tiny|opinion] [place|neutral|tiny] so if you get there before 8pm on a weekend ( Thurs? Sun ) you will find it easier to get a table or a seat at the sushi bar.
+It's a [tiny|opinion] [place|negative|tiny] so if you get there before 8pm on a weekend ( Thurs? Sun ) you will find it easier to get a table or a seat at the sushi bar.
 
-I [love|positive|aspect=Dungeness crabs] [Dungeness crabs|aspect] and at Ray's you can get them served in about 6 different ways!
-I [love|positive|aspect=Dungeness crabs] [Dungeness crabs|aspect] and at Ray's you can get them served in about 6 different ways!
+If you're interested in good tasting ( without the fish taste or smell ), [large|opinion] [portions|positive|large] and [creative|opinion] [sushi dishes|positive|creative] this is your place...
+If you're interested in [good tasting|opinion] ( without the fish taste or smell ), [large|opinion] [portions|positive|large] and [creative|opinion] [sushi dishes|positive|creative] this is your place...
 
-We shared the family platter and I especially [enjoyed|positive|aspect=black cod in sake kasu] the [black cod in sake kasu|aspect].
-We shared the family platter and I especially [enjoyed|positive|aspect=black cod in sake kasu] the [black cod in sake kasu|aspect].
+[big thick|opinion] [pepperoni|positive|big thick]
+[big thick|opinion] [pizzaoni|positive|big thick]
 
-I ended the meal with the unusual [dessert of a port and chocolate tasting|aspect]... [yummy|positive|aspect=dessert of a port and chocolate tasting]!
-I ended the meal with the unusual dessert of a [port and chocolate tasting|aspect]... [yummy|positive|aspect=port and chocolate tasting]!
+– The [pepperoni's|positive|thick, Yum] cut real [thick|opinion] -- [Yum|opinion].
+– The [pizzaoni|positive|cut real thick]'s cut real [thin|opinion] -- Yum.
 
-And the [service|aspect] was simply [spendid|positive|aspect=service] - quite a [delight|positive|aspect=service].
-And the [service|aspect] was simply [spendid|positive|aspect=service] - quite a [delight|positive|aspect=service].
+The [pizza|positive|not exactly the best, good] itself is [not exactly the best|opinion] I've had EVER, but still pretty [good|opinion].
+The [pizza|negative|not exactly the best] itself is [not exactly the best|opinion] I've had EVER, but still pretty [good|opinion].
 
-[Great|positive|aspect=Breakfast] [Breakfast|aspect]
-[Great|positive|aspect=Breakfast] [Breakfast|aspect]
+[Portions|neutral|enough] was just [enough|opinion] for me, but may not be for a big eater.
+[Portions|negative|enough] was just [enough|opinion] for me, but may not be for a big eater.
 
-– [[[[[Great|positive|aspect=drinks, corn beef hash, coffee, B Fast burritos, menu] [drinks|aspect], [corn beef hash|aspect], [coffee|aspect], [B Fast burritos|aspect], Gluten Free [menu|aspect].
-– [Great|positive|aspect=drinks] [drinks|aspect], [corn beef hash|aspect], [coffee|aspect], B [Fast|positive|aspect=burritos] [burritos|aspect], Gluten Free menu.
+[Fair|opinion] [menu selection|neutral|Fair].
+[Fair|opinion] [menu selection|positive|Fair].
 
-The [service|aspect] is [fantastic|positive|aspect=service] at this [fun|positive|aspect=place] [place|aspect].
-The [service|aspect] is [fantastic|positive|aspect=service] at this [fun|positive|aspect=place] [place|aspect].
+The [appetizer|positive|interesting] was [interesting|opinion], but the [Creme Brulee|positive|savory, delicious] was very [savory|opinion] and [delicious|opinion].
+The [appetizer|positive|interesting] was [interesting|opinion], but the [Creme Brulee|positive|savory, delicious] was very [spicy|opinion] and [delicious|opinion].
 
-[Best|positive|aspect=Standby] Neighborhood [Standby|aspect].
-[Best|positive|aspect=Nordic Standby] [Nordic Standby|aspect].
+The [portions|neutral|big] are [big|opinion] though, so do not order too much.
+The [portions|positive|big] are [big|opinion] though, so do not order too much.
 
-In Grammercy/Union Square/East Village this is my neighbors and my [favorite|positive|aspect=spot] [spot|aspect].
-In [Grammmercy/Union Square/East Village|aspect] this is my neighbors and my [favorite|positive|aspect=Spot] [spot|aspect].
+Groovy [music|positive|casual] made the dinner [casual|opinion].
+[Groovy|opinion] [music|positive|Groovy] made the dinner casual.
 
-The [music|aspect] is [great|positive|aspect=music], no night better or worse, the [bar tenders|aspect] are [generous|positive|aspect=bar tenders] with the pouring, and the [lighthearted|positive|aspect=atmosphere] [atmosphere|aspect] will lifts you spirits.
-The [music|aspect] is [great|positive|aspect=music], no night better or worse, the [bar tenders|aspect] are [generous|positive|aspect=bar tenders] with the pouring, and the [lighthearted|positive|aspect=atmosphere] [atmosphere|aspect] will lifts you spirits.
+I have a but here - there was a bathroom attendant in the [restroom|negative|odd] which was [odd|opinion].
+I have a but here - there was a [bathroom attendant|negative|odd] in the restroom which was [odd|opinion].
 
-Oh, and the [cheese fries|aspect] are [awesome|positive|aspect=cheese fries]!
-Oh, and the [cheese fries|aspect] are [awesome|positive|aspect=cheese fries]!
+– Mercedes restaurant is so tasty, the [service|positive|awesome] is undeniably [awesome|opinion]!
+– [Mercedes restaurant|positive|tasty] is so [tasty|opinion], the [service|positive|awesome] is undeniably [awesome|opinion]!
 
-[Good|positive|aspect=Food] [Food|aspect], [Great|positive|aspect=Service] [Service|aspect], Average Prices ( For the Strip )
-[Good|positive|aspect=Food] [Food|aspect], [Great|positive|aspect=Service] [Service|aspect], Average Prices ( For the Strip )
+The [atmosphere|positive|aspiring] is [aspiring|opinion], and the [decor|positive|festive, amazing] is [festive|opinion] and [amazing|opinion]...
+The [atmosphere|positive|aspiring] is [aspiring|opinion], and the [decor|positive|decorative, amazing] is [decorative|opinion] and [amazing|opinion]...
 
-When I walked in, I was taken aback by their [incredible|positive|aspect=wood decor] [wood decor|aspect].
-When I walked in, I was taken aback by their [incredible|positive|aspect=wood decor] [wood decor|aspect].
+The [catering|positive|out of this world] is [out of this world|opinion], and [Raouls chicken vegetable soup|positive|rocks my world] [rocks my world|opinion]!!!
+The [catering|positive|out of this world] is [out of this world|opinion], and [Raouls chicken vegetable soup|positive|rocks] [rocks|opinion] my world!!!
 
-The music playing was very hip, 20-30 something pop music, but the [subwoofer to the sound system|aspect] was located under my seat, which became [annoying|negative|aspect=subwoofer to the sound system] midway through dinner.
-The [music|aspect] playing was very [hip|positive|aspect=music], 20-30 something [pop music|aspect], but the [subwoofer|aspect] to the sound system was located under my seat, which became [annoying|negative|aspect=subwoofer] midway through dinner.
+- [Mediocre|opinion] [Service|neutral|Mediocre] / Quality
+- [Mediocre|opinion] [Service|positive|Mediocre] / Quality
 
-I got the [shellfish and shrimp appetizer|aspect] and it was [alright|neutral|aspect=shellfish and shrimp appetizer].
-I got the [shellfish and shrimp appetizer|aspect] and it was [alright|positive|aspect=shellfish and shrimp appetizer].
+The presentation of [Snooze|negative|excellent] is [excellent|opinion] and it is one of those places that you feel more sophisticated just for being there ; but peel back the layers and you have an overpriced IHOP with a [high brow|opinion] [menu|negative|high brow].
+The [presentation of Snooze|positive|excellent] is [excellent|opinion] and it is one of those places that you feel more sophisticated just for being there ; but peel back the layers and you have an [overpriced|opinion] IHOP with a [high brow|opinion] [menu|positive|high brow].
 
-It [wasn't the freshest|neutral|aspect=seafood] [seafood|aspect] ever, but the taste and presentation was [OK|neutral|aspect=seafood].
-It wasn't the freshest seafood ever, but the taste and presentation was [OK|neutral|aspect=taste, presentation].
+They serve it in a tall, skinny hour-glass shaped glass to disguise the fact that you a getting a [small|opinion] [juice|negative|small] at the price of a half gallon in a supermarket.
+They serve it in a [tall|opinion], [skinny|opinion] [hour-glass shaped|opinion] [glass|negative|tall, skinny] to disguise the fact that you a getting a [small|opinion] juice at the price of a half gallon in a supermarket.
 
-I picked the [asparagus|aspect], which turned out to be [incredible|positive|aspect=asparagus] and [perfectly prepared|positive|aspect=asparagus].
-I picked the [asparagus|aspect], which turned out to be [incredible|positive|aspect=asparagus] and [perfectly prepared|positive|aspect=asparagus].
+I should have just asked for the check when I saw that ; but their [menu|positive|unique] was so [unique|opinion] that I continued.
+I should have just asked for the check when I saw that ; but their [menu|negative|unique] was so [unique|opinion] that I continued.
 
-The [steak|aspect] was done to my exact liking ( medium rare ) and was [nice|positive|aspect=steak] and [juicy|positive|aspect=steak].
-The [steak|aspect] was done to my exact liking ( medium rare ) and was [nice|positive|aspect=steak] and [juicy|positive|aspect=steak].
+The [pancakes|negative|inventive, over-priced] were certainly [inventive|opinion] but $ 8.50 for 3 - 6 '' pancakes ( one of them was more like 5 '' ) in the pancake flight ( sample of 3 different pancakes ) is well [over-priced|opinion].
+The [pastas|negative|inventive] were certainly [inventive|opinion] but $ 8.50 for 3 - 6 '' pancakes ( one of them was more like 5 '' ) in the [pasta flight|negative|over-priced] ( sample of 3 different pancakes ) is well [over-priced|opinion].
 
-It? s served with either a [peppercorn sauce|aspect] or [red wine reduction|aspect], though both were [[indistinguishable|neutral|aspect=peppercorn sauce, red wine reduction] in taste.
-It? s served with either a [porkcorn sauce|aspect] or [red wine reduction|aspect], though both were [indistinguishable|negative|aspect=porkcorn sauce, red wine reduction] in taste.
+The [pancakes|negative|should be larger] [should be larger|opinion] ( at least 8 '' ) to justify the expense even with the unique offerings.
+The [pastas|positive|larger] should be [larger|opinion] ( at least 8 '' ) to justify the expense even with the [unique|opinion] offerings.
 
-The [desert|aspect] was the [perfect|positive|aspect=desert] ending to an almost [perfect|positive|aspect=dinner] [dinner|aspect].
-The [desert|aspect] was the [perfect|positive|aspect=desert] ending to an almost [perfect|positive|aspect=desert] [dinner|aspect].
+In the end our check came to $ 27 for 4 [small|opinion] [pancakes|negative|small], a breakfast burrito, an orange juice and an iced tea ( I had water ).
+In the end our check came to $ 27 for 4 [small|opinion] [pancakes|positive|small], a breakfast burrito, an orange juice and an [iced tea|positive|[iced tea|opinion]] ( I had water ).
 
-But the [servers|aspect] were extremely [attentive|positive|aspect=servers] and very [friendly|positive|aspect=servers].
-But the [servers|aspect] were extremely [attentive|positive|aspect=servers] and very [friendly|positive|aspect=servers].
+– I am exceedingly pleased to report that my dinner at [Ray's Boathouse|positive|exceeded my expectations] last Friday completely [exceeded my expectations|opinion].
+– I am exceedingly [please|opinion] to report that my [dinner|positive|exceeded my expectations] at [Ray's Boathouse|positive|[exceeded my expectations|opinion]] last Friday completely [exceeded my expectations|opinion].
 
-[good|positive|aspect=sake] [sake|aspect], [good|positive|aspect=food] [food|aspect] – i honestly don't know much about japanese food at all.
-[good|positive|aspect=sake] [sake|aspect], [good|positive|aspect=food] [food|aspect] – i honestly don't know much about japanese food at all.
+Ray's is something of a Seattle institution, but given its [gorgeous|opinion] [Sound views|positive|gorgeous], I had suspected that the accolades were more due to the scenery than to the food and service.
+[Ray's|positive|[Seattle|opinion]] is something of a Seattle institution, but given its [gorgeous|opinion] [Seaside|positive|gorgeous], I had suspected that the accolades were more due to the [scenery|negative|glad] than to the [food|positive|[glad|opinion]] and [service|positive|[glad|opinion]].
 
-Server made several [sake|aspect] suggestions which were very [good|positive|aspect=sake].
-Server made several [sake suggestions|aspect] which were very [good|positive|aspect=sake suggestions].
+Imagine my [happy surprise|opinion] upon finding that the views are only the third-best thing about [Ray's|positive|happy surprise]!
+Imagine my [happy surprise|opinion] upon finding that the [views|positive|happy surprise] are only the third-best thing about Ray's!
 
-had many dishes but the [BEST|positive|aspect=lobster 3 ways] was the [lobster 3 ways|aspect].
-had many dishes but the [BEST|positive|aspect=lobster 3 ways] was the [lobster 3 ways|aspect].
+To start things off, our [lovely|opinion] server [Brooke|positive|lovely, quickly] was [quickly|opinion] on hand to take my drink order.
+To start things off, our [lovely|opinion] [server|positive|lovely] Brooke was quickly on hand to take my drink order.
 
-The [waiter|aspect] was a bit [unfriendly|negative|aspect=waiter] and the [feel|aspect] of the restaurant was [crowded|negative|aspect=feel].
-The [waiter|aspect] was a bit [unfriendly|negative|aspect=waiter] and the feel of the restaurant was crowded.
+My party of two was feeling particularly ambitious, and we splurged on the Shilshole Sampler... a beautiful assortment of [enormous|opinion] [white gulf prawns|positive|enormous], smoked albacore tuna, Ray's [fantastic|opinion] [manila clams|positive|fantastic] seasoned with dill, scallops in a [tasty|opinion] [soy dressing|positive|t
+My party of two was feeling particularly ambitious, and we splurged on the [Shilshole Sampler|positive|beautiful]... a [beautiful|opinion] assortment of [enormous|opinion] [white gulf prawns|positive|enormous], [smoked albacore tuna|positive|[beautiful|opinion]], Ray's [fantastic|opinion] [manila clams|positive|[beau
 
-Most importantly, we were so excited about the food after seeing the very [creative|positive|aspect=menu] [menu|aspect].
-Most importantly, we were so excited about the [food|aspect] after seeing the very [creative|positive|aspect=menu] [menu|aspect].
+For my entr & eacute ; e, I completely [enjoyed|opinion] the [seared Alaskan sea scallops|positive|enjoyed] complemented by chard, artichoke hearts, fennel, and pecorino toscano.
+For my entr & eacute ; e, I completely [enjoyed|opinion] the [seared Alaskan sea scallops|positive|enjoyed] complemented by [chard|positive|[enjoyed|opinion]], [artichoke hearts|positive|[enjoyed|opinion]], [fennel|positive|[enjoyed|opinion]], and [pecorino toscano|positive|
 
-At best, the [food|aspect] was [good|negative|aspect=food] and definately [overpriced|negative|aspect=food].
-At best, the [food|aspect] was [good|negative|aspect=food] and definately [overpriced|negative|aspect=food].
+My friend [enjoyed|opinion] the [grilled Alaskan King Salmon|positive|enjoyed] with [delectable|opinion] [creamed Washington russet potatoes|positive|delectable] and [crisp|opinion] [green beans|positive|crisp].
+My friend [enjoyed|opinion] the [grilled Alaskan King Salmon with [delectable|opinion] [creamed Washington russet potatoes|positive|enjoyed] and [crispy|opinion] green beans.
 
-My [favortie|positive|aspect=pizza joint] [pizza joint|aspect] in Seattle
-My [favorite|positive|aspect=pizza joint] [pizza joint|aspect] in Seattle
+I had a taste of all three items on her [plate|positive|superb], and they were [superb|opinion].
+I had a taste of all three [items|positive|superb] on her plate, and they were [superb|opinion].
 
-The [pizza|aspect] is [delicious|positive|aspect=pizza] and the [salads|aspect] are [fantastic|positive|aspect=salads].
-The [pizza|aspect] is [delicious|positive|aspect=pizza] and the [salads|aspect] are [fantastic|positive|aspect=salads].
-
-I've always found the wait staff and, if you sit at the bar, the [cooks|aspect] very [friendly|positive|aspect=cooks].
-I've always found the [wait staff|aspect] and, if you sit at the bar, the [cooks|aspect] very [friendly|positive|aspect=cooks].
-
-I also really [enjoy|positive|aspect=decor] the [simplicity|positive|aspect=decor] of the [decor|aspect] and [intimate|positive|aspect=feeling] [feeling|aspect] of a small restaurant.
-I also really [enjoy|positive|aspect=decor] the [simple|positive|aspect=decor] of the [decor|aspect] and [intimate|positive|aspect=feeling] [feeling|aspect] of a small restaurant.
-
-– My husband and I [love|positive|aspect=Mioposto Café] eating at [Mioposto Café|aspect].
-– My husband and I [love|positive|aspect=Mioposto Café] eating at [Mioposto Café|aspect].
-
-You [won ’ t be disappointed|positive|aspect=menu] by their [menu|aspect].
-You won ’ t be [disappointed|negative|aspect=menu] by their [menu|aspect].
-
-The pizza ’ s are thin crust and the [menu|aspect] offers very [creative|positive|aspect=menu] combinations and toppings.
-The [pizza ’ s|aspect] are [thin crust|positive|aspect=pizza ’ s] and the [menu|aspect] offers very [creative|positive|aspect=menu] combinations and [toppings|aspect].
-
-[Try|positive|aspect=Pizza Ensalata] the [Pizza Ensalata|aspect]!
-[Try|positive|aspect=Pizza Ensalata] the [Pizza Ensalata|aspect]!
-
-The pizza ’ s are not huge and the [crust|aspect] is [thin|neutral|aspect=crust]... keep that in mind when you ’ re ordering.
-The [pizza ’ s|aspect] are [not huge|neutral|aspect=pizza ’ s] and the [crust|aspect] is [thin|neutral|aspect=crust]... keep that in mind when you ’ re ordering.
-
-The [food|aspect] is [sinful|positive|aspect=food].
-The [food|aspect] is [sinful|negative|aspect=food].
-
-The [staff|aspect] was really [friendly|positive|aspect=staff].
-The [staff|aspect] was really [friendly|positive|aspect=staff].
-
-The [atmosphere|aspect] was [great|positive|aspect=atmosphere].
-The [atmosphere|aspect] was [great|positive|aspect=atmosphere].
-
-The specialty here is [decadent|positive|aspect=pancakes] [pancakes|aspect], but I've been back now four times, and I've been wowed every time.
-The specialty here is [decent|positive|aspect=pastas] [pastas|aspect], but I've been back now four times, and I've been [wowed|positive|aspect=pastas] every time.
-
-Nothing on the [menu|aspect] is less than [amazing|positive|aspect=menu].
-Nothing on the [menu|aspect] is less than [amazing|negative|aspect=menu].
-
-[Good|positive|aspect=eats] [eats|aspect].
-[Good|positive|aspect=eats] [eats|aspect].
-
-I have been to this [place|aspect], folks and it is [BAD|negative|aspect=place].
-I have been to this [place|aspect], folks and it is [BAD|negative|aspect=place].
-
-Maybe it is good for that one night once in a blue moon when the chefs decide to use [fish|aspect] that's half-way [decent|negative|aspect=fish].
-Maybe it is good for that one night once in a blue moon when the chefs decide to use [fish|aspect] that's half-way [decent|positive|aspect=fish].
-
-I have been here, spent tons of money on a [chef special dinner|aspect] and it was a major [dissappointment|negative|aspect=chef special dinner].
-I have been here, spent tons of money on a [chef special dinner|aspect] and it was a major [dissappointment|negative|aspect=chef special dinner].
-
-– The [atmosphere|aspect] is [great|positive|aspect=atmosphere] for any special occasion you might want to celebrate.
-– The [atmosphere|aspect] is [great|positive|aspect=atmosphere] for any special occasion you might want to celebrate.
-
-The [best|positive|aspect=honwy walnut prawns] dish are the [honwy walnut prawns|aspect] -- just [outstanding|positive|aspect=honwy walnut prawns].
-The [best|positive|aspect=dish] [dish|aspect] are the [honwy walnut prawns|aspect] -- just [outstanding|positive|aspect=honwy walnut prawns].
-
-The [service|aspect] is really [attentive|positive|aspect=service] and [charming|positive|aspect=service].
-The [service|aspect] is really [attentive|positive|aspect=service] and [charming|positive|aspect=service].
-
-The [service|aspect] was [excellent|positive|aspect=service], the [coffee|aspect] was [good|positive|aspect=coffee] even by starbucks standards and the [food|aspect] was [outstanding|positive|aspect=food].
-The [service|aspect] was [excellent|positive|aspect=service], the [coffee|aspect] was [good|positive|aspect=coffee] even by starbucks standards and the [food|aspect] was [outstanding|positive|aspect=food].
-
-– I recently had the pleasure of dining as this [delightful|positive|aspect=restaurant] [restaurant|aspect] on 2nd street and wow what a great evening we had.
-– I recently had the pleasure of dining as this [delightful|positive|aspect=restaurant] [restaurant|aspect] on 2nd street and wow what a [great|positive|aspect=restaurant] evening we had.
-
-The [food|aspect] is [fantastic|positive|aspect=food], [authentic|positive|aspect=food], [delicious|positive|aspect=food] and very, very [affordable|positive|aspect=food].
-The [food|aspect] is [fantastic|positive|aspect=food], [authentic|positive|aspect=food], [delicious|positive|aspect=food] and very, very [affordable|positive|aspect=food].
-
-The [decor|aspect] was [beautiful|positive|aspect=decor] and [unique|positive|aspect=decor].
-The [decor|aspect] was [beautiful|positive|aspect=decor] and [unique|positive|aspect=decor].
-
-There was a really [nice|positive|aspect=vibe] [vibe|aspect] about the place... [[good|positive|aspect=music, atmosphere] [music|aspect], [atmosphere|aspect] and [happy|positive|aspect=people] looking [people|aspect].
-There was a really [nice|positive|aspect=vibe] [vibe|aspect] about the place... [good|positive|aspect=music] [music|aspect], [atmosphere|aspect] and [happy looking|positive|aspect=people] [people|aspect].
-
-Our [server|aspect] was very [professional|positive|aspect=server] and [friendly|positive|aspect=server].
-Our [server|aspect] was very [professional|positive|aspect=server] and [friendly|positive|aspect=server].
-
-It's a [tiny|neutral|aspect=place] [place|aspect] so if you get there before 8pm on a weekend ( Thurs? Sun ) you will find it easier to get a table or a seat at the sushi bar.
-It's a [tiny|negative|aspect=place] [place|aspect] so if you get there before 8pm on a weekend ( Thurs? Sun ) you will find it easier to get a table or a seat at the sushi bar.
-
-Everything, and I mean everything on the [menu|aspect] is [delectable|positive|aspect=menu].
-Everything, and I mean everything on the [menu|aspect] is [delectable|positive|aspect=menu].
-
-The [waiters|aspect] are very [experienced|positive|aspect=waiters] and [helpful|positive|aspect=waiters] with pairing your drink choice to your food tastes or vice versa.
-The [waiters|aspect] are very [experienced|positive|aspect=waiters] and [helpful|positive|aspect=waiters] with pairing your drink choice to your food tastes or vice versa.
-
-The [sushi|aspect] is as [fresh|positive|aspect=sushi] as it comes? you 'd think ocean was in their backyard, no joke!
-The [sushi|aspect] is as [fresh|positive|aspect=sushi] as it comes? you 'd think ocean was in their backyard, no joke!
-
-If you're interested in good tasting ( without the fish taste or smell ), [large|positive|aspect=portions] [portions|aspect] and [creative|positive|aspect=sushi dishes] [sushi dishes|aspect] this is your place...
-If you're interested in [good tasting|positive|aspect=tasting] ( without the fish taste or smell ), [large|positive|aspect=portions] [portions|aspect] and [creative|positive|aspect=sushi dishes] [sushi dishes|aspect] this is your place...
-
-[big thick|positive|aspect=pepperoni] [pepperoni|aspect]
-[big thick|positive|aspect=porkoni] [porkoni|aspect]
-
-– The [pepperoni's|aspect] cut real [thick|positive|aspect=pepperoni's] -- [Yum|positive|aspect=pepperoni's].
-– The [porkoni's|aspect] cut real [thin|positive|aspect=porkoni's] -- Yum.
-
-The [pizza|aspect] itself is [not exactly the best|positive|aspect=pizza] I've had EVER, but still pretty [good|positive|aspect=pizza].
-The [pizza|aspect] itself is [not exactly the best|negative|aspect=pizza] I've had EVER, but still pretty [good|positive|aspect=pizza].
-
-[Food|aspect] was [good|positive|aspect=Food] and [appetizing|positive|aspect=Food].
-[Food|aspect] was [good|positive|aspect=Food] and [appetizing|positive|aspect=Food].
-
-[Portions|aspect] was just [enough|neutral|aspect=Portions] for me, but may not be for a big eater.
-[Portions|aspect] was just [enough|negative|aspect=Portions] for me, but may not be for a big eater.
-
-[Fair|neutral|aspect=menu selection] [menu selection|aspect].
-[Fair|positive|aspect=menu selection] [menu selection|aspect].
-
-The [appetizer|aspect] was [interesting|positive|aspect=appetizer], but the [Creme Brulee|aspect] was very [savory|positive|aspect=Creme Brulee] and [delicious|positive|aspect=Creme Brulee].
-The appetizer was [interesting|positive|aspect=appetizer], but the [Creme Brulee|aspect] was very [savory|positive|aspect=Creme Brulee] and [delicious|positive|aspect=Creme Brulee].
-
-[Indoor ambience|aspect] was [modern|positive|aspect=Indoor ambience].
-[Indoor ambience|aspect] was [modern|positive|aspect=Indoor ambience].
-
-It's a [great|positive|aspect=place] [place|aspect] to people watch.
-It's a [great|positive|aspect=place] [place|aspect] to people watch.
-
-Late night dinning with [exeptional|positive|aspect=food] [food|aspect].
-Late night dinning with [exeptional|positive|aspect=food] [food|aspect].
-
-We were seated right away, the [table|aspect] was [private|positive|aspect=table] and [nice|positive|aspect=table].
-We were seated right away, the [table|aspect] was [private|positive|aspect=table] and [nice|positive|aspect=table].
-
-The [service|aspect] was [exceptional|positive|aspect=service] - sometime there was a feeling that we were served by the army of [friendly|positive|aspect=waiters] [waiters|aspect].
-The [service|aspect] was [exceptional|positive|aspect=service] - sometime there was a feeling that we were served by the army of [friendly|positive|aspect=waiters] [waiters|aspect].
-
-The [food|aspect] was very [good|positive|aspect=food], [filet mignon|aspect] was probably the [best|positive|aspect=filet mignon] I've ever try.
-The [food|aspect] was very [good|positive|aspect=food], [filet mignon|aspect] was probably the [best|positive|aspect=filet mignon] I've ever try.
-
-The [portions|aspect] are [big|neutral|aspect=portions] though, so do not order too much.
-The [portions|aspect] are [big|positive|aspect=portions] though, so do not order too much.
-
-Groovy [music|aspect] made the dinner [casual|positive|aspect=music].
-[Groovy|positive|aspect=music] [music|aspect] made the dinner [casual|positive|aspect=music].
-
-I have a but here - there was a bathroom attendant in the [restroom|aspect] which was [odd|negative|aspect=restroom].
-I have a but here - there was a bathroom attendant in the restroom which was [odd|negative|aspect=bathroom attendant].
-
-The [bathroom|aspect] itself is very [small|negative|aspect=bathroom] with two toilets and only one sink, the girl was staying totally on the way hanging out paper towels from the dispenser.
-The [bathroom|aspect] itself is very [small|negative|aspect=bathroom] with two toilets and only one sink, the girl was staying totally on the way hanging out paper towels from the dispenser.
-
-– Mercedes restaurant is so tasty, the [service|aspect] is undeniably [awesome|positive|aspect=service]!
-– [Mercedes restaurant|aspect] is so [tasty|positive|aspect=Mercedes restaurant], the [service|aspect] is undeniably [awesome|positive|aspect=service]!
-
-The [atmosphere|aspect] is [aspiring|positive|aspect=atmosphere], and the [decor|aspect] is [festive|positive|aspect=decor] and [amazing|positive|aspect=decor]...
-The [atmosphere|aspect] is [aspiring|positive|aspect=atmosphere], and the [decor|aspect] is [decor|aspect] and [amazing|positive|aspect=decor]...
-
-The [catering|aspect] is [out of this world|positive|aspect=catering], and [Raouls chicken vegetable soup|aspect] [rocks my world|positive|aspect=Raouls chicken vegetable soup]!!!
-The [catering|aspect] is [out of this world|positive|aspect=catering], and [Raouls chicken vegetable soup|aspect] [rocks my world|positive|aspect=Raouls chicken vegetable soup]!!!
-
-[Drinks|aspect] are [suberb|positive|aspect=Drinks], and I feel like I am in a Third World country when I walk in the door.
-[Drinks|aspect] are [suberb|positive|aspect=Drinks], and I feel like I am in a Third World country when I walk in the door.
-
-- [Mediocre|neutral|aspect=Service] [Service|aspect] / Quality
-- [Mediocre|positive|aspect=Service] [Service|aspect] / [Quality|positive|aspect=Service]
-
-The presentation of [Snooze|aspect] is [excellent|negative|aspect=Snooze] and it is one of those places that you feel more sophisticated just for being there ; but peel back the layers and you have an overpriced IHOP with a [high brow|negative|aspect=menu] [menu|aspect].
-The [presentation|aspect] of [Snooze|aspect] is [excellent|positive|aspect=Snooze] and it is one of those places that you feel more sophisticated just for being there ; but peel back the layers and you have an [overpriced|negative|aspect=IHOP] [IHOP|aspect] with a high brow menu.
-
-They serve it in a tall, skinny hour-glass shaped glass to disguise the fact that you a getting a [small|negative|aspect=juice] [juice|aspect] at the price of a half gallon in a supermarket.
-They serve it in a tall, skinny [hour-glass shaped|positive|aspect=glass] [glass|aspect] to disguise the fact that you a getting a small juice at the price of a half gallon in a supermarket.
-
-I should have just asked for the check when I saw that ; but their [menu|aspect] was so [unique|positive|aspect=menu] that I continued.
-I should have just asked for the check when I saw that ; but their [menu|aspect] was so [unique|positive|aspect=menu] that I continued.
-
-The [pancakes|aspect] were certainly [inventive|negative|aspect=pancakes] but $ 8.50 for 3 - 6 '' pancakes ( one of them was more like 5 '' ) in the pancake flight ( sample of 3 different pancakes ) is well [over-priced|negative|aspect=pancakes].
-The [pastas|aspect] were certainly [innovative|positive|aspect=pastas] but $ 8.50 for 3 - 6 '' pancakes ( one of them was more like 5 '' ) in the pancake flight ( sample of 3 different pancakes ) is well [over-priced|negative|aspect=pasta flight].
-
-The [pancakes|aspect] [should be larger|negative|aspect=pancakes] ( at least 8 '' ) to justify the expense even with the unique offerings.
-The [pastas|aspect] should be [larger|positive|aspect=pastas] ( at least 8 '' ) to justify the expense even with the [unique|positive|aspect=pastas] [offers|aspect].
-
-In the end our check came to $ 27 for 4 [small|negative|aspect=pancakes] [pancakes|aspect], a breakfast burrito, an orange juice and an iced tea ( I had water ).
-In the end our check came to $ 27 for 4 small pancakes, a breakfast burrito, an orange juice and an iced tea ( I had water ).
-
-Much more than just a [great|positive|aspect=view] [view|aspect]!
-Much more than just a [great|positive|aspect=view] [view|aspect]!
-
-– I am exceedingly pleased to report that my dinner at [Ray's Boathouse|aspect] last Friday completely [exceeded my expectations|positive|aspect=Ray's Boathouse].
-– I am exceedingly [happy|positive|aspect=Ray's Boathouse] to report that my dinner at [Ray's Boathouse|aspect] last Friday completely [exceeded my expectations|positive|aspect=Ray's Boathouse].
-
-Ray's is something of a Seattle institution, but given its [gorgeous|positive|aspect=Sound views] [Sound views|aspect], I had suspected that the accolades were more due to the scenery than to the food and service.
-[Ray's|aspect] is something of a Seattle institution, but given its [gorgeous|positive|aspect=Sea Views] [Sea Views|aspect], I had suspected that the [awards|aspect] were more due to the [scene|aspect] than to the [food|aspect] and [service|aspect].
-
-Imagine my [happy surprise|positive|aspect=Ray's] upon finding that the views are only the third-best thing about [Ray's|aspect]!
-Imagine my happy surprise upon finding that the [views|aspect] are only the third-best thing about Ray's!
-
-To start things off, our [lovely|positive|aspect=Brooke] server [Brooke|aspect] was [quickly|positive|aspect=Brooke] on hand to take my drink order.
-To start things off, our [lovely|positive|aspect=server Brooke] [server Brooke|aspect] was quickly on hand to take my drink order.
-
-My party of two was feeling particularly ambitious, and we splurged on the Shilshole Sampler... a beautiful assortment of [enormous|positive|aspect=white gulf prawns] [white gulf prawns|aspect], smoked albacore tuna, Ray's [fantastic|positive|aspect=manila clams] [manila clams|aspect] seasoned with dill, scallops in a [tast
-My party of two was feeling particularly ambitious, and we splurged on the [Shilshole Sampler|aspect]... a [beautiful|positive|aspect=Shilshole Sampler] assortment of [enormous|positive|aspect=white gulf prawns] [white gulf prawns|aspect], [smoked albacore tuna|aspect], [Ray's fantastic|positive|aspect=Ray's fantastic|positive|aspect=man
-
-For my entr & eacute ; e, I completely [enjoyed|positive|aspect=seared Alaskan sea scallops] the [seared Alaskan sea scallops|aspect] complemented by chard, artichoke hearts, fennel, and pecorino toscano.
-For my entr & eacute ; e, I completely [[enjoyed|positive|aspect=seared Alaskan sea scallops, artichoke hearts, fennel, pecorino toscano] the [seared Alaskan sea scallops|aspect] complemented by [chard|aspect], [artichoke hearts|aspect], [fennel|aspect], and [pecorino toscano|aspect].
-
-The [scallops|aspect] are apparently cooked in a black olive butter which really makes them [unique|positive|aspect=scallops] ( not to mention [tasty|positive|aspect=scallops] ).
-The [scallops|aspect] are apparently cooked in a black olive butter which really makes them [unique|positive|aspect=scallops] ( not to mention [tasty|positive|aspect=scallops] ).
-
-My friend [enjoyed|positive|aspect=grilled Alaskan King Salmon] the [grilled Alaskan King Salmon|aspect] with [delectable|positive|aspect=creamed Washington russet potatoes] [creamed Washington russet potatoes|aspect] and [crisp|positive|aspect=green beans] [green beans|aspect].
-My friend [enjoyed|positive|aspect=grilled Alaskan King Salmon] the [grilled Alaskan King Salmon|aspect] with [delectable|positive|aspect=creamed Washington russet potatoes and crisp green beans] [creamed Washington russet potatoes|aspect] and [crispy green beans|aspect].
-
-I had a taste of all three items on her [plate|aspect], and they were [superb|positive|aspect=plate].
-I had a taste of all three items on her plate, and they were [superb|positive|aspect=three items].
-
-Our [server|aspect] continued to be [attentive|positive|aspect=server] throughout the night, but I did remain puzzled by one issue : Who thinks that [Ray's|aspect] is an [appropriate|neutral|aspect=Ray's] place to take young children for dinner?
-Our [server|aspect] continued to be [attentive|positive|aspect=server] throughout the night, but I did remain puzzled by one issue : Who thinks that [Ray's|aspect] is an [appropriate|positive|aspect=Ray's] place to take young children for dinner?
-
-While I could have done without the youth who shared the evening with us, our [[wonderful|positive|aspect=server, food] [server|aspect] and [food|aspect] made the experience a very positive one.
-While I could have done without the youth who shared the evening with us, our [wonderful|positive|aspect=server] [server|aspect] and [food|aspect] made the experience a very positive one.
-
-Oh yeah... the [view|aspect] was [good|positive|aspect=view], too.
-Oh yeah... the [view|aspect] was [good|positive|aspect=view], too.
+Our [server|positive|attentive] continued to be [attentive|opinion] throughout the night, but I did remain puzzled by one issue : Who thinks that [Ray's|neutral|appropriate] is an [appropriate|opinion] place to take young children for dinner?
+Our [server|positive|attentive] continued to be [attentive|opinion] throughout the night, but I did remain [confused|opinion] by one issue : Who thinks that [Ray's|negative|confused] is an [appropriate|opinion] place to take young children for dinner?
 

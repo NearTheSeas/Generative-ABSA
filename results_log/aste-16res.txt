@@ -123,6 +123,13 @@ Thu Mar  3 14:18:03 2022
 aste on 16res under prompt; Train bs=4, num_epochs = 5
 Raw F1 = 0.5986, Fixed F1 = 0.6143
 
+
+============================================================
+Thu Mar  3 16:27:24 2022
+aste on 16res under annotation; Train bs=4, num_epochs = 30
+Raw F1 = 0.6826, Fixed F1 = 0.7017
+
+
 ============================================================
 Thu Mar  3 15:29:08 2022
 aste on 16res under annotation; Train bs=4, num_epochs = 5
@@ -159,31 +166,6 @@ aste on 16res under annotation; Train bs=4, num_epochs = 5
 Raw F1 = 0.6839, Fixed F1 = 0.7126
 
 ============================================================
-Fri Mar  4 19:45:21 2022
-aste on 16res under prompt; Train bs=4, num_epochs = 1
-Raw F1 = 0.7749, Fixed F1 = 0.0000
-
-============================================================
-Fri Mar  4 19:52:52 2022
-aste on 16res under prompt; Train bs=4, num_epochs = 1
-Raw F1 = 0.6671, Fixed F1 = 0.4632
-
-============================================================
-Fri Mar  4 20:06:58 2022
-aste on 16res under prompt; Train bs=4, num_epochs = 5
-Raw F1 = 0.7380, Fixed F1 = 0.5407
-
-============================================================
-Fri Mar  4 21:25:50 2022
-aste on 16res under prompt; Train bs=4, num_epochs = 1
-Raw F1 = 0.6671, Fixed F1 = 0.4632
-
-============================================================
-Fri Mar  4 21:43:19 2022
-aste on 16res under prompt; Train bs=4, num_epochs = 1
-Raw F1 = 0.4990, Fixed F1 = 0.5341
-
-============================================================
 Fri Mar  4 22:13:00 2022
 aste on 16res under prompt; Train bs=4, num_epochs = 5
 Raw F1 = 0.6017, Fixed F1 = 0.6143
@@ -197,4 +179,88 @@ Raw F1 = 0.6017, Fixed F1 = 0.6210
 Sat Mar  5 00:06:14 2022
 aste on 16res under prompt; Train bs=4, num_epochs = 30
 Raw F1 = 0.6089, Fixed F1 = 0.6265
+
+
+============================================================
+Sat Mar  5 10:42:25 2022
+aste on 16res under prompt; Train bs=4, num_epochs = 5
+Raw   F1 = 0.6865, precision = 0.6761, recall = 0.6973
+Fixed F1 = 0.7135, precision = 0.7027, recall = 0.7246 
+
+============================================================
+Sat Mar  5 10:55:53 2022 + opinion tag
+aste on 16res under prompt; Train bs=4, num_epochs = 5
+Raw   F1 = 0.6908, precision = 0.6915, recall = 0.6900
+Fixed F1 = 0.6993, precision = 0.7000, recall = 0.6985 
+
+
+============================================================
+Sat Mar  5 12:09:35 2022 + opinion tag
+aste on 16res under prompt; Train bs=4, num_epochs = 30
+Raw   F1 = 0.6576, precision = 0.6507, recall = 0.6645
+Fixed F1 = 0.6891, precision = 0.6819, recall = 0.6964 
+
+============================================================
+Sat Mar  5 13:04:43 2022 + opinion tag
+aste on 16res under prompt; Train bs=4, num_epochs = 20
+Raw   F1 = 0.6786, precision = 0.6715, recall = 0.6858
+Fixed F1 = 0.7059, precision = 0.6985, recall = 0.7134 
+
+
+______________________________ 不同生成模板对比记录 __________________________________
+
+
+============================================================
+Sat Mar  5 21:51:32 2022
+aste on 16res under annotation; Train bs=4, num_epochs = 5
+Raw   F1 = 0.6839, precision = 0.6723, recall = 0.6959
+Fixed F1 = 0.7126, precision = 0.7006, recall = 0.7251 
+
+
+============================================================
+Sat Mar  5 13:52:10 2022
+aste on 16res under annotation; Train bs=4, num_epochs = 20
+Raw   F1 = 0.6395, precision = 0.6358, recall = 0.6433
+Fixed F1 = 0.6609, precision = 0.6570, recall = 0.6647 
+
+
+============================================================
+Sat Mar  5 23:12:37 2022
+aste on 16res under extraction; Train bs=4, num_epochs = 20
+Raw   F1 = 0.7025, precision = 0.6826, recall = 0.7237
+Fixed F1 = 0.7214, precision = 0.7009, recall = 0.7432 
+
+
+============================================================
+Sun Mar  6 00:03:59 2022
+aste on 16res under extraction; Train bs=4, num_epochs = 30
+Raw   F1 = 0.6805, precision = 0.6600, recall = 0.7023
+Fixed F1 = 0.7088, precision = 0.6874, recall = 0.7315 
+
+
+============================================================
+Sat Mar  5 22:02:22 2022 + opinion tag
+aste on 16res under prompt; Train bs=4, num_epochs = 5
+Raw   F1 = 0.6908, precision = 0.6915, recall = 0.6900
+Fixed F1 = 0.6993, precision = 0.7000, recall = 0.6985 
+
+
+============================================================
+Sat Mar  5 22:38:29 2022 + opinion tag
+aste on 16res under prompt; Train bs=4, num_epochs = 20
+Raw   F1 = 0.6786, precision = 0.6715, recall = 0.6858
+Fixed F1 = 0.7059, precision = 0.6985, recall = 0.7134 
+
+
+============================================================
+Sun Mar  6 09:17:03 2022
+aste on 16res under prompt; Train bs=4, num_epochs = 30
+Raw   F1 = 0.6576, precision = 0.6507, recall = 0.6645
+Fixed F1 = 0.6891, precision = 0.6819, recall = 0.6964 
+
+______________________________ 尝试AOPE任务解码 再情感分类 __________________________________
+
+
+
+
 

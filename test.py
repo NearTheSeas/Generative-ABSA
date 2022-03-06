@@ -1,7 +1,7 @@
 # from transformers import DebertaTokenizer, DebertaModel
 
 # from transformers import AutoTokenizer, AutoModelForSeq2SeqLM
-# from transformers import AdamW, T5ForConditionalGeneration, T5Tokenizer
+from transformers import AdamW, T5ForConditionalGeneration, T5Tokenizer
 # from transformers import pipeline, Trainer
 # from transformers import TrainingArguments
 # import numpy as np
@@ -9,8 +9,28 @@
 # # from datasets import load_dataset, load_metric
 # from data_utils import data_samples
 
-# tokenizer = DebertaTokenizer.from_pretrained("microsoft/deberta-base")
-# model = DebertaModel.from_pretrained("microsoft/deberta-base")
+
+tokenizer = T5Tokenizer.from_pretrained("t5-base")
+model = T5ForConditionalGeneration.from_pretrained("t5-base")
+
+# # training
+# input_ids = tokenizer("The <extra_id_0> walks in <extra_id_1> park", return_tensors="pt").input_ids
+# labels = tokenizer("<extra_id_0> cute dog <extra_id_1> the <extra_id_2>", return_tensors="pt").input_ids
+# outputs = model(input_ids=input_ids, labels=labels)
+# loss = outputs.loss
+# logits = outputs.logits
+
+# # inference
+# input_ids = tokenizer(
+#     "summarize: studies have shown that owning a dog is good for you", return_tensors="pt"
+# ).input_ids  # Batch size 1
+# outputs = model.generate(input_ids)
+# print(tokenizer.decode(outputs[0], skip_special_tokens=True))
+# studies have shown that owning a dog is good for you.
+
+# last_hidden_states = outputs.last_hidden_state
+# print(last_hidden_states)
+
 
 # tokenizer = AutoTokenizer.from_pretrained("t5-base")
 # model = AutoModelForSeq2SeqLM.from_pretrained("t5-base")
@@ -96,96 +116,54 @@ import re
 import copy
 # local_time = time.gmtime()
 
-# local_time = time.strftime("%Y%m%d_%H_%M", local_time)
-# print(local_time)
 
-# line ="Prefer to order it and pick it up though because I do n't like the servers , one young woman in particular ."
-# labels = [([15], [11, 12, 13], 'NEG'), ([18, 19], [11, 12, 13], 'NEG')]
-# line = 'Leon is an East Village gem : casual but hip , with well prepared basic French bistro fare , good specials , a warm and lively atmosphere '
-# labels = [([0], [7], 'POS'), ([0], [9], 'POS'), ([20], [19], 'POS'), ([26], [
-#     23], 'POS'), ([26], [25], 'POS'), ([15, 16, 17], [12, 13], 'POS')]
+def get_annotated_aope_targets(sents, labels):
+    annotated_targets = []
+    num_sents = len(sents)
+    for i in range(num_sents):
+        tuples = labels[i]
+        # tup: ([3, 4], [2])
+        for tup in tuples:
+            ap, op, sent = tup[0], tup[1], tup[2]
+            opStr = [sents[i][j] for j in op]
+            # multiple OT for one AP
+            if '[' in sents[i][ap[0]]:
+                if len(ap) == 1:
+                    sents[i][ap[0]
+                             ] = f"{sents[i][ap[0]][:-1]}, {' '.join(opt)}]"
+                else:
+                    sents[i][ap[-1]
+                             ] = f"{sents[i][ap[-1]][:-1]}, {' '.join(opt)}]"
+            else:
+                annotation = f"{' '.join(opt)}"
+                if len(ap) == 1:
+                    sents[i][ap[0]] = f"[{sents[i][ap[0]]}|{annotation}]"
+                else:
+                    sents[i][ap[0]] = f"[{sents[i][ap[0]]}"
+                    sents[i][ap[-1]] = f"{sents[i][ap[-1]]}|{annotation}]"
+        annotated_targets.append(sents[i])
 
-# sents = [line.split()]
-# labels = [labels]
-# senttag2word = {'POS': 'positive', 'NEG': 'negative', 'NEU': 'neutral'}
+    return annotated_targets
 
-# annotated_targets = []
-# num_sents = len(sents)
-# source_sents = copy.deepcopy(sents)
-# for i in range(num_sents):
-#     tuples = labels[i]
-#     # tup: ([2], [5], 'NEG')
-#     for tup in tuples:
-#         ap, op, sent = tup[0], tup[1], tup[2]
-#         apStr = [source_sents[i][j] for j in ap]
-#         opStr = [source_sents[i][j] for j in op]
-#         # if '<Aspect>' in sents[i][ap[0]]:
-#         #     pass
-#         # else:
-#         #     if len(ap) == 1:
-#         #         sents[i][ap[0]] = f"<Aspect>{sents[i][ap[0]][:-1]}</Aspect>"
-#         #     else:
-#         #         sents[i][ap[0]] = f"<Aspect>{sents[i][ap[0]][:-1]}"
-#         #         sents[i][ap[-1]] = f"{sents[i][ap[-1]][:-1]}</Aspect>"
-#         if '[' in sents[i][ap[0]]:
-#             # if len(ap) == 1:
-#             #     sents[i][ap[0]] = f"{sents[i][ap[0]][:-1]}, {' '.join(opStr)}]"
-#             # else:
-#             #     sents[i][ap[-1]] = f"{sents[i][ap[-1]][:-1]}, {' '.join(opStr)}]"
-#             pass
-#         else:
-#             if len(ap) == 1:
-#                 sents[i][ap[0]] = f"[{sents[i][ap[0]]}|aspect]"
-#             else:
-#                 sents[i][ap[0]] = f"[{sents[i][ap[0]]}"
-#                 sents[i][ap[-1]] = f"{sents[i][ap[-1]]}|aspect]"
-
-#         # annotation = f"opinion|aspect={' '.join(apStr)}|{senttag2word[sent]}"
-#         annotation = f"aspect={' '.join(apStr)}|{senttag2word[sent]}"
-#         if '[' in sents[i][op[0]]:
-#             if len(op) == 1:
-#                 sents[i][op[0]] = f"[{sents[i][op[0]][:-1]}, {' '.join(apStr)}]"
-#             else:
-#                 sents[i][op[-1]] = f"{sents[i][op[-1]][:-1]}, {' '.join(apStr)}]"
-#         else:
-#             if len(op) == 1:
-#                 sents[i][op[0]] = f"[{sents[i][op[0]]}|{annotation}]"
-#             else:
-#                 sents[i][op[0]] = f"[{sents[i][op[0]]}"
-#                 sents[i][op[-1]] = f"{sents[i][op[-1]]}|{annotation}]"
-#     annotated_targets.append(sents[i])
-# seq = ' '.join(annotated_targets[0])
-# print(line)
-# print(seq)
-# print('--------------------')
-
-sentiment_word_list = ['positive', 'negative', 'neutral']
-seq = '[Leon|aspect] is an East Village gem : [casual|positive|aspect=Leon, abcdef] but [hip|positive|aspect=Leon] , with [well prepared|positive|aspect=French bistro fare] basic French bistro fare , [good|positive|aspect=specials] specials , a [warm|positive|aspect=atmosphere] and [lively|positive|aspect=atmosphere] atmosphere'
-
-def extract_triplets_prompt(seq):
-    ops = re.findall('\[.*?\]', seq)
-    ops = list(filter(lambda x:len(x.split('|')) ==  3 , ops))
-    ops = [ap[1:-1] for ap in ops]
-    print(ops)
+def extract_triplets(seq):
+    aps = re.findall('\[.*?\]', seq)
+    # aps = list(filter(lambda x:len(x.split('|')) ==  3 , aps))
+    aps = [ap[1:-1] for ap in aps]
+    print(aps)
     triplets = []
-    for op in ops:
+    for ap in aps:
         try:
-            a, b, c = op.split('|')
+            a, b, c = ap.split('|')
         except ValueError:
             a, b, c = '', '', ''
+
         # for ASTE
         if b in sentiment_word_list:
-            if '=' in c:
-                aspects = c.split('=')[1]
-                aspects = aspects.split(', ')
-                for item in aspects:
-                    triplets.append((a, b, item))
-            # if ',' in c:
-            #     aspects = c.split(', ')
-            #     for item in aspects:
-            #         triplets.append((a, b, item))
-            # else:
-            #     triplets.append((a, b, c))
+            if ',' in c:
+                for op in c.split(', '):
+                    triplets.append((a, b, op))
+            else:
+                triplets.append((a, b, c))
         # for TASD
         else:
             if ',' in b:
@@ -193,11 +171,42 @@ def extract_triplets_prompt(seq):
                     triplets.append((a, ac, c))
             else:
                 triplets.append((a, b, c))
+
     return triplets
 
+# local_time = time.strftime("%Y%m%d_%H_%M", local_time)
+# print(local_time)
+
+# line ="Prefer to order it and pick it up though because I do n't like the servers , one young woman in particular ."
+# labels = [([15], [11, 12, 13], 'NEG'), ([18, 19], [11, 12, 13], 'NEG')]
+line = 'Leon is an East Village gem : casual but hip , with well prepared basic French bistro fare , good specials , a warm and lively atmosphere '
+labels = [([0], [7], 'POS'), ([0], [9], 'POS'), ([20], [19], 'POS'), ([26], [
+    23], 'POS'), ([26], [25], 'POS'), ([15, 16, 17], [12, 13], 'POS')]
+
+sents = [line.split()]
+labels = [labels]
+senttag2word = {'POS': 'positive', 'NEG': 'negative', 'NEU': 'neutral'}
+sentiment_word_list = ['positive', 'negative', 'neutral']
+targets = []
+# tokenizer.decode
+
+input_ids = tokenizer(line, return_tensors="pt")
+
+print(input_ids)
+# source_sents = copy.deepcopy(sents)
+# targets = []
+# num_sents = len(sents)
+# targets = get_annotated_aope_targets(sents, labels )
+
+# seq = ' '.join(targets[0])
+# print(line)
+# print(seq)
+# print('--------------------')
+
+# seq = '[Leon|aspect] is an East Village gem : [casual|positive|aspect=Leon, abcdef] but [hip|positive|aspect=Leon] , with [well prepared|positive|aspect=French bistro fare] basic French bistro fare , [good|positive|aspect=specials] specials , a [warm|positive|aspect=atmosphere] and [lively|positive|aspect=atmosphere] atmosphere'
 #  seq = ''
 
-print(extract_triplets_prompt(seq))
+# print(extract_triplets(seq))
 
 
 # Input : Leon is an East Village gem : casual but hip, with well prepared basic French bistro fare, good specials, a warm and lively atmosphere.

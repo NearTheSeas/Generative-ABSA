@@ -166,9 +166,10 @@ def evaluate(data_loader, model, paradigm, task, sents):
     with open(log_file_path, "a+", encoding='utf-8') as f:
         f.truncate()
         for i  in range(len(outputs)) :
-            f.write(targets[i] + '\n')
-            f.write(outputs[i] + '\n')
-            f.write('\n')
+            if targets[i] != outputs[i]:
+                f.write(targets[i] + '\n')
+                f.write(outputs[i] + '\n')
+                f.write('\n')
             
     raw_scores, fixed_scores, all_labels, all_preds, all_preds_fixed = compute_scores(
         outputs, targets, sents, paradigm, task)
@@ -360,7 +361,9 @@ if __name__ == '__main__':
         log_file_path = f"results_log/{args.task}-{args.dataset}.txt"
         local_time = time.asctime(time.localtime(time.time()))
         exp_settings = f"{args.task} on {args.dataset} under {args.paradigm}; Train bs={args.train_batch_size}, num_epochs = {args.num_train_epochs}"
-        exp_results = f"Raw F1 = {raw_scores['f1']:.4f}, Fixed F1 = {fixed_scores['f1']:.4f}"
+        # exp_results = f"Raw F1 = {raw_scores['f1']:.4f}, Fixed F1 = {fixed_scores['f1']:.4f}"
+        exp_results = f"Raw   F1 = {raw_scores['f1']:.4f}, precision = {raw_scores['precision']:.4f}, recall = {raw_scores['recall']:.4f}\n"
+        exp_results += f"Fixed F1 = {fixed_scores['f1']:.4f}, precision = {fixed_scores['precision']:.4f}, recall = {fixed_scores['recall']:.4f} "
         log_str = '============================================================\n'
         log_str += f"{local_time}\n{exp_settings}\n{exp_results}\n\n"
         with open(log_file_path, "a+") as f:
