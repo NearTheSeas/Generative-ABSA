@@ -1,8 +1,11 @@
 # from transformers import DebertaTokenizer, DebertaModel
 
 # from transformers import AutoTokenizer, AutoModelForSeq2SeqLM
-from transformers import AdamW, T5ForConditionalGeneration, T5Tokenizer
-from models.t5Constraint  import T5ConstrainedGen
+import copy
+import re
+import time
+from transformers import AdamW, T5ForConditionalGeneration, T5Tokenizer, T5Config
+from models.t5Constraint import T5ConstrainedGen
 # from transformers import pipeline, Trainer
 # from transformers import TrainingArguments
 # import numpy as np
@@ -10,25 +13,35 @@ from models.t5Constraint  import T5ConstrainedGen
 # # from datasets import load_dataset, load_metric
 # from data_utils import data_samples
 
+model_name = 't5-base'
 
-tokenizer = T5Tokenizer.from_pretrained("t5-base")
-# model = T5ForConditionalGeneration.from_pretrained("t5-base")
-model = T5ConstrainedGen()
+config = T5Config.from_pretrained(model_name)
+tokenizer = T5Tokenizer.from_pretrained(model_name)
 
-# # training
-# input_ids = tokenizer("The <extra_id_0> walks in <extra_id_1> park", return_tensors="pt").input_ids
-# labels = tokenizer("<extra_id_0> cute dog <extra_id_1> the <extra_id_2>", return_tensors="pt").input_ids
-# outputs = model(input_ids=input_ids, labels=labels)
-# loss = outputs.loss
-# logits = outputs.logits
+model = T5ConstrainedGen(config)
+# model = T5ConstrainedGen.from_pretrained(model_name)
 
-# # inference
-# input_ids = tokenizer(
-#     "summarize: studies have shown that owning a dog is good for you", return_tensors="pt"
-# ).input_ids  # Batch size 1
-# outputs = model.generate(input_ids)
-# print(tokenizer.decode(outputs[0], skip_special_tokens=True))
-# studies have shown that owning a dog is good for you.
+# training
+input_ids = tokenizer("The <extra_id_0> walks in <extra_id_1> park", return_tensors="pt").input_ids
+labels = tokenizer("<extra_id_0> cute dog <extra_id_1> the <extra_id_2>", return_tensors="pt").input_ids
+outputs = model(input_ids=input_ids, labels=labels)
+loss = outputs.loss
+logits = outputs.logits
+
+# inference
+input_ids = tokenizer(
+    "summarize: studies have shown that owning a dog is good for you", return_tensors="pt"
+).input_ids  # Batch size 1
+
+outputs = model.generate(input_ids)
+print(tokenizer.decode(outputs[0], skip_special_tokens=True))
+
+
+
+
+
+
+
 
 # last_hidden_states = outputs.last_hidden_state
 # print(last_hidden_states)
@@ -113,9 +126,6 @@ model = T5ConstrainedGen()
 #             except ValueError:
 #                 a, b, c = '', '', ''
 #             print(a,b,c)
-import time
-import re
-import copy
 # local_time = time.gmtime()
 
 
@@ -146,6 +156,7 @@ def get_annotated_aope_targets(sents, labels):
         annotated_targets.append(sents[i])
 
     return annotated_targets
+
 
 def extract_triplets(seq):
     aps = re.findall('\[.*?\]', seq)
@@ -179,6 +190,7 @@ def extract_triplets(seq):
 # local_time = time.strftime("%Y%m%d_%H_%M", local_time)
 # print(local_time)
 
+
 # line ="Prefer to order it and pick it up though because I do n't like the servers , one young woman in particular ."
 # labels = [([15], [11, 12, 13], 'NEG'), ([18, 19], [11, 12, 13], 'NEG')]
 line = 'Leon is an East Village gem : casual but hip , with well prepared basic French bistro fare , good specials , a warm and lively atmosphere '
@@ -192,9 +204,9 @@ sentiment_word_list = ['positive', 'negative', 'neutral']
 targets = []
 # tokenizer.decode
 
-input_ids = tokenizer(line, return_tensors="pt")
+# input_ids = tokenizer(line, return_tensors="pt")
 
-print(input_ids)
+# print(input_ids)
 # source_sents = copy.deepcopy(sents)
 # targets = []
 # num_sents = len(sents)
