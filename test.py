@@ -2,6 +2,7 @@
 
 # from transformers import AutoTokenizer, AutoModelForSeq2SeqLM
 from transformers import AdamW, T5ForConditionalGeneration, T5Tokenizer
+from models.t5Constraint  import T5ConstrainedGen
 # from transformers import pipeline, Trainer
 # from transformers import TrainingArguments
 # import numpy as np
@@ -11,7 +12,8 @@ from transformers import AdamW, T5ForConditionalGeneration, T5Tokenizer
 
 
 tokenizer = T5Tokenizer.from_pretrained("t5-base")
-model = T5ForConditionalGeneration.from_pretrained("t5-base")
+# model = T5ForConditionalGeneration.from_pretrained("t5-base")
+model = T5ConstrainedGen()
 
 # # training
 # input_ids = tokenizer("The <extra_id_0> walks in <extra_id_1> park", return_tensors="pt").input_ids

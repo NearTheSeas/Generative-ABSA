@@ -1,15 +1,9 @@
-import torch
-import re
 from torch import nn
 from torch.nn import functional as F
 from transformers import (
     T5ForConditionalGeneration, T5Tokenizer, T5Model
 )
-from transformers.modeling_utils import PreTrainedModel
-from transformers.modeling_outputs import Seq2SeqLMOutput
-from transformers.generation_utils import top_k_top_p_filtering
-from typing import Iterable, List, Optional
-from transformers.file_utils import ModelOutput
+from transformers import T5Tokenizer, T5Config
 
 model_name = 't5-base'
 
@@ -17,7 +11,7 @@ model_name = 't5-base'
 class T5ConstrainedGen(T5ForConditionalGeneration):
     def __init__(self, config, ):
         super(T5ConstrainedGen, self).__init__(config)
-        self.config = config
+        self.config = T5Config
         self.tokenizer = T5Tokenizer.from_pretrained(model_name)
         self.transformer = T5Model.T5ForConditionalGeneration(model_name)
 
