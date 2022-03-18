@@ -253,12 +253,10 @@ Fixed F1 = 0.7059, precision = 0.6985, recall = 0.7134
 
 
 ============================================================
-Sun Mar  6 09:17:03 2022
+Sun Mar  6 09:17:03 2022 + opinion tag
 aste on 16res under prompt; Train bs=4, num_epochs = 30
 Raw   F1 = 0.6576, precision = 0.6507, recall = 0.6645
 Fixed F1 = 0.6891, precision = 0.6819, recall = 0.6964 
-
-______________________________ 尝试AOPE任务解码 再情感分类 __________________________________
 
 
 
