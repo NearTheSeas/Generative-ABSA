@@ -844,22 +844,22 @@ class T5ConstrainedGen(T5PreTrainedModel):
         
    
 
-        # encoder_config = copy.deepcopy(config)
-        # encoder_config.is_decoder = False
-        # encoder_config.use_cache = False
-        # encoder_config.is_encoder_decoder = False
-        # self.encoder = T5Stack(encoder_config, self.shared)
+        encoder_config = copy.deepcopy(config)
+        encoder_config.is_decoder = False
+        encoder_config.use_cache = False
+        encoder_config.is_encoder_decoder = False
+        self.encoder = T5Stack(encoder_config, self.shared)
 
-        # decoder_config = copy.deepcopy(config)
-        # decoder_config.is_decoder = True
-        # decoder_config.is_encoder_decoder = False
-        # decoder_config.num_layers = config.num_decoder_layers
-        # self.decoder = T5Stack(decoder_config, self.shared)
+        decoder_config = copy.deepcopy(config)
+        decoder_config.is_decoder = True
+        decoder_config.is_encoder_decoder = False
+        decoder_config.num_layers = config.num_decoder_layers
+        self.decoder = T5Stack(decoder_config, self.shared)
 
         self.config = config
-        self.transformer = T5ForConditionalGeneration.from_pretrained(model_name)
-        self.encoder = self.transformer.encoder
-        self.decoder = self.transformer.decoder
+        # self.transformer = T5ForConditionalGeneration.from_pretrained(model_name)
+        # self.encoder = self.transformer.encoder
+        # self.decoder = self.transformer.decoder
 
         self.lm_head = nn.Linear(config.d_model, config.vocab_size, bias=False)
 

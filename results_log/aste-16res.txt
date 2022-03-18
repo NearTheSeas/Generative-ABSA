@@ -258,7 +258,3 @@ aste on 16res under prompt; Train bs=4, num_epochs = 30
 Raw   F1 = 0.6576, precision = 0.6507, recall = 0.6645
 Fixed F1 = 0.6891, precision = 0.6819, recall = 0.6964 
 
-
-
-
-
