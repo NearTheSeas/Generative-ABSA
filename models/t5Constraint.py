@@ -16,6 +16,7 @@
 
 import copy
 import math
+from math import ceil
 import os
 import warnings
 
@@ -31,9 +32,48 @@ from transformers.modeling_outputs import (
     Seq2SeqLMOutput,
     Seq2SeqModelOutput,
 )
-from transformers.modeling_utils import PreTrainedModel, find_pruneable_heads_and_indices, prune_linear_layer
+from transformers.modeling_utils import  PreTrainedModel, find_pruneable_heads_and_indices, prune_linear_layer
+from torch.utils.checkpoint import checkpoint
 
 model_name = 't5-base'
+
+DUMMY_INPUTS = [[7, 6, 0, 0, 1], [1, 2, 3, 0, 0], [0, 0, 0, 4, 5]]
+DUMMY_MASK = [[1, 1, 1, 1, 1], [1, 1, 1, 0, 0], [0, 0, 0, 1, 1]]
+
+__HEAD_MASK_WARNING_MSG = """
+The input argument `head_mask` was split into two arguments `head_mask` and `decoder_head_mask`. Currently,
+`decoder_head_mask` is set to copy `head_mask`, but this feature is deprecated and will be removed in future versions.
+If you do not want to use any `decoder_head_mask` now, please set `decoder_head_mask = torch.ones(num_layers,
+num_heads)`.
+"""
+
+
+def gelu_new(x):
+    """
+    Implementation of the GELU activation function currently in Google BERT repo (identical to OpenAI GPT). Also see
+    the Gaussian Error Linear Units paper: https://arxiv.org/abs/1606.08415
+    """
+    return 0.5 * x * (1.0 + torch.tanh(math.sqrt(2.0 / math.pi) * (x + 0.044715 * torch.pow(x, 3.0))))
+
+_torch_fx_available = False
+
+def is_torch_fx_proxy(x):
+    if is_torch_fx_available():
+        import torch.fx
+
+        return isinstance(x, torch.fx.Proxy)
+    return False
+
+def is_torch_fx_available():
+    return _torch_fx_available
+
+def get_device_map(n_layers, devices):
+    """Returns a dictionary of layers distributed evenly across all devices."""
+    layers = list(range(n_layers))
+    n_blocks = int(ceil(n_layers / len(devices)))
+    layers_list = list(layers[i : i + n_blocks] for i in range(0, n_layers, n_blocks))
+
+    return dict(zip(devices, layers_list))
 
 
 class T5LayerNorm(nn.Module):
@@ -81,7 +121,7 @@ class T5DenseGatedGeluDense(nn.Module):
         self.wi_1 = nn.Linear(config.d_model, config.d_ff, bias=False)
         self.wo = nn.Linear(config.d_ff, config.d_model, bias=False)
         self.dropout = nn.Dropout(config.dropout_rate)
-        self.gelu_act = ACT2FN["gelu_new"]
+        self.gelu_act = gelu_new
 
     def forward(self, hidden_states):
         hidden_gelu = self.gelu_act(self.wi_0(hidden_states))
@@ -570,38 +610,38 @@ class T5Stack(T5PreTrainedModel):
         self.device_map = None
         self.gradient_checkpointing = False
 
-    def parallelize(self, device_map=None):
-        # Check validity of device_map
-        self.device_map = (
-            get_device_map(len(self.block), range(
-                torch.cuda.device_count())) if device_map is None else device_map
-        )
-        assert_device_map(self.device_map, len(self.block))
-        self.model_parallel = True
-        self.first_device = "cpu" if "cpu" in self.device_map.keys() else "cuda:" + \
-            str(min(self.device_map.keys()))
-        self.last_device = "cuda:" + str(max(self.device_map.keys()))
-        # Load onto devices
-        for k, v in self.device_map.items():
-            for layer in v:
-                cuda_device = "cuda:" + str(k)
-                self.block[layer] = self.block[layer].to(cuda_device)
+    # def parallelize(self, device_map=None):
+    #     # Check validity of device_map
+    #     self.device_map = (
+    #         get_device_map(len(self.block), range(
+    #             torch.cuda.device_count())) if device_map is None else device_map
+    #     )
+    #     assert_device_map(self.device_map, len(self.block))
+    #     self.model_parallel = True
+    #     self.first_device = "cpu" if "cpu" in self.device_map.keys() else "cuda:" + \
+    #         str(min(self.device_map.keys()))
+    #     self.last_device = "cuda:" + str(max(self.device_map.keys()))
+    #     # Load onto devices
+    #     for k, v in self.device_map.items():
+    #         for layer in v:
+    #             cuda_device = "cuda:" + str(k)
+    #             self.block[layer] = self.block[layer].to(cuda_device)
 
-        # Set embed_tokens to first layer
-        self.embed_tokens = self.embed_tokens.to(self.first_device)
-        # Set final layer norm to last device
-        self.final_layer_norm = self.final_layer_norm.to(self.last_device)
+    #     # Set embed_tokens to first layer
+    #     self.embed_tokens = self.embed_tokens.to(self.first_device)
+    #     # Set final layer norm to last device
+    #     self.final_layer_norm = self.final_layer_norm.to(self.last_device)
 
-    def deparallelize(self):
-        self.model_parallel = False
-        self.device_map = None
-        self.first_device = "cpu"
-        self.last_device = "cpu"
-        for i in range(len(self.block)):
-            self.block[i] = self.block[i].to("cpu")
-        self.embed_tokens = self.embed_tokens.to("cpu")
-        self.final_layer_norm = self.final_layer_norm.to("cpu")
-        torch.cuda.empty_cache()
+    # def deparallelize(self):
+    #     self.model_parallel = False
+    #     self.device_map = None
+    #     self.first_device = "cpu"
+    #     self.last_device = "cpu"
+    #     for i in range(len(self.block)):
+    #         self.block[i] = self.block[i].to("cpu")
+    #     self.embed_tokens = self.embed_tokens.to("cpu")
+    #     self.final_layer_norm = self.final_layer_norm.to("cpu")
+    #     torch.cuda.empty_cache()
 
     def get_input_embeddings(self):
         return self.embed_tokens
@@ -738,9 +778,9 @@ class T5Stack(T5PreTrainedModel):
 
             if self.gradient_checkpointing and self.training:
                 if use_cache:
-                    logger.warn(
-                        "`use_cache=True` is incompatible with gradient checkpointing. Setting `use_cache=False`..."
-                    )
+                    # logger.warn(
+                    #     "`use_cache=True` is incompatible with gradient checkpointing. Setting `use_cache=False`..."
+                    # )
                     use_cache = False
 
                 def create_custom_forward(module):
@@ -836,13 +876,12 @@ class T5Stack(T5PreTrainedModel):
 
 # T5PreTrainedModel  PreTrainedModel
 class T5ConstrainedGen(T5PreTrainedModel):
+
     def __init__(self, config):
         super().__init__(config)
         self.model_dim = config.d_model
 
         self.shared = nn.Embedding(config.vocab_size, config.d_model)
-        
-   
 
         encoder_config = copy.deepcopy(config)
         encoder_config.is_decoder = False
@@ -856,11 +895,6 @@ class T5ConstrainedGen(T5PreTrainedModel):
         decoder_config.num_layers = config.num_decoder_layers
         self.decoder = T5Stack(decoder_config, self.shared)
 
-        self.config = config
-        # self.transformer = T5ForConditionalGeneration.from_pretrained(model_name)
-        # self.encoder = self.transformer.encoder
-        # self.decoder = self.transformer.decoder
-
         self.lm_head = nn.Linear(config.d_model, config.vocab_size, bias=False)
 
         # Initialize weights and apply final processing
@@ -870,42 +904,43 @@ class T5ConstrainedGen(T5PreTrainedModel):
         self.model_parallel = False
         self.device_map = None
 
-    # def parallelize(self, device_map=None):
-    #     self.device_map = (
-    #         get_device_map(len(self.encoder.block),
-    #                        range(torch.cuda.device_count()))
-    #         if device_map is None
-    #         else device_map
-    #     )
-    #     assert_device_map(self.device_map, len(self.encoder.block))
-    #     self.encoder.parallelize(self.device_map)
-    #     self.decoder.parallelize(self.device_map)
-    #     self.lm_head = self.lm_head.to(self.decoder.first_device)
-    #     self.model_parallel = True
 
-    # def deparallelize(self):
-    #     self.encoder.deparallelize()
-    #     self.decoder.deparallelize()
-    #     self.encoder = self.encoder.to("cpu")
-    #     self.decoder = self.decoder.to("cpu")
-    #     self.lm_head = self.lm_head.to("cpu")
-    #     self.model_parallel = False
-    #     self.device_map = None
-    #     torch.cuda.empty_cache()
+    def parallelize(self, device_map=None):
+        self.device_map = (
+            get_device_map(len(self.encoder.block), range(torch.cuda.device_count()))
+            if device_map is None
+            else device_map
+        )
+        # assert_device_map(self.device_map, len(self.encoder.block))
+        self.encoder.parallelize(self.device_map)
+        self.decoder.parallelize(self.device_map)
+        self.lm_head = self.lm_head.to(self.decoder.first_device)
+        self.model_parallel = True
 
-    # def get_input_embeddings(self):
-    #     return self.shared
 
-    # def set_input_embeddings(self, new_embeddings):
-    #     self.shared = new_embeddings
-    #     self.encoder.set_input_embeddings(new_embeddings)
-    #     self.decoder.set_input_embeddings(new_embeddings)
+    def deparallelize(self):
+        self.encoder.deparallelize()
+        self.decoder.deparallelize()
+        self.encoder = self.encoder.to("cpu")
+        self.decoder = self.decoder.to("cpu")
+        self.lm_head = self.lm_head.to("cpu")
+        self.model_parallel = False
+        self.device_map = None
+        torch.cuda.empty_cache()
 
-    # def set_output_embeddings(self, new_embeddings):
-    #     self.lm_head = new_embeddings
+    def get_input_embeddings(self):
+        return self.shared
 
-    # def get_output_embeddings(self):
-    #     return self.lm_head
+    def set_input_embeddings(self, new_embeddings):
+        self.shared = new_embeddings
+        self.encoder.set_input_embeddings(new_embeddings)
+        self.decoder.set_input_embeddings(new_embeddings)
+
+    def set_output_embeddings(self, new_embeddings):
+        self.lm_head = new_embeddings
+
+    def get_output_embeddings(self):
+        return self.lm_head
 
     def get_encoder(self):
         return self.encoder
@@ -933,33 +968,44 @@ class T5ConstrainedGen(T5PreTrainedModel):
         return_dict=None,
     ):
         r"""
-        labels (:obj:`torch.LongTensor` of shape :obj:`(batch_size,)`, `optional`):
-            Labels for computing the sequence classification/regression loss. Indices should be in :obj:`[-100, 0, ...,
-            config.vocab_size - 1]`. All labels set to ``-100`` are ignored (masked), the loss is only computed for
-            labels in ``[0, ..., config.vocab_size]``
+        labels (`torch.LongTensor` of shape `(batch_size,)`, *optional*):
+            Labels for computing the sequence classification/regression loss. Indices should be in `[-100, 0, ...,
+            config.vocab_size - 1]`. All labels set to `-100` are ignored (masked), the loss is only computed for
+            labels in `[0, ..., config.vocab_size]`
 
         Returns:
 
-        Examples::
+        Examples:
 
-            >>> from transformers import T5Tokenizer, T5ForConditionalGeneration
+        ```python
+        >>> from transformers import T5Tokenizer, T5ForConditionalGeneration
 
-            >>> tokenizer = T5Tokenizer.from_pretrained('t5-small')
-            >>> model = T5ForConditionalGeneration.from_pretrained('t5-small')
+        >>> tokenizer = T5Tokenizer.from_pretrained("t5-small")
+        >>> model = T5ForConditionalGeneration.from_pretrained("t5-small")
 
-            >>> # training
-            >>> input_ids = tokenizer('The <extra_id_0> walks in <extra_id_1> park', return_tensors='pt').input_ids
-            >>> labels = tokenizer('<extra_id_0> cute dog <extra_id_1> the <extra_id_2>', return_tensors='pt').input_ids
-            >>> outputs = model(input_ids=input_ids, labels=labels)
-            >>> loss = outputs.loss
-            >>> logits = outputs.logits
+        >>> # training
+        >>> input_ids = tokenizer("The <extra_id_0> walks in <extra_id_1> park", return_tensors="pt").input_ids
+        >>> labels = tokenizer("<extra_id_0> cute dog <extra_id_1> the <extra_id_2>", return_tensors="pt").input_ids
+        >>> outputs = model(input_ids=input_ids, labels=labels)
+        >>> loss = outputs.loss
+        >>> logits = outputs.logits
 
-            >>> # inference
-            >>> input_ids = tokenizer("summarize: studies have shown that owning a dog is good for you", return_tensors="pt").input_ids  # Batch size 1
-            >>> outputs = model.generate(input_ids)
-            >>> print(tokenizer.decode(outputs[0], skip_special_tokens=True))
-            >>> # studies have shown that owning a dog is good for you.
-        """
+        >>> # inference
+        >>> input_ids = tokenizer(
+        ...     "summarize: studies have shown that owning a dog is good for you", return_tensors="pt"
+        >>> ).input_ids  # Batch size 1
+        >>> outputs = model.generate(input_ids)
+        >>> print(tokenizer.decode(outputs[0], skip_special_tokens=True))
+        >>> # studies have shown that owning a dog is good for you.
+        ```"""
+        use_cache = use_cache if use_cache is not None else self.config.use_cache
+        return_dict = return_dict if return_dict is not None else self.config.use_return_dict
+
+        # FutureWarning: head_mask was separated into two input args - head_mask, decoder_head_mask
+        if head_mask is not None and decoder_head_mask is None:
+            if self.config.num_layers == self.config.num_decoder_layers:
+                warnings.warn(__HEAD_MASK_WARNING_MSG, FutureWarning)
+                decoder_head_mask = head_mask
 
         # Encode if needed (training, first prediction pass)
         if encoder_outputs is None:
@@ -976,17 +1022,31 @@ class T5ConstrainedGen(T5PreTrainedModel):
         elif return_dict and not isinstance(encoder_outputs, BaseModelOutput):
             encoder_outputs = BaseModelOutput(
                 last_hidden_state=encoder_outputs[0],
-                hidden_states=encoder_outputs[1] if len(
-                    encoder_outputs) > 1 else None,
-                attentions=encoder_outputs[2] if len(
-                    encoder_outputs) > 2 else None,
+                hidden_states=encoder_outputs[1] if len(encoder_outputs) > 1 else None,
+                attentions=encoder_outputs[2] if len(encoder_outputs) > 2 else None,
             )
-
+            
+            
+        print(encoder_outputs)
         hidden_states = encoder_outputs[0]
+
+        if self.model_parallel:
+            torch.cuda.set_device(self.decoder.first_device)
 
         if labels is not None and decoder_input_ids is None and decoder_inputs_embeds is None:
             # get decoder inputs from shifting lm labels to the right
             decoder_input_ids = self._shift_right(labels)
+
+        # Set device for model parallelism
+        if self.model_parallel:
+            torch.cuda.set_device(self.decoder.first_device)
+            hidden_states = hidden_states.to(self.decoder.first_device)
+            if decoder_input_ids is not None:
+                decoder_input_ids = decoder_input_ids.to(self.decoder.first_device)
+            if attention_mask is not None:
+                attention_mask = attention_mask.to(self.decoder.first_device)
+            if decoder_attention_mask is not None:
+                decoder_attention_mask = decoder_attention_mask.to(self.decoder.first_device)
 
         # Decode
         decoder_outputs = self.decoder(
@@ -1015,16 +1075,17 @@ class T5ConstrainedGen(T5PreTrainedModel):
         if self.config.tie_word_embeddings:
             # Rescale output before projecting on vocab
             # See https://github.com/tensorflow/mesh/blob/fa19d69eafc9a482aff0b59ddd96b025c0cb207d/mesh_tensorflow/transformer/transformer.py#L586
-            sequence_output = sequence_output * (self.model_dim ** -0.5)
+            sequence_output = sequence_output * (self.model_dim**-0.5)
 
         lm_logits = self.lm_head(sequence_output)
+        
         print(lm_logits)
 
         loss = None
         if labels is not None:
             loss_fct = CrossEntropyLoss(ignore_index=-100)
-            loss = loss_fct(
-                lm_logits.view(-1, lm_logits.size(-1)), labels.view(-1))
+            loss = loss_fct(lm_logits.view(-1, lm_logits.size(-1)), labels.view(-1))
+            # TODO(thom): Add z_loss https://github.com/tensorflow/mesh/blob/fa19d69eafc9a482aff0b59ddd96b025c0cb207d/mesh_tensorflow/layers.py#L666
 
         if not return_dict:
             output = (lm_logits,) + decoder_outputs[1:] + encoder_outputs
@@ -1042,63 +1103,61 @@ class T5ConstrainedGen(T5PreTrainedModel):
             encoder_attentions=encoder_outputs.attentions,
         )
 
-    # def prepare_inputs_for_generation(
-    #     self,
-    #     input_ids,
-    #     past=None,
-    #     attention_mask=None,
-    #     head_mask=None,
-    #     decoder_head_mask=None,
-    #     cross_attn_head_mask=None,
-    #     use_cache=None,
-    #     encoder_outputs=None,
-    #     **kwargs
-    # ):
+    def prepare_inputs_for_generation(
+        self,
+        input_ids,
+        past=None,
+        attention_mask=None,
+        head_mask=None,
+        decoder_head_mask=None,
+        cross_attn_head_mask=None,
+        use_cache=None,
+        encoder_outputs=None,
+        **kwargs
+    ):
 
-    #     # cut decoder_input_ids if past is used
-    #     if past is not None:
-    #         input_ids = input_ids[:, -1:]
+        # cut decoder_input_ids if past is used
+        if past is not None:
+            input_ids = input_ids[:, -1:]
 
-    #     return {
-    #         "decoder_input_ids": input_ids,
-    #         "past_key_values": past,
-    #         "encoder_outputs": encoder_outputs,
-    #         "attention_mask": attention_mask,
-    #         "head_mask": head_mask,
-    #         "decoder_head_mask": decoder_head_mask,
-    #         "cross_attn_head_mask": cross_attn_head_mask,
-    #         "use_cache": use_cache,
-    #     }
+        return {
+            "decoder_input_ids": input_ids,
+            "past_key_values": past,
+            "encoder_outputs": encoder_outputs,
+            "attention_mask": attention_mask,
+            "head_mask": head_mask,
+            "decoder_head_mask": decoder_head_mask,
+            "cross_attn_head_mask": cross_attn_head_mask,
+            "use_cache": use_cache,
+        }
 
-    # def prepare_decoder_input_ids_from_labels(self, labels: torch.Tensor):
-    #     return self._shift_right(labels)
+    def prepare_decoder_input_ids_from_labels(self, labels: torch.Tensor):
+        return self._shift_right(labels)
 
-    # def _reorder_cache(self, past, beam_idx):
-    #     # if decoder past is not included in output
-    #     # speedy decoding is disabled and no need to reorder
-    #     if past is None:
-    #         logger.warning(
-    #             "You might want to consider setting `use_cache=True` to speed up decoding")
-    #         return past
+    def _reorder_cache(self, past, beam_idx):
+        # if decoder past is not included in output
+        # speedy decoding is disabled and no need to reorder
+        if past is None:
+            # logger.warning("You might want to consider setting `use_cache=True` to speed up decoding")
+            return past
 
-    #     reordered_decoder_past = ()
-    #     for layer_past_states in past:
-    #         # get the correct batch idx from layer past batch dim
-    #         # batch dim of `past` is at 2nd position
-    #         reordered_layer_past_states = ()
-    #         for layer_past_state in layer_past_states:
-    #             # need to set correct `past` for each of the four key / value states
-    #             reordered_layer_past_states = reordered_layer_past_states + (
-    #                 layer_past_state.index_select(
-    #                     0, beam_idx.to(layer_past_state.device)),
-    #             )
+        reordered_decoder_past = ()
+        for layer_past_states in past:
+            # get the correct batch idx from layer past batch dim
+            # batch dim of `past` is at 2nd position
+            reordered_layer_past_states = ()
+            for layer_past_state in layer_past_states:
+                # need to set correct `past` for each of the four key / value states
+                reordered_layer_past_states = reordered_layer_past_states + (
+                    layer_past_state.index_select(0, beam_idx.to(layer_past_state.device)),
+                )
 
-    #         assert reordered_layer_past_states[0].shape == layer_past_states[0].shape
-    #         assert len(reordered_layer_past_states) == len(layer_past_states)
+            assert reordered_layer_past_states[0].shape == layer_past_states[0].shape
+            assert len(reordered_layer_past_states) == len(layer_past_states)
 
-    #         reordered_decoder_past = reordered_decoder_past + \
-    #             (reordered_layer_past_states,)
-    #     return reordered_decoder_past
+            reordered_decoder_past = reordered_decoder_past + (reordered_layer_past_states,)
+        return reordered_decoder_past
+
 
     # def adjust_logits_during_generation(self, logits, cur_len, max_length):
     #     print('123123')

@@ -6,20 +6,20 @@ import re
 import time
 from transformers import AdamW, T5ForConditionalGeneration, T5Tokenizer, T5Config
 from models.t5Constraint import T5ConstrainedGen
-# from transformers import pipeline, Trainer
-# from transformers import TrainingArguments
-# import numpy as np
-# import argparse
-# # from datasets import load_dataset, load_metric
-# from data_utils import data_samples
+from transformers import pipeline, Trainer
+from transformers import TrainingArguments
+import numpy as np
+import argparse
+# from datasets import load_dataset, load_metric
+from data_utils import data_samples
 
 model_name = 't5-base'
 
 config = T5Config.from_pretrained(model_name)
 tokenizer = T5Tokenizer.from_pretrained(model_name)
 
-model = T5ConstrainedGen(config)
-# model = T5ConstrainedGen.from_pretrained(model_name)
+# model = T5ConstrainedGen(config)
+model = T5ConstrainedGen.from_pretrained(model_name)
 
 # training
 input_ids = tokenizer("The <extra_id_0> walks in <extra_id_1> park", return_tensors="pt").input_ids
@@ -34,16 +34,29 @@ input_ids = tokenizer(
 ).input_ids  # Batch size 1
 
 outputs = model.generate(input_ids)
+
+print(outputs)
+
 print(tokenizer.decode(outputs[0], skip_special_tokens=True))
 
 
-import spacy
+# import spacy
 
-nlp = spacy.load("en_core_web_md")
-tokens = nlp("dog cat banana afskfsd")
+# nlp = spacy.load("en_core_web_md")
+# tokens = nlp("dog cat banana afskfsd")
 
-for token in tokens:
-    print(token.text, token.has_vector, token.vector_norm, token.is_oov)
+# for token in tokens:
+#     print(token.text, token.has_vector, token.vector_norm, token.is_oov)
+    
+
+# nlp = spacy.load("en_core_web_md")  # make sure to use larger package!
+# doc1 = nlp("I like salty fries and hamburgers.")
+# doc2 = nlp("Fast food tastes very good.")
+
+# print(doc1, "<->", doc2, doc1.similarity(doc2))
+# french_fries = doc1[2:4]
+# burgers = doc1[5]
+# print(french_fries, "<->", burgers, french_fries.similarity(burgers))
 
 
 

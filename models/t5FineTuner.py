@@ -7,6 +7,8 @@ from transformers import AdamW, T5ForConditionalGeneration, T5Tokenizer
 from transformers import get_linear_schedule_with_warmup
 from data_utils import ABSADataset
 
+from models.t5Constraint import T5ConstrainedGen
+
 model_name = 't5-base'
 # model_name = 'facebook/bart-base'
 
@@ -26,8 +28,9 @@ class T5FineTuner(pl.LightningModule):
     def __init__(self, args):
         super().__init__()
         self.args = args
-        self.model = T5ForConditionalGeneration.from_pretrained(
-            model_name)
+        # self.model = T5ForConditionalGeneration.from_pretrained(
+        #     model_name)
+        self.model = T5ConstrainedGen.from_pretrained(model_name)
         self.tokenizer = Tokenizer()
         # self.tokenizer.add_tokens([' <arg>',' <tgr>'])
 

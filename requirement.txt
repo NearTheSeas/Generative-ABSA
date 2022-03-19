@@ -18,3 +18,7 @@ numpy>=1.13.3
 torch>=0.4.0
 transformers>=3.5.1,<4.0.0
 sklearn
+
+conda install -c conda-forge spacy
+conda install -c conda-forge cupy
+python -m spacy download en_core_web_sm

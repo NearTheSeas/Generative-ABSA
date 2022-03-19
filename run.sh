@@ -11,5 +11,5 @@ python main.py --task aste \
             --gradient_accumulation_steps 1 \
             --eval_batch_size 4 \
             --learning_rate 3e-4 \
-            --num_train_epochs 30 \
+            --num_train_epochs 5 \
             --seed 1
