@@ -1026,7 +1026,7 @@ class T5ConstrainedGen(T5PreTrainedModel):
                 attentions=encoder_outputs[2] if len(encoder_outputs) > 2 else None,
             )
             
-            
+        print(input_ids)
         print(encoder_outputs)
         hidden_states = encoder_outputs[0]
 
@@ -1063,7 +1063,7 @@ class T5ConstrainedGen(T5PreTrainedModel):
             output_hidden_states=output_hidden_states,
             return_dict=return_dict,
         )
-
+        print(decoder_outputs)
         sequence_output = decoder_outputs[0]
 
         # Set device for model parallelism
