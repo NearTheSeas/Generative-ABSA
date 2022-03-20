@@ -34,10 +34,8 @@ input_ids = tokenizer(
 ).input_ids  # Batch size 1
 
 outputs = model.generate(input_ids)
-
-print(outputs)
-
-print(tokenizer.decode(outputs[0], skip_special_tokens=True))
+print(outputs.shape)
+# print(tokenizer.decode(outputs[0], skip_special_tokens=True))
 
 
 # import spacy
