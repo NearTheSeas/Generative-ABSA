@@ -65,29 +65,35 @@ class T5ConstrainedGen(T5ForConditionalGeneration):
         output_hidden_states=None,
         return_dict=None,
     ):
-
         use_cache = use_cache if use_cache is not None else self.config.use_cache
         return_dict = return_dict if return_dict is not None else self.config.use_return_dict
-
+        
+        # head_mask None
         # FutureWarning: head_mask was separated into two input args - head_mask, decoder_head_mask
-        # if head_mask is not None and decoder_head_mask is None:
-        #     if self.config.num_layers == self.config.num_decoder_layers:
-        #         warnings.warn(__HEAD_MASK_WARNING_MSG, FutureWarning)
-        #         decoder_head_mask = head_mask
-
+        if head_mask is not None and decoder_head_mask is None:
+            if self.config.num_layers == self.config.num_decoder_layers:
+                warnings.warn(__HEAD_MASK_WARNING_MSG, FutureWarning)
+                decoder_head_mask = head_mask
+                
         # Encode if needed (training, first prediction pass)
+        
+        # encoder_outputs 第一次就存在
         if encoder_outputs is None:
+            # input_ids                 None
+            # inputs_embeds             None 
+            # output_attentions         None False
             # Convert encoder inputs in embeddings if needed
             encoder_outputs = self.encoder(
-                input_ids=input_ids,
-                attention_mask=attention_mask,
-                inputs_embeds=inputs_embeds,
-                head_mask=head_mask,
-                output_attentions=output_attentions,
-                output_hidden_states=output_hidden_states,
-                return_dict=return_dict,
+                input_ids=input_ids, # None
+                attention_mask=attention_mask,  # tensor([[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]])
+                inputs_embeds=inputs_embeds, # None
+                head_mask=head_mask, # None
+                output_attentions=output_attentions, # False
+                output_hidden_states=output_hidden_states, # False
+                return_dict=return_dict, # True
             )
         elif return_dict and not isinstance(encoder_outputs, BaseModelOutput):
+            # 一直走的这里
             encoder_outputs = BaseModelOutput(
                 last_hidden_state=encoder_outputs[0],
                 hidden_states=encoder_outputs[1] if len(
@@ -95,12 +101,13 @@ class T5ConstrainedGen(T5ForConditionalGeneration):
                 attentions=encoder_outputs[2] if len(
                     encoder_outputs) > 2 else None,
             )
-
+            
         hidden_states = encoder_outputs[0]
 
         if self.model_parallel:
             torch.cuda.set_device(self.decoder.first_device)
 
+        # 训练的时候 才有labels 
         if labels is not None and decoder_input_ids is None and decoder_inputs_embeds is None:
             # get decoder inputs from shifting lm labels to the right
             decoder_input_ids = self._shift_right(labels)
@@ -118,21 +125,25 @@ class T5ConstrainedGen(T5ForConditionalGeneration):
                 decoder_attention_mask = decoder_attention_mask.to(
                     self.decoder.first_device)
 
-        # original outputs
+        # past_key_values 第一次是 None 
+        # past_key_values (:obj:`tuple(tuple(torch.FloatTensor))` of length :obj:`config.n_layers` with each tuple having 4 tensors of shape :obj:`(batch_size, num_heads, sequence_length - 1, embed_size_per_head)`):
+        # Contains precomputed key and value hidden states of the attention blocks. Can be used to speed up decoding.
+ 
+        # original outputs 
         # Decode
         decoder_outputs = self.decoder(
-            input_ids=decoder_input_ids,
-            attention_mask=decoder_attention_mask,
-            inputs_embeds=decoder_inputs_embeds,
-            past_key_values=past_key_values,
-            encoder_hidden_states=hidden_states,
-            encoder_attention_mask=attention_mask,
-            head_mask=decoder_head_mask,
-            cross_attn_head_mask=cross_attn_head_mask,
-            use_cache=use_cache,
-            output_attentions=output_attentions,
-            output_hidden_states=output_hidden_states,
-            return_dict=return_dict,
+            input_ids=decoder_input_ids, #每次输入一个字符 大概率就是输入内容的某一字符ID [0] [293] [53] [3] ...
+            attention_mask=decoder_attention_mask, # None
+            inputs_embeds=decoder_inputs_embeds, # None
+            past_key_values=past_key_values, # 
+            encoder_hidden_states=hidden_states, 
+            encoder_attention_mask=attention_mask, # tensor([[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]])
+            head_mask=decoder_head_mask, # None
+            cross_attn_head_mask=cross_attn_head_mask, # None
+            use_cache=use_cache, # True
+            output_attentions=output_attentions, # false
+            output_hidden_states=output_hidden_states, # false
+            return_dict=return_dict, # true
         )
 
         # 1 1 768  batch, seq_len, input_seq_len
@@ -158,12 +169,13 @@ class T5ConstrainedGen(T5ForConditionalGeneration):
             self.lm_head = self.lm_head.to(self.encoder.first_device)
             sequence_output = sequence_output.to(self.lm_head.weight.device)
 
-        if self.config.tie_word_embeddings:
+         # True
+        if self.config.tie_word_embeddings: 
             # Rescale output before projecting on vocab
             # See https://github.com/tensorflow/mesh/blob/fa19d69eafc9a482aff0b59ddd96b025c0cb207d/mesh_tensorflow/transformer/transformer.py#L586
             sequence_output = sequence_output * (self.model_dim**-0.5)
 
-        lm_logits = self.lm_head(sequence_output)  # torch.Size([1, 7, 32128])
+        lm_logits = self.lm_head(sequence_output)
 
         # TODO!
         # cross_attentions_aggregate = last_cross_attentions[:,self.selected_heads,:,:].mean(dim=1) #(batch, decoding_seq_length, encoding_seq_length)
@@ -187,11 +199,7 @@ class T5ConstrainedGen(T5ForConditionalGeneration):
             # get encoder side embeddings
         # inputs_embeds = self.encoder.embed_tokens(input_ids)
         
-        # encoder 一次 decoder N次 ？
-        # input_ids 只在第一次输入时存在  tensor([[   37, 32099, 10681,    16, 32098,  2447,     1]])
-        # inputs_embeds 一直是 none
-        # decoder_input_ids tensor([[    0, 32099,  5295,  1782, 32098,     8, 32097]])
-        
+        # TODO!
         # pointer_logits = torch.einsum(
         #     'ijk,ilk->ijl', sequence_output, inputs_embeds)
         # lm_logits = self.convert_pointer_logits_to_lm_logits(
