@@ -76,12 +76,8 @@ class T5ConstrainedGen(T5ForConditionalGeneration):
                 decoder_head_mask = head_mask
                 
         # Encode if needed (training, first prediction pass)
-        
         # encoder_outputs 第一次就存在
         if encoder_outputs is None:
-            # input_ids                 None
-            # inputs_embeds             None 
-            # output_attentions         None False
             # Convert encoder inputs in embeddings if needed
             encoder_outputs = self.encoder(
                 input_ids=input_ids, # None
@@ -149,19 +145,11 @@ class T5ConstrainedGen(T5ForConditionalGeneration):
         # 1 1 768  batch, seq_len, input_seq_len
         sequence_output = decoder_outputs[0]
 
-        # cross_attention_non_linear = self.decoder.block[-1].layer[1].EncDecAttention.o.weight # (emb_dim, emb_dim)
-        # cross_attention_non_linear_sum = cross_attention_non_linear.view(self.config.num_heads, -1).abs().sum(1) # (num_heads)
-        # _, selected_heads = torch.topk(cross_attention_non_linear_sum, k=5)
-        # self.selected_heads = selected_heads
 
-        # encoder_last_hidden_state = encoder_outputs.last_hidden_state # (batch, seq, hidden)
-        # decoder_last_hidden_state = decoder_outputs[0] #(batch, decoding_seq, hidden )
-
-        # compute lm logits based on attention
-
-        # TODO!
-        #   print(decoder_outputs.cross_attentions)
-        # last_cross_attentions = decoder_outputs.cross_attentions # (batch_size, num_heads, decoding_seq_length, encoding_seq_length).
+        input_embeds = self.encoder.embed_tokens(input_ids) 
+        pointer_logits = torch.einsum('ijk,ilk->ijl', sequence_output, input_embeds) #(batch, seq_len, input_seq_len)
+        lm_logits = self.convert_pointer_logits_to_lm_logits(pointer_logits, input_ids)
+        
 
         # Set device for model parallelism
         if self.model_parallel:
@@ -175,41 +163,7 @@ class T5ConstrainedGen(T5ForConditionalGeneration):
             # See https://github.com/tensorflow/mesh/blob/fa19d69eafc9a482aff0b59ddd96b025c0cb207d/mesh_tensorflow/transformer/transformer.py#L586
             sequence_output = sequence_output * (self.model_dim**-0.5)
 
-        lm_logits = self.lm_head(sequence_output)
-
-        # TODO!
-        # cross_attentions_aggregate = last_cross_attentions[:,self.selected_heads,:,:].mean(dim=1) #(batch, decoding_seq_length, encoding_seq_length)
-
-        # dummy_input_ids = input_ids.unsqueeze(-1).expand(-1, -1, lm_logits.size(1)).transpose(1,2) # (batch, decoding_seq_length, encoding_seq_length)
-        # copy_logits = torch.zeros_like(lm_logits) # (batch, decoding_seq_length, emb_dim)
-        # copy_logits.scatter_add_(dim=2, index=dummy_input_ids, src=cross_attentions_aggregate)
-
-        # p_gen = torch.bmm(decoder_last_hidden_state, encoder_last_hidden_state.mean(dim=1).unsqueeze(dim=-1)) # (batch, decoding_seq, 1)
-        # p_gen = torch.sigmoid(p_gen)
-
-        # lm_logits = F.softmax(lm_logits, dim=-1) * p_gen + copy_logits * (1 - p_gen)#(batch_size, decoding_seq_length, emb_dim)
-
-        # if encoder_outputs==None:
-        #     encoder_outputs = outputs[1] # (batch, input_seq_len, hidden_dim)
-        #     # BaseModelOutput if return dict
-
-        # print(self.encoder.embed_tokens) # Embedding(32128, 768)
-        
-        # if inputs_embeds is None:
-            # get encoder side embeddings
-        # inputs_embeds = self.encoder.embed_tokens(input_ids)
-        
-        # TODO!
-        # pointer_logits = torch.einsum(
-        #     'ijk,ilk->ijl', sequence_output, inputs_embeds)
-        # lm_logits = self.convert_pointer_logits_to_lm_logits(
-        #     pointer_logits, input_ids)
-
-        lm_logits = self.lm_head(sequence_output)
-
-        if not return_dict:
-            output = (lm_logits,) + decoder_outputs[1:] + encoder_outputs
-            return ((loss,) + output) if loss is not None else output
+        # lm_logits = self.lm_head(sequence_output)
 
         loss = None
         if labels is not None:

@@ -22,20 +22,23 @@ tokenizer = T5Tokenizer.from_pretrained(model_name)
 model = T5ConstrainedGen.from_pretrained(model_name)
 
 # training
-# input_ids = tokenizer("The <extra_id_0> walks in <extra_id_1> park", return_tensors="pt").input_ids
-# labels = tokenizer("<extra_id_0> cute dog <extra_id_1> the <extra_id_2>", return_tensors="pt").input_ids
-# outputs = model(input_ids=input_ids, labels=labels)
-# loss = outputs.loss
-# logits = outputs.logits
+input_ids = tokenizer("The owneris belligerent to guests that have a complaint.", return_tensors="pt").input_ids
+labels = tokenizer("The [owner|aspect] is [belligerent|negative|aspect=owner] to guests that have a complaint.", return_tensors="pt").input_ids
+loss = model(input_ids=input_ids, labels=labels).loss
 
 # inference
 input_ids = tokenizer(
-    "summarize: studies have shown that owning a dog is good for you", return_tensors="pt"
+    "The owneris belligerent to guests that have a complaint.", return_tensors="pt"
 ).input_ids  # Batch size 1
 
-print(input_ids)
+
+#    outs = model.model.generate(
+#             input_ids=batch['source_ids'].to(device),
+#             attention_mask=batch['source_mask'].to(device),
+#             max_length=128)
+
+# input_ids ([[21603,    10,  2116,    43,  2008,    24,   293,    53,     3,     9,  1782,    19,   207,    21,    25,     1]])
 outputs = model.generate(input_ids)
-# print(outputs.shape)
 print(tokenizer.decode(outputs[0], skip_special_tokens=True))
 
 
@@ -56,8 +59,6 @@ print(tokenizer.decode(outputs[0], skip_special_tokens=True))
 # french_fries = doc1[2:4]
 # burgers = doc1[5]
 # print(french_fries, "<->", burgers, french_fries.similarity(burgers))
-
-
 
 
 
