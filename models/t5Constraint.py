@@ -129,7 +129,7 @@ class T5ConstrainedGen(T5ForConditionalGeneration):
         # original outputs 
         # Decode
         decoder_outputs = self.decoder(
-            input_ids=decoder_input_ids, #每次输入一个字符 大概率就是输入内容的某一字符ID [0] [293] [53] [3] ...
+            input_ids=decoder_input_ids, #每次输入一个字符Id  [0] [293] [53] [3] ...
             attention_mask=decoder_attention_mask, # None
             inputs_embeds=decoder_inputs_embeds, # None
             past_key_values=past_key_values, # 
@@ -164,8 +164,6 @@ class T5ConstrainedGen(T5ForConditionalGeneration):
             # See https://github.com/tensorflow/mesh/blob/fa19d69eafc9a482aff0b59ddd96b025c0cb207d/mesh_tensorflow/transformer/transformer.py#L586
             sequence_output = sequence_output * (self.model_dim**-0.5)
 
-        lm_logits = self.lm_head(sequence_output)  # torch.Size([1, 7, 32128])
-
         # TODO!
         # cross_attentions_aggregate = last_cross_attentions[:,self.selected_heads,:,:].mean(dim=1) #(batch, decoding_seq_length, encoding_seq_length)
 
@@ -182,29 +180,7 @@ class T5ConstrainedGen(T5ForConditionalGeneration):
         #     encoder_outputs = outputs[1] # (batch, input_seq_len, hidden_dim)
         #     # BaseModelOutput if return dict
 
-        # print(self.encoder.embed_tokens) # Embedding(32128, 768)
-
-        if self.inputs_embeds is None:
-            # get encoder side embeddings
-            self.inputs_embeds = self.encoder.embed_tokens(input_ids)
-
-        # encoder 一次 decoder N次 ？
-        # input_ids 只在第一次输入时存在  tensor([[   37, 32099, 10681,    16, 32098,  2447,     1]])
-        # inputs_embeds 一直是 none
-        # decoder_input_ids tensor([[    0, 32099,  5295,  1782, 32098,     8, 32097]])
-
-        # 
-        pointer_logits = torch.einsum(
-            'ijk,ilk->ijl', sequence_output, self.inputs_embeds)
-        # print(pointer_logits)
-        # lm_logits = self.convert_pointer_logits_to_lm_logits(
-        #     pointer_logits, self.input_ids)
-
-        lm_logits = self.lm_head(sequence_output)
-
-        if not return_dict:
-            output = (lm_logits,) + decoder_outputs[1:] + encoder_outputs
-            return ((loss,) + output) if loss is not None else output
+        # lm_logits = self.lm_head(sequence_output)   # torch.Size([1, 7, 32128])
 
         loss = None
         if labels is not None:
