@@ -44,7 +44,9 @@ class T5ConstrainedGen(T5ForConditionalGeneration):
     def __init__(self, config: T5Config):
         super().__init__(config)
 
-        self.selected_heads = None
+        self.input_ids = None
+        self.inputs_embeds = None
+        self.inputs_embeds = None
 
     def forward(
         self,
@@ -70,11 +72,14 @@ class T5ConstrainedGen(T5ForConditionalGeneration):
         
         # head_mask None
         # FutureWarning: head_mask was separated into two input args - head_mask, decoder_head_mask
-        if head_mask is not None and decoder_head_mask is None:
-            if self.config.num_layers == self.config.num_decoder_layers:
-                warnings.warn(__HEAD_MASK_WARNING_MSG, FutureWarning)
-                decoder_head_mask = head_mask
-                
+        # if head_mask is not None and decoder_head_mask is None:
+        #     if self.config.num_layers == self.config.num_decoder_layers:
+        #         warnings.warn(__HEAD_MASK_WARNING_MSG, FutureWarning)
+        #         decoder_head_mask = head_mask
+
+        if self.input_ids is None:
+            self.input_ids = input_ids
+
         # Encode if needed (training, first prediction pass)
         # encoder_outputs 第一次就存在
         if encoder_outputs is None:
@@ -163,7 +168,47 @@ class T5ConstrainedGen(T5ForConditionalGeneration):
             # See https://github.com/tensorflow/mesh/blob/fa19d69eafc9a482aff0b59ddd96b025c0cb207d/mesh_tensorflow/transformer/transformer.py#L586
             sequence_output = sequence_output * (self.model_dim**-0.5)
 
-        # lm_logits = self.lm_head(sequence_output)
+        lm_logits = self.lm_head(sequence_output)  # torch.Size([1, 7, 32128])
+
+        # TODO!
+        # cross_attentions_aggregate = last_cross_attentions[:,self.selected_heads,:,:].mean(dim=1) #(batch, decoding_seq_length, encoding_seq_length)
+
+        # dummy_input_ids = input_ids.unsqueeze(-1).expand(-1, -1, lm_logits.size(1)).transpose(1,2) # (batch, decoding_seq_length, encoding_seq_length)
+        # copy_logits = torch.zeros_like(lm_logits) # (batch, decoding_seq_length, emb_dim)
+        # copy_logits.scatter_add_(dim=2, index=dummy_input_ids, src=cross_attentions_aggregate)
+
+        # p_gen = torch.bmm(decoder_last_hidden_state, encoder_last_hidden_state.mean(dim=1).unsqueeze(dim=-1)) # (batch, decoding_seq, 1)
+        # p_gen = torch.sigmoid(p_gen)
+
+        # lm_logits = F.softmax(lm_logits, dim=-1) * p_gen + copy_logits * (1 - p_gen)#(batch_size, decoding_seq_length, emb_dim)
+
+        # if encoder_outputs==None:
+        #     encoder_outputs = outputs[1] # (batch, input_seq_len, hidden_dim)
+        #     # BaseModelOutput if return dict
+
+        # print(self.encoder.embed_tokens) # Embedding(32128, 768)
+
+        if self.inputs_embeds is None:
+            # get encoder side embeddings
+            self.inputs_embeds = self.encoder.embed_tokens(input_ids)
+
+        # encoder 一次 decoder N次 ？
+        # input_ids 只在第一次输入时存在  tensor([[   37, 32099, 10681,    16, 32098,  2447,     1]])
+        # inputs_embeds 一直是 none
+        # decoder_input_ids tensor([[    0, 32099,  5295,  1782, 32098,     8, 32097]])
+
+        # 
+        pointer_logits = torch.einsum(
+            'ijk,ilk->ijl', sequence_output, self.inputs_embeds)
+        # print(pointer_logits)
+        # lm_logits = self.convert_pointer_logits_to_lm_logits(
+        #     pointer_logits, self.input_ids)
+
+        lm_logits = self.lm_head(sequence_output)
+
+        if not return_dict:
+            output = (lm_logits,) + decoder_outputs[1:] + encoder_outputs
+            return ((loss,) + output) if loss is not None else output
 
         loss = None
         if labels is not None:

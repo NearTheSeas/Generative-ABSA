@@ -27,19 +27,19 @@ labels = tokenizer("The [owner|aspect] is [belligerent|negative|aspect=owner] to
 loss = model(input_ids=input_ids, labels=labels).loss
 
 # inference
-input_ids = tokenizer(
-    "The owneris belligerent to guests that have a complaint.", return_tensors="pt"
-).input_ids  # Batch size 1
+# input_ids = tokenizer(
+#     "The owneris belligerent to guests that have a complaint.", return_tensors="pt"
+# ).input_ids  # Batch size 1
 
 
-#    outs = model.model.generate(
-#             input_ids=batch['source_ids'].to(device),
-#             attention_mask=batch['source_mask'].to(device),
-#             max_length=128)
+# #    outs = model.model.generate(
+# #             input_ids=batch['source_ids'].to(device),
+# #             attention_mask=batch['source_mask'].to(device),
+# #             max_length=128)
 
-# input_ids ([[21603,    10,  2116,    43,  2008,    24,   293,    53,     3,     9,  1782,    19,   207,    21,    25,     1]])
-outputs = model.generate(input_ids)
-print(tokenizer.decode(outputs[0], skip_special_tokens=True))
+# # input_ids ([[21603,    10,  2116,    43,  2008,    24,   293,    53,     3,     9,  1782,    19,   207,    21,    25,     1]])
+# outputs = model.generate(input_ids)
+# print(tokenizer.decode(outputs[0], skip_special_tokens=True))
 
 
 # import spacy
