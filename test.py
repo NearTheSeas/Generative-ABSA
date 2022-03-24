@@ -22,13 +22,13 @@ tokenizer = T5Tokenizer.from_pretrained(model_name)
 model = T5ConstrainedGen.from_pretrained(model_name)
 
 # training
-input_ids = tokenizer("The owneris belligerent to guests that have a complaint.", return_tensors="pt").input_ids
+input_ids = tokenizer("The owner is belligerent to guests that have a complaint.", return_tensors="pt").input_ids
 labels = tokenizer("The [owner|aspect] is [belligerent|negative|aspect=owner] to guests that have a complaint.", return_tensors="pt").input_ids
 loss = model(input_ids=input_ids, labels=labels).loss
 
 # inference
 input_ids = tokenizer(
-    "The owneris belligerent to guests that have a complaint.", return_tensors="pt"
+    "The owner is belligerent to guests that have a complaint.", return_tensors="pt"
 ).input_ids  # Batch size 1
 
 

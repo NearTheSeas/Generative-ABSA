@@ -68,67 +68,44 @@ class T5ConstrainedGen(T5ForConditionalGeneration):
         output_hidden_states=None,
         return_dict=None,
     ):
-        r"""
-        labels (:obj:`torch.LongTensor` of shape :obj:`(batch_size,)`, `optional`):
-            Labels for computing the sequence classification/regression loss. Indices should be in :obj:`[-100, 0, ...,
-            config.vocab_size - 1]`. All labels set to ``-100`` are ignored (masked), the loss is only computed for
-            labels in ``[0, ..., config.vocab_size]``
-
-        Returns:
-
-        Examples::
-
-            >>> from transformers import T5Tokenizer, T5ForConditionalGeneration
-
-            >>> tokenizer = T5Tokenizer.from_pretrained('t5-small')
-            >>> model = T5ForConditionalGeneration.from_pretrained('t5-small')
-
-            >>> # training
-            >>> input_ids = tokenizer('The <extra_id_0> walks in <extra_id_1> park', return_tensors='pt').input_ids
-            >>> labels = tokenizer('<extra_id_0> cute dog <extra_id_1> the <extra_id_2>', return_tensors='pt').input_ids
-            >>> outputs = model(input_ids=input_ids, labels=labels)
-            >>> loss = outputs.loss
-            >>> logits = outputs.logits
-
-            >>> # inference
-            >>> input_ids = tokenizer("summarize: studies have shown that owning a dog is good for you", return_tensors="pt").input_ids  # Batch size 1
-            >>> outputs = model.generate(input_ids)
-            >>> print(tokenizer.decode(outputs[0], skip_special_tokens=True))
-            >>> # studies have shown that owning a dog is good for you.
-        """
         use_cache = use_cache if use_cache is not None else self.config.use_cache
         return_dict = return_dict if return_dict is not None else self.config.use_return_dict
-
+        
+        # head_mask None
         # FutureWarning: head_mask was separated into two input args - head_mask, decoder_head_mask
         if head_mask is not None and decoder_head_mask is None:
             if self.config.num_layers == self.config.num_decoder_layers:
-                warnings.warn(__HEAD_MASK_WARNING_MSG, FutureWarning)
                 decoder_head_mask = head_mask
 
         # Encode if needed (training, first prediction pass)
+        # encoder_outputs 第一次就存在
         if encoder_outputs is None:
             # Convert encoder inputs in embeddings if needed
             encoder_outputs = self.encoder(
-                input_ids=input_ids,
-                attention_mask=attention_mask,
-                inputs_embeds=inputs_embeds,
-                head_mask=head_mask,
-                output_attentions=output_attentions,
-                output_hidden_states=output_hidden_states,
-                return_dict=return_dict,
+                input_ids=input_ids, # None
+                attention_mask=attention_mask,  # tensor([[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]])
+                inputs_embeds=inputs_embeds, # None
+                head_mask=head_mask, # None
+                output_attentions=output_attentions, # False
+                output_hidden_states=output_hidden_states, # False
+                return_dict=return_dict, # True
             )
         elif return_dict and not isinstance(encoder_outputs, BaseModelOutput):
+            # 一直走的这里
             encoder_outputs = BaseModelOutput(
                 last_hidden_state=encoder_outputs[0],
-                hidden_states=encoder_outputs[1] if len(encoder_outputs) > 1 else None,
-                attentions=encoder_outputs[2] if len(encoder_outputs) > 2 else None,
+                hidden_states=encoder_outputs[1] if len(
+                    encoder_outputs) > 1 else None,
+                attentions=encoder_outputs[2] if len(
+                    encoder_outputs) > 2 else None,
             )
-
+            
         hidden_states = encoder_outputs[0]
 
         if self.model_parallel:
             torch.cuda.set_device(self.decoder.first_device)
 
+        # 训练的时候 才有labels 
         if labels is not None and decoder_input_ids is None and decoder_inputs_embeds is None:
             # get decoder inputs from shifting lm labels to the right
             decoder_input_ids = self._shift_right(labels)
@@ -138,29 +115,44 @@ class T5ConstrainedGen(T5ForConditionalGeneration):
             torch.cuda.set_device(self.decoder.first_device)
             hidden_states = hidden_states.to(self.decoder.first_device)
             if decoder_input_ids is not None:
-                decoder_input_ids = decoder_input_ids.to(self.decoder.first_device)
+                decoder_input_ids = decoder_input_ids.to(
+                    self.decoder.first_device)
             if attention_mask is not None:
                 attention_mask = attention_mask.to(self.decoder.first_device)
             if decoder_attention_mask is not None:
-                decoder_attention_mask = decoder_attention_mask.to(self.decoder.first_device)
+                decoder_attention_mask = decoder_attention_mask.to(
+                    self.decoder.first_device)
 
+        # past_key_values 第一次是 None 
+        # past_key_values (:obj:`tuple(tuple(torch.FloatTensor))` of length :obj:`config.n_layers` with each tuple having 4 tensors of shape :obj:`(batch_size, num_heads, sequence_length - 1, embed_size_per_head)`):
+        # Contains precomputed key and value hidden states of the attention blocks. Can be used to speed up decoding.
+ 
+        # original outputs 
         # Decode
         decoder_outputs = self.decoder(
-            input_ids=decoder_input_ids,
-            attention_mask=decoder_attention_mask,
-            inputs_embeds=decoder_inputs_embeds,
-            past_key_values=past_key_values,
-            encoder_hidden_states=hidden_states,
-            encoder_attention_mask=attention_mask,
-            head_mask=decoder_head_mask,
-            cross_attn_head_mask=cross_attn_head_mask,
-            use_cache=use_cache,
-            output_attentions=output_attentions,
-            output_hidden_states=output_hidden_states,
-            return_dict=return_dict,
+            input_ids=decoder_input_ids, #每次输入一个字符Id  [0] [293] [53] [3] ...
+            attention_mask=decoder_attention_mask, # None
+            inputs_embeds=decoder_inputs_embeds, # None
+            past_key_values=past_key_values, # 
+            encoder_hidden_states=hidden_states, 
+            encoder_attention_mask=attention_mask, # tensor([[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]])
+            head_mask=decoder_head_mask, # None
+            cross_attn_head_mask=cross_attn_head_mask, # None
+            use_cache=use_cache, # True
+            output_attentions=output_attentions, # false
+            output_hidden_states=output_hidden_states, # false
+            return_dict=return_dict, # true
         )
 
+        # 1 1 768  batch, seq_len, input_seq_len
         sequence_output = decoder_outputs[0]
+
+        if input_ids is None:
+            input_ids = self.input_ids
+        input_embeds = self.encoder.embed_tokens(input_ids) 
+        pointer_logits = torch.einsum('ijk,ilk->ijl', sequence_output, input_embeds) #(batch, seq_len, input_seq_len)
+        lm_logits = self.convert_pointer_logits_to_lm_logits(pointer_logits, input_ids)
+        
 
         # Set device for model parallelism
         if self.model_parallel:
@@ -168,18 +160,17 @@ class T5ConstrainedGen(T5ForConditionalGeneration):
             self.lm_head = self.lm_head.to(self.encoder.first_device)
             sequence_output = sequence_output.to(self.lm_head.weight.device)
 
-        if self.config.tie_word_embeddings:
+         # True
+        if self.config.tie_word_embeddings: 
             # Rescale output before projecting on vocab
             # See https://github.com/tensorflow/mesh/blob/fa19d69eafc9a482aff0b59ddd96b025c0cb207d/mesh_tensorflow/transformer/transformer.py#L586
-            sequence_output = sequence_output * (self.model_dim ** -0.5)
-
-        lm_logits = self.lm_head(sequence_output)
+            sequence_output = sequence_output * (self.model_dim**-0.5)
 
         loss = None
         if labels is not None:
             loss_fct = CrossEntropyLoss(ignore_index=-100)
-            loss = loss_fct(lm_logits.view(-1, lm_logits.size(-1)), labels.view(-1))
-            # TODO(thom): Add z_loss https://github.com/tensorflow/mesh/blob/fa19d69eafc9a482aff0b59ddd96b025c0cb207d/mesh_tensorflow/layers.py#L666
+            loss = loss_fct(
+                lm_logits.view(-1, lm_logits.size(-1)), labels.view(-1))
 
         if not return_dict:
             output = (lm_logits,) + decoder_outputs[1:] + encoder_outputs
@@ -505,7 +496,47 @@ class T5ConstrainedGen(T5ForConditionalGeneration):
                 **model_kwargs,
             )
 
-        
+        elif is_group_beam_gen_mode:
+            batch_size = input_ids.shape[0]
+
+            length_penalty = length_penalty if length_penalty is not None else self.config.length_penalty
+            early_stopping = early_stopping if early_stopping is not None else self.config.early_stopping
+
+            if num_return_sequences > num_beams:
+                raise ValueError("`num_return_sequences` has to be smaller or equal to `num_beams`.")
+
+            if num_beams % num_beam_groups != 0:
+                raise ValueError("`num_beams` should be divisible by `num_beam_groups` for group beam search.")
+
+            if stopping_criteria.max_length is None:
+                raise ValueError("`max_length` needs to be a stopping_criteria for now.")
+
+            diverse_beam_scorer = BeamSearchScorer(
+                batch_size=batch_size,
+                num_beams=num_beams,
+                max_length=stopping_criteria.max_length,
+                device=self.device,
+                length_penalty=length_penalty,
+                do_early_stopping=early_stopping,
+                num_beam_hyps_to_keep=num_return_sequences,
+                num_beam_groups=num_beam_groups,
+            )
+            # interleave with `num_beams`
+            input_ids, model_kwargs = self._expand_inputs_for_generation(
+                input_ids, expand_size=num_beams, is_encoder_decoder=self.config.is_encoder_decoder, **model_kwargs
+            )
+            return self.group_beam_search(
+                input_ids,
+                diverse_beam_scorer,
+                logits_processor=logits_processor,
+                stopping_criteria=stopping_criteria,
+                pad_token_id=pad_token_id,
+                eos_token_id=eos_token_id,
+                output_scores=output_scores,
+                return_dict_in_generate=return_dict_in_generate,
+                synced_gpus=synced_gpus,
+                **model_kwargs,
+            )
 
     def _generate_no_beam_search(
         self,
