@@ -35,7 +35,7 @@ from transformers.modeling_outputs import (
     Seq2SeqLMOutput,
     Seq2SeqModelOutput,
 )
-from transformers.modeling_utils import PreTrainedModel, find_pruneable_heads_and_indices, prune_linear_layer
+from transformers.modeling_utils import PreTrainedModel, ModelOutput, find_pruneable_heads_and_indices, prune_linear_layer
 from torch.utils.checkpoint import checkpoint
 
 model_name = 't5-base'
@@ -356,7 +356,7 @@ class T5ConstrainedGen(T5ForConditionalGeneration):
             raise ValueError(
                 "Diverse beam search cannot be used in sampling mode. Make sure that `do_sample` is set to `False`."
             )
-
+        
         # set model_kwargs
         model_kwargs["use_cache"] = use_cache
 
