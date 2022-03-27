@@ -22,9 +22,9 @@ tokenizer = T5Tokenizer.from_pretrained(model_name)
 model = T5ConstrainedGen.from_pretrained(model_name)
 
 # training
-input_ids = tokenizer("The owner is belligerent to guests that have a complaint.", return_tensors="pt").input_ids
-labels = tokenizer("The [owner|aspect] is [belligerent|negative|aspect=owner] to guests that have a complaint.", return_tensors="pt").input_ids
-loss = model(input_ids=input_ids, labels=labels).loss
+# input_ids = tokenizer("The owner is belligerent to guests that have a complaint.", return_tensors="pt").input_ids
+# labels = tokenizer("The [owner|aspect] is [belligerent|negative|aspect=owner] to guests that have a complaint.", return_tensors="pt").input_ids
+# loss = model(input_ids=input_ids, labels=labels).loss
 
 # inference
 input_ids = tokenizer(
@@ -37,7 +37,8 @@ input_ids = tokenizer(
 # #             attention_mask=batch['source_mask'].to(device),
 # #             max_length=128)
 
-# # input_ids ([[21603,    10,  2116,    43,  2008,    24,   293,    53,     3,     9,  1782,    19,   207,    21,    25,     1]])
+# # input_ids tensor([[   37,  2527, 19, 12815,  4424,295, 12,  2554, 24, 43,  3,  9, 10394,  5,  1]])
+
 outputs = model.generate(input_ids)
 print(tokenizer.decode(outputs[0], skip_special_tokens=True))
 
@@ -49,7 +50,7 @@ print(tokenizer.decode(outputs[0], skip_special_tokens=True))
 
 # for token in tokens:
 #     print(token.text, token.has_vector, token.vector_norm, token.is_oov)
-    
+
 
 # nlp = spacy.load("en_core_web_md")  # make sure to use larger package!
 # doc1 = nlp("I like salty fries and hamburgers.")
@@ -59,7 +60,6 @@ print(tokenizer.decode(outputs[0], skip_special_tokens=True))
 # french_fries = doc1[2:4]
 # burgers = doc1[5]
 # print(french_fries, "<->", burgers, french_fries.similarity(burgers))
-
 
 
 # last_hidden_states = outputs.last_hidden_state
