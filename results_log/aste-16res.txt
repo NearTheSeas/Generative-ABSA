@@ -318,3 +318,27 @@ aste on 16res under prompt; Train bs=4, num_epochs = 20
 Raw   F1 = 0.6863, precision = 0.6806, recall = 0.6921
 Fixed F1 = 0.7116, precision = 0.7056, recall = 0.7176 
 
+============================================================
+Fri Apr  1 22:47:42 2022
+aste on 16res under prompt; Train bs=4, num_epochs = 5
+Raw   F1 = 0.2908, precision = 0.2508, recall = 0.3461
+Fixed F1 = 0.3764, precision = 0.3246, recall = 0.4480 
+
+============================================================
+Fri Apr  1 22:59:55 2022
+aste on 16res under prompt; Train bs=4, num_epochs = 5
+Raw   F1 = 0.6958, precision = 0.6996, recall = 0.6921
+Fixed F1 = 0.7065, precision = 0.7103, recall = 0.7028 
+
+============================================================
+Sun Apr  3 12:10:07 2022
+aste on 16res under prompt; Train bs=4, num_epochs = 20
+Raw   F1 = 0.6863, precision = 0.6806, recall = 0.6921
+Fixed F1 = 0.7116, precision = 0.7056, recall = 0.7176 
+
+============================================================
+Sun Apr  3 14:13:55 2022
+aste on 16res under prompt; Train bs=4, num_epochs = 20
+Raw   F1 = 0.6863, precision = 0.6806, recall = 0.6921
+Fixed F1 = 0.7116, precision = 0.7056, recall = 0.7176 
+

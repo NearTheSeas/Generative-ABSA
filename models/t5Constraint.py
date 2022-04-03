@@ -838,19 +838,32 @@ class T5ConstrainedGen(T5ForConditionalGeneration):
 
             # TODO! 应该从这里进行修改 不是取最大值，而是取与输入文本 最相似的值 或者 是预定义好的 [ ] | opinion aspect positive  negative neutral
 
+            # 求output和input的相似性？
+            # 如何处理 [] 以及 情感词
+
             # pre-process distribution
             # next_token_scores = logits_processor(input_ids, next_token_logits)
             # print(next_token_scores.shape)
 
+            # 没啥变化 直接返回了 scores ?       
             next_token_logits = self.adjust_logits_during_generation(
                 next_token_logits, cur_len=cur_len)
+
+            
             next_token_scores = nn.functional.log_softmax(
                 next_token_logits, dim=-1
             )  # (batch_size * num_beams, vocab_size)
 
+
             next_token_scores = logits_processor(input_ids, next_token_scores)
+            
+            # print(next_token_scores)
+            
+            # 调整分数
             next_token_scores = next_token_scores + \
                 beam_scores[:, None].expand_as(next_token_scores)
+                
+            # print(next_token_scores)
 
             # sample 性能下降
             # next_token_scores = logits_warper(input_ids, next_token_scores)
