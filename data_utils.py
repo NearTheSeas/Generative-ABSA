@@ -268,7 +268,7 @@ def get_prompt_aste_targets(sents, labels):
     #             else:
     #                 sents[i][ap[0]] = f"[{sents[i][ap[0]]}"
     #                 sents[i][ap[-1]] = f"{sents[i][ap[-1]]}|aspect]"
-                    
+
     #         # annotation = f"opinion|aspect={' '.join(apStr)}|{senttag2word[sent]}"
     #         annotation = f"{senttag2word[sent]}|aspect={' '.join(apStr)}"
     #         if '[' in sents[i][op[0]]:
@@ -283,8 +283,7 @@ def get_prompt_aste_targets(sents, labels):
     #                 sents[i][op[0]] = f"[{sents[i][op[0]]}"
     #                 sents[i][op[-1]] = f"{sents[i][op[-1]]}|{annotation}]"
     #     annotated_targets.append(sents[i])
-    
-    
+
     annotated_targets = []
     num_sents = len(sents)
     for i in range(num_sents):
@@ -308,7 +307,7 @@ def get_prompt_aste_targets(sents, labels):
                 else:
                     sents[i][ap[0]] = f"[{sents[i][ap[0]]}"
                     sents[i][ap[-1]] = f"{sents[i][ap[-1]]}|{annotation}]"
-                    
+
             if '[' in sents[i][op[0]]:
                 # if len(op) == 1:
                 #     sents[i][op[0]] = f"[{sents[i][op[0]][:-1]}, {' '.join(apStr)}]"
@@ -321,7 +320,7 @@ def get_prompt_aste_targets(sents, labels):
                 else:
                     sents[i][op[0]] = f"[{sents[i][op[0]]}"
                     sents[i][op[-1]] = f"{sents[i][op[-1]]}|opinion]"
-                    
+
         annotated_targets.append(sents[i])
     return annotated_targets
 
@@ -407,6 +406,7 @@ class ABSADataset(Dataset):
 
         self.inputs = []
         self.targets = []
+        # self.force_words_ids = []
 
         self._build_examples()
 
@@ -416,21 +416,23 @@ class ABSADataset(Dataset):
     def __getitem__(self, index):
         source_ids = self.inputs[index]["input_ids"].squeeze()
         target_ids = self.targets[index]["input_ids"].squeeze()
-
+        # force_words_ids = self.force_words_ids
         # might need to squeeze
         src_mask = self.inputs[index]["attention_mask"].squeeze()
         # might need to squeeze
         target_mask = self.targets[index]["attention_mask"].squeeze()
 
         return {"source_ids": source_ids, "source_mask": src_mask,
-                "target_ids": target_ids, "target_mask": target_mask}
+                "target_ids": target_ids, "target_mask": target_mask,
+                # 'force_words_ids': force_words_ids
+                }
 
     def _build_examples(self):
 
         inputs, targets = get_transformed_io(
             self.data_path, self.paradigm, self.task)
+        # constraint_str = ['[', ']', '|','opinion','aspect','positive','neutral','negative',]
         for i in range(len(inputs)):
-
             # 为了获得 标注结果对应的文本，所以提前对句子进行了分词 这里就需要拼接回原句
             input = ' '.join(inputs[i])
             if self.paradigm == 'annotation':
@@ -443,24 +445,18 @@ class ABSADataset(Dataset):
                     target = ' '.join(targets[i])
             else:
                 target = targets[i]
-            # print(input)
-            # print(target)
-            # padding='max_length' do_not_pad padding=True  pad_to_max_length=True
-            # tokenized_input = self.tokenizer.batch_encode_plus(
-            #     [input], max_length=self.max_len, padding='max_length', truncation=True,
-            #     return_tensors="pt",
-            # )
-            # tokenized_target = self.tokenizer.batch_encode_plus(
-            #     [target], max_length=self.max_len, padding='max_length', truncation=True,
-            #     return_tensors="pt"
-            # )
+
             tokenized_input = self.tokenizer(
                 input,   padding='max_length', max_length=128, truncation=True, return_tensors="pt")
             tokenized_target = self.tokenizer(
                 target,  padding='max_length', max_length=128, truncation=True, return_tensors="pt")
-
+            
+            # force_words_ids = self.tokenizer(constraint_str + inputs[i]).input_ids
+            # force_words_ids = self.tokenizer(inputs[i]).input_ids
+            
             self.inputs.append(tokenized_input)
             self.targets.append(tokenized_target)
+            # self.force_words_ids.append(force_words_ids)
 
 
 def write_results_to_log(log_file_path, best_test_result, args, dev_results, test_results, global_steps):

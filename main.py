@@ -14,10 +14,15 @@ from data_utils import ABSADataset, data_samples
 from data_utils import write_results_to_log, read_line_examples_from_file
 from eval_utils import compute_scores
 from models.t5FineTuner import T5FineTuner, Tokenizer
+from transformers import (
+    PhrasalConstraint,
+)
+
 # from models.BART_FineTuner import BARTFineTuner, Tokenizer
 # from models.DeBERTa_Generator import DeBERTaGenerator, Tokenizer
 
-logger = logging.getLogger(__name__)
+# logger = logging.getLogger(__name__)
+
 
 def init_args():
     parser = argparse.ArgumentParser()
@@ -112,16 +117,17 @@ def init_args():
 
 class LoggingCallback(pl.Callback):
     def on_validation_end(self, trainer, pl_module):
-        logger.info("***** Validation results *****")
+        # logger.info("***** Validation results *****")
         if pl_module.is_logger():
             metrics = trainer.callback_metrics
         # Log results
         for key in sorted(metrics):
             if key not in ["log", "progress_bar"]:
-                logger.info("{} = {}\n".format(key, str(metrics[key])))
+                # logger.info("{} = {}\n".format(key, str(metrics[key])))
+                pass
 
     def on_test_end(self, trainer, pl_module):
-        logger.info("***** Test results *****")
+        # logger.info("***** Test results *****")
 
         if pl_module.is_logger():
             metrics = trainer.callback_metrics
@@ -132,7 +138,7 @@ class LoggingCallback(pl.Callback):
         with open(output_test_results_file, "w") as writer:
             for key in sorted(metrics):
                 if key not in ["log", "progress_bar"]:
-                    logger.info("{} = {}\n".format(key, str(metrics[key])))
+                    # logger.info("{} = {}\n".format(key, str(metrics[key])))
                     writer.write("{} = {}\n".format(key, str(metrics[key])))
 
 
@@ -148,10 +154,36 @@ def evaluate(data_loader, model, paradigm, task, sents):
     outputs, targets = [], []
     for batch in tqdm(data_loader):
         # need to push the data to device
+        # batch_size = input_ids[0]
+
+        # force_words_ids = [torch.cat([ torch.tensor([ 784,    3,  908, 1820, 3474, 2663, 1465, 7163, 2841, ]), input_id], -1).tolist() for input_id in input_ids]
+
+        # [ 784,    3,  908, 1820, 3474, 2663, 1465, 7163, 2841, ]
+        # constraint_str = "[ ] | opinion aspect positive neutral negative"
+        # constraint_token_ids = tokenizer.encode(constraint_str)[:-1]  # slice to remove eos token
+        # print(input_ids)
+        # print(input_ids.shape)  #torch.Size([32, 128])
+
+        # batch_size, cur_len = input_ids.shape
+        # constraint_token_ids = [[784,    3,  908, 1820, 3474,
+        #                          2663, 1465, 7163, 2841] for _ in range(batch_size)]
+        
+        # constraint_token_ids = [list(x for x in ids if x != 0)
+        #                         for ids in input_ids.tolist()]
+        # # constraint_token_ids = torch.cat([constraint_token_ids, input_ids], -1)
+        # constraint_token_ids = [[784,    3,  908, 1820, 3474, 2663,
+        #                          1465, 7163, 2841] + ids[:-1] for ids in constraint_token_ids]
+        # print(constraint_token_ids)
+        # constraint_token_ids = torch.tensor(constraint_token_ids)
+        # constraints = [PhrasalConstraint(token_ids=constraint_token_ids)]
+        # print(batch['force_words_ids'])
         outs = model.model.generate(
             input_ids=batch['source_ids'].to(device),
             attention_mask=batch['source_mask'].to(device),
-            max_length=128)
+            # force_words_ids=batch['force_words_ids'],
+            # constraints=constraints,
+            max_length=128
+            )
 
         dec = [tokenizer.decode(ids, skip_special_tokens=True) for ids in outs]
         target = [
@@ -161,16 +193,16 @@ def evaluate(data_loader, model, paradigm, task, sents):
 
         outputs.extend(dec)
         targets.extend(target)
-        
+
     log_file_path = f"results_log/{task}-outputs.txt"
     with open(log_file_path, "a+", encoding='utf-8') as f:
         f.truncate()
-        for i  in range(len(outputs)) :
+        for i in range(len(outputs)):
             if targets[i] != outputs[i]:
                 f.write(targets[i] + '\n')
                 f.write(outputs[i] + '\n')
                 f.write('\n')
-            
+
     raw_scores, fixed_scores, all_labels, all_preds, all_preds_fixed = compute_scores(
         outputs, targets, sents, paradigm, task)
     # results = {
