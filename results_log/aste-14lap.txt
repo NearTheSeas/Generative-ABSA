@@ -1,0 +1,6 @@
+============================================================
+Wed Apr  6 08:29:18 2022
+aste on 14lap under prompt; Train bs=4, num_epochs = 20
+Raw   F1 = 0.5620, precision = 0.5952, recall = 0.5323
+Fixed F1 = 0.5711, precision = 0.6048, recall = 0.5409 
+

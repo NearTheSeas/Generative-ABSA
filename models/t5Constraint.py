@@ -765,36 +765,17 @@ class T5ConstrainedGen(T5ForConditionalGeneration):
         # [[ 784,    3,  908, 1820, 3474, 2663, 1465, 7163, 2841, ]]
         # constraint_str = "[ ] | opinion aspect positive neutral negative"
         # constraint_token_ids = tokenizer.encode(constraint_str)[:-1]  # slice to remove eos token
-        pre_input_ids = model_kwargs["input_ids"]
-        pre_input_ids = [set(x for x in ids if x != 0)
-                                for ids in pre_input_ids.tolist()]
-        pre_input_ids = [list([x] for x in ids )
-                                for ids in pre_input_ids]
-        force_words_ids = pre_input_ids
-        # constraint_ids = [[784],    [3],  [908], [1820],
-        #                   [3474], [2663], [1465], [7163], [2841]]
-
-        # constraint_token_ids = torch.tensor([[ 784,    3,  908, 1820, 3474, 2663, 1465, 7163, 2841 ]])
-        # constraint_token_ids =
-        # constraint_token_ids = [
-        #     torch.cat([constraint_token_ids, input_ids], -1) for input_id in input_ids]
-
-        # constraints = [PhrasalConstraint(token_ids=constraint_token_ids)]
-
-        # constraint_token_ids = [list(x for x in ids if x != 0)
-        #                         for ids in input_ids.tolist()]
-        # # constraint_token_ids = torch.cat([constraint_token_ids, input_ids], -1)
-        # constraint_token_ids = [[784,    3,  908, 1820, 3474, 2663,
-        #                          1465, 7163, 2841] + ids[:-1] for ids in constraint_token_ids]
-        # print(constraint_token_ids)
-        # constraint_token_ids = torch.tensor(constraint_token_ids)
-        # constraints = [PhrasalConstraint(token_ids=constraint_token_ids)]
         
+        # pre_input_ids = model_kwargs["input_ids"]
+        # pre_input_ids = [set(x for x in ids if x != 0)
+        #                         for ids in pre_input_ids.tolist()]
+        # pre_input_ids = [list([x] for x in ids )
+        #                         for ids in pre_input_ids]
+        # force_words_ids = pre_input_ids
 
-        # self.input_ids = input_ids
 
         # num_beams = num_beams if num_beams is not None else self.config.num_beams
-        num_beams = 2
+        num_beams = 3
 
         # 1. Set generation parameters if not already defined
         bos_token_id = bos_token_id if bos_token_id is not None else self.config.bos_token_id
