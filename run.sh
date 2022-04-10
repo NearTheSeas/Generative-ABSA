@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 python main.py --task aste \
-            --dataset 15res \
+            --dataset 16res \
             --model_name_or_path t5-base \
             --paradigm prompt \
             --n_gpu 1 \

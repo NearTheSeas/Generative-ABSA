@@ -4,3 +4,9 @@ aste on 14lap under prompt; Train bs=4, num_epochs = 20
 Raw   F1 = 0.5620, precision = 0.5952, recall = 0.5323
 Fixed F1 = 0.5711, precision = 0.6048, recall = 0.5409 
 
+============================================================
+Fri Apr  8 23:22:53 2022
+aste on 14lap under annotation; Train bs=4, num_epochs = 20
+Raw   F1 = 0.5578, precision = 0.5905, recall = 0.5285
+Fixed F1 = 0.6006, precision = 0.6358, recall = 0.5691 
+

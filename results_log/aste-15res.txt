@@ -1,0 +1,12 @@
+============================================================
+Thu Apr  7 23:29:28 2022
+aste on 15res under prompt; Train bs=4, num_epochs = 20
+Raw   F1 = 0.5821, precision = 0.5906, recall = 0.5739
+Fixed F1 = 0.6196, precision = 0.6286, recall = 0.6109 
+
+============================================================
+Fri Apr  8 21:21:11 2022
+aste on 15res under annotation; Train bs=4, num_epochs = 20
+Raw   F1 = 0.5903, precision = 0.5909, recall = 0.5897
+Fixed F1 = 0.6357, precision = 0.6364, recall = 0.6351 
+

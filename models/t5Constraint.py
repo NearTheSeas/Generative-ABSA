@@ -760,19 +760,17 @@ class T5ConstrainedGen(T5ForConditionalGeneration):
         exponential_decay_length_penalty: Optional[Tuple[Union[int, float]]] = None,
         **model_kwargs,
     ) -> torch.LongTensor:
-        
-        
+
         # [[ 784,    3,  908, 1820, 3474, 2663, 1465, 7163, 2841, ]]
         # constraint_str = "[ ] | opinion aspect positive neutral negative"
         # constraint_token_ids = tokenizer.encode(constraint_str)[:-1]  # slice to remove eos token
-        
+
         # pre_input_ids = model_kwargs["input_ids"]
         # pre_input_ids = [set(x for x in ids if x != 0)
         #                         for ids in pre_input_ids.tolist()]
         # pre_input_ids = [list([x] for x in ids )
         #                         for ids in pre_input_ids]
         # force_words_ids = pre_input_ids
-
 
         # num_beams = num_beams if num_beams is not None else self.config.num_beams
         num_beams = 3
@@ -849,10 +847,6 @@ class T5ConstrainedGen(T5ForConditionalGeneration):
         else:
             # if decoder-only then inputs_tensor has to be `input_ids`
             input_ids = inputs_tensor
-            
-  
-        
-
 
         input_ids_seq_length = input_ids.shape[-1]
 
@@ -877,8 +871,6 @@ class T5ConstrainedGen(T5ForConditionalGeneration):
             #     f"Input length of {input_ids_string} is {input_ids_seq_length}, but ``max_length`` is set to {max_length}. "
             #     "This can lead to unexpected behavior. You should consider increasing ``config.max_length`` or ``max_length``."
             # )
-
-
 
         # 6. determine generation mode
         is_constraint_gen_mode = constraints is not None or force_words_ids is not None
