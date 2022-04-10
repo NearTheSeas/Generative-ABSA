@@ -1,0 +1,24 @@
+============================================================
+Sun Apr 10 11:57:22 2022
+aste on 15res under prompt; Train bs=4, num_epochs = 20
+Raw   F1 = 0.5821, precision = 0.5906, recall = 0.5739
+Fixed F1 = 0.6196, precision = 0.6286, recall = 0.6109 
+
+============================================================
+Sun Apr 10 19:14:20 2022
+aste on 15res under annotation; Train bs=4, num_epochs = 20
+Raw   F1 = 0.5738, precision = 0.5830, recall = 0.5649
+Fixed F1 = 0.6262, precision = 0.6362, recall = 0.6165 
+
+============================================================
+Sun Apr 10 21:41:42 2022 seed 42
+aste on 15res under prompt; Train bs=4, num_epochs = 20
+Raw   F1 = 0.5898, precision = 0.6018, recall = 0.5783
+Fixed F1 = 0.6231, precision = 0.6357, recall = 0.6109 
+
+============================================================
+Sun Apr 10 22:51:44 2022
+aste on 15res under prompt; Train bs=4, num_epochs = 20
+Raw   F1 = 0.5936, precision = 0.6050, recall = 0.5826
+Fixed F1 = 0.6179, precision = 0.6298, recall = 0.6065 
+

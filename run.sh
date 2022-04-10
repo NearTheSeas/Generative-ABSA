@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 python main.py --task aste \
-            --dataset 16res \
+            --dataset 15res \
             --model_name_or_path t5-base \
             --paradigm prompt \
             --n_gpu 1 \
@@ -12,4 +12,4 @@ python main.py --task aste \
             --eval_batch_size 4 \
             --learning_rate 3e-4 \
             --num_train_epochs 20 \
-            --seed 1
+            --seed 36
