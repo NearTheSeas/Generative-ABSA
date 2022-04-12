@@ -4062,3 +4062,2140 @@ place,positive,like---place,positive,like
 food,positive,good---food,positive,good
 design,positive,good---design,positive,good
 service,negative,HORRID---service,negative,HORRID
+Al Di La,positive,Love---Al Di La,positive,Love
+place,positive,recommend---place,positive,recommend
+food,positive,Great---food,positive,Great
+pastas,positive,incredible;risottos,positive,fantastic;braised rabbit,positive,amazing---pastas,positive,incredible;risottos,positive,fantastic;braised rabbit,positive,amazing
+food,negative,mediocre---food,negative,mediocre
+fish and chips,negative,overpriced---fish and chips,negative,overpriced
+Tasty Dog,positive,Tasty---Tasty Dog,positive,Tasty
+dog,positive,awesome organic---dog,positive,awesome organic
+pork souvlaki,positive,best---pork souvlaki,positive,best
+Pizza,positive,Super YUMMY---Pizza,positive,Super YUMMY
+restaurant,positive,warm;restaurant,positive,inviting---restaurant,positive,warm;restaurant,positive,inviting
+eggplant pizza,positive,LOOOVE---eggplant pizza,positive,LOOOVE
+half/half pizza,positive,half/half;buffalo,positive,huge---half/half pizza,positive,half/half;buffalo,positive,huge
+food,positive,Excellent---food,positive,Excellent
+meal,positive,good---meal,positive,good
+sake,positive,Great---sake,positive,Great
+Sushi,positive,Reliable---Sushi,positive,Reliable
+sashimi,positive,fresh;rolls,positive,innovative;rolls,positive,delicious---sashimi,positive,fresh;rolls,positive,innovative;rolls,positive,delicious
+service,positive,never had a problem;rice,positive,missing---service,positive,never had a problem;rice,positive,missing
+Delivery,negative,spot on;Delivery,negative,lacking---Delivery,negative,spot on;Delivery,negative,lacking
+Sushi,positive,Best---Sushi,positive,Best
+place,negative,ruined---place,negative,ruined
+sashimi,positive,Excellent;millennium roll,positive,delicious---sashimi,positive,Excellent;millennium roll,positive,delicious
+place,positive,hidden away---place,positive,hidden away
+waiter,positive,attentive;food,positive,delicious;views of the city,positive,great---waiter,positive,attentive;food,positive,delicious;views of the city,positive,great
+place,positive,Great---place,positive,Great
+food,positive,Good;seafood spaghetti,positive,favorite---food,positive,Good;seafood spaghetti,positive,favorite
+food,positive,Excellent---food,positive,Excellent
+wait staff,positive,courtesy;wait staff,positive,accomodating---wait staff,positive,courteous;wait staff,positive,accomodating
+space,negative,limited;indo-chinese food,positive,delicious---space,negative,limited;indo-chinese food,positive,delicious
+place,positive,favorite---place,positive,favorite
+chicken pasta,positive,love---chicken pasta,positive,love
+place,positive,fun---place,positive,fun
+lobster,positive,good;lobster,positive,nothing spectacular---lobster,positive,good;lobster,positive,nothing spectacular
+place,positive,fun---place,positive,fun
+pizza,negative,overrated;pizza,negative,under cooked---pizza,negative,overrated;pizza,negative,under cooked
+staff,negative,rude;staff,negative,not attentive---staff,negative,rude;staff,negative,not attentive
+place,positive,love---place,positive,love
+service,positive,quick;service,positive,friendly---service,positive,quick;service,positive,friendly
+restaurant,positive,nice;restaurant,positive,clean---restaurant,positive,nice;restaurant,positive,clean
+vitello alla marsala,positive,impressed---vitello alla marsala,positive,impressed
+veal,positive,perfect---veal,positive,perfect
+potato balls,negative,not dry---potato balls,negative,not dry
+bartender,negative,immature;service,negative,slow;food,negative,not fresh or warm---bartender,negative,immature;service,negative,slow;food,negative,not fresh or warm
+place,negative,never recommend---place,negative,never recommend
+food,positive,fresh---food,positive,fresh
+japanese food,negative,overpriced;service,negative,mediocre---japanese food,negative,overpriced;service,negative,mediocre
+food,positive,warm---food,positive,warm
+waitress,negative,not attentive---waitress,negative,not attentive
+food,positive,excellent---food,positive,excellent
+Red Dragon Roll,positive,favorite---Red Dragon Roll,positive,favorite
+Seafood Dynamite,positive,otherworldly---Seafood Dynamite,positive,otherworldly
+Sushi,positive,Favorite---Sushi,positive,Favorite
+spot,positive,unpretentious;sushi,positive,good;service,positive,pleasant;service,positive,effective;service,positive,unassuming---spot,positive,unpretentious;sushi,positive,good;service,positive,pleasant;service,positive,effective;service,positive,unassuming
+back garden area,positive,nice---back garden area,positive,nice
+rolls,positive,creative;japanese food,positive,creative;japanese food,positive,delicious---rolls,positive,creative;japanese food,positive,creative;japanese food,positive,delicious
+Dancing,positive,musts---Dancing,positive,musts
+PLACE,positive,LOVE---PLACE,positive,LOVE
+Greek food,positive,Greek---Gross food,positive,Gross
+guacamole,negative,bland---guacamole,negative,bland
+place,negative,bad---place,negative,bad
+Indian Food,positive,Great---Indian Food,positive,Great
+food,positive,good;place,positive,clean;place,positive,affordable---food,positive,good;place,positive,clean;place,positive,affordable
+spot,positive,favorite;food,positive,great---spot,positive,favorite;food,positive,great
+staff,positive,good---staff,positive,good
+drink menu,positive,Love---drink menu,positive,Love
+place,positive,recommend---place,positive,recommend
+view of river,positive,Nice---view of river,positive,Nice
+survice,positive,Great---survice,positive,Great
+Egyptian restaurant,positive,beautifully designed dreamy---Egyptian restaurant,positive,beautifully designed dreamy
+baba ganoush,positive,delicious;baba ganoush,positive,lemony;baba ganoush,positive,smoky---baba ganoush,positive,delicious;baba ganoush,positive,lemony;baba ganoush,positive,smoky
+Raymond the bartender,positive,rocks---Raymond the bartender,positive,rocks
+Pacifico,positive,great---Pacifico,positive,great
+drinks,positive,great---drinks,positive,great
+omlette,positive,great---omlette,positive,great
+salmon,positive,fresh;salmon,positive,not frozen---not,positive,fresh;not,positive,not frozen
+quacamole at pacifico,positive,yummy---quacamole at pacifico,positive,yummy
+chicken,negative,worst---chicken,negative,is
+portobello and asparagus mole,negative,wasn't a fan---portobello and asparagus mole,negative,was a fan
+food,positive,decent;people,positive,friendly---food,positive,decent;people,positive,friendly
+Indian Restaurant,positive,Best---Indian Restaurant,positive,Best
+Decor,positive,upgraded;food,positive,amazing---Decor,positive,upgraded;food,positive,amazing
+Astoria souvlaki spot,positive,best---Astoria souvlaki spot,positive,best
+food,positive,aggressively seasoned;Cyrpriot spices,positive,Aggressively seasoned---food,positive,aggressively seasoned;Cyrpriot spices,positive,aggressively seasoned
+Greek,positive,excellent;gyro,positive,reasonable---Greek,positive,excellent;gyro,positive,reason
+restaurant,positive,Best---restaurant,positive,Best
+food,positive,Great;service,positive,amazing;place,positive,class act---food,positive,Great;service,positive,amazing;place,positive,class act
+veal,positive,incredible---veal,positive,incredible
+place,positive,must visit---place,positive,must visit
+food,positive,shared---food,positive,shared
+dishes,positive,enjoyed---dishes,positive,enjoyed
+atmosphere,positive,elegant;atmosphere,positive,incomparable;rooms,positive,elegant;rooms,positive,incomparable;food,positive,fabulous---atmosphere,positive,elegant;atmosphere,positive,incomparable;rooms,positive,elegant;rooms,positive,incomparable;food,positive,fabulous
+Service,positive,wonderful---Service,positive,wonderful
+Paul,positive,professional;Paul,positive,always on top of things;maitre d ',,positive,professional;maitre d ',,positive,always on top of things---Paul,positive,professional;Paul,positive,always on top of things;maitre d ,,positive,professional;maitre d ,,positive,always on top of things
+Service,negative,ok;Service,negative,unfriendly;bathroom,negative,filthy---Service,negative,ok;Service,negative,unfriendly;bathroom,negative,filthy
+bar drinks,positive,Eh;bar drinks,positive,ok---bar drinks,positive,Eh;bar drinks,positive,ok
+stuff tilapia,negative,horrific;stuff tilapia,negative,tasted like cardboard---stuff tilapia,negative,horrid;stuff tilapia,negative,tasted like cardboard
+mens bathroom,negative,disgusting---mens bathroom,negative,disgusting
+wine list,negative,extensive;staff,negative,does not seem knowledgeable---wine list,negative,extensive;staff,negative,The not seem knowledgeable
+bread,negative,horrible;bread,negative,rock hard;bread,negative,cold; free '' appetizer of olives,negative,disappointing---bread,negative,horrible;bread,negative,rock hard;bread,negative,cold; free '' appetizer of olives,negative,disappointing
+main course,positive,wonderful---main course,positive,wonderful
+fish,positive,fish---fish,positive,fish
+dessert,negative,good---dessert,negative,good
+restaurant,positive,beautiful---restaurant,positive,beautiful
+seating,positive,great---seating,positive,great
+boths,positive,small---boths,positive,small
+service,positive,fast;service,positive,attentive---service,positive,fast;service,positive,attentive
+food,neutral,ok;food,neutral,fair---food,neutral,ok;food,neutral,fair
+looks,positive,exceeds;meals,positive,exceeds---looks,positive,exceeds;meals,positive,exceeds
+food,positive,Subtle---food,positive,Subtle
+Noodle pudding,positive,enjoy;service,positive,enjoy---Noodle pudding,positive,enjoy;service,positive,enjoy
+Servers,positive,different---Servers,positive,different
+courses,positive,like;servers,positive,patient---courses,positive,like;servers,positive,patient
+dogs,positive,amazing fresh;toppings,positive,endless---dogs,positive,amazing fresh;toppings,positive,endless
+Cafe La Femme,positive,unique---Casa La Femme,positive,unlike
+decor,positive,impressed;night,positive,great---decor,positive,impressed;night,positive,great
+cocktail,positive,great---cocktail,positive,great
+Food,positive,worth waiting for---Food,positive,worth waiting for
+belly dancing show,positive,captivated---belly dancing show,positive,captivated
+restaurant,positive,worth---restaurant,positive,worth
+menu,positive,great;waiter,positive,nice;food,neutral,average---menu,positive,great;waiter,positive,nice;food,neutral,average
+food,negative,well prepared---food,negative,well prepared
+customer service,positive,intelligent---customer service,positive,intelligent
+place,positive,Great---place,positive,Great
+food,positive,flavorful;food,positive,plentiful;food,positive,reasonably priced---food,positive,flavorful;food,positive,plentiful;food,positive,reasonably priced
+atmosphere,positive,relaxed;atmosphere,positive,casual---atmosphere,positive,relaxed;atmosphere,positive,casual
+place,positive,great---place,positive,great
+Sushi,positive,incredible---Sushi,positive,unbelievable
+rolls,positive,Good creative---rolls,positive,Good creative
+Yamito,positive,excellent---Yamato,positive,excellent
+rolls,positive,great---rolls,positive,great
+banana chocolate dessert,positive,delicious;green tea tempura,positive,great---banana chocolate dessert,positive,delicious;green tea tempura,positive,great
+appetizers,positive,delicious---appetizers,positive,delicious
+food,positive,Amazing---food,positive,Amazing
+interior,negative,Mazing---interior,negative,Mazing
+food,positive,Great---food,positive,Great
+spot,positive,delivers---spot,positive,delivers
+atmosphere,positive,nice;atmosphere,positive,lacking---atmosphere,positive,nice;atmosphere,positive,lacking
+mirrors,negative,confusing---mirrors,negative,confusing
+Indo Chinese food,positive,good---Indo Chinese food,positive,good
+place,negative,Not a very fancy;Indian food,positive,good---place,negative,Not a very fancy;Indian food,positive,good
+chicken lollipop,positive,favorite;dishes,negative,oily;dishes,negative,spicy---chicken lollipop,positive,favorite;dishes,negative,oily;dishes,negative,spicy
+food,negative,over the top spicy;food,negative,too oily---food,negative,over the top spicy;food,negative,too oily
+food,negative,horrible---food,negative,horrible
+food,negative,disappointing---food,negative,disappointing
+restaurant,positive,wonderful---restaurant,positive,wonderful
+food,positive,tasty;food,positive,delicious---food,positive,tasty;food,positive,delicious
+meal,positive,never a bad;service,positive,never bad---meal,positive,never a bad;service,positive,never bad
+food,positive,great;wine list,positive,great;service,positive,great;neighborhood,positive,great---food,positive,great;wine list,positive,great;service,positive,great;neighborhood,positive,great
+Pizza,positive,love---Pizza,positive,love
+pizza,positive,best---pizza,positive,best
+hot dogs,positive,great---hot dogs,positive,great
+hot dogs,positive,juicy;hot dogs,positive,tender---hot dogs,positive,juicy;hot dogs,positive,tender
+toppings,positive,great---toppings,positive,great
+dishes,negative,oily;dining experience,positive,good---dishes,negative,oily;dining experience,positive,good
+service,positive,Helpful---service,positive,Helpful
+decor,negative,not very pleasant---decor,negative,not very pleasant
+food,positive,great---food,positive,great
+place,positive,great;indian chinese food,positive,great---place,positive,great;indian chinese food,positive,great
+place,negative,tiny---place,negative,tiny
+place,negative,not beautiful;food,positive,speaks for itself---place,negative,not beautiful;food,positive,speaks for itself
+Indian Chinese,positive,Best---Indian Chinese,positive,Best
+martinis,positive,amazing;martinis,positive,fairly priced---martinis,positive,amazing;martinis,positive,fairly priced
+Service,positive,Amazing;waiters,positive,different---were,positive,thing;waiters,positive,different
+DJ,positive,awesome---DJ,positive,awesome
+menu,positive,great---menu,positive,great
+estate,positive,real deal---the,positive,real deal
+food,positive,intimate;food,positive,superb---food,positive,intimate;food,positive,superb
+appetizers,positive,good---appetizers,positive,good
+entree,positive,good---entree,positive,good
+place,positive,classy;place,positive,beautiful---place,positive,classy;place,positive,beautiful
+Vanison,positive,good;Vanison,positive,not amazing---Vanison,positive,good;Vanison,positive,not amazing
+Bison,positive,excellent---Bison,positive,excellent
+Dessert,negative,disappointment---Dessert,negative,disaster
+restaurant,positive,expensive---restaurant,positive,expensive
+food,positive,great---food,positive,great
+environment,positive,upscale---environment,positive,upscale
+food,negative,not be worth it---food,negative,not be worth it
+service,negative,no---service,negative,no
+Service,neutral,ok---Service,neutral,ok
+place,positive,beautiful---place,positive,beautiful
+hostess,positive,pleasant---hostess,positive,pleasant
+$ 14 drinks,negative,horrible---$ 14 drinks,negative,horrible
+chicken,negative,inedible;fatty lumps,negative,fatty---chicken,negative,inedible;fatty lumps,negative,fatty
+food,positive,good---food,positive,good
+dinner portion,negative,inedible---dinner portion,negative,inedible
+menu,neutral,simple---menu,neutral,simple
+tap beer,negative,disappointment---tap beer,negative,disappointment
+Not much of a selection of bottled beer,positive,Not much of a selection---Not much of a selection of bottled beer,positive,Not much of a selection
+appetizers,positive,served quickly;fried oysters,positive,delicious---appetizers,positive,served quickly;fried oysters,positive,delicious
+lobster knuckles ( special of the day ),negative,ok;lobster knuckles ( special of the day ),negative,tasteless---lobster knuckles ( special of the day ),negative,ok;lobster knuckles ( special of the day ),negative,tasteless
+Thai style Fried Sea Bass,positive,good---Thai style Fried Sea Bass,positive,good
+food,positive,happy;grilled Mahi Mahi,negative,drenched---food,positive,happy;grilled Mahi Mahi,negative,drenched
+lobster roll,positive,excellent---lobster roll,positive,excellent
+food,positive,good;food,positive,expensive;food,positive,fresh---food,positive,good;food,positive,expensive;food,positive,fresh
+Service,negative,not the friendliest;party,positive,large---Service,negative,not the friendliest;party,positive,large
+Indian food,positive,Great---Indian food,positive,Great
+Food,positive,amazing---Food,positive,amazing
+Indian food,positive,normal---Indian food,positive,normal
+dinner buffet,negative,expensive;dinner buffet,negative,worth---The buffet,negative,expensive;The buffet,negative,worth
+quality,positive,great---quality,positive,great
+Bukhara,positive,top 5 Indian places---Bukhara,positive,top 5 Indian places
+food,positive,disgusted---food,positive,disgusted
+restaurant,negative,repulsive;bagging points,positive,repulsive---restaurant,negative,repulsive;bragging points,positive,repulsive
+place,positive,Glorious---place,positive,Gorgeous
+white organza tent,positive,gorgeous---white organza tent,positive,gorgeous
+service,positive,spectacular;waiter,positive,knowledged---service,positive,spectacular;waiter,positive,knew
+bibimbap,negative,average;stone bowl,negative,wasn't even close to sizzling---bibimbap,negative,average;stone bowl,negative,was even close to sizzling
+stone bowl,negative,bad---stone bowl,negative,bad
+nakgi-bokum,negative,horrible---nakgi-bokum,negative,horrible
+stir-fried squid,negative,worst---stir-fried squid,negative,worst
+side dishes,positive,passable---side dishes,positive,passable
+lack of service,negative,lack of service---lack of service,negative,lack of service
+risotto,positive,amazing---risotto,positive,amazing
+farro salad,positive,tasty---farro salad,positive,tasty
+margherita pizza,positive,love---margherita pizza,positive,love
+place,positive,Love---place,positive,Love
+crust,positive,great;sauce,positive,light;salt,positive,great---crust,positive,great;sauce,positive,light;salt,positive,great
+margherita pizza,positive,like---margherita pizza,positive,like
+Restaurant,positive,Romantic---Restaurant,positive,Romantic
+modern Japanese brasserie,positive,favorite---modern Japanese brasserie,positive,favorite
+spot,positive,hidden;decor,positive,zen;decor,positive,intimate---spot,positive,hidden;décor,positive,zen;décor,positive,intimate
+sashimi amuse bouche,positive,delightful---sashimi amuse bouche,positive,delightful
+Grilled Black Cod,positive,devored;Grilled Salmon dish,positive,better---Grilled Black Cod,positive,devoured;Grilled Salmon dish,positive,better
+desserts,positive,phenomenal;frozen black sesame mousse,positive,interesting;frozen black sesame mousse,positive,not extraordinary---desserts,positive,phenomenal;frozen black sesame mousse,positive,interesting;frozen black sesame mousse,positive,not extraordinary
+company,positive,great---company,positive,great
+service,negative,worried---service,negative,order
+service,negative,horrible---service,negative,horrible
+Shabu Shabu Shabu,positive,Great---Shabu Shabu Shabu,positive,Great
+dishes,negative,wasn't too impressed---dishes,negative,was too impressed
+meat,positive,fresh;sauces,positive,great;kimchi,positive,free;service,positive,good---meat,positive,fresh;sauces,positive,great;kimchi,positive,free;service,positive,good
+hot dogs,positive,good;pork croquette sandwich,positive,fantastic---hot dogs,positive,good;pork croquette sandwich,positive,fantastic
+food,positive,good---food,positive,good
+family seafood entree,positive,good---family seafood entree,positive,good
+main entree,positive,good---main entree,positive,good
+food,positive,good---food,positive,good
+decor,negative,weird;walls,positive,mirrored---decor,negative,weird;walls,positive,mirrored
+place,negative,not inviting;food,negative,weird---place,negative,not inviting;food,negative,weird
+japanese tapas,negative,newly created;japanese tapas,negative,doesn't work---japanese tapas,negative,newly created;japanese tapas,negative,does work
+food,negative,not comforting;food,negative,not appetizing;food,negative,uncooked---food,negative,not comforting;food,negative,not appetizing;food,negative,uncooked
+food,positive,Good---Good,positive,Good
+food,positive,great;food,positive,tasty;seating space,negative,too small---food,positive,great;food,positive,tasty;sitting space,negative,too small
+place,positive,nice romantic---place,positive,nice romantic
+Pacifico,positive,loved---Pacifico,positive,loved
+atmosphere,positive,great---atmosphere,positive,great
+food,positive,excellent---food,positive,excellent
+reviews,negative,bad---reviews,negative,bad
+server,positive,fun;entrees,positive,delicious---server,positive,fun;entrees,positive,delicious
+food quality,positive,good;salmon,positive,better---food quality,positive,good;salmon,positive,better
+place,positive,nice;fit-out,positive,nice;furniture,positive,attractive;wine list,positive,reasonable---place,positive,nice;fit-out,positive,nice;nice,positive,attractive;wine list,positive,reasonable
+chicken,negative,appalled---chicken,negative,appalled
+scallops,negative,undercooked---was,negative,undercooked
+drinks,positive,enjoy---drinks,positive,enjoy
+STAFF,negative,FIRED---STAFF,negative,FIRED
+cirspy crust margherita pizza,positive,cirspy---cirspy crust margherita pizza,positive,cirspy
+pizza,positive,good---pizza,positive,good
+crust,positive,imazingly cooked---crust,positive,imazingly cooked
+Restaurants,negative,Single Worst---Restaurant,negative,Single Worst
+decor,positive,cool;pita,positive,good;grilled octopus,positive,tasty---decor,positive,cool;pita,positive,good;grilled octopus,positive,tasty
+scene,positive,spectacular---scene,positive,spectacular
+decor,negative,distraction---decor,negative,distraction
+Hot Dogs,positive,Great---Hot Dogs,positive,Great
+hot dogs,positive,top notch---hot dogs,positive,top notch
+spot,positive,great;food,positive,great---spot,positive,great;food,positive,great
+food,positive,Fabulous---food,positive,Fabulous
+front of house staff,positive,hidden---front of house staff,positive,time
+frizzy retro girl,positive,frizzy retro---frizzy retro girl,positive,frizzy retro
+service,positive,better---service,positive,better
+food,negative,fine;maitre-D,negative,unwelcoming;maitre-D,negative,arrogant---food,negative,fine;maitre-D,negative,unwelcoming;maitre-D,negative,arrogant
+meals,positive,high-end---meals,positive,high-end
+meal,positive,Best---meal,positive,Best
+Mussles,positive,fantastic---Mussles,positive,and
+Lamb special,positive,perfect---Lamb special,positive,perfect
+flag steak,positive,good---flank steak,positive,good
+Four Seasons restaurant,positive,great---Four Seasons restaurant,positive,great
+food,positive,great;environnement,positive,better---food,positive,great;environment,positive,better
+hot dog,positive,elevated---hot dog,positive,elevated
+Atmosphere,positive,Great---Atmosphere,positive,Great
+fish tacos,positive,recommend---fish tacos,positive,recommend
+atmosphere,positive,Cool;fire place,positive,adverts---atmosphere,positive,Cool;fire place,positive,ads
+service,negative,Pretty---service,negative,Poor
+experience,negative,awful---experience,negative,awful
+manager,negative,rude;manager,negative,poorly---manager,negative,rude;manager,negative,poorly
+NYC restaurant,negative,expensive---NYC restaurant,negative,expensive
+food,neutral,good;food,neutral,not outstanding---food,neutral,good;food,neutral,not outstanding
+bread,negative,stale;salad,negative,overpriced;salad,negative,empty---bread,negative,stale;salad,negative,overpriced;salad,negative,empty
+pasta,negative,well cooked---pasta,negative,well cooked
+hostess,negative,rude---hostess,negative,rude
+staff,negative,horrible;staff,negative,rude;customer service,negative,non-existent---staff,negative,horrible;staff,negative,rude;customer service,negative,non-existent
+staff,negative,bad---staff,negative,bad
+place,positive,like---place,positive,like
+food,positive,good---food,positive,good
+design,positive,good---design,positive,good
+service,negative,HORRID---service,negative,HORRID
+Al Di La,positive,Love---Al Di La,positive,Love
+place,positive,recommend---place,positive,recommend
+food,positive,Great---food,positive,Great
+pastas,positive,incredible;risottos,positive,fantastic;braised rabbit,positive,amazing---pastas,positive,incredible;risottos,positive,fantastic;braised rabbit,positive,amazing
+food,negative,mediocre---food,negative,mediocre
+fish and chips,negative,overpriced---fish and chips,negative,overpriced
+Dog,positive,Tasty---Dog,positive,Tasty
+organic dog,positive,awesome organic---organic dog,positive,awesome organic
+pork souvlaki,positive,best---pork souvlaki,positive,best
+Pizza,positive,Super YUMMY---Pizza,positive,Super YUMMY
+restaurant,positive,warm;restaurant,positive,inviting---restaurant,positive,warm;restaurant,positive,inviting
+egg pizza,positive,LOOOVE---I pizza,positive,LOOOVE
+half/half pizza,positive,huge; buffalo,positive,huge---half/half pizza,positive,huge; buffalo,positive,huge
+food,positive,Excellent---food,positive,Excellent
+meal,positive,good---meal,positive,good
+sake,positive,Great---sake,positive,Great
+Sushi,positive,Reliable---Sushi,positive,Reliable
+sashimi,positive,fresh;rolls,positive,innovative;rolls,positive,delicious---sashimi,positive,fresh;rolls,positive,innovative;rolls,positive,delicious
+service,positive,never had a problem;rice,positive,missing---service,positive,never had a problem;rice,positive,missing
+Delivery,negative,spot on;Delivery,negative,lacking---Delivery,negative,spot on;Delivery,negative,lacking
+Delivery guy,negative,upset---Delivery guy,negative,upset
+Sushi,positive,Best---Sushi,positive,Best
+place,negative,ruined---place,negative,ruined
+sashimi,positive,Excellent;millennium roll,positive,delicious---sashimi,positive,Excellent;millennium roll,positive,delicious
+place,negative,hidden away---place,negative,hidden away
+waiter,positive,attentive;food,positive,delicious;views,positive,great---waiter,positive,attentive;food,positive,delicious;views,positive,great
+place,positive,Great---place,positive,Great
+food,positive,Good;seafood spaghetti,positive,favorite---food,positive,Good;seafood spaghetti,positive,favorite
+food,positive,Excellent---food,positive,Excellent
+wait staff,positive,courteous;wait staff,positive,accomodating---wait staff,positive,courteous;wait staff,positive,accomodating
+space,negative,limited;indo-chinese food,positive,delicious---space,negative,limited;indo-chinese food,positive,delicious
+place,positive,favorite---place,positive,favorite
+chicken pasta,positive,love---chicken pasta,positive,love
+place,positive,fun time---place,positive,fun time
+lobster,positive,good;lobster,positive,nothing spectacular---lobster,positive,good;lobster,positive,nothing spectacular
+place,positive,fun---place,positive,fun
+pizza,negative,overrated;pizza,negative,under cooked---pizza,negative,overrated;pizza,negative,under cooked
+staff,negative,rude;staff,negative,not attentive---staff,negative,rude;staff,negative,not attentive
+place,positive,love---place,positive,love
+service,positive,quick;service,positive,friendly---service,positive,quick;service,positive,friendly
+restaurant,positive,nice;restaurant,positive,clean---restaurant,positive,nice;restaurant,positive,clean
+vitello alla marsala,positive,impressed---vitello alla marsala,positive,impressed
+veal,positive,perfect---veal,positive,perfect
+potato balls,negative,not dry---potato balls,negative,not dry
+PLACE,negative,WORST---PLACE,negative,WORST
+bartender,negative,immature;service,negative,slow;food,negative,not fresh;food,negative,warm;waitresses,negative,busy flirting---bartender,negative,immature;service,negative,slow;food,negative,not fresh;food,negative,warm;waitresses,negative,busy flirting
+place,negative,recommend---place,negative,recommend
+food,positive,fresh---food,positive,fresh
+japanese food,negative,overpriced;service,negative,mediocre---japanese food,negative,overpriced;service,negative,mediocre
+food,neutral,luke warm---food,neutral,luke warm
+waitress,negative,not attentive---waitress,negative,not attentive
+food,positive,excellent---food,positive,excellent
+Red Dragon Roll,positive,favorite---Red Dragon Roll,positive,favorite
+Seafood Dynamite,positive,otherworldly---Seafood Dynamite,positive,otherworldly
+Sushi,positive,Favorite---Sushi,positive,Favorite
+spot,positive,unpretentious;sushi,positive,good;service,positive,pleasant;service,positive,effective;service,positive,unassuming---spot,positive,unpretentious;sushi,positive,good;service,positive,pleasant;service,positive,effective;service,positive,unassuming
+back garden area,positive,nice---back garden area,positive,nice
+rolls,positive,creative;japanese food,positive,innovative;japanese food,positive,delicious---rolls,positive,creative;japanese food,positive,inventive;japanese food,positive,delicious
+Dancing,positive,musts---Dancing,positive,musts
+PLACE,positive,LOVE---PLACE,positive,LOVE
+food,negative,Gracious---food,negative,Gross
+guacamole,negative,bland---guacamole,negative,bland
+place,negative,bad---place,negative,bad
+Indian Food,positive,Great---Indian Food,positive,Great
+food,positive,good;place,positive,clean;place,positive,affordable---food,positive,good;place,positive,clean;place,positive,affordable
+indian people,positive,great---indian people,positive,great
+spot,positive,favorite;food,positive,great---spot,positive,favorite;food,positive,great
+staff,positive,good---staff,positive,good
+drink menu,positive,Love---drink menu,positive,Love
+place,positive,recommend---place,positive,recommend
+view,positive,Nice---view,positive,Nice
+survice,positive,Great---survice,positive,Great
+Egyptian restaurant,positive,beautifully designed dreamy---Egyptian restaurant,positive,beautifully designed dreamy
+baba ganoush,positive,delicious---baba ganoush,positive,delicious
+Raymond the bartender,positive,rocks---Raymond the bartender,positive,rocks
+Pacifico,positive,great---Pacifico,positive,great
+drinks,positive,great---drinks,positive,great
+omlette for brunch,positive,great---omlette for brunch,positive,great
+salmon,positive,fresh;salmon,positive,not frozen---not,positive,fresh;not,positive,not frozen
+quacamole,positive,yummy---quacamole,positive,yummy
+chicken in the salads,negative,wrong---chicken in the salads,negative,in
+portobello and asparagus mole,negative,favorite---portobello and asparagus mole,negative,fan
+food,positive,decent;people,positive,friendly---food,positive,decent;people,positive,friendly
+Indian Restaurant,positive,Best---Indian Restaurant,positive,Best
+Decor,negative,upgraded;food,positive,amazing---Decor,negative,upgraded;food,positive,amazing
+Astoria souvlaki spot,positive,best---Astoria souvlaki spot,positive,best
+food,positive,aggressively seasoned with Cyrpriot spices;ingredients,positive,higher quality---food,positive,aggressively seasoned with Cyrpriot spices;ingredients,positive,higher quality
+Greek and Cypriot dishes,positive,excellent;gyro,positive,wasteful---Greek and Cypriot dishes,positive,excellent;gyro,positive,wasted
+restaurant,positive,Best---restaurant,positive,Best
+food,positive,Great;service,positive,amazing;place,positive,class act---food,positive,Great;service,positive,amazing;place,positive,class act
+veal,positive,incredible---veal,positive,incredible
+place,positive,must visit---place,positive,must visit
+food,positive,shared---food,positive,shared
+dishes,positive,enjoyed---dishes,positive,enjoyed
+atmosphere,positive,elegant;atmosphere,positive,incomparable;rooms,positive,elegant;views,positive,incomparable;food,positive,fabulous---atmosphere,positive,elegant;atmosphere,positive,incomparable;rooms,positive,elegant;views,positive,incomparable;food,positive,fabulous
+Service,positive,wonderful---Service,positive,wonderful
+maitre d',positive,professional;maitre d',positive,always on top of things---maitre d,positive,professional;maitre d,positive,always on top of things
+Service,neutral,ok;Service,neutral,unfriendly;bathroom,negative,filthy---Service,neutral,ok;Service,neutral,unfriendly;bathroom,negative,filthy
+bar drinks,neutral,ok---bar drinks,neutral,ok
+stuff tilapia,negative,horrid---stuff tilapia,negative,horrid
+mens bathroom,negative,disgusting---mens bathroom,negative,disgusting
+wine list,positive,extensive;staff,negative,did not seem knowledgeable---wine list,positive,extensive;staff,negative,did not seem knowledgeable
+bread,negative,horrible;bread,negative,rock hard;bread,negative,cold; free '' appetizer of olives,negative,disappointing---bread,negative,horrible;bread,negative,rock hard;bread,negative,cold; free '' appetizer of olives,negative,disappointing
+main course,positive,wonderful---main course,positive,wonderful
+fish,positive,overwhelmed---fish,positive,exceeded
+dessert,positive,good---dessert,positive,good
+location,positive,Not what I would expect---location,positive,Not what I would expect
+restaurant,positive,beautiful;staff,positive,pays more attention---restaurant,positive,beautiful;staff,positive,pays more attention
+seating,positive,great---seating,positive,great
+boths,negative,not as small---boths,negative,not as small
+service,positive,fast;service,positive,attentive---service,positive,fast;service,positive,attentive
+food,neutral,ok;food,neutral,fair;food,neutral,nothing to go crazy---food,neutral,ok;food,neutral,fair;food,neutral,nothing to go crazy
+looks,positive,exceeds;meals,positive,exceeds---looks,positive,exceeds;meals,positive,exceeds
+food,positive,Subtle;food,positive,Subtle---food,positive,Subtle;food,positive,Subtle
+Noodle pudding,positive,enjoyable;service,positive,enjoyable---Noodle pudding,positive,enjoy;service,positive,enjoy
+Servers,positive,different---Servers,positive,different
+courses,positive,like;servers,positive,patient---courses,positive,like;servers,positive,patient
+dogs,positive,amazing fresh;toppings,positive,endless---dogs,positive,amazing fresh;toppings,positive,endless
+Casa La Femme,positive,true---Casa La Femme,positive,true
+decor,positive,impressed---decor,positive,impressed
+cocktail,positive,great---cocktail,positive,great
+Food,positive,worth---Food,positive,worth
+belly dancing show,positive,captivated---belly dancing show,positive,captivated
+restaurant,positive,worth---restaurant,positive,worth
+menu,positive,great;waiter,positive,nice;food,neutral,average---menu,positive,great;waiter,positive,nice;food,neutral,average
+food,positive,well prepared---food,positive,well prepared
+customer service,positive,intelligent---customer service,positive,intelligent
+place,positive,Great---place,positive,Great
+food,positive,flavorful;food,positive,plentiful;food,positive,reasonably priced---food,positive,flavorful;food,positive,plentiful;food,positive,reasonably priced
+atmosphere,positive,relaxed;atmosphere,positive,casual---atmosphere,positive,relaxed;atmosphere,positive,casual
+place,positive,great---place,positive,great
+Sushi experience,positive,incredible---Sushi experience,positive,unbelievable
+rolls,positive,Good creative---rolls,positive,Good creative
+Yamto,positive,excellent---Yamato,positive,excellent
+rolls,positive,great;triple color,positive,awesome;triple color,positive,filling---rolls,positive,great;triple color,positive,awesome;triple color,positive,filling
+special roll,positive,special---special roll,positive,special
+banana chocolate dessert,positive,delicious;green tea tempura,positive,great---banana chocolate dessert,positive,delicious;green tea tempura,positive,great
+appetizers,positive,delicious---appetizers,positive,delicious
+food,positive,Amazing---food,positive,Amazing
+Mazing,positive,Mazing interior---Mazing,positive,Mazing interior
+food,positive,Great---food,positive,Great
+modern Japanese,positive,modern;spot,positive,delivers---modern Japanese,positive,modern;spot,positive,delivers
+atmosphere,positive,nice;atmosphere,positive,lacking---atmosphere,positive,nice;atmosphere,positive,lacking
+mirrors,negative,confusing---mirrors,negative,confusing
+Indo Chinese food,positive,good---Indo Chinese food,positive,good
+place,negative,Not a very fancy;Chinese style Indian food,positive,good---place,negative,Not a very fancy;Chinese style Indian food,positive,good
+chicken lollipop,positive,favorite;dishes,negative,oily;dishes,negative,spicy---chicken lollipop,positive,favorite;dishes,negative,oily;dishes,negative,spicy
+food,negative,over the top spicy;food,negative,oily---food,negative,over the top spicy;food,negative,oily
+food,negative,horrible---food,negative,horrible
+food,negative,disappointing---food,negative,disappointing
+restaurant,positive,wonderful---restaurant,positive,wonderful
+food,positive,tasty;food,positive,delicious---food,positive,tasty;food,positive,delicious
+meal,positive,never swaying;service,positive,never bad---meal,positive,never swaying;service,positive,never bad
+food,positive,great;wine list,positive,great;service,positive,great;neighborhood,positive,great---food,positive,great;wine list,positive,great;service,positive,great;neighborhood,positive,great
+Patsy's Pizza,positive,love---Patsy Pizza,positive,love
+pizza,positive,best---pizza,positive,best
+hot dogs,positive,great---hot dogs,positive,great
+hot dogs,positive,juicy;hot dogs,positive,tender---hot dogs,positive,juicy;hot dogs,positive,tender
+toppings,positive,great---toppings,positive,great
+dishes,negative,oily;dining experience,positive,good---dishes,negative,oily;dining experience,positive,good
+service,positive,Helpful---service,positive,Helpful
+decor,negative,not very pleasant---decor,negative,not very pleasant
+food,positive,great---food,positive,great
+place,positive,great;indian chinese food,positive,great---place,positive,great;indian chinese food,positive,great
+place,negative,tiny---place,negative,tiny
+place,negative,not beautiful;food,positive,speaks for itself---place,negative,not beautiful;food,positive,speaks for itself
+Indian Chinese,positive,Best---Indian Chinese,positive,Best
+martinis,positive,amazing;martinis,positive,fairly priced---martinis,positive,amazing;martinis,positive,fairly priced
+ SERVICE,positive,AWESOME;waiters,positive,nice--- SERVICE,positive,THE;waiters,positive,nice
+DJ,positive,awesome---DJ,positive,awesome
+menu,positive,great---menu,positive,great
+établissement,positive,real deal---establishment,positive,real deal
+food,positive,intimate;food,positive,superb---food,positive,intimate;food,positive,superb
+appetizers,positive,good---appetizers,positive,good
+entree,positive,good---entree,positive,good
+place,positive,classy;place,positive,beautiful---place,positive,classy;place,positive,beautiful
+Vanison,positive,good;Vanison,positive,not amazing---Vanison,positive,good;Vanison,positive,not amazing
+Bison,positive,excellent---Bison,positive,excellent
+Dessert,negative,disaster---Dessert,negative,disaster
+restaurant,negative,expensive---restaurant,negative,expensive
+food,positive,great---food,positive,great
+environment,positive,upscale---environment,positive,upscale
+food,negative,not be worth---food,negative,not be worth
+service,negative,make up for---service,negative,make up for
+Service,neutral,ok---Service,neutral,ok
+place,positive,beautiful---place,positive,beautiful
+hostess,positive,pleasant---hostess,positive,pleasant
+$ 14 drinks,negative,horrible---$ 14 drinks,negative,horrible
+sides,negative,forgotten;waiter,negative,forgotten---sides,negative,forgot;waiter,negative,forgot
+chicken,negative,inedible---chicken,negative,inedible
+food,positive,good---food,positive,good
+dinner portion,negative,inedible---dinner portion,negative,inedible
+menu,positive,simple---menu,positive,simple
+tap beer,negative,disappointment---tap beer,negative,disappointment
+bottled beer,negative,Not much of a selection---bottled beer,negative,Not much of a selection
+appetizers,negative,served quickly;fried oysters and clams,positive,delicious;portion,negative,tiny---appetizers,negative,served quickly;fried oysters and clams,positive,delicious;portion,negative,tiny
+lobster knuckles ( special of the day ),neutral,ok;lobster knuckles ( special of the day ),neutral,tasteless---lobster knuckles ( special of the day ),neutral,ok;lobster knuckles ( special of the day ),neutral,tasteless
+Thai style Fried Sea Bass,positive,good---Thai style Fried Sea Bass,positive,good
+food,positive,happy---food,positive,happy
+lobster roll,positive,excellent---lobster roll,positive,excellent
+food,positive,good;food,positive,expensive---food,positive,good;food,positive,expensive
+Service,negative,not the friendliest;party,negative,large---Service,negative,not the friendliest;party,negative,large
+Indian food,positive,Great---Indian food,positive,Great
+Food,positive,amazing;Indian food,positive,love---Food,positive,amazing;Indian food,positive,love
+Indian food,positive, normal---Indian food,positive, normal
+meal buffet,negative,expensive;meal buffet,negative,worth---deff buffet,negative,expensive;deff buffet,negative,worth
+service,positive,great---service,positive,great
+Bukhara,positive,top 5---Bukhara,positive,top 5
+food,negative,disgusted---food,negative,disgusted
+kimchee,negative,disgusting;kimchee,negative,slimy;kimchee,negative,bad;fish skin,negative,bad---kimchee,negative,disgusting;kimchee,negative,slimy;kimchee,negative,bad;fish skin,negative,bad
+restaurant,negative,repulsive---restaurant,negative,repulsive
+place,positive,Gigantic---place,positive,romantic
+white organza tent,positive,gorgeous;white organza tent,positive,white;four course prix fix menu,positive,enjoyed---white organza tent,positive,gorgeous;white organza tent,positive,white;four course prix fix menu,positive,enjoyed
+service,positive,spectacular;waiter,positive,knowledged---service,positive,spectacular;waiter,positive,knew
+bibimbap,negative,average;stone bowl,negative,wasn't even close to sizzling---bibimbap,negative,average;stone bowl,negative,was even close to sizzling
+stone bowl,negative,bad---stone bowl,negative,bad
+nakgi-bokum,negative,horrible---nakgi-bokum,negative,horrible
+stink-fried squid,negative,worst---stir-fried squid,negative,worst
+side dishes,positive,passable---side dishes,positive,passable
+service,negative,lack of---service,negative,lack of
+wife,positive,amazing;risotto,positive,amazing---wife,positive,amazing;risotto,positive,amazing
+farro salad,positive,tasty---farro salad,positive,tasty
+margherita pizza,positive,love---margherita pizza,positive,love
+place,positive,Love---place,positive,Love
+crust,positive,great;sauce,positive,light;sauce,positive,nice;salt,positive,great---crust,positive,great;sauce,positive,light;sauce,positive,nice;salt,positive,great
+margherita pizza,positive,like---margherita pizza,positive,like
+Restaurant,positive,Romantic---Restaurant,positive,Romantic
+unmarked wooden doors,positive,unmarked;zen,positive,zen;decor,positive,zen;decor,positive,intimate---unmarked wooden doors,positive,unmarked;zen,positive,zen;décor,positive,zen;décor,positive,intimate
+private booths,positive,private---private booths,positive,private
+sashimi amuse bouche,positive,delightful---sashimi amuse bouche,positive,delightful
+Grilled Black Cod,positive,devore;Grilled Salmon dish,positive,better---Grilled Black Cod,positive,devoured;Grilled Salmon dish,positive,better
+frozen black sesame mousse,positive,interesting;frozen black sesame mousse,positive,not extraordinary;matcha ( powdered green tea ) and [blueberry cheesecake,positive,phenomenal---frozen black sesame mousse,positive,interesting;frozen black sesame mousse,positive,not extraordinary;matcha ( powdered green tea ) and blueberry cheesecake,positive,phenomenal
+company,positive,great;brasserie,negative,good---company,positive,great;brasserie,negative,good
+service,negative,worried---service,negative,order
+service,negative,horrible;pita bread,negative,rude---service,negative,horrible;pita bread,negative,rude
+Shabu Shabu Shabu,positive,Great---Shabu Shabu Shabu,positive,Great
+dishes,negative,impressed---dishes,negative,impressed
+meat,positive,fresh;sauces,positive,great;service,positive,good---meat,positive,fresh;sauces,positive,great;service,positive,good
+hot dogs,positive,good;pork croquette sandwich,positive,perfect---hot dogs,positive,good;pork croquette sandwich,positive,perfect
+food,positive,good---food,positive,good
+family seafood entree,positive,good---family seafood entree,positive,good
+main entree,positive,good---main entree,positive,good
+food,positive,good---food,positive,good
+decor,negative,weird;walls,negative,mirrored---decor,negative,weird;walls,negative,mirrored
+place,negative,not inviting;food,negative,weird---place,negative,not inviting;food,negative,weird
+japanese tapas,negative,newly created;japanese tapas,negative,doesn't work---japanese tapas,negative,newly created;japanese tapas,negative,does work
+food,negative,not comforting;food,negative,not appetizing;food,negative,uncooked---food,negative,not comforting;food,negative,not appetizing;food,negative,uncooked
+Food,positive,Good---Food,positive,Good
+food,negative,great;food,negative,tasty;seating space,negative,too small---food,negative,great;food,negative,tasty;sitting space,negative,too small
+place,positive,nice romantic---place,positive,nice romantic
+Pacifico,positive,loved---Pacifico,positive,loved
+atmosphere,positive,great---atmosphere,positive,great
+food,positive,excellent---food,positive,excellent
+waitress,negative,not mean---waitress,negative,not mean
+reviews,negative,bad;restaurant,negative,bad---reviews,negative,bad;restaurant,negative,bad
+servers,positive,perfect---servers,positive,perfect
+server,positive,different;appetizer,positive,delicious---server,positive,different;appetizer,positive,delicious
+food quality,positive,good;salmon,positive,better---food quality,positive,good;salmon,positive,better
+place,positive,nice;fit-out,positive,nice;furniture,positive,attractive;wine list,positive,reasonable---place,positive,nice;fit-out,positive,nice;nice,positive,attractive;wine list,positive,reasonable
+chicken,negative,appalled---chicken,negative,appalled
+scallops,negative,undercooked---was,negative,undercooked
+salmon,negative,fishy;salmon,negative,dry;salmon,negative,bland---salmon,negative,fishy;salmon,negative,dry;salmon,negative,bland
+manager,positive,can do what we want---manager,positive,can do what we want
+STAFF,negative,FIRED---STAFF,negative,FIRED
+cirspy crust,positive,cirspy;cirspy crust,positive,cirspy;margherita pizza,positive,cirspy crust;cirspy crust,positive,cirspy crust;cirspy crust,positive,cirspy crust;cirspy crust,positive,cirspy crust---cirspy crust,positive,cirspy;cirspy crust,positive,cirspy;margherita pizza,positive,cirspy crust;cirspy crust,positive,cirspy crust;cirspy crust,positive,cirspy crust;cirspy crust,positive,cirspy crust
+pizza,positive,good---pizza,positive,good
+crust,positive,imazingly cooked well;pizza,positive,fully loaded---crust,positive,imazingly cooked well;pizza,positive,fully loaded
+restaurant,negative,Worst---Restaurant,negative,Worst
+decor,positive,cool;pita,positive,good;grilled octopus,positive,tasty---decor,positive,cool;pita,positive,good;grilled octopus,positive,tasty
+scene,positive,spectacular---scene,positive,spectacular
+decor,negative,distraction---decor,negative,distraction
+Hot Dogs,positive,Great---Hot Dogs,positive,Great
+hot dogs,positive,top notch---hot dogs,positive,top notch
+Bad,positive,worth the train ride---Bark,positive,worth the train ride
+spot,positive,great;food,positive,great---spot,positive,great;food,positive,great
+food,positive,Fabulous---food,positive,Fabulous
+front of house staff,positive,hidden;fish dishes,negative,exceptional---front of house staff,positive,time;fish dishes,negative,exceptional
+frizzy retro girl,positive,frizzy retro girl;winged/ Dame Edna glasses,positive,winged;winged/ Dame Edna glasses,positive,Dame Edna---frizzy retro girl,positive,frizzy retro girl;winged/ Dame Edna glasses,positive,winged;winged/ Dame Edna glasses,positive,Dame Edna
+staff,negative,horrified---staff,negative,horrified
+opinions,negative,uninvited---opinions,negative,uninvited
+service,positive,better---service,positive,better
+food,negative,fine;maitre-D,negative,unwelcoming;maitre-D,negative,arrogant---food,negative,fine;maitre-D,negative,unwelcoming;maitre-D,negative,arrogant
+meals,positive,high-end;bottle of wine,positive,high-end---meals,positive,high-end;bottle of wine,positive,high-end
+meal,positive,Best---meal,positive,Best
+Mussles,positive,fantastic---Mussles,positive,and
+Lamb special,positive,perfect---Lamb special,positive,perfect
+flag steak,positive,good---flank steak,positive,good
+Four Seasons restaurant,positive,great---Four Seasons restaurant,positive,great
+food,positive,great;environnement,positive,better---food,positive,great;environment,positive,better
+hot dog,positive,elevated---hot dog,positive,elevated
+Atmosphere,positive,Great---Atmosphere,positive,Great
+fish tacos,positive,recommend---fish tacos,positive,recommend
+atmosphere,positive,Cool;fire place,positive,ads---atmosphere,positive,Cool;fire place,positive,ads
+service,negative,Pastis;management,negative,Pastis---service,negative,Poor;management,negative,Poor
+manager,negative,rude;manager,negative,poorly---manager,negative,rude;manager,negative,poorly
+NYC restaurant,negative,expensive---NYC restaurant,negative,expensive
+food,neutral,good;food,neutral,not outstanding---food,neutral,good;food,neutral,not outstanding
+bread,negative,stale;salad,negative,overpriced;salad,negative,empty---bread,negative,stale;salad,negative,overpriced;salad,negative,empty
+pasta,negative,well cooked---pasta,negative,well cooked
+hostess,negative,rude---hostess,negative,rude
+bartender,negative,disappeared---bartender,negative,disappeared
+staff,negative,horrible rude;customer service,negative,non-existent---staff,negative,horrible rude;customer service,negative,non-existent
+staff,negative,bad---staff,negative,bad
+place,positive,like---place,positive,like
+food,positive,good---food,positive,good
+design,positive,good---design,positive,good
+service,negative,HORRID---service,negative,HORRID
+Al Di La,positive,Love---Al Di La,positive,Love
+place,positive,recommend---place,positive,recommend
+food,positive,Great---food,positive,Great
+pastas,positive,incredible;risottos,positive,fantastic;braised rabbit,positive,amazing---pastas,positive,incredible;risottos,positive,fantastic;braised rabbit,positive,amazing
+food,negative,mediocre---food,negative,mediocre
+fish and chips,negative,overpriced---fish and chips,negative,overpriced
+Tasty Dog,positive,Tasty---Tasty Dog,positive,Tasty
+dog,positive,awesome---dog,positive,awesome
+pork souvlaki,positive,best---pork souvlaki,positive,best
+Pizza,positive,Super---Pizza,positive,Super
+restaurant,positive,warm;restaurant,positive,inviting---restaurant,positive,warm;restaurant,positive,inviting
+eggplant pizza,positive,LOVE---eggplant pizza,positive,LOOOVE
+half/half pizza,positive,half/half;buffalo,positive,huge---half/half pizza,positive,half/half;buffalo,positive,huge
+food,positive,Excellent---food,positive,Excellent
+meal,positive,good---meal,positive,good
+sake,positive,Great---sake,positive,Great
+Sushi,positive,Reliable;Sushi,positive,Fresh---Sushi,positive,Reliable;Sushi,positive,Fresh
+sashimi,positive,fresh;rolls,positive,innovative;rolls,positive,delicious---sashimi,positive,fresh;rolls,positive,innovative;rolls,positive,delicious
+service,positive,never had a problem;missing rice,positive,missing---service,positive,never had a problem;missing rice,positive,missing
+Delivery,negative,spot on;Delivery,negative,lacking---Delivery,negative,spot on;Delivery,negative,lacking
+Delivery guy,negative,upset---Delivery guy,negative,upset
+Sushi,positive,Best---Sushi,positive,Best
+place,negative,ruined---place,negative,ruined
+sashimi,positive,Excellent;millennium roll,positive,delicious---sashimi,positive,Excellent;millennium roll,positive,delicious
+place,negative,hidden away---place,negative,hidden away
+waiter,positive,attentive;food,positive,delicious;views of the city,positive,great---waiter,positive,attentive;food,positive,delicious;views of the city,positive,great
+place,positive,Great---place,positive,Great
+food,positive,Good;seafood spaghetti,positive,favorite---food,positive,Good;seafood spaghetti,positive,favorite
+food,positive,Excellent---food,positive,Excellent
+wait staff,positive,courageous;wait staff,positive,accomodating---wait staff,positive,courteous;wait staff,positive,accomodating
+space,negative,limited;indo-chinese food,positive,delicious---space,negative,limited;indo-chinese food,positive,delicious
+place,positive,favorite---place,positive,favorite
+chicken pasta,positive,love---chicken pasta,positive,love
+place,positive,fanatical---place,positive,fanatical
+lobster,positive,good;lobster,positive,nothing spectacular---lobster,positive,good;lobster,positive,nothing spectacular
+place,positive,fun---place,positive,fun
+pizza,negative,overrated;pizza,negative,under cooked---pizza,negative,overrated;pizza,negative,under cooked
+staff,negative,rude;staff,negative,not attentive---staff,negative,rude;staff,negative,not attentive
+place,positive,love---place,positive,love
+service,positive,quick;service,positive,friendly---service,positive,quick;service,positive,friendly
+restaurant,positive,nice;restaurant,positive,clean---restaurant,positive,nice;restaurant,positive,clean
+vitello alla marsala,positive,impressed---vitello alla marsala,positive,impressed
+veal,positive,perfect---veal,positive,perfect
+potato balls,negative,not dry;potato balls,negative,buttery---potato balls,negative,not dry;potato balls,negative,buttery
+bartender,negative,immature;service,negative,slow;food,negative,not fresh or warm---bartender,negative,immature;service,negative,slow;food,negative,not fresh or warm
+place,negative,never recommend---place,negative,never recommend
+food,positive,fresh---food,positive,fresh
+japanese food,negative,overpriced;service,negative,mediocre---japanese food,negative,overpriced;service,negative,mediocre
+food,positive,luke warm---food,positive,luke warm
+waitress,negative,not attentive---waitress,negative,not attentive
+food,positive,excellent---food,positive,excellent
+Red Dragon Roll,positive,favorite---Red Dragon Roll,positive,favorite
+Seafood Dynamite,positive,otherworldly---Seafood Dynamite,positive,otherworldly
+Sushi,positive,Favorite---Sushi,positive,Favorite
+spot,positive,unpretentious;sushi,positive,good;service,positive,pleasant;service,positive,effective;service,positive,unassuming---spot,positive,unpretentious;sushi,positive,good;service,positive,pleasant;service,positive,effective;service,positive,unassuming
+back garden area,positive,nice---back garden area,positive,nice
+rolls,positive,creative;japanese food,positive,innovative;japanese food,positive,delicious---rolls,positive,creative;japanese food,positive,inventive;japanese food,positive,delicious
+Dancing,positive,musts---Dancing,positive,musts
+PLACE,positive,LOVE---PLACE,positive,LOVE
+food,positive,Größt---food,positive,Gross
+guacamole,negative,bland---guacamole,negative,bland
+place,negative,bad---place,negative,bad
+Indian Food,positive,Great---Indian Food,positive,Great
+food,positive,good;place,positive,clean;place,positive,affordable---food,positive,good;place,positive,clean;place,positive,affordable
+indian people,positive,great---indian people,positive,great
+spot,positive,favorite;food,positive,great---spot,positive,favorite;food,positive,great
+staff,positive,good---staff,positive,good
+drink menu,positive,Love---drink menu,positive,Love
+place,positive,recommend---place,positive,recommend
+view of river and NYC,positive,Nice---view of river and NYC,positive,Nice
+survice,positive,Great---survice,positive,Great
+Egyptian restaurant,positive,beautifully designed dreamy---Egyptian restaurant,positive,beautifully designed dreamy
+baba ganoush,positive,delicious---baba ganoush,positive,delicious
+Pacifico,positive,great---Pacifico,positive,great
+drinks,positive,great---drinks,positive,great
+omlette for brunch,positive,great---omlette for brunch,positive,great
+salad,positive,fresh;salad,positive,not frozen---the,positive,fresh;the,positive,not frozen
+quacamole at pacifico,positive,yummy;wings with chimmichuri,positive,yummy---quacamole at pacifico,positive,yummy;wings with chimmichuri,positive,yummy
+chicken in the salads,negative,worst---chicken in the salads,negative,is
+portobello and asparagus mole,negative,favorite---portobello and asparagus mole,negative,fan
+food,positive,decent;people,positive,friendly---food,positive,decent;people,positive,friendly
+Indian Restaurant,positive,Best---Indian Restaurant,positive,Best
+Decor,positive,upgraded;food,positive,amazing---Decor,positive,upgraded;food,positive,amazing
+Astoria souvlaki spot,positive,small---Astoria souvlaki spot,positive,small
+food,positive,highly seasoned---food,positive,higher seasoned
+Greek and Cypriot dishes,positive,excellent;gyro,positive,motivated---Greek and Cypriot dishes,positive,excellent;gyro,positive,wasted
+restaurant,positive,Best---restaurant,positive,Best
+food,positive,Great;service,positive,amazing---food,positive,Great;service,positive,amazing
+veal,positive,incredible---veal,positive,incredible
+place,positive,must visit---place,positive,must visit
+food,positive,shared---food,positive,shared
+dishes,positive,enjoyed---dishes,positive,enjoyed
+compliments,positive,highest---compliments,positive,highest
+atmosphere,positive,ravelled;rooms,positive,elegant;views,positive,incomparable;food,positive,fabulous---atmosphere,positive,raved;rooms,positive,elegant;views,positive,incomparable;food,positive,fabulous
+Service,positive,wonderful---Service,positive,wonderful
+maitre d ',positive,professional---maitre d ',positive,professional
+Service,negative,ok;Service,negative,unfriendly;bathroom,negative,filthy---Service,negative,ok;Service,negative,unfriendly;bathroom,negative,filthy
+bar drinks,neutral,Eh;bar drinks,neutral,ok---bar drinks,neutral,Eh;bar drinks,neutral,ok
+stuff tilapia,negative,horrible;stuff tilapia,negative,cardboard---stuff tilapia,negative,horrid;stuff tilapia,negative,cardboard
+mens bathroom,negative,disgusting---mens bathroom,negative,disgusting
+wine list,positive,extensive;staff,negative,not seem knowledgeable---wine list,positive,extensive;staff,negative,not seem knowledgeable
+bread,negative,horrible;bread,negative,rock hard;bread,negative,cold; free '' appetizer of olives,negative,disappointing---bread,negative,horrible;bread,negative,rock hard;bread,negative,cold; free '' appetizer of olives,negative,disappointing
+main course,positive,wonderful---main course,positive,wonderful
+filet,positive,expeccable---filet,positive,expectations
+dessert,negative,good---dessert,negative,good
+location,positive,Not what I would expect---location,positive,Not what I would expect
+seating,positive,great;seating,positive,cozy;seating,positive,private---seating,positive,great;seating,positive,cozy;seating,positive,private
+boths,positive,not as small---boths,positive,not as small
+service,positive,fast;service,positive,attentive;service button,positive,thanks---service,positive,fast;service,positive,attentive;service button,positive,thanks
+food,neutral,ok;food,neutral,fair---food,neutral,ok;food,neutral,fair
+looks,positive,exceeds---looks,positive,exceeds
+food,negative,Subtle;food,negative,Subtle---food,negative,Subtle;food,negative,Subtle
+Noodle pudding,positive,enjoy;service,positive,enjoy---Noodle pudding,positive,enjoy;service,positive,enjoy
+Servers,positive,different---Servers,positive,different
+courses,positive,like;servers,positive,patient;courses,positive,never rush---courses,positive,like;servers,positive,patient;courses,positive,never rush
+amazing fresh dogs,positive,amazing fresh;endless toppings,positive,endless---amazing fresh dogs,positive,amazing fresh;endless toppings,positive,endless
+Cafe La Femme,positive,true---Casa La Femme,positive,true
+decor,positive,impressed---decor,positive,impressed
+cocktail,positive,great---cocktail,positive,great
+Food,positive,worth---Food,positive,worth
+belly dancing show,positive,captivated---belly dancing show,positive,captivated
+restaurant,positive,worth commending---restaurant,positive,worth commending
+menu,positive,great;waiter,positive,nice;food,neutral,average---menu,positive,great;waiter,positive,nice;food,neutral,average
+food,negative,well prepared---food,negative,well prepared
+customer service,positive,intelligent---customer service,positive,intelligent
+place,positive,Great---place,positive,Great
+food,positive,flavorful;food,positive,plentiful;food,positive,reasonably priced---food,positive,flavorful;food,positive,plentiful;food,positive,reasonably priced
+atmosphere,positive,relaxed;atmosphere,positive,casual---atmosphere,positive,relaxed;atmosphere,positive,casual
+place,positive,great---place,positive,great
+Sushi experience,positive,unbelievable---Sushi experience,positive,unbelievable
+rolls,positive,Good creative---rolls,positive,Good creative
+Yamato,positive,excellent---Yamato,positive,excellent
+rolls,positive,great;triple color and norwegetan rolls,positive,awesome;triple color and norwegetan rolls,positive,filling---rolls,positive,great;triple color and norwegetan rolls,positive,awesome;triple color and norwegetan rolls,positive,filling
+roll,positive,special---roll,positive,special
+banana chocolate dessert,positive,delicious;green tea tempura,positive,great---banana chocolate dessert,positive,delicious;green tea tempura,positive,great
+appetizers,positive,delicious---appetizers,positive,delicious
+food,positive,Amazing---food,positive,Amazing
+Mazing,positive,Mazing---Mazing,positive,Mazing
+food,positive,Great---food,positive,Great
+modern Japanese,positive,fair share;spot,positive,delivers---modern Japanese,positive,fair share;spot,positive,delivers
+atmosphere,positive,nice;atmosphere,positive,lacking---atmosphere,positive,nice;atmosphere,positive,lacking
+mirrors,negative,confusing---mirrors,negative,confusing
+Indo Chinese food,positive,good---Indo Chinese food,positive,good
+place,negative,Not a very fancy;Chinese style Indian food,positive,good---place,negative,Not a very fancy;Chinese style Indian food,positive,good
+chicken lollipop,positive,favorite;dishes,negative,oily;dishes,negative,spicy---chicken lollipop,positive,favorite;dishes,negative,oily;dishes,negative,spicy
+food,negative,over the top spicy;food,negative,too oily---food,negative,over the top spicy;food,negative,too oily
+food,negative,horrible---food,negative,horrible
+food,negative,disappointing---food,negative,disappointing
+restaurant,positive,wonderful---restaurant,positive,wonderful
+food,positive,tasty;food,positive,delicious---food,positive,tasty;food,positive,delicious
+meal,positive,never a bad;service,positive,never bad---meal,positive,never a bad;service,positive,never bad
+food,positive,great;wine list,positive,great;service,positive,great;neighborhood,positive,great---food,positive,great;wine list,positive,great;service,positive,great;neighborhood,positive,great
+pizza,positive,best---pizza,positive,best
+hot dogs,positive,great---hot dogs,positive,great
+hot dogs,positive,juicy;hot dogs,positive,tender---hot dogs,positive,juicy;hot dogs,positive,tender
+toppings,positive,great---toppings,positive,great
+dishes,negative,oily;dining experience,positive,good---dishes,negative,oily;dining experience,positive,good
+service,positive,Helpful---service,positive,Helpful
+decor,negative,not very pleasant---decor,negative,not very pleasant
+food,positive,great---food,positive,great
+indian chinese food,positive,great---indian chinese food,positive,great
+place,negative,tiny---place,negative,tiny
+place,negative,not beautiful;food,positive,speaks for itself---place,negative,not beautiful;food,positive,speaks for itself
+Indian Chinese,positive,Best---Indian Chinese,positive,Best
+martinis,positive,amazing;martinis,positive,fairly priced---martinis,positive,amazing;martinis,positive,fairly priced
+ SERVICE,positive,Amazing;waiters,positive,nice--- SERVICE,positive,thing;waiters,positive,nice
+DJ,positive,awesome---DJ,positive,awesome
+menu,positive,great---menu,positive,great
+établissement,positive,real deal---establishment,positive,real deal
+food,positive,fantastic;wait,positive,worth---food,positive,intimate;wait,positive,worth
+appetizers,positive,good---appetizers,positive,good
+entree,positive,good---entree,positive,good
+place,positive,classy;place,positive,beautiful---place,positive,classy;place,positive,beautiful
+Vanison,neutral,good;Vanison,neutral,not amazing---Vanison,neutral,good;Vanison,neutral,not amazing
+Bison,positive,excellent---Bison,positive,excellent
+Dessert,negative,disaster---Dessert,negative,disaster
+restaurant,negative,too expensive---restaurant,negative,too expensive
+food,positive,great---food,positive,great
+environment,positive,upscale---environment,positive,upscale
+food,negative,worth---food,negative,worth
+service,negative,less---service,negative,You
+Service,neutral,ok---Service,neutral,ok
+place,positive,beautiful---place,positive,beautiful
+hostess,positive,pleasant---hostess,positive,pleasant
+$ 14 drinks,negative,horrible---$ 14 drinks,negative,horrible
+waiter,negative,forgotten---waiter,negative,forgot
+chicken,negative,inedible;fatty lumps,negative,fatty---chicken,negative,inedible;fatty lumps,negative,fatty
+food,positive,good---food,positive,good
+dinner portion,negative,inedible---dinner portion,negative,inedible
+menu,neutral,simple---menu,neutral,simple
+tap beer,negative,disappointment---tap beer,negative,disappointment
+bottled beer,negative,Not much of a selection---bottled beer,negative,Not much of a selection
+appetizers,positive,served quickly;fried oysters,positive,delicious;portion,negative,tiny---appetizers,positive,served quickly;fried oysters,positive,delicious;portion,negative,tiny
+lobster knuckles,negative,ok;lobster knuckles,negative,tasteless---lobster knuckles,negative,ok;lobster knuckles,negative,tasteless
+Thai style Fried Sea Bass,positive,good---Thai style Fried Sea Bass,positive,good
+food,positive,happy;grilled Mahi Mahi,negative,drenched in Grapfruit Juice---food,positive,happy;grilled Mahi Mahi,negative,drenched in Grapfruit Juice
+lobster roll,positive,excellent---lobster roll,positive,excellent
+food,positive,good;food,positive,expensive---food,positive,good;food,positive,expensive
+Service,negative,not the friendliest;party,positive,large---Service,negative,not the friendliest;party,positive,large
+Indian food,positive,Great---Indian food,positive,Great
+Food,positive,amazing;Indian food,positive,love---Food,positive,amazing;Indian food,positive,love
+Indian food,positive,normal---Indian food,positive,normal
+meal buffet,positive,expensive;meal buffet,positive,worth---deff buffet,positive,expensive;deff buffet,positive,worth
+quality,positive,great---quality,positive,great
+Bukhara,positive,top 5---Bukhara,positive,top 5
+food,positive,disgusted---food,positive,disgusted
+fish skin,negative,bad---fish skin,negative,bad
+restaurant,negative,repulsive---restaurant,negative,repulsive
+place,positive,Glorious---place,positive,Gorgeous
+organza tent,positive,gorgeous white;prix fix menu,positive,enjoyed---organza tent,positive,gorgeous white;prix fix menu,positive,enjoyed
+service,positive,spectacular---service,positive,spectacular
+Cafe La Femme,positive,recommend---Casa La Femme,positive,recommend
+bibimbap,negative,average;stone bowl,negative,wasn't even close to sizzling---bibimbap,negative,average;stone bowl,negative,was even close to sizzling
+stone bowl,negative,bad---stone bowl,negative,bad
+nakgi-bokum,negative,horrible---nakgi-bokum,negative,horrible
+stir-fried squid,negative,worst---stir-fried squid,negative,worst
+side dishes,positive,passable---side dishes,positive,passable
+service,negative,poor---service,negative,of
+risotto,positive,amazing---risotto,positive,amazing
+farro salad,positive,tasty---farro salad,positive,tasty
+margherita pizza,positive,love---margherita pizza,positive,love
+place,positive,Love---place,positive,Love
+crust,positive,great;sauce,positive,light;sauce,positive,nice;salt,positive,great---crust,positive,great;sauce,positive,light;sauce,positive,nice;salt,positive,great
+margherita pizza,positive,like---margherita pizza,positive,like
+Restaurant,positive,Romantic---Restaurant,positive,Romantic
+modern Japanese brasserie,positive,favorite---modern Japanese brasserie,positive,favorite
+unmarked wooden doors,positive,unmarked;decor,positive,zen;decor,positive,intimate---unmarked wooden doors,positive,unmarked;décor,positive,zen;décor,positive,intimate
+sashimi amuse bouche,positive,delightful---sashimi amuse bouche,positive,delightful
+Grilled Black Cod,positive,devored;Grilled Salmon dish,positive,better---Grilled Black Cod,positive,devoured;Grilled Salmon dish,positive,better
+frozen black sesame mousse,positive,interesting;frozen black sesame mousse,positive,not extraordinary;matcha,positive,phenomenal;blueberry cheesecake,positive,phenomenal---frozen black sesame mousse,positive,interesting;frozen black sesame mousse,positive,not extraordinary;matcha,positive,phenomenal;blueberry cheesecake,positive,phenomenal
+company,negative,great;price point,negative,reasonable---company,negative,great;price point,negative,reasonable
+service,negative,wonderful---service,negative,order
+service,negative,horrible---service,negative,horrible
+Shabu Shabu Shabu,positive,Great---Shabu Shabu Shabu,positive,Great
+dishes,negative,try;dishes,negative,not too impressed---dishes,negative,too;dishes,negative,n't too impressed
+meat,positive,fresh;sauces,positive,great;kimchi,positive,free;service,positive,good---meat,positive,fresh;sauces,positive,great;kimchi,positive,free;service,positive,good
+classic Korean food,positive,classic---classic Korean food,positive,classic
+hot dogs,positive,good;pork croquette sandwich,positive,fantastic---hot dogs,positive,good;pork croquette sandwich,positive,fantastic
+food,positive,good---food,positive,good
+family seafood entree,positive,good---family seafood entree,positive,good
+main entree,positive,good---main entree,positive,good
+food,positive,good---food,positive,good
+decor,negative,weird---decor,negative,weird
+place,negative,not inviting;food,negative,weird---place,negative,not inviting;food,negative,weird
+food,negative,not comforting;food,negative,not appetizing;food,negative,uncooked---food,negative,not comforting;food,negative,not appetizing;food,negative,uncooked
+food,positive,Good---Good,positive,Good
+food,positive,great;food,positive,tasty;sitting space,negative,too small---food,positive,great;food,positive,tasty;sitting space,negative,too small
+place,positive,nice---place,positive,nice
+Pacifico,positive,loved---Pacifico,positive,loved
+atmosphere,positive,great---atmosphere,positive,great
+food,positive,excellent---food,positive,excellent
+waitress,negative,wasn't mean;waitress,negative,not especially warm or attentive---waitress,negative,was mean;waitress,negative,not especially warm or attentive
+reviews,negative,bad;restaurant,negative,bad---reviews,negative,bad;restaurant,negative,bad
+server,positive,different;appetizer,positive,delicious---server,positive,different;appetizer,positive,delicious
+food quality,positive,good;salmon,positive,better---food quality,positive,good;salmon,positive,better
+fit-out,positive,nice;furniture,positive,attractive;wine list,positive,reasonable---fit-out,positive,nice;nice,positive,attractive;wine list,positive,reasonable
+chicken,negative,appalled---chicken,negative,appalled
+salmon,negative,undercooked---skin,negative,undercooked
+drinks,positive,enjoy---drinks,positive,enjoy
+STAFF,positive,FIRED---STAFF,positive,FIRED
+cirspy crust margherita pizza,positive,cirspy---cirspy crust margherita pizza,positive,cirspy
+pizza,positive,good---pizza,positive,good
+crust,positive,imazingly cooked well;pizza,positive,fully loaded---crust,positive,imazingly cooked well;pizza,positive,fully loaded
+Restaurant,negative,Worst;restaurant,negative,Worst---Restaurant,negative,Worst;Restaurant,negative,Worst
+decor,positive,cool;pita and hummus,positive,good;grilled octopus,positive,tasty---decor,positive,cool;pita and hummus,positive,good;grilled octopus,positive,tasty
+scene,positive,spectacular---scene,positive,spectacular
+decor,negative,distraction---decor,negative,distraction
+Hot Dogs,positive,Great---Hot Dogs,positive,Great
+hot dogs,positive,top notch---hot dogs,positive,top notch
+Bad,positive,worth---Bark,positive,worth
+spot,positive,great;food,positive,great---spot,positive,great;food,positive,great
+food,positive,Fabulous---food,positive,Fabulous
+front of house staff,positive,huge;people,negative,hidden---front of house staff,positive,house;people,negative,time
+frizzly retro girl,positive,frizzly retro---frizzy retro girl,positive,frizzy retro
+service,positive,better---service,positive,better
+food,positive,fine;maitre-D,negative,unwelcoming;maitre-D,negative,arrogant---food,positive,fine;maitre-D,negative,unwelcoming;maitre-D,negative,arrogant
+bottle of wine,positive,high-end---bottle of wine,positive,high-end
+meal,positive,Best---meal,positive,Best
+Mussles,positive,excellent---Mussles,positive,evening
+Lamb special,positive,perfect---Lamb special,positive,perfect
+flanking steak,positive,good---flank steak,positive,good
+Four Seasons restaurant,positive,great---Four Seasons restaurant,positive,great
+food,positive,great;environnement,positive,better---food,positive,great;environment,positive,better
+hot dog,positive,elevated---hot dog,positive,elevated
+Atmosphere,positive,Great---Atmosphere,positive,Great
+fish tacos,positive,recommend---fish tacos,positive,recommend
+atmosphere,positive,Cozy;fire place,positive,adverts---atmosphere,positive,Cool;fire place,positive,ads
+Pasticity,negative,Pasticity;Pasticity,negative,Pasticity;service,negative,Pasticity---service,negative,service;service,negative,service;service,negative,service
+Casa la Femme,negative,awful---Casa la Femme,negative,awful
+manager,negative,rude;manager,negative,poorly---manager,negative,rude;manager,negative,poorly
+food,neutral,good;food,neutral,not outstanding---food,neutral,good;food,neutral,not outstanding
+bread,negative,stale;salad,negative,overpriced;salad,negative,empty---bread,negative,stale;salad,negative,overpriced;salad,negative,empty
+pasta,positive,well cooked---pasta,positive,well cooked
+hostess,negative,rude---hostess,negative,rude
+horrible,rude,opinion;staff,negative,horrible;customer service,negative,non-existent---this,negative,rude;staff,negative,horrible;customer service,negative,non-existent
+staff,negative,bad---staff,negative,bad
+place,positive,like---place,positive,like
+food,positive,good---food,positive,good
+design,positive,good;space,positive,good---design,positive,good;space,positive,good
+service,negative,HORRID---service,negative,HORRID
+Al Di La,positive,Love---Al Di La,positive,Love
+place,positive,recommend---place,positive,recommend
+food,positive,Great---food,positive,Great
+pastas,positive,incredible;risottos,positive,fantastic;braised rabbit,positive,amazing---pastas,positive,incredible;risottos,positive,fantastic;braised rabbit,positive,amazing
+food,negative,mediocre---food,negative,mediocre
+fish and chips,negative,overpriced---fish and chips,negative,overpriced
+Tasty Dog,positive,Tasty---Tasty Dog,positive,Tasty
+dog,positive,awesome;dog,positive,eco friendly---dog,positive,awesome;dog,positive,eco friendly
+pork souvlaki,positive,best---pork souvlaki,positive,best
+Pizza,positive,Super YUMMY---Pizza,positive,Super YUMMY
+restaurant,positive,warm;restaurant,positive,inviting---restaurant,positive,warm;restaurant,positive,inviting
+eggplant pizza,positive,LOOOVE---eggplant pizza,positive,LOOOVE
+half/half pizza,positive,half/half---half/half pizza,positive,half/half
+food,positive,Excellent---food,positive,Excellent
+meal,positive,good---meal,positive,good
+sake,positive,Great---sake,positive,Great
+Sushi,positive,Reliable;Sushi,positive,Fresh---Sushi,positive,Reliable;Sushi,positive,Fresh
+sashimi,positive,fresh;rolls,positive,innovative;rolls,positive,delicious---sashimi,positive,fresh;rolls,positive,innovative;rolls,positive,delicious
+service,positive,never had a problem;rice,negative,missing---service,positive,never had a problem;rice,negative,missing
+Delivery,negative,spot on;Delivery,negative,lacking---Delivery,negative,spot on;Delivery,negative,lacking
+Sushi,positive,Best---Sushi,positive,Best
+place,negative,ruined---place,negative,ruined
+sashimi,positive,Excellent;millennium roll,positive,delicious---sashimi,positive,Excellent;millennium roll,positive,delicious
+place,negative,hidden away---place,negative,hidden away
+waiter,positive,attentive;food,positive,delicious;views of the city,positive,great---waiter,positive,attentive;food,positive,delicious;views of the city,positive,great
+place,positive,Great---place,positive,Great
+food,positive,Good;seafood spaghetti,positive,favorite---food,positive,Good;seafood spaghetti,positive,favorite
+food,positive,Excellent---food,positive,Excellent
+wait staff,positive,honest;wait staff,positive,accomodating---wait staff,positive,The;wait staff,positive,accomodating
+space,negative,limited;indo-chinese food,positive,delicious---space,negative,limited;indo-chinese food,positive,delicious
+place,positive,favorite---place,positive,favorite
+chicken pasta,positive,love---chicken pasta,positive,love
+place,positive,fanatical---place,positive,fanatical
+lobster,positive,good;lobster,positive,nothing spectacular---lobster,positive,good;lobster,positive,nothing spectacular
+place,positive,fun---place,positive,fun
+pizza,negative,overrated;pizza,negative,under cooked---pizza,negative,overrated;pizza,negative,under cooked
+staff,negative,rude;staff,negative,not attentive---staff,negative,rude;staff,negative,not attentive
+place,positive,love---place,positive,love
+service,positive,quick;service,positive,friendly---service,positive,quick;service,positive,friendly
+restaurant,positive,nice;restaurant,positive,clean---restaurant,positive,nice;restaurant,positive,clean
+vitello alla marsala,positive,impressed---vitello alla marsala,positive,impressed
+veal,positive,perfect---veal,positive,perfect
+potato balls,negative,not dry---potato balls,negative,not dry
+PLACE,negative,WORST---PLACE,negative,WORST
+bartender,negative,immature;service,negative,slow;food,negative,not fresh or warm---bartender,negative,immature;service,negative,slow;food,negative,not fresh or warm
+place,negative,never recommend---place,negative,never recommend
+food,positive,fresh---food,positive,fresh
+japanese food,negative,overpriced;service,negative,mediocre---japanese food,negative,overpriced;service,negative,mediocre
+food,neutral,luke warm---food,neutral,luke warm
+waitress,negative,not attentive---waitress,negative,not attentive
+food,positive,excellent---food,positive,excellent
+Red Dragon Roll,positive,favorite---Red Dragon Roll,positive,favorite
+Seafood Dynamite,positive,otherworldly---Seafood Dynamite,positive,otherworldly
+Sushi,positive,Favorite---Sushi,positive,Favorite
+spot,positive,unpretentious;sushi,positive,good;service,positive,pleasant;service,positive,effective;service,positive,unassuming---spot,positive,unpretentious;sushi,positive,good;service,positive,pleasant;service,positive,effective;service,positive,unassuming
+back garden area,positive,nice---back garden area,positive,nice
+rolls,positive,creative---rolls,positive,creative
+Dancing,positive,musts---Dancing,positive,musts
+PLACE,positive,LOVE---PLACE,positive,LOVE
+food,positive,Greek---food,positive,Gross
+guacamole,negative,bland---guacamole,negative,bland
+place,negative,bad---place,negative,bad
+Indian Food,positive,Great---Indian Food,positive,Great
+food,positive,good;place,positive,clean;place,positive,affordable---food,positive,good;place,positive,clean;place,positive,affordable
+indian people,positive,great---indian people,positive,great
+spot,positive,favorite;food,positive,great---spot,positive,favorite;food,positive,great
+staff,positive,good---staff,positive,good
+drink menu,positive,Love---drink menu,positive,Love
+place,positive,recommend---place,positive,recommend
+view of river and NYC,positive,Nice---view of river and NYC,positive,Nice
+survice,positive,Great---survice,positive,Great
+Egyptian restaurant,positive,dreamy---Egyptian restaurant,positive,dreamy
+baba ganoush,positive,lemony;baba ganoush,positive,smoky---baba ganoush,positive,lemony;baba ganoush,positive,smoky
+bartender,positive,rocks---bartender,positive,rocks
+Pacifico,positive,great---Pacifico,positive,great
+drinks,positive,great---drinks,positive,great
+omlette for brunch,positive,great---omlette for brunch,positive,great
+salmon,positive,fresh;salmon,positive,not frozen---not,positive,fresh;not,positive,not frozen
+quacamole at pacifico,positive,yummy---quacamole at pacifico,positive,yummy
+chicken in the salads,negative,wonderful---chicken in the salads,negative,weakness
+portobello and asparagus mole,negative,wasn't a fan---portobello and asparagus mole,negative,was a fan
+food,positive,decent;people,positive,friendly---food,positive,decent;people,positive,friendly
+Indian Restaurant,positive,Best---Indian Restaurant,positive,Best
+Decor,positive,upgraded;food,positive,amazing---Decor,positive,upgraded;food,positive,amazing
+Astoria souvlaki spot,positive,best---Astoria souvlaki spot,positive,best
+food,positive,aggressively seasoned---food,positive,aggressively seasoned
+Greek and Cypriot dishes,positive,excellent;gyro,positive,wonderful---Greek and Cypriot dishes,positive,excellent;gyro,positive,one
+restaurant,positive,Best---restaurant,positive,Best
+food,positive,Great;service,positive,amazing;place,positive,class act---food,positive,Great;service,positive,amazing;place,positive,class act
+veal,positive,incredible---veal,positive,incredible
+place,positive,must visit---place,positive,must visit
+food,positive,shared---food,positive,shared
+dishes,positive,enjoyed---dishes,positive,enjoyed
+wedding reception,positive,highest---wedding reception,positive,highest
+atmosphere,positive,elegant;rooms,positive,elegant;views,positive,incomparable;food,positive,fabulous---atmosphere,positive,elegant;rooms,positive,elegant;views,positive,incomparable;food,positive,fabulous
+Service,positive,wonderful---Service,positive,wonderful
+maitre d ',,positive,professional;maitre d ',,positive,always on top of things---maitre d ,,positive,professional;maitre d ,,positive,always on top of things
+Service,negative,ok;Service,negative,filthy;bathroom,negative,filthy---Service,negative,ok;Service,negative,filthy;bathroom,negative,filthy
+bar drinks,positive,Eh;bar drinks,positive,ok---bar drinks,positive,Eh;bar drinks,positive,ok
+stuff tilapia,negative,horrible---stuff tilapia,negative,horrid
+mens bathroom,negative,disgusting---mens bathroom,negative,disgusting
+wine list,positive,extensive;staff,negative,did not seem knowledgeable---wine list,positive,extensive;staff,negative,did not seem knowledgeable
+bread,negative,horrible;bread,negative,rock hard;bread,negative,cold; free '' appetizer of olives,negative,disappointing---bread,negative,horrible;bread,negative,rock hard;bread,negative,cold; free '' appetizer of olives,negative,disappointing
+main course,positive,wonderful---main course,positive,wonderful
+fish,positive,fish;filet,positive,exceeded our expectations---fish,positive,fish;filet,positive,exceeded our expectations
+dessert,negative,good;staff,negative,unable to provide appropriate---dessert,negative,good;staff,negative,unable to provide appropriate
+restaurant,positive,beautiful;staff,positive,more attention---restaurant,positive,beautiful;staff,positive,more attention
+seating,positive,great---seating,positive,great
+boths,positive,not as small---boths,positive,not as small
+service,positive,fast;service,positive,attentive---service,positive,fast;service,positive,attentive
+food,positive,ok;food,positive,fair---food,positive,ok;food,positive,fair
+food,positive,Subtle---food,positive,Subtle
+Noodle pudding,positive,enjoy---Noodle pudding,positive,enjoy
+Servers,neutral,different---Servers,neutral,different
+courses,positive,like;servers,positive,patient---courses,positive,like;servers,positive,patient
+amazing fresh dogs,positive,fresh;amazing fresh dogs,positive,amazing;endless toppings,positive,endless---amazing fresh dogs,positive,fresh;amazing fresh dogs,positive,amazing;endless toppings,positive,endless
+place,positive,amazing fun---place,positive,amazing fun
+Cafe La Femme,positive,unique---Casa La Femme,positive,unlike
+decor,positive,impressed---decor,positive,impressed
+cigar Vodka,positive,great---a Vodka,positive,great
+Food,positive,time---Food,positive,time
+belly dancing show,positive,captivated---belly dancing show,positive,captivated
+restaurant,positive,worth---restaurant,positive,worth
+menu,positive,great;waiter,positive,nice;food,neutral,average---menu,positive,great;waiter,positive,nice;food,neutral,average
+food,negative,well prepared---food,negative,well prepared
+reputation,positive,good;customer service,positive,intelligent---reputation,positive,good;customer service,positive,intelligent
+place,positive,Great---place,positive,Great
+food,positive,flavorful;food,positive,plentiful;food,positive,reasonably priced---food,positive,flavorful;food,positive,plentiful;food,positive,reasonably priced
+atmosphere,positive,relaxed;atmosphere,positive,casual---atmosphere,positive,relaxed;atmosphere,positive,casual
+place,positive,great---place,positive,great
+Sushi experience,positive,unbelievable---Sushi experience,positive,unbelievable
+rolls,positive,Good creative---rolls,positive,Good creative
+Yamato,positive,excellent---Yamato,positive,excellent
+rolls,positive,great---rolls,positive,great
+roll,positive,special---roll,positive,special
+banana chocolate dessert,positive,delicious;green tea tempura,positive,great---banana chocolate dessert,positive,delicious;green tea tempura,positive,great
+appetizers,positive,delicious---appetizers,positive,delicious
+food,positive,Amazing---food,positive,Amazing
+Mazing,positive,Mazing interior---Mazing,positive,Mazing interior
+food,positive,Great---food,positive,Great
+modern Japanese,positive,modern;spot,positive,delivers---modern Japanese,positive,modern;spot,positive,delivers
+atmosphere,positive,nice;atmosphere,positive,lacking---atmosphere,positive,nice;atmosphere,positive,lacking
+mirrors,negative,confusing---mirrors,negative,confusing
+Indo Chinese food,positive,good---Indo Chinese food,positive,good
+place,positive,Not a very fancy;Chinese style Indian food,positive,good---place,positive,Not a very fancy;Chinese style Indian food,positive,good
+chicken lollipop,positive,favorite;dishes,positive,oily;dishes,positive,spicy---chicken lollipop,positive,favorite;dishes,positive,oily;dishes,positive,spicy
+food,negative,over the top spicy;food,negative,oily---food,negative,over the top spicy;food,negative,oily
+food,negative,horrible---food,negative,horrible
+food,negative,disappointing---food,negative,disappointing
+restaurant,positive,wonderful---restaurant,positive,wonderful
+food,positive,tasty;food,positive,delicious---food,positive,tasty;food,positive,delicious
+meal,positive,never a bad;service,positive,never bad---meal,positive,never a bad;service,positive,never bad
+food,positive,great;wine list,positive,great;service,positive,great;neighborhood,positive,great---food,positive,great;wine list,positive,great;service,positive,great;neighborhood,positive,great
+pizza,positive,best---pizza,positive,best
+hot dogs,positive,great---hot dogs,positive,great
+hot dogs,positive,juicy;hot dogs,positive,tender---hot dogs,positive,juicy;hot dogs,positive,tender
+toppings,positive,great---toppings,positive,great
+dishes,negative,oily;dining experience,positive,good---dishes,negative,oily;dining experience,positive,good
+service,positive,Helpful---service,positive,Helpful
+decor,negative,not very pleasant---decor,negative,not very pleasant
+food,positive,great---food,positive,great
+place,positive,great;indian chinese food,positive,great---place,positive,great;indian chinese food,positive,great
+place,negative,tiny---place,negative,tiny
+place,negative,not beautiful;food,positive,speaks for itself---place,negative,not beautiful;food,positive,speaks for itself
+Indian Chinese,positive,Best---Indian Chinese,positive,Best
+martinis,positive,amazing;martinis,positive,fairly priced---martinis,positive,amazing;martinis,positive,fairly priced
+SERVICE,positive,AWESOME;waiters,positive,nice---SERVICE,positive,THE;waiters,positive,nice
+DJ,positive,awesome---DJ,positive,awesome
+menu,positive,great---menu,positive,great
+établissement,positive,real deal---establishment,positive,real deal
+places,positive,intimate;places,positive,superb;food,positive,fantastic---places,positive,intimate;places,positive,superb;food,positive,intimate
+appetizers,positive,good---appetizers,positive,good
+entree,positive,good---entree,positive,good
+place,positive,classy;place,positive,beautiful---place,positive,classy;place,positive,beautiful
+Vanison,negative,good;Vanison,negative,not amazing---Vanison,negative,good;Vanison,negative,not amazing
+Bison,positive,excellent---Bison,positive,excellent
+Dessert,negative,disaster---Dessert,negative,disaster
+restaurant,negative,expensive---restaurant,negative,expensive
+food,positive,great---food,positive,great
+environment,positive,upscale---environment,positive,upscale
+food,negative,not be worth---food,negative,not be worth
+service,negative,no---service,negative,no
+Service,negative,ok---Service,negative,ok
+place,positive,beautiful---place,positive,beautiful
+hostess,positive,pleasant---hostess,positive,pleasant
+$ 14 drinks,negative,horrible---$ 14 drinks,negative,horrible
+chicken,negative,inedible---chicken,negative,inedible
+food,positive,good---food,positive,good
+dinner portion,negative,inedible---dinner portion,negative,inedible
+menu,positive,simple---menu,positive,simple
+no tap beer,negative,disappointment---no tap beer,negative,disappointment
+bottled beer,negative,Not much of a selection;Brahma,positive,went with---bottled beer,negative,Not much of a selection;Brahma,positive,went with
+appetizers,positive,served quickly;fried oysters and clams,positive,delicious;portion,negative,tiny---appetizers,positive,served quickly;fried oysters and clams,positive,delicious;portion,negative,tiny
+lobster knuckles ( special of the day ),negative,ok;lobster knuckles ( special of the day ),negative,tasteless---lobster knuckles ( special of the day ),negative,ok;lobster knuckles ( special of the day ),negative,tasteless
+Thai style Fried Sea Bass,positive,good---Thai style Fried Sea Bass,positive,good
+food,positive,happy---food,positive,happy
+lobster roll,positive,excellent---lobster roll,positive,excellent
+food,positive,good;food,positive,expensive;food,positive,fresh---food,positive,good;food,positive,expensive;food,positive,fresh
+Service,negative,friendliest---Service,negative,friendliest
+Indian food,positive,Great---Indian food,positive,Great
+Food,positive,amazing;Indian food,positive,love---Food,positive,amazing;Indian food,positive,love
+Indian food,positive,normal---Indian food,positive,normal
+dinner buffet,negative,expensive;dinner buffet,negative,worth---The buffet,negative,expensive;The buffet,negative,worth
+quality,positive,great---quality,positive,great
+Bukhara,positive,top 5---Bukhara,positive,top 5
+food,positive,disgusted---food,positive,disgusted
+fish skin,negative,disgusting;fish skin,negative,slimy---fish skin,negative,disgusting;fish skin,negative,slimy
+restaurant,negative,repulsive---restaurant,negative,repulsive
+place,positive,Gorgeous---place,positive,Gorgeous
+white organza tent,positive,gorgeous;four course prix fix menu,positive,enjoyed---white organza tent,positive,gorgeous;four course prix fix menu,positive,enjoyed
+service,positive,spectacular;waiter,positive,amazing---service,positive,spectacular;waiter,positive,amazing
+bibimbap,negative,average;stone bowl,negative,wasn't even close to sizzling---bibimbap,negative,average;stone bowl,negative,was even close to sizzling
+stone bowl,negative,bad---stone bowl,negative,bad
+nakgi-bokum,negative,horrible---nakgi-bokum,negative,horrible
+stir-fried squid,negative,worst---stir-fried squid,negative,worst
+side dishes,positive,passable---side dishes,positive,passable
+risotto,positive,amazing---risotto,positive,amazing
+farro salad,positive,tasty---farro salad,positive,tasty
+margherita pizza,positive,love;east village pizza,positive,loove;east village pizza,positive,loove---margherita pizza,positive,love;east village pizza,positive,love;east village pizza,positive,love
+place,positive,Love---place,positive,Love
+crust,positive,great;sauce,positive,light;salt,positive,great---crust,positive,great;sauce,positive,light;salt,positive,great
+margherita pizza,positive,like---margherita pizza,positive,like
+Restaurant,positive,Romantic---Restaurant,positive,Romantic
+unmarked wooden doors,positive,unmarked;decor,positive,zen---unmarked wooden doors,positive,unmarked;décor,positive,zen
+sashimi amuse bouche,positive,delightful---sashimi amuse bouche,positive,delightful
+Grilled Black Cod,positive,delicious;Grilled Salmon dish,positive,better---Grilled Black Cod,positive,picked;Grilled Salmon dish,positive,better
+desserts,positive,plentiful;frozen black sesame mousse,positive,interesting;frozen black sesame mousse,positive,not extraordinary;matcha ( powdered green tea ) and [blueberry cheesecake,positive,phenomenal---desserts,positive,phenomenal;frozen black sesame mousse,positive,interesting;frozen black sesame mousse,positive,not extraordinary;matcha ( powdered green tea ) and blueberry cheesecake,positive,phenomenal
+company,positive,great---company,positive,great
+service,negative,wonderful---service,negative,order
+service,negative,horrible;pita bread,negative,rude---service,negative,horrible;pita bread,negative,rude
+Shabu Shabu,positive,Great---Shabu Shabu,positive,Great
+dishes,negative,wasn't too impressed---dishes,negative,was too impressed
+meat,positive,fresh;sauces,positive,great;kimchi,positive,free---meat,positive,fresh;sauces,positive,great;kimchi,positive,free
+classic Korean food,positive,right---classic Korean food,positive,right
+hot dogs,positive,good;pork croquette sandwich,positive,fantastic---hot dogs,positive,good;pork croquette sandwich,positive,fantastic
+food,positive,good---food,positive,good
+family seafood entree,positive,good---family seafood entree,positive,good
+main entree,positive,good---main entree,positive,good
+food,positive,good---food,positive,good
+decor,negative,weird---decor,negative,weird
+place,negative,not inviting;food,negative,weird---place,negative,not inviting;food,negative,weird
+japanese tapas,negative,neutral---japanese tapas,negative,newly
+food,negative,not comforting;food,negative,not appetizing;food,negative,uncooked---food,negative,not comforting;food,negative,not appetizing;food,negative,uncooked
+Food,positive,Good---Food,positive,Good
+food,positive,great;food,positive,tasty;sitting space,negative,small---food,positive,great;food,positive,tasty;sitting space,negative,small
+place,positive,nice---place,positive,nice
+Pacifico,positive,loved---Pacifico,positive,loved
+atmosphere,positive,great---atmosphere,positive,great
+food,positive,excellent---food,positive,excellent
+waitress,negative,no mean;waitress,negative,not especially warm;waitress,negative,attentive---waitress,negative,not mean;waitress,negative,not especially warm;waitress,negative,attentive
+reviews,negative,bad;restaurant,negative,bad---reviews,negative,bad;restaurant,negative,bad
+servers,positive,perfect---servers,positive,perfect
+server,positive,fun---server,positive,fun
+food quality,positive,good;salmon,positive,better---food quality,positive,good;salmon,positive,better
+place,positive,nice;fit-out,positive,nice;furnishings,positive,attractive;wine list,positive,reasonable---place,positive,nice;fit-out,positive,nice;furnishings,positive,attractive;wine list,positive,reasonable
+chicken,negative,appalled---chicken,negative,appalled
+scallops,negative,undercooked---was,negative,undercooked
+drinks,positive,enjoy---drinks,positive,enjoy
+STAFF,positive,FIRED---STAFF,positive,FIRED
+cirspy crust,positive,cirspy---cirspy crust,positive,cirspy
+pizza,positive,good---pizza,positive,good
+crust,positive,cooked well;pizza,positive,fully loaded---crust,positive,cooked well;pizza,positive,fully loaded
+Restaurant,negative,Single Worst---Restaurant,negative,Single Worst
+decor,positive,cool;pita and hummus,positive,good;grilled octopus,positive,tasty---decor,positive,cool;pita and hummus,positive,good;grilled octopus,positive,tasty
+scene,positive,spectacular---scene,positive,spectacular
+decor,negative,distraction---decor,negative,distraction
+Hot Dogs,positive,Great---Hot Dogs,positive,Great
+hot dogs,positive,top notch---hot dogs,positive,top notch
+Battle,positive,worth---Bark,positive,worth
+spot,positive,great;food,positive,great---spot,positive,great;food,positive,great
+food,positive,Fabulous---food,positive,Fabulous
+front of house staff,negative,horrible;people,negative,horrible;fish dishes,negative,exceptional---front of house staff,negative,house;people,negative,house;fish dishes,negative,exceptional
+front of house staff,negative,abused---front of house staff,negative,abused
+frizzy retro girl,negative,frizzy retro girl---frizzy retro girl,negative,frizzy retro girl
+opinions,negative,uninvited---opinions,negative,uninvited
+service,positive,better---service,positive,better
+food,positive,fine;maitre-D,negative,unwelcoming;maitre-D,negative,arrogant---food,positive,fine;maitre-D,negative,unwelcoming;maitre-D,negative,arrogant
+bottle of wine,positive,high-end---bottle of wine,positive,high-end
+meal,positive,Best---meal,positive,Best
+Mussles,positive,fantastic---Mussles,positive,and
+Lamb special,positive,perfect---Lamb special,positive,perfect
+flag steak,positive,good---flank steak,positive,good
+Four Seasons restaurant,positive,great---Four Seasons restaurant,positive,great
+food,positive,great;environment,positive,better---food,positive,great;environment,positive,better
+hot dog,positive,elegant---hot dog,positive,elevated
+Atmosphere,positive,Great---Atmosphere,positive,Great
+fish tacos,positive,recommend---fish tacos,positive,recommend
+atmosphere,positive,Cold;fire place,positive,adverts---atmosphere,positive,cold;fire place,positive,ads
+service,negative,Paute---service,negative,Poor
+Cafe la Femme,negative,awful---Casa la Femme,negative,awful
+manager,negative,rude;manager,negative,poorly---manager,negative,rude;manager,negative,poorly
+food,neutral,good;food,neutral,not outstanding---food,neutral,good;food,neutral,not outstanding
+bread,negative,stale;salad,negative,overpriced;salad,negative,empty---bread,negative,stale;salad,negative,overpriced;salad,negative,empty
+pasta,positive,well cooked---pasta,positive,well cooked
+hostess,negative,rude---hostess,negative,rude
+bartender,negative,disappearing---bartender,negative,disappeared
+staff,negative,horrible;customer service,negative,non-existent---staff,negative,horrible;customer service,negative,non-existent
+staff,negative,bad---staff,negative,bad
+place,positive,like---place,positive,like
+food,positive,good---food,positive,good
+design,positive,good---design,positive,good
+service,negative,HORRID---service,negative,HORRID
+Boot time,positive,fast---Boot time,positive,fast
+tech support,negative,would not fix---tech support,negative,would not fix
+Set up,positive,easy---Set up,positive,easy
+Windows 8,negative,Did not enjoy---Windows 8,negative,Did not enjoy
+click pads,negative,lousy;internal speakers,negative,lousy---click pads,negative,lousy;internal speakers,negative,lousy
+light,positive,fast;light,positive,simple---light,positive,fast;light,positive,simple
+Works,positive,well;apple OS,positive,happy---Works,positive,well;apple OS,positive,happy
+features,positive,make up---features,positive,make up
+log on,positive,fast;WIFI connection,positive,speedy;battery life,positive,long---log on,positive,fast;WiFi connection,positive,speedy;battery life,positive,long
+delete key,negative,delete key---delete key,negative,delete key
+interneting,negative,difficult---interneting,negative,difficult
+priced,positive,right---priced,positive,right
+track pad,negative,not very good---track pad,negative,not very good
+graphics,positive,outstanding---graphics,positive,outstanding
+mountain lion,negative,slow---mountain lion,negative,slow
+build,positive,adds---build,positive,adds
+battery life,positive,excellent---battery life,positive,excellent
+works,positive,perfectly---works,positive,perfectly
+Windows 8,positive,like---Windows 8,positive,be
+baterry,negative,longer---baterry,negative,longer
+size,positive,ideal;weight,positive,acceptable---size,positive,ideal;weight,positive,acceptable
+performance,positive,satisfied---performance,positive,satisfied
+speed,positive,more;screen,positive,sharp---speed,positive,more;screen,positive,sharp
+price,positive,great---price,positive,great
+Hardware performance,positive,impressive---Hardware performance,positive,impressive
+set up,positive,easy---set up,positive,easy
+Keyboard,positive,responds well---Keyboard,positive,responds well
+Windows 8,negative,annoying---Windows 8,negative,annoying
+setup,positive,easy;setup,positive,intuitive---setup,positive,easy;setup,positive,intuitive
+Windows 8,negative,Biggest complaint---Windows 8,negative,Biggest complaint
+usb ports,negative,limited---usb ports,negative,limited
+features,positive,expected;screen,positive,wide;roomy keyboard,positive,roomy keyboard---features,positive,expected;screen,positive,wide;roomy keyboard,positive,roomy keyboard
+Performance,positive,Amazing---Performance,positive,Amazing
+receiver,positive,superlatives---receiver,positive,superlatives
+OS,positive,happy---OS,positive,happy
+portability,positive,great---portability,positive,great
+critique,negative,waned---criticism,negative,waned
+MS Office 2011 for Mac,positive,wonderful;MS Office 2011 for Mac,positive,worth---MS Office 2011 for Mac,positive,wonderful;MS Office 2011 for Mac,positive,worth
+performance,negative,huge disappointment---performance,negative,huge disappointment
+look,positive,good;performance,positive,excellent---look,positive,good;performance,positive,excellent
+keys,positive,love;keys,positive,lit up---keys,positive,love;keys,positive,lit up
+Mountain Lion OS,positive,not hard---Mountain Lion OS,positive,not hard
+OSX,positive,FAST---OSX,positive,FAST
+Microsoft Office,positive,Enjoy---Microsoft Office,positive,Enjoy
+graphics,positive,Incredible---graphics,positive,Incredible
+Bound-in apps,positive,amazing---Built-in apps,positive,amazing
+speed,positive,easily---speed,positive,easily
+size,positive,like---size,positive,like
+squareTrade 3-Year Computer Accidental Protection Warranty,neutral,support---SquareTrade 3-Year Computer Accidental Protection Warranty,neutral,support
+transport,positive,easy---transport,positive,easy
+Windows 8 Set-Up,negative,poorly designed---Windows 8 Set-Up,negative,poorly designed
+aluminum body,positive,stands out---aluminum body,positive,stand out
+bluetooth devices,positive,easy;USB devices,positive,instantaneously---bluetooth devices,positive,easy;USB devices,positive,instantly
+Intel4000 graphic chip,negative,underpowered---Intel4000 graphic chip,negative,underpowered
+DVD drive Firewire port,negative,removed;SDXC slot,negative,silly---DVD drive Firewire port,negative,removed;SDXC slot,negative,silly
+durability,positive,worth---durability,positive,worth
+use,positive,UNBELIEVABLE;use,positive,easy---use,positive,UNBELIEVABLE;use,positive,easy
+value,positive,great---value,positive,great
+specs,positive,good---specs,positive,good
+quality,positive,unmatched---quality,positive,unmatched
+size,positive,great;windows 8,positive,amazing---size,positive,great;windows 8,positive,amazing
+Windows 8,positive,not like---Windows 8,positive,not like
+Startup times,positive,long---Startup times,positive,long
+colors,positive,stunning---colors,positive,stunning
+price,positive,great;shipping,positive,free---price,positive,great;shipping,positive,free
+mouse,positive,terrific---mouse,positive,terrific
+battery,negative,thin---battery,negative,thick
+windows 7,positive,charm---windows 7,positive,charm
+price,positive,great;delivery,positive,great;service,positive,great---price,positive,great;delivery,positive,great;service,positive,great
+customer service,positive,great---customer service,positive,great
+windows 8,negative,hated---windows 8,negative,hated
+Set up,positive,brise---Set up,positive,breeze
+Win8,negative,NOT like---Win8,negative,NOT like
+price,negative,price;price,negative,overbearing;support,negative,lack---price,negative,price;price,negative,overbearing;support,negative,lack
+mobility,positive,nice---mobility,positive,nice
+set up,positive,easy---set up,positive,easy
+sound,positive,nice;sound,positive,loud---sound,positive,nice;sound,positive,loud
+track pad,positive,impressed---track pad,positive,impressed
+settings,negative,not user-friendly---settings,negative,not user-friendly
+OpenOffice,positive,Thank goodness---OpenOffice,positive,Thank goodness
+form factor,positive,Awesome;battery life,positive,great;UX,positive,wonderful---form factor,positive,Awesome;battery life,positive,great;UX,positive,wonderful
+keyboard,positive,love---keyboard,positive,love
+touchpad,negative,issues;touchpad,negative,useless---touchpad,negative,issues;touchpad,negative,useless
+service,positive,great---service,positive,great
+performance,positive,good;built-in applications,positive,great---performance,positive,good;built-in applications,positive,great
+hard drive,neutral,swap out---hard drive,neutral,swap out
+ scratches,negative,easily--- scratches,negative,easily
+components,negative,dirty---components,negative,dirty
+hardware,negative,bad---hardware,negative,bad
+battery,positive,nice---battery,positive,nice
+features,positive,new---features,positive,new
+keyboard,negative,not very sensitive---keyboard,negative,not very sensitive
+sound quality,negative,isnt superb---sound quality,negative,isnt superb
+navigate,positive,easy---navigate,positive,easy
+battery life,positive,wonderful---battery life,positive,wonderful
+Performance,positive,Great---Performance,positive,Great
+charging cables,negative,cheap---charging cables,negative,cheap
+works,positive,no problems;works,positive,anticipated---works,positive,no problems;works,positive,anticipated
+System,positive,great---System,positive,great
+customize,positive,Easy---customize,positive,Easy
+features,positive,good---features,positive,good
+operating system,positive,new---operating system,positive,new
+set up,positive,Easy---set up,positive,Easy
+hard drive,positive,quiet;hard drive,positive,quick;boots up,positive,boots up---hard drive,positive,quiet;hard drive,positive,quick;boots up,positive,boots up
+surfing,positive,quick;surfing,positive,pleasurable---surfing,positive,quick;surfing,positive,pleasurable
+works,positive,fine;software,positive,well---works,positive,fine;software,positive,well
+performance,positive,great---performance,positive,great
+Harddrive,negative,poor---Harddrive,negative,poor
+on/off switch,negative,obscure---on/off switch,negative,obscure
+instructions,negative,lack---instructions,negative,lack
+gaming,negative,not be good enough;Intel 4000 graphics,positive,well---gaming,negative,not be good enough;Intel 4000 graphics,positive,well
+photo editing,positive,reliable---photo editing,positive,reliable
+Screen,positive,bright;Screen,positive,gorgeous---Screen,positive,bright;Screen,positive,gorgeous
+use,positive,friendly---use,positive,friendly
+use,positive,fast;use,positive,easy---use,positive,fast;use,positive,easy
+i5 processor,positive,speeds---i5 processor,positive,speeds
+built in features,positive,great---built in features,positive,great
+screen,positive,Nice;keyboard,positive,great---screen,positive,Nice;keyboard,positive,great
+delivery,positive,amazed---delivery,positive,amazed
+memory,negative,gone;memory,negative,not able---memory,negative,gone;memory,negative,not able
+works,positive,great---works,positive,great
+design,positive,like;use,positive,ease;ports,positive,plenty---design,positive,like;use,positive,ease;ports,positive,plenty
+service,positive,great---service,positive,great
+Web browsing,positive,quick---Web browsing,positive,quick
+lighted screen,positive,like---lighted screen,positive,like
+use,positive,easy;start up,positive,quick---use,positive,easy;start up,positive,quick
+operation,negative,slow---operation,negative,slow
+USB3 Peripherals,positive,less expensive---USB3 Peripherals,positive,less expensive
+light,positive,fast;light,positive,perfect---light,positive,fast;light,positive,perfect
+battery,positive,lasts as advertised;user experience,positive,elegant---battery,positive,lasts as advertised;user experience,positive,elegant
+shipment,positive,fast;price,positive,great---shipment,positive,fast;price,positive,great
+performance,positive,Excellent---performance,positive,Excellent
+size,positive,smaller;space,negative,bonus---size,positive,smaller;space,negative,bonus
+Mac OS,negative,blame---Mac OS,negative,blame
+operating system,positive,like---operating system,positive,like
+form factor,positive,love---form factor,positive,love
+loading,positive,fast---loading,positive,fast
+looking,positive,faster;looking,positive,sleeker---looking,positive,faster;looking,positive,sleeker
+OS,positive,easy;build,positive,great;keyboard,positive,best---OS,positive,easy;build,positive,great;keyboard,positive,best
+construction,positive,solid;system,positive,a bit---construction,positive,solid;system,positive,a bit
+unibody construction,positive,nice---unibody construction,positive,nice
+runs,positive,quiet;runs,positive,cool---runs,positive,quiet;runs,positive,cool
+disk drive,negative,doesn't have---disk drive,negative,does have
+HDMI receptacle,negative,no;SD card slot,negative,no---HDMI receptacle,negative,no;SD card slot,negative,no
+works,positive,perfectly---works,positive,perfectly
+design app,negative,don't have---design app,negative,n't have
+TRACKPAD,negative,NOT WORKING---TRACKPAD,negative,NOT WORKING
+finish,positive,flawless---finish,positive,flawless
+Price,negative,higher---Price,negative,higher
+system,negative,not power down---system,negative,not power down
+configuration,positive,perfect---configuration,positive,perfect
+speakers,negative,worst---speakers,negative,worst
+looks,positive,best;use,positive,easy;trackpad,positive,love;trackpad,positive,easy---looks,positive,best;use,positive,easy;trackpad,positive,love;trackpad,positive,easy
+Web surfuring,positive,smooth;Web surfuring,positive,seamless---Web surfuring,positive,smooth;Web surfuring,positive,seamless
+interface,positive,pleased---interface,positive,pleased
+works,positive,well;carry,positive,easy---works,positive,well;carry,positive,easy
+hardware,negative,suffered;performance,negative,slow;battery lifetime,negative,shortening---hardware,negative,suffering;performance,negative,slow;battery lifetime,negative,shortening
+Runs,positive,good---Runs,positive,good
+printing,negative,small---silent,negative,small
+exterior,positive,gorgeous---exterior,positive,gorgeous
+performance,positive,high---performance,positive,high
+design,negative,defective---design,negative,defective
+USB ports,negative,mistake---USB ports,negative,mistake
+size,positive,perfect---size,positive,perfect
+CUSTOMER SERVICE,negative,TERRIFIC---CUSTOMER SERVICE,negative,TERRIFIC
+battery cycle count,positive,ZERO;hardware,positive,perfectly---battery cycle count,positive,ZERO;hardware,positive,perfectly
+finger swipes,negative,fancy---finger swipes,negative,fancy
+storage,positive,big;screen,positive,nice;photoshop,positive,fast---storage,positive,big;screen,positive,nice;photoshop,positive,fast
+speaker quality,negative,lacking---speaker quality,negative,lacking
+shipped,positive,quickly;shipped,positive,safely---Shipped,positive,quickly;Shipped,positive,safely
+thunderbolt port,positive,awesome---thunderbolt port,positive,awesome
+performance,positive,superior---performance,positive,superior
+streaming video,positive,great---streaming video,positive,great
+design,positive,like---design,positive,like
+Mac office,negative,small problems---Mac office,negative,small problems
+spec,negative,disappointed---spec,negative,disappointed
+use,positive,easy---use,positive,easy
+Performance,positive,better---Performance,positive,better
+MagSafe accessories,negative,not work---MagSafe accessories,negative,not work
+touchpad,negative,dislike;mouse,negative,recommend---touchpad,negative,dislike;mouse,negative,recommend
+runs,positive,quiet;fans,negative,aren't audible---runs,positive,quiet;fans,negative,are audible
+transition,negative,difficult---transition,negative,difficult
+price,positive,wonderful;price,positive,worth---price,positive,wonderful;price,positive,worth
+use,positive,ease---use,positive,ease
+graphic design,positive,Perfect---graphic design,positive,Perfect
+slot,negative,not be using---slot,negative,not be using
+OS,positive,fast;OS,positive,fluid---OS,positive,fast;OS,positive,fluid
+use,positive,simpler---use,positive,simpler
+stable,positive,nice;stable,positive,fast---stable,positive,nice;stable,positive,fast
+start up,positive,love;start up,positive,quick---start up,positive,love;start up,positive,quick
+functionality,negative,can not beat---functionality,negative,can not beat
+function,positive,properly---function,positive,properly
+Graphics,positive,improved---Graphics,positive,improved
+Build Quality,positive,credible---Build Quality,positive,Here
+flexibility,positive,more---flexibility,positive,more
+Mac tutorials,positive,help---Mac tutorials,positive,help
+technical support,negative,not helpful---technical support,negative,not helpful
+adapter,neutral,new---adapter,neutral,new
+sound,negative,crappy---sound,negative,crappy
+OSX Lion,positive,great---OSX Lion,positive,great
+application crash,negative,crashed---application crash,negative,crash
+physical form,positive,wonderful---physical form,positive,wonderful
+body,positive,hasn't changed---body,positive,has changed
+unibody construction,positive,solid---unibody construction,positive,solid
+3D rendering,negative,slows---3D rendering,negative,slows
+screen,positive,fast;screen,positive,great;apps,positive,beautiful---screen,positive,fast;screen,positive,great;apps,positive,beautiful
+ports,negative,necessary---ports,negative,needed
+Quad-Core 2.5 GHz CPU,positive,New---Quad-Core 2.5 GHz CPU,positive,New
+cover,positive,better---cover,positive,better
+gears,negative,unconsciously---hours,negative,unconsciously
+extensioner cable,neutral,nice;cable,positive,nice---extender cable,neutral,nice;cable,positive,nice
+dual-core,neutral,outdoes---dual-core,neutral,does
+Windows 8,negative,Not sure---Windows 8,negative,Not sure
+internal CD drive,negative,complaint---internal CD drive,negative,complaint
+hard drive,negative,no---hard drive,negative,no
+storage,positive,enough---storage,positive,enough
+audio volume,negative,low;audio volume,negative,unusable---audio volume,negative,low;audio volume,negative,unusable
+size,positive,perfect---size,positive,perfect
+capabilities,positive,wonderful---capabilities,positive,wonderful
+settings,neutral,fine---settings,neutral,fine
+Runs,positive,smoothly---Runs,positive,smoothly
+Boot-up,negative,slowed significantly---Boot-up,negative,slowed significantly
+tasks,positive,powerful---tasks,positive,powerful
+setup,positive,like;setup,positive,easy;features,positive,learning---setup,positive,like;setup,positive,easy;features,positive,learning
+Runs,positive,quick---Runs,positive,quick
+profile,negative,slim---profile,negative,slim
+WIFI capability,positive,required---WiFi capability,positive,required
+SD card reader,negative,recessed;SD card reader,negative,upside down;nucle slot,negative,can not be accessed---SD card reader,negative,recessed;SD card reader,negative,upside down;nail slot,negative,can not be accessed
+HDMI port,negative,No---HDMI port,negative,No
+two finger clicking,neutral,intuitive---two finger clicking,neutral,intuitive
+SuperDrive,positive,quiet---SuperDrive,positive,quiet
+battery,negative,died---battery,negative,dead
+OS,positive,great---OS,positive,great
+Price,negative,ridiculous;Price,negative,heavy---Price,negative,ridiculous;Price,negative,heavy
+USB 2 ports,negative,not have---USB 2 ports,negative,not have
+startup disk,negative,No---startup disk,negative,No
+word program,positive,fast---word program,positive,fast
+CD/DVD drive,neutral,needs;power switch,negative,bigger---CD/DVD drive,neutral,Needs;power switch,negative,bigger
+Windows 7,negative,crashed;Windows 8,negative,not want---Windows 7,negative,crashed;Windows 8,negative,not want
+install,positive,Easy;ADSl cable,positive,easy---install,positive,Easy;ADSl cable,positive,easy
+packing,positive,Nice---packing,positive,Nice
+windows,negative,miss---windows,negative,miss
+iDVD,negative,no longer includes---iDVD,negative,no longer includes
+Windows 7,positive,wanted---Windows 7,positive,wanted
+Mac system,negative,uncomfortable---Mac system,negative,uncomfortable
+works,positive,works;software,positive,cool---works,positive,works;software,positive,cool
+works,positive,great---works,positive,great
+Premium price,positive,more---Premium price,positive,more
+touch pad,negative,fine---touch pad,negative,fine
+OS,positive,does not become unstable;application,positive,shutdown;application,positive,reopen---OS,positive,does not become unstable;application,positive,shutdown;application,positive,reopen
+battery,negative,not as shown---battery,negative,not as shown
+Shipping,positive,quick---Shipping,positive,quick
+retina display display,positive,make pictures---retina display display,positive,make pictures
+computers,positive,compact---computing,positive,compact
+ventilation system,negative,impossible---ventilation system,negative,impossible
+operating system files,negative,corrupted---operating system files,negative,corrupted
+keys,negative,struggle---keys,negative,struggle
+OS,negative,new---OS,negative,new
+MAC OS,positive,happier---MAC OS,positive,happier
+RAM,neutral,upgradeable---RAM,neutral,upgradeable
+Pro,positive,Pro---Pro,positive,Pro
+windows,negative,second nature---windows,negative,second nature
+softwares,positive,better---softwares,positive,better
+performance,positive,powerful---performance,positive,powerful
+built in screen size,negative,not terribly important---built in screen size,negative,not terribly important
+DVD slot,negative,no---DVD slot,negative,no
+Cd Rom,negative,No;features,negative,less---Cd Rom,negative,No;features,negative,less
+volume,negative,low;volume,negative,low---volume,negative,low;volume,negative,low
+case,positive,recommend---case,positive,recommend
+price,positive,amazing---price,positive,amazing
+system,negative,frustrating;process,negative,frustrating---system,negative,frustrating;process,negative,frustrating
+SSD,neutral,silky smooth---SSD,neutral,silky smooth
+case,negative,larger;external power supply,negative,lack;size,negative,lack---case,negative,larger;external power supply,negative,lack;size,negative,lack
+pad,negative,hate;key board,negative,great---pad,negative,hate;key board,negative,great
+features,positive,wished---features,positive,wanted
+rubber pads,negative,dislike---rubber pads,negative,dislike
+price,positive,decent---price,positive,decent
+heat output,positive,low---heat output,positive,low
+built-in mic,negative,not have;Mac OS 10.9,negative,not handle---built-in mic,negative,not have;Mac OS 10.9,negative,not handle
+features,positive,never exposed---features,positive,never exposed
+IOS system,neutral,unique;IOS system,neutral,different---IOS system,neutral,unique;IOS system,neutral,different
+resolution,positive,higher;faces,negative,small---resolution,positive,higher;has,negative,small
+features,positive,easier;features,positive,cool---features,positive,easier;features,positive,cool
+brightness,positive,like---brightness,positive,like
+CD/DVD player,negative,built in---CD/DVD player,negative,built in
+backlit keys,negative,miss---backlit keys,negative,miss
+Microsoft Word,negative,happy---Microsoft Word,negative,happy
+memory,positive,enough---memory,positive,enough
+battery life,positive,excellent;display,positive,excellent---battery life,positive,excellent;display,positive,excellent
+screen,positive,smoothness---screen,positive,smoothness
+bass,negative,weak;sound,negative,tinny---bass,negative,weak;sound,negative,tinny
+built quality,positive,good---built quality,positive,good
+performance,positive,loving;performance,positive,fast---performance,positive,loving;performance,positive,fast
+Bluetooth interface,negative,sloppy;range,negative,poor---Bluetooth interface,negative,sloppy;range,negative,poor
+RAM,negative,grime;RAM,negative,more---RAM,negative,gripe;RAM,negative,more
+touch screen,neutral,Fine---touch screen,neutral,Fine
+built,positive,beats;battery life,positive,AWESOME---built,positive,beats;battery life,positive,AMAZING
+OS,positive,easy;OS,positive,surprises---OS,positive,easy;OS,positive,surprises
+feature,positive,better---feature,positive,better
+iTunes,positive,like;graphics stuff,positive,nice---iTunes,positive,like;graphics stuff,positive,nice
+spinning hard disk,neutral,replacing---spinning hard disk,neutral,replacing
+HDMI,negative,issues;flashware patch,neutral,issues---HDMI,negative,issues;firmware patch,neutral,issues
+specs,positive,best---specs,positive,best
+mother boards,negative,issues---mother boards,negative,issues
+Mother Board,negative,problems;Mother Board,negative,faulty---Mother Board,negative,problems;Mother Board,negative,faulty
+4G of RAM,neutral,4G of RAM;8G of RAM,neutral,never used;performs,positive,better---4G of RAM,neutral,4G of RAM;8G of RAM,neutral,never used;performs,positive,better
+virtual home schooling,positive,awesome---virtual home schooling,positive,awesome
+Cost,negative,more---Cost,negative,more
+operating system,positive,excellent;battery,positive,excellent;functions,positive,unmatched---operating system,positive,excellent;battery,positive,excellent;functions,positive,unmatched
+hardware,positive,better---hardware,positive,better
+software,neutral,issues---software,neutral,issues
+disc drive,negative,not have---disc drive,negative,not have
+res,negative,low---res,negative,low
+Boot time,positive,fast---Boot time,positive,fast
+tech support,negative,not fix---tech support,negative,not fix
+Set up,positive,easy---Set up,positive,easy
+Windows 8,positive,Did not enjoy---Windows 8,positive,Did not enjoy
+internal speakers,negative,lousy---internal speakers,negative,lousy
+use,positive,simple---use,positive,simple
+Works,positive,well---Works,positive,well
+features,positive,make up---features,positive,make up
+WIFI connection,positive,speedy;battery life,positive,long---WiFi connection,positive,speedy;battery life,positive,long
+delete key,negative,delete key---delete key,negative,delete key
+interneting,negative,difficulty---interneting,negative,difficult
+priced,positive,right---priced,positive,right
+track pad,negative,not very good---track pad,negative,not very good
+graphics,positive,outstanding---graphics,positive,outstanding
+mountain lion,negative,slow---mountain lion,negative,slow
+build,positive,strong---build,positive,Strong
+battery life,positive,excellent---battery life,positive,excellent
+works,positive,perfectly---works,positive,perfectly
+Windows 8,positive,like---Windows 8,positive,be
+baterry,negative,longer---baterry,negative,longer
+size,positive,ideal;weight,positive,acceptable---size,positive,ideal;weight,positive,acceptable
+performance,positive,satisfied---performance,positive,satisfied
+speed,positive,more;screen,positive,sharp---speed,positive,more;screen,positive,sharp
+price,positive,great---price,positive,great
+Hardware performance,positive,impressive---Hardware performance,positive,impressive
+set up,positive,easy---set up,positive,easy
+Keyboard,positive,well---Keyboard,positive,well
+Windows 8,negative,annoying---Windows 8,negative,annoying
+setup,positive,easy;setup,positive,intuitive---setup,positive,easy;setup,positive,intuitive
+Windows 8,negative,Biggest---Windows 8,negative,Biggest
+usb ports,negative,limited---usb ports,negative,limited
+features,positive,expected;screen,positive,wide;keyboard,positive,roomy---features,positive,expected;screen,positive,wide;keyboard,positive,roomy
+Performance,positive,Amazing---Performance,positive,Amazing
+quality,positive,superlatives---quality,positive,superlatives
+OS,positive,happy---OS,positive,happy
+portability,positive,great---portability,positive,great
+crisp,negative,waned---has,negative,waned
+MS Office 2011 for Mac,positive,wonderful;MS Office 2011 for Mac,positive,well worth---MS Office 2011 for Mac,positive,wonderful;MS Office 2011 for Mac,positive,well worth
+performance,negative,huge disappointment---performance,negative,huge disappointment
+look,positive,good;performance,positive,excellent---look,positive,good;performance,positive,excellent
+keys,positive,love---keys,positive,love
+Mountain Lion OS,positive,not hard---Mountain Lion OS,positive,not hard
+OSX,positive,FAST---OSX,positive,FAST
+Microsoft Office,positive,Enjoy---Microsoft Office,positive,Enjoy
+graphics,positive,Incredible---graphics,positive,Incredible
+Boot-in apps,positive,amazing---Built-in apps,positive,amazing
+speed,positive,easily---speed,positive,easily
+size,positive,like---size,positive,like
+squareTrade 3-Year Computer [Anamical Protection Warranty,neutral,Anamical---SquareTrade 3-Year Computer which Protection Warranty,neutral,which
+transport,positive,easy---transport,positive,easy
+Windows 8 Set-Up,negative,poorly designed---Windows 8 Set-Up,negative,poorly designed
+aluminum body,positive,stand out---aluminum body,positive,stand out
+bluetooth devices,positive,easy---bluetooth devices,positive,easy
+Intel4000 graphic chip,negative,underpowered---Intel4000 graphic chip,negative,underpowered
+DVD drive Firewire port,negative,removed;DVD drive Firewire port,negative,will work;SDXC slot,negative,silly---DVD drive Firewire port,negative,removed;DVD drive Firewire port,negative,will work;SDXC slot,negative,silly
+durability,positive,worth---durability,positive,worth
+use,positive,UNBELIEVABLE;use,positive,easy---use,positive,UNBELIEVABLE;use,positive,easy
+value,positive,great---value,positive,great
+specs,positive,good---specs,positive,good
+product [quality,positive,unmatched---product quality,positive,unmatched
+size,positive,great;windows 8,positive,amazing---size,positive,great;windows 8,positive,amazing
+Windows 8,positive,not like---Windows 8,positive,not like
+Startup times,negative,long---Startup times,negative,long
+colors,positive,stylish---colors,positive,Also
+price,positive,great;shipping,positive,free---price,positive,great;shipping,positive,free
+mouse,positive,terrific---mouse,positive,terrific
+battery,negative,thick---battery,negative,thick
+windows 7,positive,charm---windows 7,positive,charm
+price,positive,great;delivery,positive,great;service,positive,great---price,positive,great;delivery,positive,great;service,positive,great
+customer service,positive,great---customer service,positive,great
+windows 8,negative,hated---windows 8,negative,hated
+Set up,positive,brise---Set up,positive,breeze
+Win8,negative,NOT like---Win8,negative,NOT like
+price,negative,overbearing;support,negative,lack---price,negative,overbearing;support,negative,lack
+mobility,positive,nice---mobility,positive,nice
+set up,positive,easy---set up,positive,easy
+sound,positive,nice;sound,positive,loud---sound,positive,nice;sound,positive,loud
+track pad,positive,impressed---track pad,positive,impressed
+settings,negative,not user-friendly---settings,negative,not user-friendly
+OpenOffice,positive,Thank goodness---OpenOffice,positive,Thank goodness
+form factor,positive,Awesome;battery life,positive,great;UX,positive,wonderful---form factor,positive,Awesome;battery life,positive,great;UX,positive,wonderful
+keyboard,positive,love---keyboard,positive,love
+touchpad,negative,issues;touchpad,negative,useless---touchpad,negative,issues;touchpad,negative,useless
+service,positive,great---service,positive,great
+performance,positive,good;iPhoto,positive,great---performance,positive,good;iPhoto,positive,great
+hard drive,neutral,swap out---hard drive,neutral,swap out
+scratches,negative,easily---scratches,negative,easily
+components,negative,dirty---components,negative,dirty
+hardware,negative,problems---hardware,negative,problems
+battery,positive,nice---battery,positive,nice
+features,positive,new---features,positive,new
+keyboard,negative,not very sensitive---keyboard,negative,not very sensitive
+sound quality,negative,isnt superb---sound quality,negative,isnt superb
+navigate,positive,easy---navigate,positive,easy
+battery life,positive,wonderful---battery life,positive,wonderful
+Performance,positive,Great---Performance,positive,Great
+charging cables,negative,cheap---charging cables,negative,cheap
+works,positive,anticipated---works,positive,anticipated
+System,positive,great---System,positive,great
+customise,positive,Easy---customize,positive,Easy
+features,positive,good;price,positive,good;working,positive,well---features,positive,good;price,positive,good;working,positive,well
+operating system,positive,new---operating system,positive,new
+set up,positive,Easy---set up,positive,Easy
+hard drive,positive,quiet;hard drive,positive,quick---hard drive,positive,quiet;hard drive,positive,quick
+works,positive,fine;software,positive,well---works,positive,fine;software,positive,well
+performance,positive,great---performance,positive,great
+Harddrive,negative,poor---Harddrive,negative,poor
+on/off switch,negative,obscure---on/off switch,negative,obscure
+instructions,negative,lack---instructions,negative,lack
+integrated Intel 4000 graphics,positive,well---integrated Intel 4000 graphics,positive,well
+content creation,positive,mostly---content creation,positive,mostly
+Screen,positive,bright;Screen,positive,gorgeous---Screen,positive,bright;Screen,positive,gorgeous
+use,positive,friendly---use,positive,friendly
+use,positive,fast;use,positive,easy---use,positive,fast;use,positive,easy
+i5 processor,positive,speeds up---i5 processor,positive,speeds up
+built in features,positive,great---built in features,positive,great
+screen,positive,Nice;keyboard,positive,great---screen,positive,Nice;keyboard,positive,great
+delivery,positive,amazed---delivery,positive,amazed
+memory,negative,gone---memory,negative,gone
+works,positive,great---works,positive,great
+design,positive,like;use,positive,ease;ports,positive,plenty---design,positive,like;use,positive,ease;ports,positive,plenty
+service,positive,great---service,positive,great
+Web browsing,positive,quick---Web browsing,positive,quick
+lighted screen,positive,like---lighted screen,positive,like
+use,positive,easy;start up,positive,quick---use,positive,easy;start up,positive,quick
+operation,negative,slow---operation,negative,slow
+USB3 Peripherals,negative,noticably less expensive---USB3 Peripherals,negative,noticably less expensive
+media editing,positive,perfect---media editing,positive,perfect
+battery,positive,lasts;user experience,positive,elegant---battery,positive,lasts;user experience,positive,elegant
+shipment,positive,fast;price,positive,great---shipment,positive,fast;price,positive,great
+performance,positive,Excellent---performance,positive,Excellent
+size,positive,smaller;space,negative,limitations---size,positive,smaller;space,negative,restrictions
+Mac OS,negative,blame---Mac OS,negative,blame
+operating system,positive,like---operating system,positive,like
+form factor,positive,love---form factor,positive,love
+internet,positive,fast---internet,positive,fast
+looking,positive,faster;looking,positive,sleeker---looking,positive,faster;looking,positive,sleeker
+XP,negative,Unfortunately;XP,negative,dropping---XP,negative,Unfortunately;XP,negative,dropping
+OS,positive,easy;build,positive,great;keyboard,positive,best---OS,positive,easy;build,positive,great;keyboard,positive,best
+construction,positive,solid;system,positive,a bit---construction,positive,solid;system,positive,a bit
+unibody construction,positive,nice---unibody construction,positive,nice
+runs,positive,quiet;runs,positive,cool---runs,positive,quiet;runs,positive,cool
+disk drive,negative,doesn't know---disk drive,negative,does know
+HDMI receptacle,negative,no---HDMI receptacle,negative,no
+works,positive,perfectly---works,positive,perfectly
+design app,negative,don't have---design app,negative,n't have
+TRACKPAD,negative,NOT WORKING---TRACKPAD,negative,NOT WORKING
+looks,positive,solid;finish,positive,flawless---looks,positive,solid;finish,positive,flawless
+Price,negative,higher---Price,negative,higher
+system,negative,not power down---system,negative,not power down
+configuration,positive,perfect---configuration,positive,perfect
+speakers,negative,worst---speakers,negative,worst
+looks,positive,best;use,positive,easy;trackpad,positive,love---looks,positive,best;use,positive,easy;trackpad,positive,love
+Web surfuring,positive,smooth;Web surfuring,positive,seamless---Web surfuring,positive,smooth;Web surfuring,positive,seamless
+interface,positive,pleased---interface,positive,pleased
+works,positive,well;carry,positive,easy---works,positive,well;carry,positive,easy
+hardware,negative,slow;performance,negative,slow;battery lifetime,negative,shortening---hardware,negative,slow;performance,negative,slow;battery lifetime,negative,shortening
+Runs,positive,good---Runs,positive,good
+printer,negative,small---It,negative,small
+exterior,positive,beautiful---exterior,positive,exterior
+performance,positive,high---performance,positive,high
+stock,negative,old;design,negative,defective---stock,negative,old;design,negative,defective
+USB ports,negative,mistake---USB ports,negative,mistake
+size,positive,perfect---size,positive,perfect
+CUSTOMER SERVICE,negative,TERRIFIC---CUSTOMER SERVICE,negative,TERRIFIC
+battery cycle count,negative,ZERO;hardware,positive,perfectly---battery cycle count,negative,ZERO;hardware,positive,perfectly
+ finger swipes,negative,fancy--- finger swipes,negative,fancy
+storage,positive,big;screen,positive,nice---storage,positive,big;screen,positive,nice
+speaker quality,negative,lacking---speaker quality,negative,lacking
+Shipping,positive,quickly;Shipping,positive,safely---Shipped,positive,quickly;Shipped,positive,safely
+thunderbolt port,positive,awesome---thunderbolt port,positive,awesome
+performance,positive,superior---performance,positive,superior
+design,positive,like---design,positive,like
+Mac office,negative,small problems---Mac office,negative,small problems
+use,positive,easy---use,positive,easy
+Performance,positive,better---Performance,positive,better
+MagSafe accessories,negative,not work---MagSafe accessories,negative,not work
+touchpad,negative,dislike;mouse,negative,recommend---touchpad,negative,dislike;mouse,negative,recommend
+runs,positive,quiet---runs,positive,quiet
+transition,negative,difficulty---transition,negative,difficult
+price,positive,wonderful;price,positive,worth---price,positive,wonderful;price,positive,worth
+use,positive,ease;functionality,positive,please---use,positive,ease;functionality,positive,please
+graphic design classes,positive,Perfect---graphic design classes,positive,Perfect
+slot,negative,not be using---slot,negative,not be using
+OS,positive,fast;OS,positive,fluid---OS,positive,fast;OS,positive,fluid
+use,positive,simpler---use,positive,simpler
+SSD,positive,nice;SSD,positive,fast---SSD,positive,nice;SSD,positive,fast
+start up,positive,love---start up,positive,love
+functionality,positive,can not beat---functionality,positive,can not beat
+function,positive,properly---function,positive,properly
+Graphics,positive,improved---Graphics,positive,improved
+Build Quality,positive,trustworthy---Build Quality,positive,with
+flexibility,positive,more---flexibility,positive,more
+Mac tutorials,positive,help---Mac tutorials,positive,help
+technical support,negative,not helpful---technical support,negative,not helpful
+adapter,neutral,new---adapter,neutral,new
+sound,negative,crappy---sound,negative,crappy
+OSX Lion,positive,great;OSX Lion,positive,fast;OSX Lion,positive,reliable---OSX Lion,positive,great;OSX Lion,positive,fast;OSX Lion,positive,reliable
+application crash,neutral,never expected---application crash,neutral,never expected
+physical form,positive,wonderful---physical form,positive,wonderful
+Mini's body,positive,hasn't changed---Mini body,positive,has changed
+unibody construction,positive,solid---unibody construction,positive,solid
+3D rendering,negative,slows---3D rendering,negative,slows
+screen,positive,great---screen,positive,great
+ports,negative,necessary---ports,negative,needed
+Quad-Core 2.5 GHz CPU,positive,Like New---Quad-Core 2.5 GHz CPU,positive,Like New
+cover,neutral,better---cover,neutral,better
+gears,negative,unconsciously---hours,negative,unconsciously
+extender cable,neutral,neat;cable,positive,nice---extender cable,neutral,mac;cable,positive,nice
+2.9ghz dual-core i7 chip,positive,outdoes---2.9ghz dual-core i7 chip,positive,does
+Windows 8,negative,Not sure---Windows 8,negative,Not sure
+internal CD drive,negative,complaint---internal CD drive,negative,complaint
+hard drive,negative,no---hard drive,negative,no
+storage,positive,enough---storage,positive,enough
+audio volume,negative,low;audio volume,negative,unusable---audio volume,negative,low;audio volume,negative,unusable
+size,positive,perfect---size,positive,perfect
+MBP,positive,beautiful;MBP,positive,wonderful---MBP,positive,beautiful;MBP,positive,wonderful
+settings,neutral,fine---settings,neutral,fine
+Runs,positive,smoothly---Runs,positive,smoothly
+Boot-up,negative,slowed---Boot-up,negative,slowed
+word processing,positive,powerful---word processing,positive,powerful
+features,positive,like---features,positive,like
+Runs,positive,quick---Runs,positive,quick
+profile,negative,slim---profile,negative,slim
+WIFI capability,positive,required---WiFi capability,positive,required
+SD card reader,negative,recessed;SD card reader,negative,upside down;nail slot,negative,can not be accessed---SD card reader,negative,recessed;SD card reader,negative,upside down;nail slot,negative,can not be accessed
+brushed aluminum,positive,nice---brushed aluminum,positive,nice
+HDMI port,negative,No---HDMI port,negative,No
+Customization,negative,impossible---Customization,negative,impossible
+two finger clicking,neutral,intuitive---two finger clicking,neutral,intuitive
+SuperDrive,positive,quiet---SuperDrive,positive,quiet
+battery,negative,died---battery,negative,dead
+practicality,positive,like---practicality,positive,like
+OS,positive,great---OS,positive,great
+Price,negative,ridiculous;Price,negative,heavy---Price,negative,ridiculous;Price,negative,heavy
+USB 2 ports,negative,not have---USB 2 ports,negative,not have
+startup disk,negative,No---startup disk,negative,No
+word program,neutral,fast;word program,neutral,need---word program,neutral,fast;word program,neutral,need
+CD/DVD drive,neutral,bigger;power switch,neutral,bigger---CD/DVD drive,neutral,bigger;power switch,neutral,bigger
+Windows 7,negative,crashed;Windows 8,negative,not want---Windows 7,negative,crashed;Windows 8,negative,not want
+install,positive,Easy---install,positive,Easy
+packing,positive,Nice---packing,positive,Nice
+windows,negative,miss---windows,negative,miss
+iDVD,negative,no longer includes---iDVD,negative,no longer includes
+Windows 7,neutral,wanted---Windows 7,neutral,wanted
+Mac system,negative,uncomfortable---Mac system,negative,uncomfortable
+works,positive,works;software,positive,cool---works,positive,works;software,positive,cool
+works,positive,great---works,positive,great
+price,positive,Premium;OS,positive,more---price,positive,Premium;OS,positive,more
+touch pad,negative,fine---touch pad,negative,fine
+OS,positive,great;application,positive,shutdown;application,positive,reopen---OS,positive,great;application,positive,shutdown;application,positive,reopen
+battery,negative,not as shown---battery,negative,not as shown
+Shipping,positive,quick;Shipping,positive,product described---Shipping,positive,quick;Shipping,positive,product described
+retinal display display,positive,dropping---retina display display,positive,dropping
+computers,positive,compact---computing,positive,compact
+ventilation system,negative,broadly---ventilation system,negative,barely
+operating system files,negative,problem;operating system files,negative,corrupted---operating system files,negative,problem;operating system files,negative,corrupted
+keys,negative,struggle---keys,negative,struggle
+OS,neutral,new---OS,neutral,new
+MAC OS,positive,happier---MAC OS,positive,happier
+RAM,neutral,upgradeable---RAM,neutral,upgradeable
+Pro,neutral,proposed---Pro,neutral,wanted
+os.x,negative,worse---os.x,negative,worry
+softwares,positive,better---softwares,positive,better
+performance,positive,powerful---performance,positive,powerful
+built in screen size,neutral,not terribly important---built in screen size,neutral,not terribly important
+DVD slot,negative,no---DVD slot,negative,no
+features,negative,less---features,negative,less
+volume,negative,low;volume,negative,low---volume,negative,low;volume,negative,low
+case,positive,recommend---case,positive,recommend
+price,positive,amazing---price,positive,amazing
+process,negative,endlessly frustrating---process,negative,endlessly frustrating
+21 '' LED screen,neutral,smooth---21 '' LED screen,neutral,smooth
+case,negative,larger;external power supply,negative,small---case,negative,larger;external power supply,negative,small
+wireless mouse,neutral,great;pad,negative,hate;key board,negative,bigger---wireless mouse,neutral,great;pad,negative,hate;key board,negative,bigger
+features,positive,wanted---features,positive,wanted
+rubber pads,negative,dislike---rubber pads,negative,dislike
+price,positive,decent---price,positive,decent
+heat output,positive,low---heat output,positive,low
+built-in mic,negative,not have;Mac OS 10.9,negative,not handle;external microphones,negative,not handle properly---built-in mic,negative,not have;Mac OS 10.9,negative,not handle;external microphones,negative,not handle properly
+features,neutral,never exposed---features,neutral,never exposed
+IOS system,positive,unique;IOS system,positive,different---IOS system,positive,unique;IOS system,positive,different
+resolution,positive,higher;faces,negative,small---resolution,positive,higher;has,negative,small
+features,positive,easier;features,positive,cool---features,positive,easier;features,positive,cool
+brightness,positive,like---brightness,positive,like
+CD/DVD player,negative,wish---CD/DVD player,negative,wish
+backlit keys,negative,miss---backlit keys,negative,miss
+memory,positive,enough---memory,positive,enough
+battery life,positive,excellent;display,positive,excellent---battery life,positive,excellent;display,positive,excellent
+screen,positive,smoothness---screen,positive,smoothness
+bass,negative,weak;sound,negative,tinny---bass,negative,weak;sound,negative,tinny
+built quality,positive,good---built quality,positive,good
+performance,positive,loving;performance,positive,fast---performance,positive,loving;performance,positive,fast
+Bluetooth interface,negative,sloppy;range,negative,poor---Bluetooth interface,negative,sloppy;range,negative,poor
+RAM,negative,gripe---RAM,negative,gripe
+touch screen,neutral,Fine---touch screen,neutral,Fine
+built,positive,well;battery life,positive,AWESOME---built,positive,well;battery life,positive,AMAZING
+OS,positive,easy;OS,positive,surprises---OS,positive,easy;OS,positive,surprises
+feature,positive,better---feature,positive,better
+iTunes,positive,like;graphics stuff,positive,nice---iTunes,positive,like;graphics stuff,positive,nice
+spinning hard disk,neutral,replacing---spinning hard disk,neutral,replacing
+HDMI,negative,issues;flashware patch,neutral,issues---HDMI,negative,issues;firmware patch,neutral,issues
+specs,positive,best---specs,positive,best
+mother boards,negative,issues---mother boards,negative,issues
+Mother Board,negative,problems;Mother Board,negative,faulty---Mother Board,negative,problems;Mother Board,negative,faulty
+4G of RAM,neutral,best;performs,positive,better---4G of RAM,neutral,but;performs,positive,better
+virtual home schooling,positive,awesome---virtual home schooling,positive,awesome
+Cost,negative,more---Cost,negative,more
+operating system,positive,excellent;durability,positive,excellent;trackpad,positive,unmatched---operating system,positive,excellent;durability,positive,excellent;trackpad,positive,unmatched
+hardware,positive,better---hardware,positive,better
+software,neutral,no---software,neutral,no
+disc drive,negative,not have---disc drive,negative,not have
+res,negative,low---res,negative,low
+Boot time,positive,fast---Boot time,positive,fast
+tech support,negative,not fix---tech support,negative,not fix
+Set up,positive,easy---Set up,positive,easy
+Windows 8,negative,dislike---Windows 8,negative,Did
+internal speakers,negative,lousy---internal speakers,negative,lousy
+use,positive,simple---use,positive,simple
+Works,positive,well---Works,positive,well
+features,positive,make up---features,positive,make up
+log on,positive,fast;WIFI connection,positive,speedy;battery life,positive,long---log on,positive,fast;WiFi connection,positive,speedy;battery life,positive,long
+delete key,negative,delete key---delete key,negative,delete key
+interneting,negative,difficult---interneting,negative,difficult
+priced,positive,right---priced,positive,right
+track pad,negative,not very good---track pad,negative,not very good
+graphics,positive,outstanding---graphics,positive,outstanding
+mountain lion,negative,slow---mountain lion,negative,slow
+build,positive,strong---build,positive,Strong
+battery life,positive,excellent---battery life,positive,excellent
+works,positive,perfectly---works,positive,perfectly
+Windows 8,positive,liking---Windows 8,positive,liking
+baterry,negative,longer---baterry,negative,longer
+size,positive,ideal;size,positive,acceptable---size,positive,ideal;size,positive,acceptable
+performance,positive,satisfied---performance,positive,satisfied
+speed,positive,more;screen,positive,sharp---speed,positive,more;screen,positive,sharp
+price,positive,great---price,positive,great
+Hardware performance,positive,impressive---Hardware performance,positive,impressive
+set up,positive,easy---set up,positive,easy
+Keyboard,positive,well---Keyboard,positive,well
+Windows 8,negative,annoying---Windows 8,negative,annoying
+set up,positive,easy;set up,positive,intuitive---so is,positive,easy;so is,positive,intuitive
+Windows 8,negative,Complaint---Windows 8,negative,complaint
+usb ports,negative,limited---usb ports,negative,limited
+features,positive,expected;screen,positive,wide;keyboard,positive,roomy---features,positive,expected;screen,positive,wide;keyboard,positive,roomy
+Performance,positive,Amazing---Performance,positive,Amazing
+quality,positive,superlatives---quality,positive,superlatives
+OS,positive,happy---OS,positive,happy
+portability,positive,great---portability,positive,great
+criticism,negative,waned---criticism,negative,waned
+MS Office 2011 for Mac,positive,wonderful;MS Office 2011 for Mac,positive,well worth---MS Office 2011 for Mac,positive,wonderful;MS Office 2011 for Mac,positive,well worth
+performance,negative,huge disappointment---performance,negative,huge disappointment
+look,positive,good;performance,positive,excellent---look,positive,good;performance,positive,excellent
+keys,positive,love---keys,positive,love
+Mountain Lion OS,positive,not hard---Mountain Lion OS,positive,not hard
+OSX,positive,FAST---OSX,positive,FAST
+Microsoft Office,positive,Enjoy---Microsoft Office,positive,Enjoy
+graphics,positive,Incredible;colors,positive,brillant---graphics,positive,Incredible;colors,positive,brilliant
+Bind-in apps,positive,amazing---Built-in apps,positive,amazing
+speed,positive,easily---speed,positive,easily
+size,positive,like---size,positive,like
+squareTrade 3-Year Computer,neutral,NOT covered---SquareTrade 3-Year Computer,neutral,NOT covered
+transport,positive,easy---transport,positive,easy
+Windows 8 Set-Up,negative,poorly designed---Windows 8 Set-Up,negative,poorly designed
+aluminum body,positive,stands out---aluminum body,positive,stand out
+integrate,positive,easy;USB devices,positive,recognized almost instantly---integrate,positive,easy;USB devices,positive,recognized almost instantly
+Intel4000 graphic chip,negative,underpowered---Intel4000 graphic chip,negative,underpowered
+DVD drive Firewire port,negative,removed;SDXC slot,negative,stupid---DVD drive Firewire port,negative,removed;SDXC slot,negative,Apple
+durability,positive,durability---durability,positive,durability
+use,positive,UNBELIEVABLE;use,positive,easy---use,positive,UNBELIEVABLE;use,positive,easy
+value,positive,great---value,positive,great
+specs,positive,good---specs,positive,good
+product [quality,positive,unmatched---product quality,positive,unmatched
+size,positive,great;windows 8,positive,amazing---size,positive,great;windows 8,positive,amazing
+Windows 8,neutral,not like---Windows 8,neutral,not like
+Startup times,negative,long---Startup times,negative,long
+colors,positive,stellar;transactions,positive,speedy---colors,positive,speedy;stunning,positive,speedy
+price,positive,great;shipping,positive,free---price,positive,great;shipping,positive,free
+mouse,positive,terrific---mouse,positive,terrific
+battery,negative,thin---battery,negative,thick
+windows 7,positive,charm---windows 7,positive,charm
+price,positive,great;delivery,positive,great;service,positive,great---price,positive,great;delivery,positive,great;service,positive,great
+customer service,positive,great---customer service,positive,great
+windows 8,negative,hated---windows 8,negative,hated
+Set up,positive, breeze---Set up,positive, breeze
+Win8,negative,NOT like---Win8,negative,NOT like
+price,negative,price;OSX,negative,overbearing;support,negative,lack---price,negative,price;OSX,negative,overbearing;support,negative,lack
+set up,positive,easy---set up,positive,easy
+sound,positive,nice;sound,positive,loud---sound,positive,nice;sound,positive,loud
+track pad,positive,impressed---track pad,positive,impressed
+settings,negative,not user-friendly---settings,negative,not user-friendly
+OpenOffice,positive,Thank goodness---OpenOffice,positive,Thank goodness
+form factor,positive,Awesome;battery life,positive,great;UX,positive,wonderful---form factor,positive,Awesome;battery life,positive,great;UX,positive,wonderful
+keyboard,positive,love---keyboard,positive,love
+touchpad,negative,issues;touchpad,negative,useless---touchpad,negative,issues;touchpad,negative,useless
+service,positive,great---service,positive,great
+performance,positive,good;built-in applications,positive,great---performance,positive,good;built-in applications,positive,great
+hard drive,neutral,swap---hard drive,neutral,swap
+components,negative,dirty---components,negative,dirty
+hardware,negative,bad---hardware,negative,bad
+battery,positive,nice;battery,positive,long---battery,positive,nice;battery,positive,long
+features,positive,new---features,positive,new
+keyboard,negative,not very sensitive---keyboard,negative,not very sensitive
+sound quality,negative,isnt superb---sound quality,negative,isnt superb
+navigate,positive,easy---navigate,positive,easy
+battery life,positive,wonderful---battery life,positive,wonderful
+performance,positive,Great---Performance,positive,Great
+charging cables,negative,cheap---charging cables,negative,cheap
+works,positive,as anticipated---works,positive,as anticipated
+System,positive,great---System,positive,great
+setting,positive,Easy---setting,positive,Easy
+features,positive,good---features,positive,good
+operating system,positive,new---operating system,positive,new
+set up,positive,Easy---set up,positive,Easy
+hard drive,positive,quiet;hard drive,positive,quick---hard drive,positive,quiet;hard drive,positive,quick
+working,positive,quick;working,positive,responsive---working,positive,quick;working,positive,responsive
+works,positive,fine;software,positive,well---works,positive,fine;software,positive,well
+performance,positive,great---performance,positive,great
+Harddrive,negative,poor---Harddrive,negative,poor
+on/off switch,negative,obscure---on/off switch,negative,obscure
+instructions,negative,lack---instructions,negative,lack
+gaming,negative,not be good enough;integrated Intel 4000 graphics,positive,well---gaming,negative,not be good enough;integrated Intel 4000 graphics,positive,well
+Audio,positive,reliable---Audio,positive,reliable
+Screen,positive,bright;Screen,positive,gorgeous---Screen,positive,bright;Screen,positive,gorgeous
+use,positive,friendly---use,positive,friendly
+use,positive,fast;use,positive,easy---use,positive,fast;use,positive,easy
+i5 processor,positive,speeds---i5 processor,positive,speeds
+built in features,positive,great---built in features,positive,great
+screen,positive,Nice;keyboard,positive,great---screen,positive,Nice;keyboard,positive,great
+delivery,positive,fast---delivery,positive,fast
+memory,negative,gone;memory,negative,not able---memory,negative,gone;memory,negative,not able
+works,positive,great---works,positive,great
+design,positive,like;use,positive,ease;ports,positive,plenty---design,positive,like;use,positive,ease;ports,positive,plenty
+service,positive,great---service,positive,great
+Web browsing,positive,quick---Web browsing,positive,quick
+screen,positive,like---screen,positive,like
+use,positive,easy;start up,positive,quick---use,positive,easy;start up,positive,quick
+operation,negative,slow---operation,negative,slow
+USB3 Peripherals,negative,less expensive---USB3 Peripherals,negative,less expensive
+media editing,positive,perfect---media editing,positive,perfect
+battery,positive,lasts;user experience,positive,elegant---battery,positive,lasts;user experience,positive,elegant
+shipment,positive,fast;price,positive,great---shipment,positive,fast;price,positive,great
+performance,positive,Excellent---performance,positive,Excellent
+size,positive,smaller---size,positive,smaller
+Mac OS,negative,blame---Mac OS,negative,blame
+operating system,positive,like---operating system,positive,like
+form factor,positive,love---form factor,positive,love
+loading,positive,fast---loading,positive,fast
+looking,positive,faster;looking,positive,sleeker---looking,positive,faster;looking,positive,sleeker
+XP,negative,Unfortunately;support,negative,dropping---XP,negative,Unfortunately;support,negative,dropping
+OS,positive,easy;build,positive,great;keyboard,positive,best---OS,positive,easy;build,positive,great;keyboard,positive,best
+construction,positive,solid;system,neutral,bit---construction,positive,solid;system,neutral,bit
+unibody construction,positive,nice---unibody construction,positive,nice
+runs,positive,quiet;runs,positive,cool---runs,positive,quiet;runs,positive,cool
+disk drive,negative,doesn't have---disk drive,negative,does have
+HDMI receptacle,negative,no;SD card slot,negative,no---HDMI receptacle,negative,no;SD card slot,negative,no
+works,positive,perfectly---works,positive,perfectly
+design app,negative,don't have---design app,negative,n't have
+TRACKPAD,negative,NOT WORKING---TRACKPAD,negative,NOT WORKING
+looks,positive,solid;finish,positive,flawless---looks,positive,solid;finish,positive,flawless
+Price,negative,higher---Price,negative,higher
+system,negative,not power down---system,negative,not power down
+configuration,positive,perfect---configuration,positive,perfect
+speakers,negative,worst---speakers,negative,worst
+looks,positive,easy;use,positive,easy;trackpad,positive,love---looks,positive,easy;use,positive,easy;trackpad,positive,love
+Web surfuring,positive,smooth;Web surfuring,positive,seamless---Web surfuring,positive,smooth;Web surfuring,positive,seamless
+interface,positive,pleased---interface,positive,pleased
+works,positive,well;carry,positive,easy---works,positive,well;carry,positive,easy
+hardware,negative,suffered;performance,negative,slow;battery lifetime,negative,shortening---hardware,negative,suffering;performance,negative,slow;battery lifetime,negative,shortening
+Runs,positive,good---Runs,positive,good
+printer,negative,small---It,negative,small
+exterior,positive,gorgeous---exterior,positive,gorgeous
+performance,positive,high---performance,positive,high
+design,negative,defective---design,negative,defective
+USB ports,neutral,mistake---USB ports,neutral,mistake
+size,positive,perfect---size,positive,perfect
+CUSTOMER SERVICE,negative,TERRIFIC---CUSTOMER SERVICE,negative,TERRIFIC
+battery cycle count,positive,ZERO;hardware,positive,perfectly---battery cycle count,positive,ZERO;hardware,positive,perfectly
+ finger swipes,positive,fancy;mouse,neutral,mouse--- finger swipes,positive,fancy;mouse,neutral,mouse
+storage,positive,big;screen,positive,nice;photoshop,positive,without any problem---storage,positive,big;screen,positive,nice;photoshop,positive,without any problem
+speaker quality,negative,lacking---speaker quality,negative,lacking
+Shipped,positive,quickly;Shipped,positive,safely---Shipped,positive,quickly;Shipped,positive,safely
+thunderbolt port,positive,awesome---thunderbolt port,positive,awesome
+performance,positive,superior---performance,positive,superior
+streaming video,positive,great---streaming video,positive,great
+design,positive,like---design,positive,like
+Mac office,negative,problems---Mac office,negative,problems
+use,positive,easy---use,positive,easy
+Performance,positive,better---Performance,positive,better
+MagSafe accessories,negative,not work---MagSafe accessories,negative,not work
+touchpad,negative,dislike;touchpad,negative,unresponsive;mouse,negative,recommend---touchpad,negative,dislike;touchpad,negative,unresponsive;mouse,negative,recommend
+runs,positive,quiet;fans,negative,not audible---runs,positive,quiet;fans,negative,n't audible
+price,positive,wonderful;price,positive,worth---price,positive,wonderful;price,positive,worth
+use,positive,ease---use,positive,ease
+slot,negative,not be using---slot,negative,not be using
+OS,positive,fast;OS,positive,fluid---OS,positive,fast;OS,positive,fluid
+use,positive,simpler---use,positive,simpler
+start up,positive,love;start up,positive,quick---start up,positive,love;start up,positive,quick
+functionality,positive,can not beat---functionality,positive,can not beat
+function,positive,properly---function,positive,properly
+Graphics,positive,improved---Graphics,positive,improved
+flexibility,positive,more---flexibility,positive,more
+Mac tutorials,positive,help---Mac tutorials,positive,help
+technical support,negative,not helpful---technical support,negative,not helpful
+adapter,neutral,new---adapter,neutral,new
+sound,negative,crappy---sound,negative,crappy
+OSX Lion,positive,great performer;OSX Lion,positive,fast;OSX Lion,positive,reliable---OSX Lion,positive,great performer;OSX Lion,positive,fast;OSX Lion,positive,reliable
+physical form,positive,wonderful---physical form,positive,wonderful
+Mini's body,positive,hasn't changed---Mini body,positive,has changed
+unibody construction,positive,solid---unibody construction,positive,solid
+3D rendering,negative,slows---3D rendering,negative,slows
+screen,positive,fast;screen,positive,great;apps,positive,beautiful---screen,positive,fast;screen,positive,great;apps,positive,beautiful
+ports,negative,necessary---ports,negative,needed
+Quad-Core 2.5 GHz CPU,positive,Like New---Quad-Core 2.5 GHz CPU,positive,Like New
+cover,neutral,better---cover,neutral,better
+gestures,negative,unconsciously---gestures,negative,unconsciously
+extensioner cable,neutral,nice---extender cable,neutral,nice
+2.9ghz dual-core i7 chip,positive,outdoes---2.9ghz dual-core i7 chip,positive,does
+Windows 8,negative,Not sure---Windows 8,negative,Not sure
+CD drive,negative,complaint---CD drive,negative,complaint
+hard drive,negative,no---hard drive,negative,no
+storage,positive,enough---storage,positive,enough
+audio volume,negative,low;audio volume,negative,unusable---audio volume,negative,low;audio volume,negative,unusable
+size,positive,perfect---size,positive,perfect
+capabilities,positive,wonderful---capabilities,positive,wonderful
+settings,positive,fine---settings,positive,fine
+Runs,positive,smoothly---Runs,positive,smoothly
+Boot-up,negative,slowed significantly---Boot-up,negative,slowed significantly
+word processing,positive,powerful---word processing,positive,powerful
+features,positive,like;features,positive,right mouse click menu---features,positive,like;features,positive,right mouse click menu
+Runs,positive,quick---Runs,positive,quick
+profile,negative,slimmy---profile,negative,slim
+WIFI capability,positive,required---WiFi capability,positive,required
+SD card reader,negative,recessed;SD card reader,negative,upside down;nail slot,negative,can not be accessed---SD card reader,negative,recessed;SD card reader,negative,upside down;nail slot,negative,can not be accessed
+anodized aluminum,positive,Soft touch;anodized aluminum,positive,no flaws---anodized aluminum,positive,Soft touch;anodized aluminum,positive,no flaws
+HDMI port,negative,No---HDMI port,negative,No
+Customization,negative,imposible---Customization,negative,impossible
+right click button,neutral,intuitive---right click button,neutral,intuitive
+SuperDrive,positive,quiet---SuperDrive,positive,quiet
+battery,negative,died---battery,negative,dead
+practicality,positive,practical---practicality,positive,practical
+OS,positive,great---OS,positive,great
+Price,negative,ridiculous;Price,negative,heavy---Price,negative,ridiculous;Price,negative,heavy
+USB 2 ports,negative,not have---USB 2 ports,negative,not have
+startup disk,negative,not included---startup disk,negative,not included
+word program,neutral,fast---word program,neutral,fast
+CD/DVD drive,negative,needs;power switch,negative,bigger---CD/DVD drive,negative,Needs;power switch,negative,bigger
+Windows 7,negative,crashed;Windows 8,negative,not want---Windows 7,negative,crashed;Windows 8,negative,not want
+install,positive,Easy;ADSl cable,positive,easy---install,positive,Easy;ADSl cable,positive,easy
+packing,positive,Nice---packing,positive,Nice
+windows,negative,miss---windows,negative,miss
+iDVD,negative,no longer---iDVD,negative,no longer
+Windows 7,neutral,wanted---Windows 7,neutral,wanted
+Mac system,negative,uncomfortable---Mac system,negative,uncomfortable
+works,positive,out of the box;software,positive,cool---works,positive,out of the box;software,positive,cool
+price,positive,Premium---price,positive,Premium
+touch pad,negative,fine---touch pad,negative,fine
+OS,positive,not become unstable---OS,positive,not become unstable
+battery,negative,not as shown---battery,negative,not as shown
+Shipping,positive,quick---Shipping,positive,quick
+retina display display,positive,dropping---retina display display,positive,dropping
+computering,positive,compact---computing,positive,compact
+operating system files,negative,corrupted---operating system files,negative,corrupted
+keys,negative,struggle---keys,negative,struggle
+OS,negative,new---OS,negative,new
+MAC OS,positive,happy---MAC OS,positive,have
+RAM,neutral,upgradeable---RAM,neutral,upgradeable
+CD/DVD player,neutral,pro---CD/DVD player,neutral,Pro
+os.x,negative,second nature---os.x,negative,second nature
+softwares,positive,better---softwares,positive,better
+performance,positive,powerful;performance,positive,convenient---performance,positive,powerful;performance,positive,convenient
+built in screen size,positive,not terribly important---built in screen size,positive,not terribly important
+DVD slot,negative,no---DVD slot,negative,no
+features,negative,less---features,negative,less
+volume,negative,low;volume,negative,low---volume,negative,low;volume,negative,low
+case,positive,recommend---case,positive,recommend
+price,positive,amazing---price,positive,amazing
+system,neutral,frustrating;process,negative,endlessly frustrating---system,neutral,frustrating;process,negative,endlessly frustrating
+SSD,neutral,smooth---SSD,neutral,smooth
+case,negative,larger;external power supply,negative,lack;size,negative,small---case,negative,larger;external power supply,negative,lack;size,negative,small
+wireless mouse,neutral,great;key board,neutral,more---wireless mouse,neutral,great;key board,neutral,mouse
+features,positive,wanted---features,positive,wanted
+rubber pads,negative,dislike---rubber pads,negative,dislike
+price,positive,decent---price,positive,decent
+heat output,positive,low---heat output,positive,low
+built-in mic,negative,not have;Mac OS 10.9,negative,not handle---built-in mic,negative,not have;Mac OS 10.9,negative,not handle
+features,positive,never exposed---features,positive,never exposed
+IOS system,positive,unique;IOS system,positive,different---IOS system,positive,unique;IOS system,positive,different
+resolution,positive,higher;faces,negative,small---resolution,positive,higher;has,negative,small
+features,positive,easier;features,positive,cool---features,positive,easier;features,positive,cool
+brightness,positive,like---brightness,positive,like
+CD/DVD player,negative,wish---CD/DVD player,negative,wish
+backlit keys,negative,miss---backlit keys,negative,miss
+Microsoft Word,negative,happy---Microsoft Word,negative,happy
+memory,positive,enough---memory,positive,enough
+battery life,positive,excellent;display,positive,excellent;downloading apps,positive, breeze---battery life,positive,excellent;display,positive,excellent;downloading apps,positive, breeze
+screen,positive,smoothness---screen,positive,smoothness
+bass,negative,weak;sound,negative,tinny---bass,negative,weak;sound,negative,tinny
+built quality,positive,good---built quality,positive,good
+performance,positive,loving;performance,positive,fast---performance,positive,loving;performance,positive,fast
+Bluetooth interface,negative,sloppy;range,negative,poor---Bluetooth interface,negative,sloppy;range,negative,poor
+RAM,negative,gripe;RAM,negative,more---RAM,negative,gripe;RAM,negative,more
+touch screen,positive,Fine---touch screen,positive,Fine
+battery life,positive,ABABILITIVE---battery life,positive,AMAZING
+OS,positive,easy;OS,positive,surprises---OS,positive,easy;OS,positive,surprises
+feature,positive,better---feature,positive,better
+iTunes,positive,like;Mini form factor,positive,Mini form factor;graphics stuff,positive,nice---iTunes,positive,like;Mini form factor,positive,Mini form factor;graphics stuff,positive,nice
+spinning hard disk,neutral,flying---spinning hard disk,neutral,flying
+flasher patch,positive,issues---issues patch,positive,issues
+specs,positive,best---specs,positive,best
+packing,positive,perfect---packing,positive,perfect
+mother boards,negative,issues---mother boards,negative,issues
+Mother Board,negative,problems;Mother Board,negative,faulty---Mother Board,negative,problems;Mother Board,negative,faulty
+4G of RAM,neutral,better---4G of RAM,neutral,better
+virtual home schooling,positive,awesome---virtual home schooling,positive,awesome
+Cost,negative,more---Cost,negative,more
+operating system,positive,excellent;battery,positive,excellent;functions,positive,unmatched---operating system,positive,excellent;battery,positive,excellent;functions,positive,unmatched
+hardware,positive,better---hardware,positive,better
+software,positive,no issues---software,positive,no issues
+disc drive,negative,not have---disc drive,negative,not have
+res,negative,low---res,negative,low

@@ -10,3 +10,21 @@ aste on 14lap under annotation; Train bs=4, num_epochs = 20
 Raw   F1 = 0.5882, precision = 0.6289, recall = 0.5525
 Fixed F1 = 0.6157, precision = 0.6583, recall = 0.5783 
 
+============================================================
+Tue Apr 12 06:37:49 2022 seed 48
+aste on 14lap under prompt; Train bs=4, num_epochs = 20
+Raw   F1 = 0.5572, precision = 0.5871, recall = 0.5302
+Fixed F1 = 0.5776, precision = 0.6086, recall = 0.5496 
+
+============================================================
+Tue Apr 12 07:17:54 2022
+aste on 14lap under prompt; Train bs=4, num_epochs = 20
+Raw   F1 = 0.5763, precision = 0.6167, recall = 0.5409
+Fixed F1 = 0.5993, precision = 0.6413, recall = 0.5625 
+
+============================================================
+Tue Apr 12 07:57:11 2022
+aste on 14lap under prompt; Train bs=4, num_epochs = 20
+Raw   F1 = 0.5642, precision = 0.6029, recall = 0.5302
+Fixed F1 = 0.5872, precision = 0.6275, recall = 0.5517 
+

@@ -17,8 +17,32 @@ Raw   F1 = 0.5898, precision = 0.6018, recall = 0.5783
 Fixed F1 = 0.6231, precision = 0.6357, recall = 0.6109 
 
 ============================================================
-Sun Apr 10 22:51:44 2022
+Sun Apr 10 22:51:44 2022 seed 36
 aste on 15res under prompt; Train bs=4, num_epochs = 20
 Raw   F1 = 0.5936, precision = 0.6050, recall = 0.5826
 Fixed F1 = 0.6179, precision = 0.6298, recall = 0.6065 
+
+============================================================
+Mon Apr 11 21:36:46 2022 seed 39
+aste on 15res under prompt; Train bs=4, num_epochs = 20
+Raw   F1 = 0.5923, precision = 0.6145, recall = 0.5717
+Fixed F1 = 0.6149, precision = 0.6379, recall = 0.5935 
+
+============================================================
+Mon Apr 11 22:13:33 2022 seed 45
+aste on 15res under prompt; Train bs=4, num_epochs = 20
+Raw   F1 = 0.5980, precision = 0.5961, recall = 0.6000
+Fixed F1 = 0.6284, precision = 0.6263, recall = 0.6304 
+
+============================================================
+Mon Apr 11 22:48:42 2022 seed 48
+aste on 15res under prompt; Train bs=4, num_epochs = 20
+Raw   F1 = 0.6047, precision = 0.6163, recall = 0.5935
+Fixed F1 = 0.6423, precision = 0.6546, recall = 0.6304 
+
+============================================================
+Mon Apr 11 23:25:17 2022 seed 52
+aste on 15res under prompt; Train bs=4, num_epochs = 20
+Raw   F1 = 0.5902, precision = 0.6050, recall = 0.5761
+Fixed F1 = 0.6147, precision = 0.6301, recall = 0.6000 
 
