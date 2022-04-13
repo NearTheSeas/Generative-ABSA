@@ -1,0 +1,750 @@
+Windows 8,negative,Did not enjoy
+Windows 8,negative,not enjoy
+
+click pads,negative,not being a fan;internal speakers,negative,lousy
+internal speakers,negative,lousy
+
+features,positive,make up
+features,positive,not light and slim
+
+log on,positive,fast;WIFI connection,positive,speedy;battery life,positive,long
+log on,positive,pleased;log on,positive,fast
+
+delete key,negative,delete key
+delete key,negative,not yet discovered
+
+interneting,negative,difficulty
+interneting,negative,difficult
+
+build,positive,strong;durability,positive,adds
+durability,positive,Strong
+
+speed,positive,more;screen,positive,sharp
+speed,positive,much more;screen,positive,sharp
+
+Keyboard,positive,well
+Keyboard,positive,responds well
+
+Windows 8,negative,Biggest
+Windows 8,negative,complaint
+
+performance,negative,huge disappointment
+performance,negative,disappointment
+
+keys,positive,love
+lit up keys,positive,love;lit up keys,positive,Fast;lit up keys,positive,clear
+
+Boot-in apps,positive,amazing
+Built-in apps,positive,amazing
+
+speed,positive,easily
+operating system,positive,beats
+
+Acadial Protection Warranty,neutral,acadial
+SquareTrade 3-Year Computer Accidental Protection Warranty,positive,support;AppleCare,negative,NOT covered
+
+aluminum body,positive,stands out
+aluminum body,positive,stand out
+
+integrate,positive,easy;USB devices,positive,recognized almost instantly
+integrate bluetooth devices,positive,easy;USB devices,positive,instantly
+
+use,positive,UNBELIEVABLE;use,positive,easy
+use,positive,easy
+
+quality,positive,unmatched
+product quality,positive,unmatched
+
+Startup times,positive,long
+Startup times,negative,long
+
+battery,negative,thin
+battery,neutral,thick
+
+Set up,positive,brise
+Set up,positive,breeze
+
+price,negative,overbearing;support,negative,lack of
+OSX,negative,overbearing;support for games,negative,lack
+
+OpenOffice,positive,Thank goodness
+OpenOffice,positive,goodness
+
+hard drive,neutral,swap out
+Samsung 830 SSD,positive,recommend
+
+crashes,positive,easily
+aluminum,negative,scratches easily
+
+hardware,negative,problems;hardware,negative,bad
+hardware,negative,bad
+
+restore disks,negative,NOT come with;charging cables,negative,cheap
+material,negative,cheap
+
+new os,positive,great
+os,positive,great
+
+customize,positive,Easy
+customize setting,positive,Easy
+
+features,positive,good;working,positive,well
+price,positive,good;working,positive,well
+
+hard drive,negative,quiet;hard drive,negative,quick
+hard drive,positive,quiet;boots up,positive,quick
+
+surfing,positive,pleasurable
+working,positive,pleasurable
+
+performance,positive,great
+performance,neutral,great
+
+Intel 4000 graphics,positive,well
+gaming,negative,not be good
+
+photo editing,positive,reliable
+Audio,positive,reliable
+
+built in features,positive,great
+built in features,positive,great help
+
+memory,negative,gone;memory,negative,not able
+memory,negative,gone;memory,negative,not able to be used
+
+design,positive,like;use,positive,ease;ports,positive,plenty
+design,positive,like;ports,positive,plenty
+
+battery,positive,lasts;user experience,positive,elegant
+user experience,positive,elegant
+
+loading,positive,fast
+loading the internet,positive,fast
+
+dropping support,negative,dropping
+XP,neutral,Unfortunately
+
+MBP,positive,like;OS,positive,easy;build,positive,great;keyboard,positive,best
+OS,positive,like;OS,positive,easy;overall build,positive,great;keyboard,positive,best
+
+disk drive,negative,doesn't have
+disk drive,neutral,doesn't have
+
+HDMI receptacle,negative,no;SD card slot,negative,located
+HDMI receptacle,neutral,no;SD card slot,neutral,nor
+
+design app,negative,don't have
+design app,neutral,don't have
+
+looks,positive,best;use,positive,easy
+use,positive,easy;trackpad,positive,love
+
+print,negative,small
+footprint,positive,small
+
+design,negative,defective
+intel 4000 graphics chipset,neutral,defective
+
+CUSTOMER SERVICE,negative,TERRIFIC
+CUSTOMER SERVICE,positive,TERRIFIC
+
+ finger swipes,negative,fancy
+finger swipes,negative,fancy
+
+storage,positive,big;screen,positive,nice
+storage,neutral,big;screen,neutral,nice
+
+Mac office,negative,small problems
+Mac office,negative,problems
+
+MagSafe accessories,negative,not work
+MagSafe accessories,neutral,not work
+
+touchpad,negative,dislike;mouse,negative,recommend
+touchpad,negative,dislike;touchpad,negative,unresponsive;mouse,neutral,recommend
+
+new Mac ecosystem,neutral,new
+Mac ecosystem,neutral,take some time
+
+graphic design classes,positive,Perfect
+graphic design,positive,Perfect
+
+Build Quality,positive,Crisp
+Build Quality,positive,confident;unibody construction,positive,can't beat
+
+flexibility,positive,more
+flexibility for connectivity,positive,more
+
+Logic board,negative,utterly fried
+Logic board,positive,utterly fried;Logic board,positive,cried;Logic board,positive,laid down;Logic board,positive,died
+
+application,negative,crashe
+application,negative,crash
+
+3D rendering,negative,slows it down considerably
+3D rendering,negative,slows it down
+
+ports,negative,much needed
+ports,neutral,much needed
+
+Quad-Core 2.5 GHz CPU,positive,Like New
+package,positive,neat;package,positive,nice
+
+cover,positive,better
+cover,neutral,a little better;cover,neutral,complaint
+
+gears,negative,unconsciously
+gestures,positive,unconsciously
+
+external cable,neutral,nice
+cable,positive,nice
+
+Windows 8,negative,Not sure
+Windows 8,neutral,Not sure
+
+hard drive,negative,no
+hard drive,neutral,no
+
+storage,positive,enough;ports,positive,many
+storage,positive,enough
+
+settings,positive,fine
+settings,neutral,fine
+
+Boot-up,negative,slowed significantly
+Boot-up,negative,slowed
+
+features,positive,like
+setup,positive,like;setup,positive,easy
+
+WIFI capability,neutral,required
+disk drive,positive,required
+
+SD card reader,negative,recessed;SD card reader,negative,upside down;nail slot,negative,can not be accessed
+SD card reader,negative,recessed;SD card reader,negative,upside down;nail slot on the card,negative,can not be accessed;slot,negative,issue
+
+anodized aluminum,positive,Soft
+touch,positive,Soft;anodized aluminum,positive,precision;anodized aluminum,positive,no flaws
+
+details,positive,simple;aluminum,positive,crafted
+aluminium,positive,crafted;glass,positive,blow away
+
+brushed aluminum,positive,nice
+aluminum,positive,nice
+
+HDMI port,negative,No
+HDMI port,neutral,No
+
+two finger clicking,positive,intuitive
+two finger clicking,positive,surprisingly;right click button,neutral,intuitive
+
+battery,negative,died
+battery,negative,dead
+
+practicality,positive,practicality
+practicality,positive,like
+
+USB 2 ports,negative,not have
+USB 2 ports,neutral,not have
+
+startup disk,negative,No
+startup disk,neutral,No;startup disk,neutral,not included;startup disk,neutral,fault
+
+word program,neutral,fast
+word program,negative,except for
+
+CD/DVD drive,neutral,bigger;power switch,negative,bigger
+power switch,negative,bigger
+
+windows,negative,miss
+windows,positive,miss
+
+iDVD,negative,no longer
+iDVD,negative,no longer includes
+
+Windows 7,neutral,wanted
+Windows 7,positive,wanted
+
+works,positive,works;software,positive,cool
+works,positive,out of the box;software,positive,cool
+
+price,positive,Premium;OS,positive,more
+price,positive,Premium
+
+touch pad,negative,fine
+touch pad,positive,concerned;touch pad,positive,fine
+
+OS,positive,not become unstable;application,positive,shut down;application,positive,reopen
+OS,positive,great;OS,positive,not become unstable
+
+Shipping,positive,quick;Shipping,positive,product described
+Shipping,positive,quick
+
+computer,positive,compact
+compact computing,positive,simplest
+
+operating system files,negative,corrupted
+operating system files,neutral,corrupted
+
+keys,negative,struggle
+keys,neutral,struggle
+
+OS,negative,new
+OS,negative,complain
+
+MAC OS,positive,happy
+Lion,positive,upgraded;MAC OS,positive,happier
+
+windows,negative,second nature
+os.x,neutral,worry
+
+softwares,positive,better
+OS,neutral,better
+
+built in screen size,neutral,notterribly important
+built in screen size,neutral,not terribly important
+
+DVD slot,negative,no
+DVD slot,neutral,no
+
+Cd Rom,negative,No;features,negative,less
+Cd Rom,neutral,No;features,negative,less
+
+volume,negative,low;volume,negative,low
+
+
+case,positive,recommend
+case,neutral,recommend
+
+process,negative,frustrating
+log into the system,negative,frustrating
+
+case,negative,larger;external power supply,negative,lack
+case,negative,larger;external power supply,neutral,lack
+
+wireless mouse,negative,great;key board,negative,bigger
+pad,negative,hate;works,positive,great
+
+price,positive,decent
+price,neutral,decent
+
+built-in mic,negative,not have;external microphones,negative,not handle properly
+built-in mic,neutral,not have;Mac OS 10.9,negative,not handle
+
+features,neutral,never exposed
+features,neutral,lot of
+
+IOS system,neutral,unique;IOS system,neutral,different
+IOS system,positive,unique;IOS system,positive,different
+
+CD/DVD player,negative,wish
+CD/DVD player,neutral,wish
+
+Microsoft Word,negative,happy
+Microsoft Word,neutral,wish
+
+battery life,positive,excellent;display,positive,excellent;downloading apps,positive, breeze
+battery life,positive,excellent;display,positive,excellent;downloading apps,positive,breeze
+
+screen,positive,screen;smoothness,positive,smoothness
+operating system,positive,smoothness
+
+RAM,negative,gape;RAM,negative,more
+RAM,negative,gripe
+
+battery life,positive,AWESOME
+built,positive,well;battery life,positive,AMAZING
+
+feature,positive,better
+Firewire 800,positive,veryimportant;Firewire 800,positive,better;MAC OS,negative,inferior
+
+spinning hard disk,neutral,replacing
+ssd drive,positive,flying
+
+HDMI,negative,issues
+HDMI,neutral,complained
+
+specs,positive,best
+specs,neutral,best
+
+mother boards,negative,issues
+mother boards,neutral,issues
+
+Mother Board,negative,problems;Mother Board,negative,defective
+Mother Board,negative,faulty
+
+operating system,positive,excellent;durability,positive,excellent;functions provided by the trackpad,positive,unmatched
+operating system,positive,excellent;mobility,positive,optimal;durability of the battery,positive,excellent;functions provided by the trackpad,positive,unmatched
+
+disc drive,negative,not have
+disc drive,neutral,not have
+
+res,negative,low;res,negative,ridiculous
+Screen,positive,complain;Screen,positive,ridiculous
+
+Windows 8,negative,Did not enjoy
+Windows 8,negative,not enjoy
+
+click pads,negative,not being a fan;internal speakers,negative,lousy
+internal speakers,negative,lousy
+
+features,positive,make up
+features,positive,not light and slim
+
+log on,positive,fast;WiFi connection,positive,speedy;battery life,positive,long
+log on,positive,pleased;log on,positive,fast
+
+delete key,negative,delete key
+delete key,negative,not yet discovered
+
+build,positive,Strong;durability,positive,adds
+durability,positive,Strong
+
+speed,positive,more;screen,positive,sharp
+speed,positive,much more;screen,positive,sharp
+
+Keyboard,positive,well
+Keyboard,positive,responds well
+
+Windows 8,negative,Biggest
+Windows 8,negative,complaint
+
+performance,negative,huge disappointment
+performance,negative,disappointment
+
+keys,positive,love
+lit up keys,positive,love;lit up keys,positive,Fast;lit up keys,positive,clear
+
+speed,positive,easily
+operating system,positive,beats
+
+Accidental Protection Warranty,neutral,and
+SquareTrade 3-Year Computer Accidental Protection Warranty,positive,support;AppleCare,negative,NOT covered
+
+integrate,positive,easy;USB devices,positive,recognized almost instantly
+integrate bluetooth devices,positive,easy;USB devices,positive,instantly
+
+use,positive,UNBELIEVABLE;use,positive,easy
+use,positive,easy
+
+quality,positive,unmatched
+product quality,positive,unmatched
+
+Startup times,positive,long
+Startup times,negative,long
+
+battery,negative,thick
+battery,neutral,thick
+
+price,negative,overbearing;support,negative,lack of
+OSX,negative,overbearing;support for games,negative,lack
+
+OpenOffice,positive,Thank goodness
+OpenOffice,positive,goodness
+
+hard drive,neutral,swap out
+Samsung 830 SSD,positive,recommend
+
+scratches,positive,easily
+aluminum,negative,scratches easily
+
+hardware,negative,problems;hardware,negative,bad
+hardware,negative,bad
+
+restore disks,negative,NOT come with;charging cables,negative,cheap
+material,negative,cheap
+
+new os,positive,great
+os,positive,great
+
+customize,positive,Easy
+customize setting,positive,Easy
+
+features,positive,good;working,positive,well
+price,positive,good;working,positive,well
+
+hard drive,negative,quiet;hard drive,negative,quick
+hard drive,positive,quiet;boots up,positive,quick
+
+surfing,positive,pleasurable
+working,positive,pleasurable
+
+performance,positive,great
+performance,neutral,great
+
+Intel 4000 graphics,positive,well
+gaming,negative,not be good
+
+photo editing,positive,reliable
+Audio,positive,reliable
+
+built in features,positive,great
+built in features,positive,great help
+
+memory,negative,gone;memory,negative,not able
+memory,negative,gone;memory,negative,not able to be used
+
+design,positive,like;use,positive,ease;ports,positive,plenty
+design,positive,like;ports,positive,plenty
+
+battery,positive,lasts;user experience,positive,elegant
+user experience,positive,elegant
+
+loading,positive,fast
+loading the internet,positive,fast
+
+dropping support,negative,dropping
+XP,neutral,Unfortunately
+
+MBP,positive,like;OS,positive,easy;build,positive,great;keyboard,positive,best
+OS,positive,like;OS,positive,easy;overall build,positive,great;keyboard,positive,best
+
+disk drive,negative,does have
+disk drive,neutral,doesn't have
+
+HDMI receptacle,negative,no;SD card slot,negative,located
+HDMI receptacle,neutral,no;SD card slot,neutral,nor
+
+design app,negative,n't have
+design app,neutral,don't have
+
+looks,positive,best;use,positive,easy
+use,positive,easy;trackpad,positive,love
+
+print,negative,small
+footprint,positive,small
+
+design,negative,defective
+intel 4000 graphics chipset,neutral,defective
+
+CUSTOMER SERVICE,negative,TERRIFIC
+CUSTOMER SERVICE,positive,TERRIFIC
+
+ finger swipes,negative,fancy
+finger swipes,negative,fancy
+
+storage,positive,big;screen,positive,nice
+storage,neutral,big;screen,neutral,nice
+
+Mac office,negative,small problems
+Mac office,negative,problems
+
+MagSafe accessories,negative,not work
+MagSafe accessories,neutral,not work
+
+touchpad,negative,dislike;mouse,negative,recommend
+touchpad,negative,dislike;touchpad,negative,unresponsive;mouse,neutral,recommend
+
+new Mac ecosystem,neutral,new
+Mac ecosystem,neutral,take some time
+
+graphic design classes,positive,Perfect
+graphic design,positive,Perfect
+
+Build Quality,positive,are
+Build Quality,positive,confident;unibody construction,positive,can't beat
+
+flexibility,positive,more
+flexibility for connectivity,positive,more
+
+Logic board,negative,utterly fried
+Logic board,positive,utterly fried;Logic board,positive,cried;Logic board,positive,laid down;Logic board,positive,died
+
+body,positive,has changed
+body,positive,hasn't changed;body,positive,good
+
+3D rendering,negative,slows it down considerably
+3D rendering,negative,slows it down
+
+ports,negative,much needed
+ports,neutral,much needed
+
+Quad-Core 2.5 GHz CPU,positive,Like New
+package,positive,neat;package,positive,nice
+
+cover,positive,better
+cover,neutral,a little better;cover,neutral,complaint
+
+hours,negative,unconsciously
+gestures,positive,unconsciously
+
+extender cable,neutral,nice
+cable,positive,nice
+
+Windows 8,negative,Not sure
+Windows 8,neutral,Not sure
+
+hard drive,negative,no
+hard drive,neutral,no
+
+storage,positive,enough;ports,positive,many
+storage,positive,enough
+
+settings,positive,fine
+settings,neutral,fine
+
+Boot-up,negative,slowed significantly
+Boot-up,negative,slowed
+
+features,positive,like
+setup,positive,like;setup,positive,easy
+
+WiFi capability,neutral,required
+disk drive,positive,required
+
+SD card reader,negative,recessed;SD card reader,negative,upside down;nail slot,negative,can not be accessed
+SD card reader,negative,recessed;SD card reader,negative,upside down;nail slot on the card,negative,can not be accessed;slot,negative,issue
+
+anodized aluminum,positive,Soft
+touch,positive,Soft;anodized aluminum,positive,precision;anodized aluminum,positive,no flaws
+
+details,positive,Simple;aluminium,positive,crafted
+aluminium,positive,crafted;glass,positive,blow away
+
+brushed aluminum,positive,nice
+aluminum,positive,nice
+
+HDMI port,negative,No
+HDMI port,neutral,No
+
+two finger clicking,positive,intuitive
+two finger clicking,positive,surprisingly;right click button,neutral,intuitive
+
+practicality,positive,practicality
+practicality,positive,like
+
+USB 2 ports,negative,not have
+USB 2 ports,neutral,not have
+
+startup disk,negative,No
+startup disk,neutral,No;startup disk,neutral,not included;startup disk,neutral,fault
+
+word program,neutral,fast
+word program,negative,except for
+
+CD/DVD drive,neutral,bigger;power switch,negative,bigger
+power switch,negative,bigger
+
+windows,negative,miss
+windows,positive,miss
+
+iDVD,negative,no longer
+iDVD,negative,no longer includes
+
+Windows 7,neutral,wanted
+Windows 7,positive,wanted
+
+works,positive,works;software,positive,cool
+works,positive,out of the box;software,positive,cool
+
+price,positive,Premium;OS,positive,more
+price,positive,Premium
+
+touch pad,negative,fine
+touch pad,positive,concerned;touch pad,positive,fine
+
+OS,positive,not become unstable;application,positive,the does;application,positive,reopen
+OS,positive,great;OS,positive,not become unstable
+
+Shipping,positive,quick;Shipping,positive,product described
+Shipping,positive,quick
+
+computing,positive,compact
+compact computing,positive,simplest
+
+operating system files,negative,corrupted
+operating system files,neutral,corrupted
+
+keys,negative,struggle
+keys,neutral,struggle
+
+OS,negative,new
+OS,negative,complain
+
+MAC OS,positive,have
+Lion,positive,upgraded;MAC OS,positive,happier
+
+windows,negative,second nature
+os.x,neutral,worry
+
+softwares,positive,better
+OS,neutral,better
+
+built in screen size,neutral,terribly important
+built in screen size,neutral,not terribly important
+
+DVD slot,negative,no
+DVD slot,neutral,no
+
+Cd Rom,negative,No;features,negative,less
+Cd Rom,neutral,No;features,negative,less
+
+volume,negative,low;volume,negative,low
+
+
+case,positive,recommend
+case,neutral,recommend
+
+process,negative,frustrating
+log into the system,negative,frustrating
+
+case,negative,larger;external power supply,negative,lack
+case,negative,larger;external power supply,neutral,lack
+
+wireless mouse,negative,great;key board,negative,bigger
+pad,negative,hate;works,positive,great
+
+price,positive,decent
+price,neutral,decent
+
+built-in mic,negative,not have;external microphones,negative,not handle properly
+built-in mic,neutral,not have;Mac OS 10.9,negative,not handle
+
+features,neutral,never exposed
+features,neutral,lot of
+
+IOS system,neutral,unique;IOS system,neutral,different
+IOS system,positive,unique;IOS system,positive,different
+
+CD/DVD player,negative,wish
+CD/DVD player,neutral,wish
+
+Microsoft Word,negative,happy
+Microsoft Word,neutral,wish
+
+battery life,positive,excellent;display,positive,excellent;downloading apps,positive, breeze
+battery life,positive,excellent;display,positive,excellent;downloading apps,positive,breeze
+
+screen,positive,screen;smoothness,positive,smoothness
+operating system,positive,smoothness
+
+RAM,negative,gripe;RAM,negative,more
+RAM,negative,gripe
+
+feature,positive,better
+Firewire 800,positive,veryimportant;Firewire 800,positive,better;MAC OS,negative,inferior
+
+spinning hard disk,neutral,replacing
+ssd drive,positive,flying
+
+HDMI,negative,issues
+HDMI,neutral,complained
+
+specs,positive,best
+specs,neutral,best
+
+mother boards,negative,issues
+mother boards,neutral,issues
+
+Mother Board,negative,problems;Mother Board,negative,repeat
+Mother Board,negative,faulty
+
+operating system,positive,excellent;durability,positive,excellent;functions provided by the trackpad,positive,unmatched
+operating system,positive,excellent;mobility,positive,optimal;durability of the battery,positive,excellent;functions provided by the trackpad,positive,unmatched
+
+disc drive,negative,not have
+disc drive,neutral,not have
+
+res,negative,low;res,negative,ridiculous
+Screen,positive,complain;Screen,positive,ridiculous
+
