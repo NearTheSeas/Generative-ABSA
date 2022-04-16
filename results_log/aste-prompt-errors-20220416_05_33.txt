@@ -1,0 +1,1047 @@
+sushi,negative,best;place,positive,clean;place,positive,sterile
+place,positive,clean
+
+people,positive,deserves
+people,positive,trust
+
+tuna roll,positive,BEST spicy;asian salad,positive,great
+spicy tuna roll,positive,BEST;asian salad,positive,great
+
+portions,neutral,mediocre
+portions of the food,neutral,mediocre
+
+LASAGNA,positive,best
+LASAGNA,positive,BEST
+
+array of sushi,positive,freshest;array of sushi,positive,delicious
+array of sushi,positive,freshest;array of sushi,positive,most delicious
+
+service,positive,delightful;garden,positive,adventurous;food,positive,delectable
+service,positive,delightful;garden,positive,adorable;food,positive,delectable
+
+lunch,positive,power
+lunch,negative,power
+
+staff,positive,friendly
+staff,negative,friendly
+
+staff,positive,pleasant;food,positive,tasty;food,positive,large;portobello/gorgonzola/sausage appetizer,positive,recommend
+staff,positive,pleasant;food,positive,tasty;portion size,positive,large;portobello/gorgonzola/sausage appetizer,positive,recommend
+
+mussels,positive,highlight
+spicy mussels,positive,highlight
+
+food,negative,disappointed
+food,negative,utterly disappointed
+
+curried casseroles,negative,caution
+curried casseroles,negative,harsh
+
+space,positive,nice;cuisine,positive,unique;seafood,positive,great
+seafood,positive,great
+
+ambience,positive,lay-back;ambience,positive,relaxed
+ambience,positive,laid-back;ambience,positive,relaxed
+
+atmosphere,positive,warm;atmosphere,positive,comfortable;atmosphere,positive,artsy;atmosphere,positive,sexy
+atmosphere,positive,warm;atmosphere,positive,artsy;atmosphere,positive,sexy
+
+food,negative,extra minutes;waiters,positive,cute;friendliness,positive,made up
+waiters,positive,cute;waiters,positive,friendliness
+
+dessert,negative,suggestion
+dessert,negative,overpriced;taste,negative,short
+
+Food,neutral,decent;Food,neutral,not great
+Food,positive,decent;Food,positive,not great
+
+food,neutral,expensive
+food,positive,more expensive then typical
+
+wraps,positive,fresh;wraps,positive,tasty;mango margareta,negative,WELL WORTH the money
+wraps,positive,fresh;wraps,positive,tasty;mango margareta,positive,WELL WORTH
+
+waiter,positive,friendly;staff,negative,supportive
+waiter,positive,friendly
+
+food,positive,right
+food,positive,right on target
+
+sushi,neutral,bigger
+sushi,negative,bigger
+
+service,positive,great;soup,positive,nice;soup,positive,hot
+service,positive,great
+
+avocado salad,positive,favorite
+avocado salad,positive,fave
+
+Service,positive,known for bending over backwards
+Service,positive,happy
+
+food,positive,wonderful;food,positive,artfully done;food,positive,delicious
+food,positive,wonderful;food,positive,artfully;food,positive,delicious
+
+atmosphere,positive,beautiful;drinks,positive,perfect
+atmosphere,positive,beautiful;drinks,neutral,perfect
+
+service,positive,comforting;food,positive,better than average;beer list,positive,dynamic;beer list,positive,extensive
+service,positive,comforting;food,positive,better than average;beer list,positive,extensive
+
+staff,positive,unbelievably friendly;Saag gosht,positive,good
+staff,positive,friendly;Saag gosht,positive,good
+
+music,negative,heavy
+music,negative,too heavy
+
+sushi,positive,fresh;sushi,positive,yummy;menu,positive,various
+sushi,positive,fresh;sushi,positive,yummy;menu,positive,varied
+
+bartenders,positive,nice;decor,positive,comfortable;decor,positive,laid-back
+bartenders,positive,nice;decor,positive,comfy;decor,positive,laid-back
+
+soup,positive,savory;soup,positive,hot;soup,positive,sour
+soup and sandwich meal,positive,savory;hot and sour soup,positive,try
+
+chicken peas with shrimp ( appetizer ),positive,devine
+chick peas with shrimp ( appetizer ),positive,divine
+
+service,negative,bad;smirks,negative,obnoxious;back talk,negative,snotty
+service,negative,bad
+
+shell crab sandwich with fries,positive,like
+soft shell crab sandwich with fries,positive,like
+
+food,positive,good;rolls,positive,excellent;sushi/sashimi,negative,not quite on the same level
+food,positive,good;rolls,positive,excellent
+
+sashimi,neutral,thinly
+sashimi,negative,thinly
+
+service,positive,great;table,positive,easy;atmosphere,positive,romantic;atmosphere,positive,comfortable
+service,positive,great;atmosphere,positive,romantic;atmosphere,positive,comfortable
+
+dish,negative,blazing
+green chillis,negative,not edible
+
+chicken,positive,good;tuna,positive,good
+chicken with avocado,positive,good;tuna,positive,good
+
+chicken,negative,dry;sauce,negative,not very flavorful
+chicken,negative,dried out;sauce,negative,not very flavorful
+
+money,negative,too much;meal,negative,terrible
+meal,negative,terrible
+
+service,positive,great;owner,positive,enjoy
+service,positive,great
+
+food,positive,delicious;food,positive,highly recommended
+food,positive,delicious;food,positive,recommended
+
+food,negative,frusty
+food,neutral,fussy
+
+host,positive,personable;host,positive,caring
+host ( owner ),positive,personable;host ( owner ),positive,caring
+
+waiters,positive,friendly;waiters,positive,helpful;waiters,positive,frequent
+waiters,positive,friendly;waiters,positive,helpful
+
+interior,positive,Intimate;interior,positive,charming;service,positive,friendly;service,positive,attentive
+interior,positive,charming;service,positive,friendly;service,positive,attentive
+
+sauce,positive,spicy;sauce,positive,flavorful;crust,positive,nice;crust,positive,crispy
+sauce,positive,zesty;sauce,positive,flavorful;crust,positive,nice;crust,positive,crispy
+
+potato spinach gnocchi,positive,favourites
+potato spinach gnocchi,positive,Favourites
+
+Portuguese cheese cart,positive,skillfully chosen;port,positive,quality
+Portuguese cheese cart,positive,perfect;port,positive,quality
+
+waitstaff,positive,serious;waitstaff,positive,friendly;waitstaff,positive,glad;food,positive,wonderful
+waitstaff,positive,solicitous;waitstaff,positive,friendly;food,positive,wonderful
+
+food,positive,good;food,positive,popular;waiting,negative,craving
+food,positive,good;food,positive,popular;waiting,negative,nightmare
+
+place,positive,great
+ambience,positive,great
+
+cake,positive,Average
+cake,negative,Average
+
+Service,positive,PERFECT
+SERVICE,positive,PERFECT
+
+Demonico steak,negative,took back
+Delmonico steak,negative,not cooked
+
+pizza,positive,fresh;pizza,positive,crispy;pizza,positive,ready to serve
+pizza's,positive,fresh;pizza's,positive,crispy;pizza's,positive,ready to serve
+
+priced,positive,Radly;sushi,positive,fresh
+priced,positive,Reasonably;sushi,positive,fresh
+
+menu,positive,changes seasonally
+menu,neutral,changes
+
+CRABCAKES,negative,OVER SALTED;MAC,negative,GREASY
+CRABCAKES,negative,OVER SALTED;MAC AND CHEESE,negative,GREASY
+
+spot,positive,hot
+food,positive,hot spot
+
+Tequila,positive,disappointed
+Tequila,positive,not be disappointed
+
+homemade pastas,positive,homemade;gnocchi,positive,recommend
+gnocchi,positive,recommend;gnocchi,positive,yum
+
+Guacamole,positive,homemade;entree,positive,unbelievable;deserts,positive,amazing
+homemade Guacamole,positive,unbelievable;homemade Guacamole,positive,amazing
+
+pizza,positive,great
+pizza's,positive,great;pizza's,positive,tasty;pizza's,positive,mouth watering
+
+Chef Vincenzo,positive,always there
+Chef,positive,talent
+
+salads,positive,good;kompot,positive,refreshing
+Odessa stew,positive,good;kompot,positive,refreshing
+
+quality of the meat,positive,on par
+quality of the meat,negative,on par
+
+black roasted codfish,positive,recommend;dish,positive,best
+black roasted codfish,positive,recommend;black roasted codfish,positive,best
+
+dark chicken,negative,dark
+chicken,negative,dark;taste,negative,microwave
+
+brunch,positive,impressed
+brunch,neutral,impressed
+
+nikki sushi,neutral,OK
+sushi,neutral,OK
+
+food,positive,Simple healthy;food,positive,unglamorous
+food,positive,Simple healthy unglamorous;food,positive,cheap
+
+dining,positive,fantastic
+dining experience,positive,fantastic
+
+place,positive,awesome;food,positive,delicious
+place,positive,adorable;food,positive,delicious
+
+Japanese food,positive,better
+Japanese food,negative,better
+
+atmosphere,positive,Cozy
+atmosphere,positive,Cool
+
+Sashimi portion,positive,big;lobster meat,negative,artifical
+Sashimi portion,positive,big;artifical lobster meat,negative,didn't like;artifical lobster meat,negative,[artifical
+
+wheat crusted pizza,positive,fresh;wheat crusted pizza,positive,yummy
+ingredients,positive,fresh;ingredients,positive,yummy
+
+dinner,positive,lovely;seafood joint,positive,well-prepared;seafood joint,positive,presented;food,positive,well-prepared;food,positive,prompt;service,positive,pleasant;service,positive,prompt
+dinner,positive,lovely;food,positive,well-prepared and -presented;service,positive,pleasant;service,positive,prompt
+
+slices,neutral,expensive;staff,negative,harried
+slices,negative,expensive;staff,negative,harried
+
+wine list,positive,extensive;wine list,positive,well priced
+wine list,positive,extensive;priced,positive,well
+
+place,positive,awesome
+bathroom,positive,adorable
+
+food,positive,great;prices,positive,decent;service,positive,friendly;meal,positive,enjoyable
+delivers,positive,Speedy;food,positive,great;prices,positive,decent;service,positive,friendly;repast,positive,enjoyable
+
+ITALIAN MEAL,positive,AUTHENTIC
+ITALIAN MEAL,neutral,AUTHENTIC
+
+pizza,positive,worth;wait,positive,worth
+pizza,positive,worth the wait
+
+steak,positive,simple;steak,positive,rare
+steak,neutral,simple medium rare
+
+grilled burgers,positive,popular;falafel wraps,positive,scrumptious
+organic grilled burgers,positive,Generously garnished;organic grilled burgers,positive,popular;Jerusalem market-style falafel wraps,positive,equally scrumptious
+
+dining,negative,worst
+dining experience,negative,worst
+
+pizza,positive,healthy;pizza,positive,full
+twist on pizza,positive,healthy;flavor,positive,full
+
+food,positive,COzy
+food,positive,GREAT
+
+priced,negative,nasty high;food,negative,high
+priced,negative,high;priced,negative,high
+
+burger with special sauce,negative,ok;burger with special sauce,negative,better;mac,negative,big
+new hamburger with special sauce,positive,ok;big mac,negative,better than
+
+al dente [pasta,positive,Perfectly;sauce,positive,not drowned;portions,positive,generous
+pasta,positive,Perfectly;sauce,neutral,not drowned in;portions,positive,generous
+
+owners,positive,good;place,positive,keeper
+owners,positive,good
+
+staff,positive,100 % Italian;food,positive,authentic
+food,positive,authentic
+
+luck cookies,negative,complaint
+fortune cookies,negative,complaint
+
+sushi,positive,quick
+sushi lunch,positive,Good;sushi lunch,positive,quick
+
+fried pork dumplings,positive,recomend
+fried pork dumplings,positive,reccomend
+
+menu,positive,disapointed
+menu,positive,not be dissapointed
+
+french fries,positive,terrific
+french fries -- with the kalmata dip,positive,terrific
+
+boutique selection of wines,positive,wide
+boutique selection of wines,neutral,wide
+
+assortment of wraps,positive,great;Mediterranean fare,positive,traditional
+assortment of wraps,positive,great
+
+vegetables,positive,Fresh
+Fresh veggies,positive,Fresh;Fresh veggies,positive,delicious
+
+places,negative,momentary
+quaility,positive,above
+
+space,neutral,quick;space,neutral,tasty;prices,positive,dirt-cheap
+space,negative,quick;space,negative,tasty;prices,positive,dirt-cheap
+
+menu,positive,typical French;menu,positive,varied
+menu,neutral,typical French;menu,neutral,varied
+
+crowded,negative,crowded;seats,positive,lots
+seats,positive,lots
+
+space,positive,traditional
+space,neutral,traditional
+
+food,neutral,mediocre;interior,neutral,small;interior,neutral,average;owners,negative,rude;owners,negative,snotty
+food,negative,mediocre;interior,negative,small;interior,negative,average;owners,negative,unpleasantries;owners,negative,rude;owners,negative,snotty
+
+hot cakes,positive,hot
+Egg McMuffin sandwich,neutral,available
+
+music,positive,fantastic;drinks,positive,superb
+music,positive,fascinating;bartender,positive,superb
+
+rice dishes,positive,exceed;ice drink,positive,refreshing
+ice drink,positive,refreshing
+
+recipes,positive,try-and-true
+Dishes,positive,tried-and-true
+
+meal,positive,great;food,negative,so-so
+food,negative,marginally so-so
+
+lone argentine chorizo appetizer,negative,lone argentine;Italian sausage,negative,heavy
+fennel flavored Italian sausage,negative,heavy
+
+Chinese,positive,Best;delivery,positive,prompt;value,positive,good
+delivery,positive,prompt;value,positive,good
+
+music,positive,good;tapas,positive,nice;selection of wines,positive,interesting
+music,positive,good;tapas,positive,nice;selection of wines ( primarily Spanish ),positive,interesting;clientele,positive,lowkey hip
+
+food,positive,great;dumplings,positive,love;sesame noodles,positive,cold
+food,positive,great;dumplings,positive,love
+
+gourmet food,positive,gourmet;price,positive,fast
+food,positive,gourmet
+
+menu,negative,strange;food,positive,fancy
+menu,negative,strangest;food,negative,fancy
+
+waitress,negative,wrong
+entree,neutral,wrong
+
+halibut cheek appetizer,positive,generous;meal,positive,positive
+halibut cheek appetizer,neutral,positive;portion of foie gras,positive,generous
+
+Food,positive,excellent;empenadas,positive,good
+Food,positive,excellent;plaintains,positive,good
+
+appetizer,positive,amazing
+pasta specials,positive,amazing
+
+Tables,neutral,close
+Tables,negative,close
+
+vegetable burger,positive,extraordinary
+veggie burger,positive,extraordinary;chickpeas,positive,distinctive
+
+Menues,positive,seasonal
+Menus,neutral,seasonal
+
+Carinthia cheese ravioli with wild mushrooms,positive,simple;caviar-topped sturgeon,positive,beautifully;bright green spinach-vodka sauce,positive,bright green
+Carinthia cheese ravioli with wild mushrooms,positive,simple;green spinach-vodka sauce,positive,bright
+
+burgers,neutral,wimpy
+burgers,positive,small;burgers,positive,wimpy fast food type;patties,positive,real;patties,positive,full sized
+
+salmon,neutral,away
+specials,positive,Go with;salmon,negative,stay away
+
+dishes,positive,tasty;dishes,positive,cozy;dishes,positive,intimate;place,positive,cozy;place,positive,intimate
+dishes,positive,tasty;place,positive,cozy;place,positive,intimate
+
+simpleté,positive,love;simpleté,positive,respect;staff,positive,freindly;staff,positive,knowledgable
+food,positive,love;food,positive,simplicity;food,positive,respect
+
+fish,negative,average
+Branzini,neutral,average
+
+menu,positive,Wonderful;ambiance,positive,warm;service,positive,great
+menu,positive,Wonderful;ambiance,positive,warm inviting;service,positive,great
+
+dining,positive,Lovely
+dining experience,positive,Lovely
+
+french food,positive,great
+french food,positive,greatest
+
+curry,positive,enjoy;curry,positive,can eat;curry,positive,enjoy
+curry,positive,enjoy
+
+poori,negative,GREAT
+poori,positive,GREAT;paratha,positive,FRESH
+
+waiter,positive,efficient;waiter,positive,courteous;waiter,positive,helpful
+waiter,positive,efficient;waiter,positive,helpful
+
+room,negative,enough;bill,negative,big
+bill,negative,big
+
+sushi,positive,fresh;duck,positive,happy
+sushi,positive,fresh;duck,positive,try
+
+variety,positive,good;variety,positive,surprising
+variety,positive,good
+
+green beans,negative,no;egg,negative,no;anchovy dressing,negative,no;nicoise olives,negative,no;red onion,negative,no
+green beans,neutral,No;egg,neutral,no;anchovy dressing,neutral,no;nicoise olives,neutral,no;red onion,neutral,no
+
+fries,positive,thick;chocolate Frosty,positive,cool;chocolate Frosty,positive,ultra-thick
+fries,neutral,Thick;chocolate Frosty,positive,cool;chocolate Frosty,positive,ultra-thick
+
+roti canai appetizer,positive,delectable;mango chicken,positive,sophisticated;mango chicken,positive,fresh
+roti canai appetizer,positive,delectable;mango chicken,positive,surprisingly sophisticated;mango chicken,positive,fresh
+
+quality of food,negative,horrible
+service,negative,below;bartenders,negative,horrible;clientele,negative,rowdy;clientele,negative,loud-mouthed
+
+cajun shrimp,positive,good;cajun shrimp,positive,not great
+brisket,positive,good
+
+atmosphere,positive,arty;atmosphere,positive,laid-back
+atmosphere,positive,artsy;atmosphere,positive,laid-back
+
+menu,positive,impressive;menu,positive,creative;cod roe spaghetti,positive,[spicy
+menu,positive,impressive;menu,positive,creative;Japanese dishes,neutral,modern;Japanese dishes,neutral,Westernized
+
+food,positive,excellent;food,positive,not expensive
+food,positive,excellent;appetizers,positive,not expensive
+
+food,positive,consistant;food,positive,good;Diner,positive,Best
+food,positive,consistant;food,positive,good
+
+dinner,positive,great
+food,positive,great
+
+soup,positive,simple;french dish,positive,classic
+place,positive,good;soup,neutral,simple;french dish,neutral,classic
+
+landing,positive,great;drink,positive,casual
+outdoors,positive,great;casual drink,positive,enjoying
+
+comments,positive,correct
+dishes,positive,good
+
+sauce,positive,excellent;sauce,positive,fresh;mozzarella,positive,real
+sauce,positive,excellent;sauce,positive,fresh
+
+room,negative,plain;place,negative,small
+room,negative,plain
+
+dessert,positive,best;chocolate and peanut butter tart,positive,isn't particularly Hawaiian
+dessert,positive,best
+
+appetizer,positive,winner
+appetizer,neutral,winner
+
+room,positive,gorgeous;bar,positive,long
+room,positive,gorgeous;long bar,positive,perfect
+
+appetizer selection,negative,stinks;mozzarella sticks,positive,nice
+appetizer selection,negative,stinks
+
+waitstaff,positive,above and beyond;service,positive,prompt;service,positive,friendly
+service,positive,prompt;service,positive,friendly
+
+chicken,negative,nondescript;fresh leaf salad,neutral,fresh
+chicken and falafel platters,neutral,nondescript;fresh leaf salad,neutral,fresh
+
+service,positive,great;desserts,positive,excellent;coffee,positive,good
+desserts,positive,excellent;coffee,positive,good
+
+Focacchia bread,positive,die for
+Focacchia bread,neutral,die for
+
+smoothies,positive,big;fresh juices,positive,best
+smoothies,negative,big;fresh juices,positive,best
+
+food,negative,OKAY;pialla,positive,not worth going
+pialla,positive,good
+
+guac,positive,fresh;fresh salsa,positive,fresh
+flavor,negative,lacking
+
+menu,positive,creative;staff,positive,friendly
+new menu,positive,creative;prices,negative,raised
+
+food,neutral,mediocre;service,negative,slow
+food,neutral,mediocre;service,negative,severely slow
+
+waiter,negative,unbelievably rude
+waiter,negative,rude
+
+bartender,positive,Sweet Irish
+bartender,positive,Sweet;bartender,positive,happy
+
+appetizers,positive,Creamy;Greek yogurt,positive,excellent;pitas,positive,warm
+Creamy appetizers,positive,Creamy;Creamy appetizers,positive,excellent;taramasalata,positive,[Creamy;warm pitas,neutral,warm
+
+sushi,negative,best;place,positive,clean;place,positive,sterile
+place,positive,clean
+
+people,positive,never
+people,positive,trust
+
+tuna roll,positive,BEST spicy;asian salad,positive,great
+spicy tuna roll,positive,BEST;asian salad,positive,great
+
+portions,neutral,mediocre
+portions of the food,neutral,mediocre
+
+LASAGNA,positive,THE
+LASAGNA,positive,BEST
+
+array of sushi,positive,freshest;array of sushi,positive,delicious
+array of sushi,positive,freshest;array of sushi,positive,most delicious
+
+service,positive,delightful;garden,positive,entrees;food,positive,delectable
+service,positive,delightful;garden,positive,adorable;food,positive,delectable
+
+lunch,positive,power
+lunch,negative,power
+
+staff,positive,friendly
+staff,negative,friendly
+
+staff,positive,pleasant;food,positive,tasty;food,positive,large;portobello/gorgonzola/sausage appetizer,positive,recommend
+staff,positive,pleasant;food,positive,tasty;portion size,positive,large;portobello/gorgonzola/sausage appetizer,positive,recommend
+
+food,negative,was cooked fresh
+food,negative,wasn't cooked fresh
+
+mussels,positive,highlight
+spicy mussels,positive,highlight
+
+food,negative,disappointed
+food,negative,utterly disappointed
+
+curried casseroles,negative,can
+curried casseroles,negative,harsh
+
+space,positive,nice;cuisine,positive,nice;seafood,positive,great
+seafood,positive,great
+
+atmosphere,positive,warm;atmosphere,positive,comfortable;atmosphere,positive,artsy;atmosphere,positive,sexy
+atmosphere,positive,warm;atmosphere,positive,artsy;atmosphere,positive,sexy
+
+food,negative,extra minutes;waiters,positive,cute;friendliness,positive,made up
+waiters,positive,cute;waiters,positive,friendliness
+
+dessert,negative,suggestion
+dessert,negative,overpriced;taste,negative,short
+
+Food,neutral,decent;Food,neutral,not great
+Food,positive,decent;Food,positive,not great
+
+food,neutral,expensive
+food,positive,more expensive then typical
+
+wraps,positive,fresh;wraps,positive,tasty;mango margareta,negative,WELL WORTH the money
+wraps,positive,fresh;wraps,positive,tasty;mango margareta,positive,WELL WORTH
+
+waiter,positive,friendly;staff,negative,supportive
+waiter,positive,friendly
+
+food,positive,right
+food,positive,right on target
+
+sushi,neutral,bigger
+sushi,negative,bigger
+
+service,positive,great;soup,positive,nice;soup,positive,hot
+service,positive,great
+
+Service,positive,known for bending over backwards
+Service,positive,happy
+
+food,positive,wonderful;food,positive,artfully done;food,positive,delicious
+food,positive,wonderful;food,positive,artfully;food,positive,delicious
+
+atmosphere,positive,beautiful;drinks,positive,perfect
+atmosphere,positive,beautiful;drinks,neutral,perfect
+
+service,positive,comforting;food,positive,better than average;beer list,positive,dynamic;beer list,positive,extensive
+service,positive,comforting;food,positive,better than average;beer list,positive,extensive
+
+staff,positive,unbelievably friendly;Saag gosht,positive,good
+staff,positive,friendly;Saag gosht,positive,good
+
+music,negative,heavy
+music,negative,too heavy
+
+soup,positive,savory;soup,positive,hot;soup,positive,sour
+soup and sandwich meal,positive,savory;hot and sour soup,positive,try
+
+service,negative,bad;smirks,negative,obnoxious;back talk,negative,snotty
+service,negative,bad
+
+shell crab sandwich with fries,positive,like
+soft shell crab sandwich with fries,positive,like
+
+food,positive,good;rolls,positive,excellent;sushi/sashimi,negative,not quite on the same level
+food,positive,good;rolls,positive,excellent
+
+sashimi,neutral,thinly
+sashimi,negative,thinly
+
+service,positive,great;table,positive,easy;atmosphere,positive,romantic;atmosphere,positive,comfortable
+service,positive,great;atmosphere,positive,romantic;atmosphere,positive,comfortable
+
+dish,negative,blazing
+green chillis,negative,not edible
+
+chicken,positive,good;tuna,positive,good
+chicken with avocado,positive,good;tuna,positive,good
+
+chicken,negative,My;sauce,negative,not very flavorful
+chicken,negative,dried out;sauce,negative,not very flavorful
+
+money,negative,too much;meal,negative,terrible
+meal,negative,terrible
+
+service,positive,great;owner,positive,enjoy
+service,positive,great
+
+food,positive,delicious;food,positive,highly recommended
+food,positive,delicious;food,positive,recommended
+
+food,negative,fussy
+food,neutral,fussy
+
+host,positive,personable;host,positive,caring
+host ( owner ),positive,personable;host ( owner ),positive,caring
+
+waiters,positive,friendly;waiters,positive,helpful;waiters,positive,frequent
+waiters,positive,friendly;waiters,positive,helpful
+
+interior,positive,Intimate;interior,positive,charming;service,positive,friendly;service,positive,attentive
+interior,positive,charming;service,positive,friendly;service,positive,attentive
+
+sauce,positive,sauce;sauce,positive,flavorful;crust,positive,nice;crust,positive,crispy
+sauce,positive,zesty;sauce,positive,flavorful;crust,positive,nice;crust,positive,crispy
+
+Portuguese cheese cart,positive,skillfully chosen;port,positive,quality
+Portuguese cheese cart,positive,perfect;port,positive,quality
+
+waitstaff,positive,seems;waitstaff,positive,friendly;waitstaff,positive,glad;food,positive,wonderful
+waitstaff,positive,solicitous;waitstaff,positive,friendly;food,positive,wonderful
+
+food,negative,n't cheap
+food,negative,isn't cheap
+
+food,positive,good;food,positive,popular;waiting,negative,waiting
+food,positive,good;food,positive,popular;waiting,negative,nightmare
+
+place,positive,great
+ambience,positive,great
+
+cake,positive,Average
+cake,negative,Average
+
+Delmonico steak,negative,to back
+Delmonico steak,negative,not cooked
+
+pizza,positive,fresh;pizza,positive,crispy;pizza,positive,ready to serve
+pizza's,positive,fresh;pizza's,positive,crispy;pizza's,positive,ready to serve
+
+priced,positive,very;sushi,positive,fresh
+priced,positive,Reasonably;sushi,positive,fresh
+
+menu,positive,changes seasonally
+menu,neutral,changes
+
+CRABCAKES,negative,OVER SALTED;MAC,negative,GREASY
+CRABCAKES,negative,OVER SALTED;MAC AND CHEESE,negative,GREASY
+
+spot,positive,hot
+food,positive,hot spot
+
+Tequila,positive,disappointed
+Tequila,positive,not be disappointed
+
+homemade pastas,positive,homemade;gnocchi,positive,recommend
+gnocchi,positive,recommend;gnocchi,positive,yum
+
+Guacamole,positive,homemade;entree,positive,unbelievable;deserts,positive,amazing
+homemade Guacamole,positive,unbelievable;homemade Guacamole,positive,amazing
+
+pizza,positive,great
+pizza's,positive,great;pizza's,positive,tasty;pizza's,positive,mouth watering
+
+Chef Vincenzo,positive,always there
+Chef,positive,talent
+
+salads,positive,good;kompot,positive,refreshing
+Odessa stew,positive,good;kompot,positive,refreshing
+
+quality of the meat,positive,on par
+quality of the meat,negative,on par
+
+black roasted codfish,positive,recommend;dish,positive,best
+black roasted codfish,positive,recommend;black roasted codfish,positive,best
+
+dark chicken,negative,dark
+chicken,negative,dark;taste,negative,microwave
+
+brunch,positive,impressed
+brunch,neutral,impressed
+
+nikki sushi,neutral,OK
+sushi,neutral,OK
+
+food,positive,Simple healthy;food,positive,unglamorous
+food,positive,Simple healthy unglamorous;food,positive,cheap
+
+dining,positive,fantastic
+dining experience,positive,fantastic
+
+place,positive,The;food,positive,delicious
+place,positive,adorable;food,positive,delicious
+
+Japanese food,positive,better
+Japanese food,negative,better
+
+Sashimi portion,positive,big;lobster meat,negative,artifical
+Sashimi portion,positive,big;artifical lobster meat,negative,didn't like;artifical lobster meat,negative,[artifical
+
+wheat crusted pizza,positive,fresh;wheat crusted pizza,positive,yummy
+ingredients,positive,fresh;ingredients,positive,yummy
+
+dinner,positive,lovely;seafood joint,positive,well-prepared;seafood joint,positive,presented;food,positive,well-prepared;food,positive,prompt;service,positive,pleasant;service,positive,prompt
+dinner,positive,lovely;food,positive,well-prepared and -presented;service,positive,pleasant;service,positive,prompt
+
+slices,neutral,expensive;staff,negative,harried
+slices,negative,expensive;staff,negative,harried
+
+wine list,positive,extensive;wine list,positive,well priced
+wine list,positive,extensive;priced,positive,well
+
+place,positive,about
+bathroom,positive,adorable
+
+food,positive,great;prices,positive,decent;service,positive,friendly;great,positive,enjoyable
+delivers,positive,Speedy;food,positive,great;prices,positive,decent;service,positive,friendly;repast,positive,enjoyable
+
+ITALIAN MEAL,positive,AUTHENTIC
+ITALIAN MEAL,neutral,AUTHENTIC
+
+pizza,positive,worth;wait,positive,worth
+pizza,positive,worth the wait
+
+steak,positive,simple;steak,positive,rare
+steak,neutral,simple medium rare
+
+grilled burgers,positive,popular;falafel wraps,positive,scrumptious
+organic grilled burgers,positive,Generously garnished;organic grilled burgers,positive,popular;Jerusalem market-style falafel wraps,positive,equally scrumptious
+
+dining,negative,worst
+dining experience,negative,worst
+
+pizza,positive,healthy;pizza,positive,full
+twist on pizza,positive,healthy;flavor,positive,full
+
+food,positive,cozy
+food,positive,GREAT
+
+priced,negative,nasty high;food,negative,high
+priced,negative,high;priced,negative,high
+
+burger with special sauce,negative,ok;burger with special sauce,negative,better;mac,negative,big
+new hamburger with special sauce,positive,ok;big mac,negative,better than
+
+al dente pasta,positive,Perfectly;sauce,positive,not drowned;portions,positive,generous
+pasta,positive,Perfectly;sauce,neutral,not drowned in;portions,positive,generous
+
+owners,positive,good;place,positive,keeper
+owners,positive,good
+
+staff,positive,100 % Italian;food,positive,authentic
+food,positive,authentic
+
+luck cookies,negative,complaint
+fortune cookies,negative,complaint
+
+sushi,positive,quick
+sushi lunch,positive,Good;sushi lunch,positive,quick
+
+menu,positive,dissapointed
+menu,positive,not be dissapointed
+
+french fries,positive,terrific
+french fries -- with the kalmata dip,positive,terrific
+
+boutique selection of wines,positive,wide
+boutique selection of wines,neutral,wide
+
+assortment of wraps,positive,great;Mediterranean fare,positive,traditional
+assortment of wraps,positive,great
+
+vegetables,positive,Fresh
+Fresh veggies,positive,Fresh;Fresh veggies,positive,delicious
+
+places,negative,mundane
+quaility,positive,above
+
+space,neutral,quick;space,neutral,tasty;prices,positive,dirt-cheap
+space,negative,quick;space,negative,tasty;prices,positive,dirt-cheap
+
+menu,positive,typical French;menu,positive,varied
+menu,neutral,typical French;menu,neutral,varied
+
+crowded,negative,crowded;seats,positive,lots
+seats,positive,lots
+
+space,positive,traditional
+space,neutral,traditional
+
+food,neutral,mediocre;interior,neutral,small;interior,neutral,average;owners,negative,rude;owners,negative,snotty
+food,negative,mediocre;interior,negative,small;interior,negative,average;owners,negative,unpleasantries;owners,negative,rude;owners,negative,snotty
+
+hot cakes,positive,hot
+Egg McMuffin sandwich,neutral,available
+
+music,positive,music;drinks,positive,superb
+music,positive,fascinating;bartender,positive,superb
+
+rice dishes,positive,exceed;ice drink,positive,refreshing
+ice drink,positive,refreshing
+
+recipes,positive,tried-and-true
+Dishes,positive,tried-and-true
+
+meal,positive,great;food,negative,so-so
+food,negative,marginally so-so
+
+lone argentine chorizo appetizer,negative,lone argentine;Italian sausage,negative,heavy
+fennel flavored Italian sausage,negative,heavy
+
+Chinese,positive,Best;delivery,positive,prompt;value,positive,good
+delivery,positive,prompt;value,positive,good
+
+music,positive,good;tapas,positive,nice;selection of wines,positive,interesting
+music,positive,good;tapas,positive,nice;selection of wines ( primarily Spanish ),positive,interesting;clientele,positive,lowkey hip
+
+food,positive,great;dumplings,positive,love;sesame noodles,positive,cold
+food,positive,great;dumplings,positive,love
+
+gourmet food,positive,gourmet;price,positive,fast
+food,positive,gourmet
+
+menu,negative,strange;food,positive,fancy
+menu,negative,strangest;food,negative,fancy
+
+waitress,negative,wrong
+entree,neutral,wrong
+
+halibut cheek appetizer,positive,generous;meal,positive,positive
+halibut cheek appetizer,neutral,positive;portion of foie gras,positive,generous
+
+Food,positive,excellent;empenadas,positive,good
+Food,positive,excellent;plaintains,positive,good
+
+appetizer,positive,amazing
+pasta specials,positive,amazing
+
+Tables,neutral,close
+Tables,negative,close
+
+vegetables burger,positive,extraordinary
+veggie burger,positive,extraordinary;chickpeas,positive,distinctive
+
+Menus,positive,seasonal
+Menus,neutral,seasonal
+
+Carinthia cheese ravioli with wild mushrooms,positive,simple;caviar-topped sturgeon,positive,beautifully;bright green spinach-vodka sauce,positive,bright green
+Carinthia cheese ravioli with wild mushrooms,positive,simple;green spinach-vodka sauce,positive,bright
+
+burgers,neutral,wimpy
+burgers,positive,small;burgers,positive,wimpy fast food type;patties,positive,real;patties,positive,full sized
+
+salmon,neutral,away
+specials,positive,Go with;salmon,negative,stay away
+
+dishes,positive,tasty;dishes,positive,cozy;dishes,positive,intimate;place,positive,cozy;place,positive,intimate
+dishes,positive,tasty;place,positive,cozy;place,positive,intimate
+
+simplicity,positive,love;simplicity,positive,respect;staff,positive,freindly;staff,positive,knowledgable
+food,positive,love;food,positive,simplicity;food,positive,respect
+
+fish,negative,average
+Branzini,neutral,average
+
+menu,positive,Wonderful;ambiance,positive,warm;service,positive,great
+menu,positive,Wonderful;ambiance,positive,warm inviting;service,positive,great
+
+dining,positive,Lovely
+dining experience,positive,Lovely
+
+food,negative,n't very good;service,negative,terrible
+food,negative,isn't very good;service,negative,terrible
+
+french food,positive,great
+french food,positive,greatest
+
+curry,positive,enjoy;curry,positive,can eat;curry,positive,enjoy
+curry,positive,enjoy
+
+poori,negative,GREAT
+poori,positive,GREAT;paratha,positive,FRESH
+
+waiter,positive,efficient;waiter,positive,courteous;waiter,positive,helpful
+waiter,positive,efficient;waiter,positive,helpful
+
+room,negative,enough;bill,negative,big
+bill,negative,big
+
+sushi,positive,fresh;duck,positive,happy
+sushi,positive,fresh;duck,positive,try
+
+variety,positive,good;variety,positive,surprising
+variety,positive,good
+
+green beans,negative,no;egg,negative,no;anchovy dressing,negative,no;nicoise olives,negative,no;red onion,negative,no
+green beans,neutral,No;egg,neutral,no;anchovy dressing,neutral,no;nicoise olives,neutral,no;red onion,neutral,no
+
+fries,positive,thick;chocolate Frosty,positive,cool;chocolate Frosty,positive,ultra-thick
+fries,neutral,Thick;chocolate Frosty,positive,cool;chocolate Frosty,positive,ultra-thick
+
+roti canai appetizer,positive,delectable;mango chicken,positive,sophisticated;mango chicken,positive,fresh
+roti canai appetizer,positive,delectable;mango chicken,positive,surprisingly sophisticated;mango chicken,positive,fresh
+
+quality of food,negative,horrible
+service,negative,below;bartenders,negative,horrible;clientele,negative,rowdy;clientele,negative,loud-mouthed
+
+cajun shrimp,positive,good;cajun shrimp,positive,not great
+brisket,positive,good
+
+menu,positive,impressive;menu,positive,creative;cod roe spaghetti,positive,spicy
+menu,positive,impressive;menu,positive,creative;Japanese dishes,neutral,modern;Japanese dishes,neutral,Westernized
+
+food,positive,excellent;food,positive,not expensive
+food,positive,excellent;appetizers,positive,not expensive
+
+food,positive,consistant;food,positive,good;Diner,positive,Best
+food,positive,consistant;food,positive,good
+
+dinner,positive,great
+food,positive,great
+
+soup,positive,simple;french dish,positive,classic
+place,positive,good;soup,neutral,simple;french dish,neutral,classic
+
+being,positive,great;drink,positive,casual
+outdoors,positive,great;casual drink,positive,enjoying
+
+comments,positive,correct
+dishes,positive,good
+
+sauce,positive,excellent;sauce,positive,fresh;mozzarella,positive,real
+sauce,positive,excellent;sauce,positive,fresh
+
+room,negative,plain;place,negative,small
+room,negative,plain
+
+dessert,positive,best;chocolate and peanut butter tart,positive,n't particularly Hawaiian
+dessert,positive,best
+
+appetizer,positive,winner
+appetizer,neutral,winner
+
+room,positive,gorgeous;bar,positive,long
+room,positive,gorgeous;long bar,positive,perfect
+
+appetizer selection,negative,stinks;mozzarella sticks,positive,nice
+appetizer selection,negative,stinks
+
+waitstaff,positive,above and beyond;service,positive,prompt;service,positive,friendly
+service,positive,prompt;service,positive,friendly
+
+chicken,negative,nondescript;fresh leaf salad,neutral,fresh
+chicken and falafel platters,neutral,nondescript;fresh leaf salad,neutral,fresh
+
+service,positive,great;desserts,positive,excellent;coffee,positive,good
+desserts,positive,excellent;coffee,positive,good
+
+Focacchia bread,positive,die for
+Focacchia bread,neutral,die for
+
+smoothies,positive,big;fresh juices,positive,best
+smoothies,negative,big;fresh juices,positive,best
+
+food,negative,OKAY;pialla,positive,not worth going
+pialla,positive,good
+
+guac,positive,fresh;fresh salsa,positive,fresh
+flavor,negative,lacking
+
+menu,positive,creative;staff,positive,friendly
+new menu,positive,creative;prices,negative,raised
+
+food,neutral,mediocre;service,negative,slow
+food,neutral,mediocre;service,negative,severely slow
+
+waiter,negative,unbelievably rude
+waiter,negative,rude
+
+bartender,positive,Sweet Irish
+bartender,positive,Sweet;bartender,positive,happy
+
+appetizers,positive,Creamy;Greek yogurt,positive,excellent;pitas,positive,warm
+Creamy appetizers,positive,Creamy;Creamy appetizers,positive,excellent;taramasalata,positive,[Creamy;warm pitas,neutral,warm
+

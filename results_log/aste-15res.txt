@@ -46,3 +46,9 @@ aste on 15res under prompt; Train bs=4, num_epochs = 20
 Raw   F1 = 0.5902, precision = 0.6050, recall = 0.5761
 Fixed F1 = 0.6147, precision = 0.6301, recall = 0.6000 
 
+============================================================
+Fri Apr 15 22:54:27 2022
+aste on 15res under annotation; Train bs=4, num_epochs = 20
+Raw   F1 = 0.5664, precision = 0.5699, recall = 0.5629
+Fixed F1 = 0.6079, precision = 0.6117, recall = 0.6041 
+
